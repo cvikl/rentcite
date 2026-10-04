@@ -1,0 +1,13 @@
+{
+  "categories": {
+    "rent_increase_limit": "Rent increase limits",
+    "just_cause_eviction": "Just-cause eviction",
+    "security_deposit": "Security deposits",
+    "application_screening_fee": "Application and screening fees",
+    "screening_restriction": "Screening restrictions",
+    "algorithmic_rent_setting": "Algorithmic rent-setting"
+  },
+  "statuses": ["enacted", "pending", "struck", "repealed"],
+  "result_label_style": "snake",
+  "levels": ["state", "county", "city"]
+}

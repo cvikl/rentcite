@@ -1,0 +1,179 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "lookups.json",
+ "type": "array",
+ "items": {
+  "$ref": "#/$defs/Item"
+ },
+ "$defs": {
+  "ResultEntry": {
+   "properties": {
+    "rule_id": {
+     "title": "Rule Id",
+     "type": "string"
+    },
+    "category": {
+     "title": "Category",
+     "type": "string"
+    },
+    "result": {
+     "title": "Result",
+     "type": "string"
+    },
+    "reason": {
+     "title": "Reason",
+     "type": "string"
+    },
+    "citation": {
+     "title": "Citation",
+     "type": "string"
+    },
+    "quoted_span": {
+     "title": "Quoted Span",
+     "type": "string"
+    },
+    "source_doc_id": {
+     "title": "Source Doc Id",
+     "type": "string"
+    },
+    "conflict_flag": {
+     "default": false,
+     "title": "Conflict Flag",
+     "type": "boolean"
+    },
+    "conflict_reason": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Conflict Reason"
+    },
+    "confidence": {
+     "title": "Confidence",
+     "type": "number"
+    },
+    "missing_facts": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Missing Facts",
+     "type": "array"
+    },
+    "plain_language": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Plain Language"
+    },
+    "plain_language_es": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Plain Language Es"
+    },
+    "status": {
+     "default": "enacted",
+     "title": "Status",
+     "type": "string"
+    },
+    "effective_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Effective Date"
+    },
+    "level": {
+     "default": "state",
+     "title": "Level",
+     "type": "string"
+    }
+   },
+   "required": [
+    "rule_id",
+    "category",
+    "result",
+    "reason",
+    "citation",
+    "quoted_span",
+    "source_doc_id",
+    "confidence"
+   ],
+   "title": "ResultEntry",
+   "type": "object"
+  },
+  "Item": {
+   "properties": {
+    "address_id": {
+     "title": "Address Id",
+     "type": "string"
+    },
+    "as_of_date": {
+     "title": "As Of Date",
+     "type": "string"
+    },
+    "jurisdiction_stack": {
+     "additionalProperties": true,
+     "title": "Jurisdiction Stack",
+     "type": "object"
+    },
+    "building_facts": {
+     "additionalProperties": true,
+     "title": "Building Facts",
+     "type": "object"
+    },
+    "results": {
+     "items": {
+      "$ref": "#/$defs/ResultEntry"
+     },
+     "title": "Results",
+     "type": "array"
+    },
+    "no_rule_findings": {
+     "items": {
+      "additionalProperties": true,
+      "type": "object"
+     },
+     "title": "No Rule Findings",
+     "type": "array"
+    },
+    "disclaimer": {
+     "default": "Not legal advice.",
+     "title": "Disclaimer",
+     "type": "string"
+    }
+   },
+   "required": [
+    "address_id",
+    "as_of_date",
+    "jurisdiction_stack",
+    "building_facts",
+    "results"
+   ],
+   "title": "Lookup",
+   "type": "object"
+  }
+ }
+}

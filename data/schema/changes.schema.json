@@ -1,0 +1,98 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "changes.json",
+ "type": "array",
+ "items": {
+  "$ref": "#/$defs/Item"
+ },
+ "$defs": {
+  "ChangeQuery": {
+   "properties": {
+    "as_of_date": {
+     "title": "As Of Date",
+     "type": "string"
+    },
+    "status": {
+     "title": "Status",
+     "type": "string"
+    },
+    "affected_addresses": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Affected Addresses",
+     "type": "array"
+    }
+   },
+   "required": [
+    "as_of_date",
+    "status",
+    "affected_addresses"
+   ],
+   "title": "ChangeQuery",
+   "type": "object"
+  },
+  "Item": {
+   "properties": {
+    "test_id": {
+     "title": "Test Id",
+     "type": "string"
+    },
+    "description": {
+     "title": "Description",
+     "type": "string"
+    },
+    "rule_ids": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Rule Ids",
+     "type": "array"
+    },
+    "query_before": {
+     "$ref": "#/$defs/ChangeQuery"
+    },
+    "query_after": {
+     "$ref": "#/$defs/ChangeQuery"
+    },
+    "affected_addresses": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Affected Addresses",
+     "type": "array"
+    },
+    "conflicts": {
+     "items": {
+      "additionalProperties": true,
+      "type": "object"
+     },
+     "title": "Conflicts",
+     "type": "array"
+    },
+    "notes": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Notes"
+    }
+   },
+   "required": [
+    "test_id",
+    "description",
+    "rule_ids",
+    "query_before",
+    "query_after",
+    "affected_addresses"
+   ],
+   "title": "ChangeRecord",
+   "type": "object"
+  }
+ }
+}

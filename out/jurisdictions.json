@@ -1,0 +1,4682 @@
+{
+ "addr_0001": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "691 MILL ST, LOS ANGELES, CA, 90021",
+  "lat": 34.034858140268,
+  "lon": -118.234556641208
+ },
+ "addr_0002": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "365 S CLOVERDALE AVE, LOS ANGELES, CA, 90036",
+  "lat": 34.067630672988,
+  "lon": -118.346235505744
+ },
+ "addr_0003": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "969 DEWEY AVE, LOS ANGELES, CA, 90006",
+  "lat": 34.05323642758,
+  "lon": -118.295866393274
+ },
+ "addr_0004": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1321 N MARTEL AVE, LOS ANGELES, CA, 90046",
+  "lat": 34.094788270374,
+  "lon": -118.350702360072
+ },
+ "addr_0005": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "350 S CLOVERDALE AVE, LOS ANGELES, CA, 90036",
+  "lat": 34.067915968888,
+  "lon": -118.346097687149
+ },
+ "addr_0006": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "22651 DEL VALLE ST, WOODLAND HILLS, CA, 91364",
+  "lat": 34.166292750424,
+  "lon": -118.619366042217
+ },
+ "addr_0007": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1310 N VISTA ST, LOS ANGELES, CA, 90046",
+  "lat": 34.094620044691,
+  "lon": -118.351659328593
+ },
+ "addr_0008": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "30 S VENICE BLVD, VENICE, CA, 90291",
+  "lat": 33.98404071336,
+  "lon": -118.470257447541
+ },
+ "addr_0009": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2204 STRONGS DR, VENICE, CA, 90291",
+  "lat": 33.984664117273,
+  "lon": -118.469152891537
+ },
+ "addr_0010": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "334 S CLOVERDALE AVE, LOS ANGELES, CA, 90036",
+  "lat": 34.068241825332,
+  "lon": -118.346098275916
+ },
+ "addr_0011": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1021 S BERENDO ST, LOS ANGELES, CA, 90006",
+  "lat": 34.052263227386,
+  "lon": -118.293773264096
+ },
+ "addr_0012": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7820 BAIRD AVE, RESEDA, CA, 91335",
+  "lat": 34.212566951318,
+  "lon": -118.53734731054
+ },
+ "addr_0013": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11 S VENICE BLVD, VENICE, CA, 90291",
+  "lat": 33.984036253453,
+  "lon": -118.470498955588
+ },
+ "addr_0014": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1122 S SHENANDOAH ST, LOS ANGELES, CA, 90035",
+  "lat": 34.056865078698,
+  "lon": -118.381387547101
+ },
+ "addr_0015": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1026 S SHENANDOAH ST, LOS ANGELES, CA, 90035",
+  "lat": 34.058747314118,
+  "lon": -118.381335998135
+ },
+ "addr_0016": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "438 VENICE BLVD, LOS ANGELES, CA, 90015",
+  "lat": 34.036777812146,
+  "lon": -118.268482420687
+ },
+ "addr_0017": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1020 S NEW HAMPSHIRE AVE, LOS ANGELES, CA, 90006",
+  "lat": 34.052268432452,
+  "lon": -118.292588978843
+ },
+ "addr_0018": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2901 E OLYMPIC BLVD, LOS ANGELES, CA, 90023",
+  "lat": 34.022484216725,
+  "lon": -118.215529695851
+ },
+ "addr_0019": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1616 N VISTA ST, LOS ANGELES, CA, 90046",
+  "lat": 34.100501560474,
+  "lon": -118.351805584958
+ },
+ "addr_0020": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1033 S BEDFORD ST, LOS ANGELES, CA, 90035",
+  "lat": 34.058623179327,
+  "lon": -118.380432564605
+ },
+ "addr_0021": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13505 BURBANK BLVD, VAN NUYS, CA, 91401",
+  "lat": 34.172184291132,
+  "lon": -118.427080442975
+ },
+ "addr_0022": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1031 S SHERBOURNE DR, LOS ANGELES, CA, 90035",
+  "lat": 34.058670956574,
+  "lon": -118.379386585638
+ },
+ "addr_0023": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1050 S SHENANDOAH ST, LOS ANGELES, CA, 90035",
+  "lat": 34.058223614001,
+  "lon": -118.381347843995
+ },
+ "addr_0024": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13508 BURBANK BLVD, VAN NUYS, CA, 91401",
+  "lat": 34.172069699754,
+  "lon": -118.427198494214
+ },
+ "addr_0025": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1016 S SHENANDOAH ST, LOS ANGELES, CA, 90035",
+  "lat": 34.0589655225,
+  "lon": -118.38133106236
+ },
+ "addr_0026": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7900 RESEDA BLVD, RESEDA, CA, 91335",
+  "lat": 34.213888363318,
+  "lon": -118.535998830492
+ },
+ "addr_0027": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "339 S DETROIT ST, LOS ANGELES, CA, 90036",
+  "lat": 34.068098346204,
+  "lon": -118.345179788539
+ },
+ "addr_0028": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "423 S CLOVERDALE AVE, LOS ANGELES, CA, 90036",
+  "lat": 34.066616356827,
+  "lon": -118.346233612143
+ },
+ "addr_0029": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "355 S DETROIT ST, LOS ANGELES, CA, 90036",
+  "lat": 34.067789502449,
+  "lon": -118.345179129122
+ },
+ "addr_0030": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5828 WOODMAN AVE, VAN NUYS, CA, 91401",
+  "lat": 34.17629615031,
+  "lon": -118.431174059621
+ },
+ "addr_0031": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1020 S MARIPOSA AVE, LOS ANGELES, CA, 90006",
+  "lat": 34.05223745085,
+  "lon": -118.298863940717
+ },
+ "addr_0032": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8135 RESEDA BLVD, RESEDA, CA, 91335",
+  "lat": 34.218085347824,
+  "lon": -118.536144337691
+ },
+ "addr_0033": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "23100 AVE SAN LUIS, WOODLAND HILLS, CA, 91364",
+  "lat": 34.161722741126,
+  "lon": -118.630279777844
+ },
+ "addr_0034": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7918 RESEDA BLVD, RESEDA, CA, 91335",
+  "lat": 34.214199947455,
+  "lon": -118.535999349628
+ },
+ "addr_0035": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "330 S COCHRAN AVE, LOS ANGELES, CA, 90036",
+  "lat": 34.068451081663,
+  "lon": -118.347155553766
+ },
+ "addr_0036": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "431 S CLOVERDALE AVE, LOS ANGELES, CA, 90036",
+  "lat": 34.066540986175,
+  "lon": -118.346233458999
+ },
+ "addr_0037": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "21 S VENICE BLVD, VENICE, CA, 90291",
+  "lat": 33.984088431798,
+  "lon": -118.470412886806
+ },
+ "addr_0038": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "669 N BOYLE AVE, LOS ANGELES, CA, 90033",
+  "lat": 34.053062189161,
+  "lon": -118.215747433377
+ },
+ "addr_0039": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "443 S CLOVERDALE AVE, LOS ANGELES, CA, 90036",
+  "lat": 34.066427930197,
+  "lon": -118.346233229283
+ },
+ "addr_0040": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "960 S NEW HAMPSHIRE AVE, LOS ANGELES, CA, 90006",
+  "lat": 34.053862234959,
+  "lon": -118.292592419512
+ },
+ "addr_0041": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5207 W 8TH ST, LOS ANGELES, CA, 90036",
+  "lat": 34.060514959998,
+  "lon": -118.341401129589
+ },
+ "addr_0042": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5904 WOODMAN AVE, VAN NUYS, CA, 91401",
+  "lat": 34.17769532106,
+  "lon": -118.431174774095
+ },
+ "addr_0043": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13453 BURBANK BLVD, VAN NUYS, CA, 91401",
+  "lat": 34.172185055439,
+  "lon": -118.426099126702
+ },
+ "addr_0044": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7428 HOLLYWOOD BLVD, LOS ANGELES, CA, 90046",
+  "lat": 34.101580803093,
+  "lon": -118.351546614574
+ },
+ "addr_0045": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2817 W 11TH ST, LOS ANGELES, CA, 90006",
+  "lat": 34.05093875893,
+  "lon": -118.297980305199
+ },
+ "addr_0046": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "342 S COCHRAN AVE, LOS ANGELES, CA, 90036",
+  "lat": 34.068183604494,
+  "lon": -118.347155095445
+ },
+ "addr_0047": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "14 WESTMINSTER AVE, VENICE, CA, 90291",
+  "lat": 33.988774606243,
+  "lon": -118.474450686419
+ },
+ "addr_0048": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "12610 BURBANK BLVD, VALLEY VILLAGE, CA, 91607",
+  "lat": 34.172076140585,
+  "lon": -118.407555492166
+ },
+ "addr_0049": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1401 MITCHELL PL, LOS ANGELES, CA, 90033",
+  "lat": 34.054408284828,
+  "lon": -118.219402881677
+ },
+ "addr_0050": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1416 N MARTEL AVE, LOS ANGELES, CA, 90046",
+  "lat": 34.096494327754,
+  "lon": -118.350575547698
+ },
+ "addr_0051": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "20 WESTMINSTER AVE, VENICE, CA, 90291",
+  "lat": 33.988813528642,
+  "lon": -118.474391574197
+ },
+ "addr_0052": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1108 S BEDFORD ST, LOS ANGELES, CA, 90035",
+  "lat": 34.056991646099,
+  "lon": -118.380336653244
+ },
+ "addr_0053": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3542 23RD ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.753678785288,
+  "lon": -122.422162491758
+ },
+ "addr_0054": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2727 CLAY ST, SAN FRANCISCO, CA, 94115",
+  "lat": 37.790175033821,
+  "lon": -122.437952228952
+ },
+ "addr_0055": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "525 FILBERT ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.801452185059,
+  "lon": -122.408252459886
+ },
+ "addr_0056": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "562 6TH AVE, SAN FRANCISCO, CA, 94118",
+  "lat": 37.777935238867,
+  "lon": -122.463988951465
+ },
+ "addr_0057": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "170 DOWNEY ST, SAN FRANCISCO, CA, 94117",
+  "lat": 37.765900484395,
+  "lon": -122.446878732047
+ },
+ "addr_0058": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1409 SHRADER ST, SAN FRANCISCO, CA, 94117",
+  "lat": 37.76222191392,
+  "lon": -122.450786273344
+ },
+ "addr_0059": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1381 20TH AVE, SAN FRANCISCO, CA, 94122",
+  "lat": 37.762028080264,
+  "lon": -122.478160598307
+ },
+ "addr_0060": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1369 9TH AVE, SAN FRANCISCO, CA, 94122",
+  "lat": 37.762764026642,
+  "lon": -122.466294731158
+ },
+ "addr_0061": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "485 WARREN DR, SAN FRANCISCO, CA, 94131",
+  "lat": 37.758275366499,
+  "lon": -122.462472578679
+ },
+ "addr_0062": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "370 GREEN ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.800007422455,
+  "lon": -122.40545412351
+ },
+ "addr_0063": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "667 33RD AVE, SAN FRANCISCO, CA, 94121",
+  "lat": 37.776536183405,
+  "lon": -122.493158197602
+ },
+ "addr_0064": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1235 PINE ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.790158161885,
+  "lon": -122.415854527677
+ },
+ "addr_0065": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2025 STOCKTON ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.804301701699,
+  "lon": -122.41003647462
+ },
+ "addr_0066": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1 FAIR OAKS ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.756649191244,
+  "lon": -122.424365265512
+ },
+ "addr_0067": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1670 SUTTER ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.78683405001,
+  "lon": -122.427839942552
+ },
+ "addr_0068": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1800 23RD AVE, SAN FRANCISCO, CA, 94122",
+  "lat": 37.753996957601,
+  "lon": -122.480682644425
+ },
+ "addr_0069": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3110 LAGUNA ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.799717854512,
+  "lon": -122.430889671497
+ },
+ "addr_0070": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "addr_0071": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "159 DOLORES ST, SAN FRANCISCO, CA, 94103",
+  "lat": 37.766962357332,
+  "lon": -122.426436578101
+ },
+ "addr_0072": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1251 20TH AVE, SAN FRANCISCO, CA, 94122",
+  "lat": 37.764411839061,
+  "lon": -122.478325182983
+ },
+ "addr_0073": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1267 FILBERT ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.799938941276,
+  "lon": -122.420313071181
+ },
+ "addr_0074": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4328 GEARY BLVD, SAN FRANCISCO, CA, 94118",
+  "lat": 37.781083742051,
+  "lon": -122.465700401742
+ },
+ "addr_0075": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "741 14TH ST, SAN FRANCISCO, CA, 94114",
+  "lat": 37.767618944725,
+  "lon": -122.429841977306
+ },
+ "addr_0076": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "908 VALLEJO ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.798194719877,
+  "lon": -122.412326486417
+ },
+ "addr_0077": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1768 9TH AVE, SAN FRANCISCO, CA, 94122",
+  "lat": 37.755307638745,
+  "lon": -122.4656303456
+ },
+ "addr_0078": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1445 WALLER ST, SAN FRANCISCO, CA, 94117",
+  "lat": 37.768928791643,
+  "lon": -122.447428233573
+ },
+ "addr_0079": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2140 PACIFIC AVE, SAN FRANCISCO, CA, 94115",
+  "lat": 37.793946169,
+  "lon": -122.430500130082
+ },
+ "addr_0080": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "725 UNION ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.80013242296,
+  "lon": -122.411218531911
+ },
+ "addr_0081": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "200 ARGUELLO BLVD, SAN FRANCISCO, CA, 94118",
+  "lat": 37.786569517908,
+  "lon": -122.459178949291
+ },
+ "addr_0082": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3525 MISSION ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.740528478055,
+  "lon": -122.423082022579
+ },
+ "addr_0083": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "448 BRODERICK ST, SAN FRANCISCO, CA, 94117",
+  "lat": 37.77431322716,
+  "lon": -122.439298239317
+ },
+ "addr_0084": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1355 LEAVENWORTH ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.793482898616,
+  "lon": -122.416282039485
+ },
+ "addr_0085": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1600 ANZA ST, SAN FRANCISCO, CA, 94118",
+  "lat": 37.77909690281,
+  "lon": -122.465287516417
+ },
+ "addr_0086": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "821 PINE ST, SAN FRANCISCO, CA, 94108",
+  "lat": 37.790984622042,
+  "lon": -122.409343022563
+ },
+ "addr_0087": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1274 UNION ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.799116792539,
+  "lon": -122.420168802413
+ },
+ "addr_0088": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1216 CLAY ST, SAN FRANCISCO, CA, 94108",
+  "lat": 37.793457260161,
+  "lon": -122.413086473455
+ },
+ "addr_0089": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1300 HAIGHT ST, SAN FRANCISCO, CA, 94117",
+  "lat": 37.770473471696,
+  "lon": -122.443732130349
+ },
+ "addr_0090": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "218 UNION ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.801189427822,
+  "lon": -122.403698125687
+ },
+ "addr_0091": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "700 CASTRO ST, SAN FRANCISCO, CA, 94114",
+  "lat": 37.757625566647,
+  "lon": -122.4347648465
+ },
+ "addr_0092": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "805 LEAVENWORTH ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.788469051544,
+  "lon": -122.4152746878
+ },
+ "addr_0093": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2429 VALLEJO ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.79489581835,
+  "lon": -122.437248959183
+ },
+ "addr_0094": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1492 LARKIN ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.791607333054,
+  "lon": -122.419128941511
+ },
+ "addr_0095": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "409 10TH AVE, SAN FRANCISCO, CA, 94118",
+  "lat": 37.780560490041,
+  "lon": -122.46861797711
+ },
+ "addr_0096": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "571 33RD AVE, SAN FRANCISCO, CA, 94121",
+  "lat": 37.778330294872,
+  "lon": -122.493278607138
+ },
+ "addr_0097": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "538 3RD AVE, SAN FRANCISCO, CA, 94118",
+  "lat": 37.778506145838,
+  "lon": -122.460805346623
+ },
+ "addr_0098": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2250 PINE ST, SAN FRANCISCO, CA, 94115",
+  "lat": 37.788102411988,
+  "lon": -122.432909141247
+ },
+ "addr_0099": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "50 ALTA ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.801662055127,
+  "lon": -122.40373811478
+ },
+ "addr_0100": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3040 FRANKLIN ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.802469434633,
+  "lon": -122.426384250787
+ },
+ "addr_0101": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "60 CRESTLINE DR, SAN FRANCISCO, CA, 94131",
+  "lat": 37.751159795277,
+  "lon": -122.44630510477
+ },
+ "addr_0102": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "909 HAIGHT ST, SAN FRANCISCO, CA, 94117",
+  "lat": 37.77118009242,
+  "lon": -122.437270617472
+ },
+ "addr_0103": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3674 16TH ST, SAN FRANCISCO, CA, 94114",
+  "lat": 37.764194576886,
+  "lon": -122.434738535295
+ },
+ "addr_0104": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "36 SPOFFORD ST, SAN FRANCISCO, CA, 94108",
+  "lat": 37.794481157582,
+  "lon": -122.407271514898
+ },
+ "addr_0105": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5041 LOTUS ST, SAN DIEGO, CA, 92107",
+  "lat": 32.753044722087,
+  "lon": -117.24683185015
+ },
+ "addr_0106": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4556 OHIO ST, SAN DIEGO, CA, 92116",
+  "lat": 32.760250104678,
+  "lon": -117.129016736449
+ },
+ "addr_0107": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3818 VAN DYKE AVE, SAN DIEGO, CA, 92105",
+  "lat": 32.747984176538,
+  "lon": -117.103318223443
+ },
+ "addr_0108": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3837 HIGHLAND AVE, SAN DIEGO, CA, 92105",
+  "lat": 32.74810408833,
+  "lon": -117.098684876502
+ },
+ "addr_0109": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4485 ILLINOIS ST, SAN DIEGO, CA, 92116",
+  "lat": 32.758908971248,
+  "lon": -117.127644500164
+ },
+ "addr_0110": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "14103 OLD EL CAMINO REAL, SAN DIEGO, CA, 92130",
+  "lat": 32.967131623367,
+  "lon": -117.230640026313
+ },
+ "addr_0111": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2875 MONROE AVE, SAN DIEGO, CA, 92116",
+  "lat": 32.759088717876,
+  "lon": -117.132037822834
+ },
+ "addr_0112": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "18605 CMT CANTILENA, SAN DIEGO, CA, 92128",
+  "lat": 33.049988278567,
+  "lon": -117.071211704634
+ },
+ "addr_0113": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2259 MARKET ST, SAN DIEGO, CA, 92102",
+  "lat": 32.711486817559,
+  "lon": -117.143511417173
+ },
+ "addr_0114": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1902 MARKET ST, SAN DIEGO, CA, 92102",
+  "lat": 32.711592346875,
+  "lon": -117.146628228599
+ },
+ "addr_0115": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3361 DALE ST, SAN DIEGO, CA, 92104",
+  "lat": 32.74036659124,
+  "lon": -117.130306571181
+ },
+ "addr_0116": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4929 DEL MONTE AVE, SAN DIEGO, CA, 92107",
+  "lat": 32.743525384996,
+  "lon": -117.252066918629
+ },
+ "addr_0117": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2250 CONGRESS ST, SAN DIEGO, CA, 92110",
+  "lat": 32.750597806466,
+  "lon": -117.193267922246
+ },
+ "addr_0118": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "241 14TH ST, SAN DIEGO, CA, 92101",
+  "lat": 32.707735973289,
+  "lon": -117.151811882946
+ },
+ "addr_0119": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "741 11TH AVE, SAN DIEGO, CA, 92101",
+  "lat": 32.713041095726,
+  "lon": -117.154606076436
+ },
+ "addr_0120": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4956 SANTA CRUZ AVE, SAN DIEGO, CA, 92107",
+  "lat": 32.743054162155,
+  "lon": -117.253182718704
+ },
+ "addr_0121": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3225 30TH ST, SAN DIEGO, CA, 92104",
+  "lat": 32.73856664225,
+  "lon": -117.129220154345
+ },
+ "addr_0122": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "717 WHITING CT, SAN DIEGO, CA, 92109",
+  "lat": 32.788056880082,
+  "lon": -117.254092191189
+ },
+ "addr_0123": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3434 WILSHIRE TER, SAN DIEGO, CA, 92104",
+  "lat": 32.741587233911,
+  "lon": -117.14439496379
+ },
+ "addr_0124": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1675 BACON ST, SAN DIEGO, CA, 92107",
+  "lat": 32.74320335852,
+  "lon": -117.254122808866
+ },
+ "addr_0125": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3440 FLORIDA ST, SAN DIEGO, CA, 92104",
+  "lat": 32.741647861304,
+  "lon": -117.143768185359
+ },
+ "addr_0126": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1066 LINCOLN AVE, SAN DIEGO, CA, 92103",
+  "lat": 32.752256703162,
+  "lon": -117.15514328797
+ },
+ "addr_0127": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4311 3RD AVE, SAN DIEGO, CA, 92103",
+  "lat": 32.757179657654,
+  "lon": -117.162668808495
+ },
+ "addr_0128": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1704 MARKET ST, SAN DIEGO, CA, 92101",
+  "lat": 32.71159027708,
+  "lon": -117.14845570472
+ },
+ "addr_0129": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2525 MARKET ST, SAN DIEGO, CA, 92102",
+  "lat": 32.711545509371,
+  "lon": -117.139443083709
+ },
+ "addr_0130": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4953 SANTA CRUZ AVE, SAN DIEGO, CA, 92107",
+  "lat": 32.742920773992,
+  "lon": -117.253196641885
+ },
+ "addr_0131": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "12726 TORREY BLUFF DR, SAN DIEGO, CA, 92130",
+  "lat": 32.954396359981,
+  "lon": -117.226873353169
+ },
+ "addr_0132": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4422 30TH ST, SAN DIEGO, CA, 92116",
+  "lat": 32.757739004404,
+  "lon": -117.130243361593
+ },
+ "addr_0133": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4454 UTAH ST, SAN DIEGO, CA, 92116",
+  "lat": 32.758299962412,
+  "lon": -117.132724694319
+ },
+ "addr_0134": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "936 W LEWIS ST, SAN DIEGO, CA, 92103",
+  "lat": 32.751875423058,
+  "lon": -117.171756956814
+ },
+ "addr_0135": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4077 GOLDFINCH ST, SAN DIEGO, CA, 92103",
+  "lat": 32.7514082268,
+  "lon": -117.17133141311
+ },
+ "addr_0136": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4933 NARRAGANSETT AVE, SAN DIEGO, CA, 92107",
+  "lat": 32.744416242411,
+  "lon": -117.251402310634
+ },
+ "addr_0137": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4055 WINONA AVE, SAN DIEGO, CA, 92105",
+  "lat": 32.750495329297,
+  "lon": -117.087903609094
+ },
+ "addr_0138": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1029 HAYES AVE, SAN DIEGO, CA, 92103",
+  "lat": 32.753196687966,
+  "lon": -117.155477983445
+ },
+ "addr_0139": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2175 BACON ST, SAN DIEGO, CA, 92107",
+  "lat": 32.751608431363,
+  "lon": -117.246886561686
+ },
+ "addr_0140": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3175 WING ST, SAN DIEGO, CA, 92110",
+  "lat": 32.748569904259,
+  "lon": -117.213593500269
+ },
+ "addr_0141": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "516 25TH ST, SAN DIEGO, CA, 92102",
+  "lat": 32.71074706531,
+  "lon": -117.140297208476
+ },
+ "addr_0142": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4942 SANTA CRUZ AVE, SAN DIEGO, CA, 92107",
+  "lat": 32.742911075374,
+  "lon": -117.25295002876
+ },
+ "addr_0143": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4082 48TH ST, SAN DIEGO, CA, 92105",
+  "lat": 32.751006558669,
+  "lon": -117.091249806707
+ },
+ "addr_0144": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2401 G ST, SAN DIEGO, CA, 92102",
+  "lat": 32.712619229577,
+  "lon": -117.142379420916
+ },
+ "addr_0145": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2517 G ST, SAN DIEGO, CA, 92102",
+  "lat": 32.712611610523,
+  "lon": -117.13986046903
+ },
+ "addr_0146": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1476 LA PLAYA AVE, SAN DIEGO, CA, 92109",
+  "lat": 32.788353429415,
+  "lon": -117.239573281717
+ },
+ "addr_0147": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3870 VAN DYKE AVE, SAN DIEGO, CA, 92105",
+  "lat": 32.748444044749,
+  "lon": -117.103312591437
+ },
+ "addr_0148": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4928 CORONADO AVE, SAN DIEGO, CA, 92107",
+  "lat": 32.741895361674,
+  "lon": -117.253415242495
+ },
+ "addr_0149": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3806 FAIRMOUNT AVE, SAN DIEGO, CA, 92105",
+  "lat": 32.747857991976,
+  "lon": -117.100967634051
+ },
+ "addr_0150": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13710 PORTOFINO DR, DEL MAR, CA, 92014",
+  "lat": 32.947732780955,
+  "lon": -117.245838207342
+ },
+ "addr_0151": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3358 GRIM AVE, SAN DIEGO, CA, 92104",
+  "lat": 32.740297969155,
+  "lon": -117.12828979767
+ },
+ "addr_0152": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2254 MOORE ST, SAN DIEGO, CA, 92110",
+  "lat": 32.747940266375,
+  "lon": -117.192796336204
+ },
+ "addr_0153": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "addr_0154": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13525 ZINNIA HILLS PL, SAN DIEGO, CA, 92130",
+  "lat": 32.965685617626,
+  "lon": -117.186552671868
+ },
+ "addr_0155": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4050 BRANT ST, SAN DIEGO, CA, 92103",
+  "lat": 32.750865846708,
+  "lon": -117.167327176245
+ },
+ "addr_0156": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10615 CLL MAR DE MARIPOSA, SAN DIEGO, CA, 92130",
+  "lat": 32.914007077904,
+  "lon": -117.222468894737
+ },
+ "addr_0157": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1624 WALNUT ST, BERKELEY, CA, 94709",
+  "lat": 37.878009195786,
+  "lon": -122.268033290536
+ },
+ "addr_0158": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1901 6TH ST, BERKELEY, CA, 94710",
+  "lat": 37.869300901319,
+  "lon": -122.298010285111
+ },
+ "addr_0159": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2929 HARPER ST, BERKELEY, CA, 94703",
+  "lat": 37.855448515211,
+  "lon": -122.272251613566
+ },
+ "addr_0160": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1943 HASTE ST, BERKELEY, CA, 94704",
+  "lat": 37.864590385072,
+  "lon": -122.270260957255
+ },
+ "addr_0161": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1912 WOOLSEY ST, BERKELEY, CA, 94703",
+  "lat": 37.851880593384,
+  "lon": -122.269721560061
+ },
+ "addr_0162": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1112 ALLSTON WAY, BERKELEY, CA, 94702",
+  "lat": 37.866434019854,
+  "lon": -122.290625407906
+ },
+ "addr_0163": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1723 OREGON ST, BERKELEY, CA, 94703",
+  "lat": 37.856707779504,
+  "lon": -122.274714438527
+ },
+ "addr_0164": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2700 BENVENUE AVE, BERKELEY, CA, 94705",
+  "lat": 37.861680025094,
+  "lon": -122.254847098778
+ },
+ "addr_0165": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1647 WOOLSEY ST, BERKELEY, CA, 94703",
+  "lat": 37.851069819061,
+  "lon": -122.275259752594
+ },
+ "addr_0166": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3114 CALIFORNIA ST, BERKELEY, CA, 94703",
+  "lat": 37.851242348102,
+  "lon": -122.276551374357
+ },
+ "addr_0167": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "950 BANCROFT WAY, BERKELEY, CA, 94710",
+  "lat": 37.863972188196,
+  "lon": -122.293714009792
+ },
+ "addr_0168": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "53 MENLO PL, BERKELEY, CA, 94707",
+  "lat": 37.898518527797,
+  "lon": -122.282820342566
+ },
+ "addr_0169": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1902 HARMON ST, BERKELEY, CA, 94703",
+  "lat": 37.849682914187,
+  "lon": -122.27025812496
+ },
+ "addr_0170": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2143 CEDAR ST, BERKELEY, CA, 94709",
+  "lat": 37.878631132063,
+  "lon": -122.267644637529
+ },
+ "addr_0171": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1229 EVELYN AVE, BERKELEY, CA, 94706",
+  "lat": 37.882598126428,
+  "lon": -122.291831330026
+ },
+ "addr_0172": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1349 ROSE ST, BERKELEY, CA, 94702",
+  "lat": 37.877381184466,
+  "lon": -122.287335630008
+ },
+ "addr_0173": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2407 10TH ST, BERKELEY, CA, 94710",
+  "lat": 37.862504909391,
+  "lon": -122.291208053267
+ },
+ "addr_0174": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1360 HOPKINS ST, BERKELEY, CA, 94702",
+  "lat": 37.879189508966,
+  "lon": -122.286349449018
+ },
+ "addr_0175": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2520 CALIFORNIA ST, BERKELEY, CA, 94703",
+  "lat": 37.861978450161,
+  "lon": -122.278699897104
+ },
+ "addr_0176": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1181 COLUSA AVE, BERKELEY, CA, 94707",
+  "lat": 37.884417398371,
+  "lon": -122.278614892716
+ },
+ "addr_0177": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2810 BENVENUE AVE, BERKELEY, CA, 94705",
+  "lat": 37.859711461825,
+  "lon": -122.254667877477
+ },
+ "addr_0178": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1630 WOOLSEY ST, BERKELEY, CA, 94703",
+  "lat": 37.850907839463,
+  "lon": -122.275612647519
+ },
+ "addr_0179": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2723 FOREST AVE, BERKELEY, CA, 94705",
+  "lat": 37.8614816739,
+  "lon": -122.25295463916
+ },
+ "addr_0180": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1636 63RD ST, BERKELEY, CA, 94703",
+  "lat": 37.84722255677,
+  "lon": -122.275586823781
+ },
+ "addr_0181": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3105 COLLEGE AVE, BERKELEY, CA, 94705",
+  "lat": 37.851374244213,
+  "lon": -122.252403306442
+ },
+ "addr_0182": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1793 OXFORD ST, BERKELEY, CA, 94709",
+  "lat": 37.875621579651,
+  "lon": -122.266431524063
+ },
+ "addr_0183": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1507 ADA ST, BERKELEY, CA, 94703",
+  "lat": 37.880251600534,
+  "lon": -122.282516632591
+ },
+ "addr_0184": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2425 PRINCE ST, BERKELEY, CA, 94705",
+  "lat": 37.85387315386,
+  "lon": -122.258578554573
+ },
+ "addr_0185": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2601 PIEDMONT AVE, BERKELEY, CA, 94704",
+  "lat": 37.864024805002,
+  "lon": -122.251404527856
+ },
+ "addr_0186": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1916 YOLO AVE, BERKELEY, CA, 94707",
+  "lat": 37.88512551618,
+  "lon": -122.273901697551
+ },
+ "addr_0187": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2511 ELLSWORTH ST, BERKELEY, CA, 94704",
+  "lat": 37.864117503124,
+  "lon": -122.262831030518
+ },
+ "addr_0188": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2202 BLAKE ST, BERKELEY, CA, 94704",
+  "lat": 37.86332575485,
+  "lon": -122.264935310385
+ },
+ "addr_0189": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2909 ADELINE ST, BERKELEY, CA, 94703",
+  "lat": 37.855209684503,
+  "lon": -122.268705526348
+ },
+ "addr_0190": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1917 FAIRVIEW ST, BERKELEY, CA, 94703",
+  "lat": 37.850788762711,
+  "lon": -122.270331956439
+ },
+ "addr_0191": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3007 SHATTUCK AVE, BERKELEY, CA, 94705",
+  "lat": 37.854963478696,
+  "lon": -122.266366412178
+ },
+ "addr_0192": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Oakland",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "6432 BENVENUE AVE, OAKLAND, CA, 94618",
+  "lat": 37.852753769824,
+  "lon": -122.253719346935
+ },
+ "addr_0193": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2838 FULTON ST, BERKELEY, CA, 94705",
+  "lat": 37.857784012548,
+  "lon": -122.263996946245
+ },
+ "addr_0194": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1600 MARTIN LUTHER KING JR WAY, BERKELEY, CA, 94709",
+  "lat": 37.877726500385,
+  "lon": -122.273812880817
+ },
+ "addr_0195": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3037 COLLEGE AVE, BERKELEY, CA, 94705",
+  "lat": 37.854812347578,
+  "lon": -122.252760966178
+ },
+ "addr_0196": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3215 KING ST, BERKELEY, CA, 94703",
+  "lat": 37.850121223124,
+  "lon": -122.273799897322
+ },
+ "addr_0197": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2454 PRINCE ST, BERKELEY, CA, 94705",
+  "lat": 37.853853175768,
+  "lon": -122.257569232673
+ },
+ "addr_0198": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1836 CEDAR ST, BERKELEY, CA, 94703",
+  "lat": 37.877612126098,
+  "lon": -122.274681168739
+ },
+ "addr_0199": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2311 MCGEE AVE, BERKELEY, CA, 94703",
+  "lat": 37.866183467389,
+  "lon": -122.276946893805
+ },
+ "addr_0200": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2405 SACRAMENTO ST, BERKELEY, CA, 94702",
+  "lat": 37.863914768272,
+  "lon": -122.281163523504
+ },
+ "addr_0201": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1341 MILVIA ST, BERKELEY, CA, 94709",
+  "lat": 37.882779817845,
+  "lon": -122.271921342472
+ },
+ "addr_0202": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2415 7TH ST, BERKELEY, CA, 94710",
+  "lat": 37.861681282476,
+  "lon": -122.294493898255
+ },
+ "addr_0203": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2941 HARPER ST, BERKELEY, CA, 94703",
+  "lat": 37.855237796108,
+  "lon": -122.272227117526
+ },
+ "addr_0204": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2719 WOOLSEY ST, BERKELEY, CA, 94705",
+  "lat": 37.853995214729,
+  "lon": -122.252019149255
+ },
+ "addr_0205": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1852 VIRGINIA ST, BERKELEY, CA, 94703",
+  "lat": 37.875817104737,
+  "lon": -122.274288617176
+ },
+ "addr_0206": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3132 KING ST, BERKELEY, CA, 94703",
+  "lat": 37.851057381383,
+  "lon": -122.274019394225
+ },
+ "addr_0207": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2303 HOWE ST, BERKELEY, CA, 94705",
+  "lat": 37.856961927585,
+  "lon": -122.261340661773
+ },
+ "addr_0208": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2424 STUART ST, BERKELEY, CA, 94705",
+  "lat": 37.859563125781,
+  "lon": -122.258603263111
+ },
+ "addr_0209": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "186 MANHATTAN AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.745118843831,
+  "lon": -74.057096243843
+ },
+ "addr_0210": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "173 WEBSTER AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.744463018223,
+  "lon": -74.046066261657
+ },
+ "addr_0211": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "124 VIRGINIA AVE, JERSEY CITY, NJ, 07304",
+  "lat": 40.713845239185,
+  "lon": -74.080330154465
+ },
+ "addr_0212": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "468 WAYNE ST, JERSEY CITY, NJ, 07306",
+  "lat": 40.725681903059,
+  "lon": -74.063541108121
+ },
+ "addr_0213": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "344 ST PAULS AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.738555843621,
+  "lon": -74.066843162944
+ },
+ "addr_0214": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "75 LAKE ST, JERSEY CITY, NJ, 07306",
+  "lat": 40.743099641321,
+  "lon": -74.058707794433
+ },
+ "addr_0215": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "268 FAIRMOUNT AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.723679124446,
+  "lon": -74.069133205867
+ },
+ "addr_0216": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1 RIVER CT, JERSEY CITY, NJ, 07310",
+  "lat": 40.72722505854,
+  "lon": -74.031192531266
+ },
+ "addr_0217": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "574 BERGEN AVE, JERSEY CITY, NJ, 07304",
+  "lat": 40.720140369029,
+  "lon": -74.073427501162
+ },
+ "addr_0218": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "15 RAVINE AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.739914916365,
+  "lon": -74.048466688233
+ },
+ "addr_0219": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "42 LINEAU PL, JERSEY CITY, NJ, 07307",
+  "lat": 40.740131436741,
+  "lon": -74.051295207465
+ },
+ "addr_0220": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "304 EGE AVE, JERSEY CITY, NJ, 07304",
+  "lat": 40.717345247608,
+  "lon": -74.087928169484
+ },
+ "addr_0221": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "399 UNION ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.719114794837,
+  "lon": -74.08515822135
+ },
+ "addr_0222": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "76 ZABRISKIE ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.746684539649,
+  "lon": -74.053074424428
+ },
+ "addr_0223": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "53 BOSTWICK AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.707081979139,
+  "lon": -74.080413154033
+ },
+ "addr_0224": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "83 BERGEN AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.705924536482,
+  "lon": -74.087362331107
+ },
+ "addr_0225": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "15 PIERCE AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.751132502812,
+  "lon": -74.050542928362
+ },
+ "addr_0226": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "114 ARLINGTON AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.705973459694,
+  "lon": -74.075966448124
+ },
+ "addr_0227": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "336 NEW YORK AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.747523847492,
+  "lon": -74.043015350065
+ },
+ "addr_0228": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3139 JOHN F KENNEDY BLVD, JERSEY CITY, NJ, 07306",
+  "lat": 40.740616788387,
+  "lon": -74.06130465271
+ },
+ "addr_0229": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "53 WRIGHT AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.735336189312,
+  "lon": -74.074563912742
+ },
+ "addr_0230": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "121 SHERMAN AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.744949098991,
+  "lon": -74.046823315636
+ },
+ "addr_0231": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "66 BLEECKER ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.751015388391,
+  "lon": -74.049875684211
+ },
+ "addr_0232": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "187 MYRTLE AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.708939763072,
+  "lon": -74.081920796365
+ },
+ "addr_0233": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "114 GLENWOOD AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.728162041074,
+  "lon": -74.072285713398
+ },
+ "addr_0234": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "138 GRANT AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.710469410002,
+  "lon": -74.082931425026
+ },
+ "addr_0235": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2348 JOHN F KENNEDY BLVD, JERSEY CITY, NJ, 07304",
+  "lat": 40.718278878267,
+  "lon": -74.079015647451
+ },
+ "addr_0236": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "94 TONNELE AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.734153116374,
+  "lon": -74.067182524047
+ },
+ "addr_0237": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "38 WALES AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.734646076634,
+  "lon": -74.073728596556
+ },
+ "addr_0238": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "216 SEAVIEW AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.695097636096,
+  "lon": -74.098488999367
+ },
+ "addr_0239": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "132 BOORAEM AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.74115668596,
+  "lon": -74.05167784323
+ },
+ "addr_0240": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "135 HOPKINS AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.737051523394,
+  "lon": -74.056434307564
+ },
+ "addr_0241": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "308 CLERK ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.712754816013,
+  "lon": -74.072560964569
+ },
+ "addr_0242": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "301 HALLADAY ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.712741830662,
+  "lon": -74.062344344207
+ },
+ "addr_0243": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "569 BERGEN AVE, JERSEY CITY, NJ, 07304",
+  "lat": 40.720054481606,
+  "lon": -74.073703171912
+ },
+ "addr_0244": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "128 BAYVIEW AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.705884358489,
+  "lon": -74.081116728361
+ },
+ "addr_0245": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "188 SOUTH ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.75053966456,
+  "lon": -74.050564976613
+ },
+ "addr_0246": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "107 BOORAEM AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.740453303494,
+  "lon": -74.050717117316
+ },
+ "addr_0247": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "14 SKILLMAN AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.736393738414,
+  "lon": -74.0638350782
+ },
+ "addr_0248": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "383 BALDWIN AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.733975358074,
+  "lon": -74.054077011086
+ },
+ "addr_0249": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "239 FOWLER AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.703406231366,
+  "lon": -74.092223827993
+ },
+ "addr_0250": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "83 BOSTWICK AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.707785822806,
+  "lon": -74.081491148165
+ },
+ "addr_0251": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "272 HUTTON ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.747493714504,
+  "lon": -74.05756613849
+ },
+ "addr_0252": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "281 CATOR AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.701410526988,
+  "lon": -74.094422588618
+ },
+ "addr_0253": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "834 GRAND ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.714654380162,
+  "lon": -74.071782852671
+ },
+ "addr_0254": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "103 LINCOLN ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.74835735883,
+  "lon": -74.053627560232
+ },
+ "addr_0255": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "146 SEAVIEW AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.69299035027,
+  "lon": -74.096676002826
+ },
+ "addr_0256": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "78 SUMMIT AVE, JERSEY CITY, NJ, 07304",
+  "lat": 40.717885039026,
+  "lon": -74.067429290565
+ },
+ "addr_0257": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "126 RANDOLPH AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.708224421499,
+  "lon": -74.073524053748
+ },
+ "addr_0258": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "245 VAN VORST ST, JERSEY CITY, NJ, 07302",
+  "lat": 40.715978376353,
+  "lon": -74.041062823658
+ },
+ "addr_0259": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "153 ST PAULS AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.736822694279,
+  "lon": -74.057614898093
+ },
+ "addr_0260": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "464 MONMOUTH ST, JERSEY CITY, NJ, 07302",
+  "lat": 40.726277403529,
+  "lon": -74.048613309062
+ },
+ "addr_0261": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "611 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.744086082125,
+  "lon": -74.031611183636
+ },
+ "addr_0262": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "923 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.748068560162,
+  "lon": -74.030409705728
+ },
+ "addr_0263": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "404 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lat": 40.742443260216,
+  "lon": -74.036210070043
+ },
+ "addr_0264": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1032 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.748749351079,
+  "lon": -74.026323440878
+ },
+ "addr_0265": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "501 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.743025929788,
+  "lon": -74.033904332127
+ },
+ "addr_0266": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "227 GRAND ST, HOBOKEN, NJ, 07030",
+  "lat": 40.740020460669,
+  "lon": -74.035814894303
+ },
+ "addr_0267": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "923 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.748382853996,
+  "lon": -74.032259129478
+ },
+ "addr_0268": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "600 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.744152158559,
+  "lon": -74.032728798798
+ },
+ "addr_0269": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "206 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738998730944,
+  "lon": -74.031363571985
+ },
+ "addr_0270": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "842 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.747046174949,
+  "lon": -74.030861959086
+ },
+ "addr_0271": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "731 JEFFERSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.746402965187,
+  "lon": -74.035804938811
+ },
+ "addr_0272": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "807 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.74658883136,
+  "lon": -74.030846330972
+ },
+ "addr_0273": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "908 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.747925856797,
+  "lon": -74.030605956191
+ },
+ "addr_0274": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1231 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.751937839073,
+  "lon": -74.029266672741
+ },
+ "addr_0275": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1253 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "lat": 40.751876526242,
+  "lon": -74.02728390429
+ },
+ "addr_0276": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "909 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.747199021479,
+  "lon": -74.026628940438
+ },
+ "addr_0277": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "132 JEFFERSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.739171672371,
+  "lon": -74.03818502581
+ },
+ "addr_0278": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "234 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738991430859,
+  "lon": -74.029331744401
+ },
+ "addr_0279": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "85 MADISON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738461150762,
+  "lon": -74.039229345447
+ },
+ "addr_0280": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "400 MONROE ST, HOBOKEN, NJ, 07030",
+  "lat": 40.742939956795,
+  "lon": -74.038998173709
+ },
+ "addr_0281": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "addr_0282": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "405 MONROE ST, HOBOKEN, NJ, 07030",
+  "lat": 40.742946462113,
+  "lon": -74.038840708237
+ },
+ "addr_0283": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1401 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.752162276082,
+  "lon": -74.025132220092
+ },
+ "addr_0284": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "321 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.740882326316,
+  "lon": -74.033572724402
+ },
+ "addr_0285": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "619 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lat": 40.744814756881,
+  "lon": -74.035323898904
+ },
+ "addr_0286": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "719 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.745775106709,
+  "lon": -74.033065517202
+ },
+ "addr_0287": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "931 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lat": 40.748003289428,
+  "lon": -74.029444711794
+ },
+ "addr_0288": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "205 MADISON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.740249153465,
+  "lon": -74.038685114246
+ },
+ "addr_0289": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "923 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.748228124833,
+  "lon": -74.031349408988
+ },
+ "addr_0290": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "614 2ND ST, HOBOKEN, NJ, 07030",
+  "lat": 40.740432458713,
+  "lon": -74.040012907869
+ },
+ "addr_0291": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "308 MADISON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.741587452789,
+  "lon": -74.038435488396
+ },
+ "addr_0292": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "721 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.745637290658,
+  "lon": -74.03212083802
+ },
+ "addr_0293": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "addr_0294": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "919 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.748179788988,
+  "lon": -74.031363804706
+ },
+ "addr_0295": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "658 1ST ST, HOBOKEN, NJ, 07030",
+  "lat": 40.739291546123,
+  "lon": -74.041245786169
+ },
+ "addr_0296": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "925 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lat": 40.747932503661,
+  "lon": -74.029465703033
+ },
+ "addr_0297": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "78 JEFFERSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738333132273,
+  "lon": -74.038441778873
+ },
+ "addr_0298": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "510 4TH ST, HOBOKEN, NJ, 07030",
+  "lat": 40.742617179007,
+  "lon": -74.037302857983
+ },
+ "addr_0299": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "262 11TH ST, HOBOKEN, NJ, 07030",
+  "lat": 40.750454470171,
+  "lon": -74.030379794299
+ },
+ "addr_0300": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "529 JEFFERSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.743833348816,
+  "lon": -74.036599257363
+ },
+ "addr_0301": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "602 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.744017360256,
+  "lon": -74.031787426127
+ },
+ "addr_0302": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "234 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.739651409894,
+  "lon": -74.033132255643
+ },
+ "addr_0303": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "709 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.745494485669,
+  "lon": -74.032163302547
+ },
+ "addr_0304": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "637 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lat": 40.744230779873,
+  "lon": -74.030567816195
+ },
+ "addr_0305": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "521 MADISON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.743911543084,
+  "lon": -74.037572584337
+ },
+ "addr_0306": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "929 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.7483006286,
+  "lon": -74.031327815412
+ },
+ "addr_0307": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1020 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.749347027894,
+  "lon": -74.03019301997
+ },
+ "addr_0308": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "120 JACKSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.739509550563,
+  "lon": -74.041037282503
+ },
+ "addr_0309": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "205 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.739594251495,
+  "lon": -74.034934402743
+ },
+ "addr_0310": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "312 MONROE ST, HOBOKEN, NJ, 07030",
+  "lat": 40.741799532867,
+  "lon": -74.039354347808
+ },
+ "addr_0311": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "91 GRAND ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738240555187,
+  "lon": -74.036355233334
+ },
+ "addr_0312": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "318 JEFFERSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.741541200103,
+  "lon": -74.037458666431
+ },
+ "addr_0313": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "689 ELIZABETH AVE, NEWARK, NJ, 07112",
+  "lat": 40.704324167583,
+  "lon": -74.207531473575
+ },
+ "addr_0314": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "98 STONE ST, NEWARK, NJ, 07104",
+  "lat": 40.755279064048,
+  "lon": -74.174270199368
+ },
+ "addr_0315": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "22 TREADWELL ST, NEWARK, NJ, 07104",
+  "lat": 40.763186337202,
+  "lon": -74.172117510363
+ },
+ "addr_0316": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "53 FLEMING AVE, NEWARK, NJ, 07105",
+  "lat": 40.731201486028,
+  "lon": -74.145841803068
+ },
+ "addr_0317": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "199 SCHUYLER AVE, NEWARK, NJ, 07112",
+  "lat": 40.711691059697,
+  "lon": -74.21358244759
+ },
+ "addr_0318": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "228 CHANCELLOR AVE, NEWARK, NJ, 07112",
+  "lat": 40.707913196469,
+  "lon": -74.218536810734
+ },
+ "addr_0319": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "50 CARTERET ST, NEWARK, NJ, 07104",
+  "lat": 40.773650723684,
+  "lon": -74.162917388613
+ },
+ "addr_0320": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "117 LINCOLN AVE, NEWARK, NJ, 07104",
+  "lat": 40.76930635046,
+  "lon": -74.164354057217
+ },
+ "addr_0321": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "276 ROSEVILLE AVE, NEWARK, NJ, 07107",
+  "lat": 40.760353220344,
+  "lon": -74.18889494504
+ },
+ "addr_0322": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "108-136 MARTIN LUTHER KING JR BLVD, NEWARK, NJ, 07104",
+  "lat": 40.750237827492,
+  "lon": -74.172877029171
+ },
+ "addr_0323": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "46 THOMAS ST, NEWARK, NJ, 07114",
+  "lat": 40.724054453877,
+  "lon": -74.179809183462
+ },
+ "addr_0324": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "627 FERRY ST, NEWARK, NJ, 07105",
+  "lat": 40.732235335934,
+  "lon": -74.134545356981
+ },
+ "addr_0325": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5-9 ROMAINE PL, NEWARK, NJ, 07104",
+  "lat": 40.770819704134,
+  "lon": -74.162214128709
+ },
+ "addr_0326": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "708 SUMMER AVE, NEWARK, NJ, 07104",
+  "lat": 40.776078667851,
+  "lon": -74.16301655109
+ },
+ "addr_0327": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "285 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "lat": 40.76105701111,
+  "lon": -74.173155662969
+ },
+ "addr_0328": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "205 PARKHURST ST, NEWARK, NJ, 07114",
+  "lat": 40.720710314102,
+  "lon": -74.172404184299
+ },
+ "addr_0329": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "284 E KINNEY ST, NEWARK, NJ, 07105",
+  "lat": 40.724308388638,
+  "lon": -74.163625897844
+ },
+ "addr_0330": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "590 S 18TH ST, NEWARK, NJ, 07103",
+  "lat": 40.736038185429,
+  "lon": -74.210038067151
+ },
+ "addr_0331": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "65 MONROE ST, NEWARK, NJ, 07105",
+  "lat": 40.730211913287,
+  "lon": -74.158843751368
+ },
+ "addr_0332": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "108 FERGUSON ST, NEWARK, NJ, 07105",
+  "lat": 40.7292137955,
+  "lon": -74.153443339397
+ },
+ "addr_0333": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "135 ADAMS ST, NEWARK, NJ, 07105",
+  "lat": 40.728131135027,
+  "lon": -74.159579555111
+ },
+ "addr_0334": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "449 N 5TH ST, NEWARK, NJ, 07107",
+  "lat": 40.763691026571,
+  "lon": -74.183350128895
+ },
+ "addr_0335": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "147 PRINCE ST, NEWARK, NJ, 07103",
+  "lat": 40.732843088289,
+  "lon": -74.186836785742
+ },
+ "addr_0336": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "638 S 13TH ST, NEWARK, NJ, 07103",
+  "lat": 40.732134584563,
+  "lon": -74.206649892416
+ },
+ "addr_0337": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "149 CHANCELLOR AVE, NEWARK, NJ, 07112",
+  "lat": 40.705866946086,
+  "lon": -74.215086202853
+ },
+ "addr_0338": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "438 WALNUT ST, NEWARK, NJ, 07105",
+  "lat": 40.725106666514,
+  "lon": -74.156803244367
+ },
+ "addr_0339": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "249 MALVERN ST, NEWARK, NJ, 07105",
+  "lat": 40.719437673508,
+  "lon": -74.156934318176
+ },
+ "addr_0340": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "461 ELIZABETH AVE, NEWARK, NJ, 07112",
+  "lat": 40.709106141231,
+  "lon": -74.199201703118
+ },
+ "addr_0341": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "375 N 6TH ST, NEWARK, NJ, 07107",
+  "lat": 40.761664885932,
+  "lon": -74.185415249404
+ },
+ "addr_0342": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "519 S 17TH ST, NEWARK, NJ, 07103",
+  "lat": 40.738269056838,
+  "lon": -74.208367593851
+ },
+ "addr_0343": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "155 SUNSET AVE, NEWARK, NJ, 07106",
+  "lat": 40.740995472168,
+  "lon": -74.228014048265
+ },
+ "addr_0344": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "227 SUNSET AVE, NEWARK, NJ, 07106",
+  "lat": 40.738662225598,
+  "lon": -74.228904453012
+ },
+ "addr_0345": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "363 BADGER AVE, NEWARK, NJ, 07112",
+  "lat": 40.713681562354,
+  "lon": -74.199496883175
+ },
+ "addr_0346": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "350 NEW YORK AVE, NEWARK, NJ, 07105",
+  "lat": 40.72304627965,
+  "lon": -74.154650550117
+ },
+ "addr_0347": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "63 NORFOLK ST, NEWARK, NJ, 07103",
+  "lat": 40.746766288991,
+  "lon": -74.18251511216
+ },
+ "addr_0348": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "329 OLIVER ST, NEWARK, NJ, 07105",
+  "lat": 40.722118195313,
+  "lon": -74.158539813355
+ },
+ "addr_0349": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "466 SUMMER AVE, NEWARK, NJ, 07104",
+  "lat": 40.767634478879,
+  "lon": -74.167313226179
+ },
+ "addr_0350": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "385 AVON AVE, NEWARK, NJ, 07108",
+  "lat": 40.727226486541,
+  "lon": -74.208068969322
+ },
+ "addr_0351": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "248 OLIVER ST, NEWARK, NJ, 07105",
+  "lat": 40.723416351707,
+  "lon": -74.163001352511
+ },
+ "addr_0352": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "783 SANDFORD AVE, NEWARK, NJ, 07106",
+  "lat": 40.735514748623,
+  "lon": -74.237155481412
+ },
+ "addr_0353": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "86 NAPOLEON ST, NEWARK, NJ, 07105",
+  "lat": 40.723177524155,
+  "lon": -74.153933200661
+ },
+ "addr_0354": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "44 TILLINGHAST ST, NEWARK, NJ, 07108",
+  "lat": 40.718420031849,
+  "lon": -74.208298322282
+ },
+ "addr_0355": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "150 SOUTH ST, NEWARK, NJ, 07114",
+  "lat": 40.72233340581,
+  "lon": -74.172069850112
+ },
+ "addr_0356": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "28 COTTAGE ST, NEWARK, NJ, 07102",
+  "lat": 40.728822422354,
+  "lon": -74.171964638319
+ },
+ "addr_0357": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "114 CHAPEL ST, NEWARK, NJ, 07105",
+  "lat": 40.736311227111,
+  "lon": -74.139966440427
+ },
+ "addr_0358": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "101 CAMDEN ST, NEWARK, NJ, 07103",
+  "lat": 40.741681091394,
+  "lon": -74.192856151855
+ },
+ "addr_0359": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10 FLEMING AVE, NEWARK, NJ, 07105",
+  "lat": 40.730678299842,
+  "lon": -74.147836475039
+ },
+ "addr_0360": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "265 ELM ST, NEWARK, NJ, 07105",
+  "lat": 40.726619659536,
+  "lon": -74.1591222346
+ },
+ "addr_0361": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "138 SOUTH ST, NEWARK, NJ, 07114",
+  "lat": 40.722585580721,
+  "lon": -74.172800673692
+ },
+ "addr_0362": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "648 N 6TH ST, NEWARK, NJ, 07107",
+  "lat": 40.771224225449,
+  "lon": -74.180587460657
+ },
+ "addr_0363": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "133 WALNUT ST, NEWARK, NJ, 07105",
+  "lat": 40.728645908153,
+  "lon": -74.16854882259
+ },
+ "addr_0364": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "155 SMITH ST, NEWARK, NJ, 07106",
+  "lat": 40.746718208558,
+  "lon": -74.230889132398
+ },
+ "addr_0365": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "71 JOY ST, BOSTON, MA, 02114",
+  "lat": 42.360577005141,
+  "lon": -71.065038124631
+ },
+ "addr_0366": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "568 WARREN ST, DORCHESTER, MA, 02121",
+  "lat": 42.31232290795,
+  "lon": -71.082964543129
+ },
+ "addr_0367": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2 TUPELO ST, ROXBURY, MA, 02119",
+  "lat": 42.316715693252,
+  "lon": -71.081151566008
+ },
+ "addr_0368": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "84 CHANDLER ST, BOSTON, MA, 02116",
+  "lat": 42.346481748378,
+  "lon": -71.07252734105
+ },
+ "addr_0369": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5 PHILLIPS ST, BOSTON, MA, 02114",
+  "lat": 42.36042767226,
+  "lon": -71.066627737052
+ },
+ "addr_0370": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "6 LESHER ST, ROSLINDALE, MA, 02131",
+  "lat": 42.2922805078,
+  "lon": -71.122065960129
+ },
+ "addr_0371": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "120 PLEASANT ST, DORCHESTER, MA, 02125",
+  "lat": 42.311600455172,
+  "lon": -71.05911658914
+ },
+ "addr_0372": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "56 SELKIRK RD, BRIGHTON, MA, 02135",
+  "lat": 42.339299316618,
+  "lon": -71.149131983187
+ },
+ "addr_0373": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "408 E 8TH ST, SOUTH BOSTON, MA, 02127",
+  "lat": 42.331346045267,
+  "lon": -71.044714756131
+ },
+ "addr_0374": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "50 ST MARGARET ST, DORCHESTER, MA, 02125",
+  "lat": 42.321934785531,
+  "lon": -71.059349791633
+ },
+ "addr_0375": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3 QUINCY CT, BOSTON, MA, 02113",
+  "lat": 42.363299412437,
+  "lon": -71.053596910572
+ },
+ "addr_0376": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "142 CALUMET ST, ROXBURY CROSSING, MA, 02120",
+  "lat": 42.330341307334,
+  "lon": -71.10304665895
+ },
+ "addr_0377": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "49 S RUSSELL ST, BOSTON, MA, 02114",
+  "lat": 42.360798916286,
+  "lon": -71.066051946246
+ },
+ "addr_0378": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "42 GROVE ST, BOSTON, MA, 02114",
+  "lat": 42.360102198057,
+  "lon": -71.068591437215
+ },
+ "addr_0379": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "116 RIVER ST, MATTAPAN, MA, 02126",
+  "lat": 42.271465794978,
+  "lon": -71.07598967661
+ },
+ "addr_0380": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "9 WOODWARD ST, SOUTH BOSTON, MA, 02127",
+  "lat": 42.331708889977,
+  "lon": -71.056603838349
+ },
+ "addr_0381": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "65 TREMONT ST, BRIGHTON, MA, 02135",
+  "lat": 42.350526020605,
+  "lon": -71.171462356423
+ },
+ "addr_0382": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "345 E ST, SOUTH BOSTON, MA, 02127",
+  "lat": 42.338412029768,
+  "lon": -71.048471449711
+ },
+ "addr_0383": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "81 BEACON ST, BOSTON, MA, 02108",
+  "lat": 42.355930991377,
+  "lon": -71.070868950692
+ },
+ "addr_0384": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "397 COMMONWEALTH AVE, BOSTON, MA, 02115",
+  "lat": 42.349272366218,
+  "lon": -71.090333057236
+ },
+ "addr_0385": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "14 OXFORD ST, BOSTON, MA, 02111",
+  "lat": 42.35245414158,
+  "lon": -71.060558848447
+ },
+ "addr_0386": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "84 FALCON ST, EAST BOSTON, MA, 02128",
+  "lat": 42.382023291419,
+  "lon": -71.035823347473
+ },
+ "addr_0387": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1126 COMMONWEALTH AVE, ALLSTON, MA, 02134",
+  "lat": 42.350960690203,
+  "lon": -71.125807639331
+ },
+ "addr_0388": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "444 GENEVA AVE, DORCHESTER, MA, 02122",
+  "lat": 42.300214627364,
+  "lon": -71.065894973907
+ },
+ "addr_0389": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11 TRENTON ST, EAST BOSTON, MA, 02128",
+  "lat": 42.377949324367,
+  "lon": -71.03877974594
+ },
+ "addr_0390": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "92 EVERETT ST, EAST BOSTON, MA, 02128",
+  "lat": 42.36740247895,
+  "lon": -71.034340165961
+ },
+ "addr_0391": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11 CHURCH ST, BOSTON, MA, 02116",
+  "lat": 42.348474456152,
+  "lon": -71.067658882827
+ },
+ "addr_0392": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "39 CHARTER ST, BOSTON, MA, 02113",
+  "lat": 42.367011107145,
+  "lon": -71.054058898205
+ },
+ "addr_0393": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "595 DUDLEY ST, DORCHESTER, MA, 02125",
+  "lat": 42.320293751674,
+  "lon": -71.071524965927
+ },
+ "addr_0394": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "272 WOOD AVE, HYDE PARK, MA, 02136",
+  "lat": 42.264696337656,
+  "lon": -71.109800040614
+ },
+ "addr_0395": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "217 E BERKELEY ST, BOSTON, MA, 02118",
+  "lat": 42.343350567482,
+  "lon": -71.064078922921
+ },
+ "addr_0396": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "355 HARVARD ST, DORCHESTER, MA, 02124",
+  "lat": 42.291891194549,
+  "lon": -71.090407357336
+ },
+ "addr_0397": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "158 BOYLSTON ST, JAMAICA PLAIN, MA, 02130",
+  "lat": 42.316016321641,
+  "lon": -71.102751002963
+ },
+ "addr_0398": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "326 SHAWMUT AVE, BOSTON, MA, 02118",
+  "lat": 42.341868181719,
+  "lon": -71.070915002642
+ },
+ "addr_0399": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "45 MAGNOLIA ST, DORCHESTER, MA, 02125",
+  "lat": 42.316824825782,
+  "lon": -71.070756995876
+ },
+ "addr_0400": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "40 CUNARD ST, ROXBURY CROSSING, MA, 02120",
+  "lat": 42.336453950441,
+  "lon": -71.086278298446
+ },
+ "addr_0401": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "77 LUBEC ST, EAST BOSTON, MA, 02128",
+  "lat": 42.370767153595,
+  "lon": -71.032945296796
+ },
+ "addr_0402": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "62 CLARENDON ST, BOSTON, MA, 02116",
+  "lat": 42.346456911776,
+  "lon": -71.073223163965
+ },
+ "addr_0403": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "475 COLUMBIA RD, DORCHESTER, MA, 02125",
+  "lat": 42.314095884135,
+  "lon": -71.067456384102
+ },
+ "addr_0404": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "133 SAINT ALPHONSUS ST, ROXBURY CROSSING, MA, 02120",
+  "lat": 42.332555650712,
+  "lon": -71.101603960666
+ },
+ "addr_0405": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "9 WINSHIP ST, BRIGHTON, MA, 02135",
+  "lat": 42.348478260421,
+  "lon": -71.151040972653
+ },
+ "addr_0406": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "17 VERRILL ST, MATTAPAN, MA, 02126",
+  "lat": 42.282008882109,
+  "lon": -71.088250461829
+ },
+ "addr_0407": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7 FENWOOD RD, BOSTON, MA, 02115",
+  "lat": 42.334044967247,
+  "lon": -71.105879638464
+ },
+ "addr_0408": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "addr_0409": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "748 E 4TH ST, SOUTH BOSTON, MA, 02127",
+  "lat": 42.334831794167,
+  "lon": -71.034789072783
+ },
+ "addr_0410": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "262 LINCOLN ST, ALLSTON, MA, 02134",
+  "lat": 42.357258336627,
+  "lon": -71.134799758118
+ },
+ "addr_0411": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "50 LEWIS ST, BOSTON, MA, 02113",
+  "lat": 42.363958073949,
+  "lon": -71.052324632576
+ },
+ "addr_0412": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "119 APPLETON ST, BOSTON, MA, 02116",
+  "lat": 42.345263707432,
+  "lon": -71.074494607335
+ },
+ "addr_0413": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "35 WARREN AVE, BOSTON, MA, 02116",
+  "lat": 42.345196416214,
+  "lon": -71.071388055382
+ },
+ "addr_0414": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "120 HUMBOLDT AVE, DORCHESTER, MA, 02121",
+  "lat": 42.316111387061,
+  "lon": -71.087024545679
+ },
+ "addr_0415": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "37 JOY ST, BOSTON, MA, 02114",
+  "lat": 42.359687599844,
+  "lon": -71.064982680042
+ },
+ "addr_0416": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "12 E SPRINGFIELD ST, BOSTON, MA, 02118",
+  "lat": 42.336551411341,
+  "lon": -71.075805610168
+ },
+ "addr_0417": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "92 ELLERY ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.373113217219,
+  "lon": -71.109403495493
+ },
+ "addr_0418": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "24 8TH ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.370779818359,
+  "lon": -71.086292678552
+ },
+ "addr_0419": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "17 PLYMOUTH ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368742716348,
+  "lon": -71.091557931566
+ },
+ "addr_0420": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "206 OTIS ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.371241824856,
+  "lon": -71.087658155879
+ },
+ "addr_0421": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "130 CUSHING ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.378403287273,
+  "lon": -71.15227899243
+ },
+ "addr_0422": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11 ELLERY ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.370328733314,
+  "lon": -71.111434761349
+ },
+ "addr_0423": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "102 TROWBRIDGE ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.375492916096,
+  "lon": -71.109861958401
+ },
+ "addr_0424": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11 WARE ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.372630995155,
+  "lon": -71.113124791507
+ },
+ "addr_0425": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "72 ELM ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.368838962487,
+  "lon": -71.097743995258
+ },
+ "addr_0426": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "44 PLEASANT ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.363847970857,
+  "lon": -71.108320246601
+ },
+ "addr_0427": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "16 MELLEN ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.380731287118,
+  "lon": -71.118470122447
+ },
+ "addr_0428": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "120 COLUMBIA ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.366279574208,
+  "lon": -71.098228975001
+ },
+ "addr_0429": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "166 WEBSTER AVE, CAMBRIDGE, MA, 02141",
+  "lat": 42.370352549581,
+  "lon": -71.093579862695
+ },
+ "addr_0430": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "364 HARVARD ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.371296923974,
+  "lon": -71.111699169783
+ },
+ "addr_0431": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "353 HARVARD ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.371115436994,
+  "lon": -71.110563636379
+ },
+ "addr_0432": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10 JAY ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.364137337494,
+  "lon": -71.109713030702
+ },
+ "addr_0433": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4 ELLSWORTH AVE, CAMBRIDGE, MA, 02139",
+  "lat": 42.372241127339,
+  "lon": -71.107728318288
+ },
+ "addr_0434": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "122 GORE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.372142185925,
+  "lon": -71.0833537447
+ },
+ "addr_0435": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "35 HARDING ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.373570049213,
+  "lon": -71.090480467954
+ },
+ "addr_0436": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "227 CHARLES ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368207474124,
+  "lon": -71.084850671785
+ },
+ "addr_0437": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "140 MAGAZINE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.358391285499,
+  "lon": -71.11177295101
+ },
+ "addr_0438": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "224 NORFOLK ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.369570941351,
+  "lon": -71.098299426353
+ },
+ "addr_0439": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "37 INMAN ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.368713915313,
+  "lon": -71.103956176776
+ },
+ "addr_0440": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "32 CHATHAM ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.371303460791,
+  "lon": -71.108559079186
+ },
+ "addr_0441": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "82 HENRY ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.356050091151,
+  "lon": -71.1099639339
+ },
+ "addr_0442": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "41 CLIFTON ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.394774304376,
+  "lon": -71.136187542978
+ },
+ "addr_0443": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "76 PLYMOUTH ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368892510151,
+  "lon": -71.093928228972
+ },
+ "addr_0444": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "122 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.371508878833,
+  "lon": -71.090088908175
+ },
+ "addr_0445": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "9 FAIRFIELD ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.392330740753,
+  "lon": -71.126402510284
+ },
+ "addr_0446": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "38 SHEPARD ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.380913649273,
+  "lon": -71.122972624676
+ },
+ "addr_0447": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "159 PUTNAM AVE, CAMBRIDGE, MA, 02139",
+  "lat": 42.365653353681,
+  "lon": -71.11373339947
+ },
+ "addr_0448": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "216 FRANKLIN ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.36368571901,
+  "lon": -71.103917293644
+ },
+ "addr_0449": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10 CLAY ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.393805063757,
+  "lon": -71.134245052306
+ },
+ "addr_0450": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "249 WESTERN AVE, CAMBRIDGE, MA, 02139",
+  "lat": 42.364734572781,
+  "lon": -71.111657747383
+ },
+ "addr_0451": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "60 PLYMOUTH ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368985719558,
+  "lon": -71.093365842965
+ },
+ "addr_0452": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "22 HURLEY ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368049510924,
+  "lon": -71.079177285299
+ },
+ "addr_0453": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "72 SCHOOL ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.36387461273,
+  "lon": -71.097400430856
+ },
+ "addr_0454": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "121 THORNDIKE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.370143871227,
+  "lon": -71.083606679176
+ },
+ "addr_0455": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "64 OXFORD ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.381184108417,
+  "lon": -71.116274582551
+ },
+ "addr_0456": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "125 HAMPSHIRE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.370196657791,
+  "lon": -71.096421825762
+ },
+ "addr_0457": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1445 CAMBRIDGE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.373989274628,
+  "lon": -71.102341288137
+ },
+ "addr_0458": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "307 WASHINGTON ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.365312461668,
+  "lon": -71.098107385845
+ },
+ "addr_0459": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "413 CAMBRIDGE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.371464670859,
+  "lon": -71.082882473607
+ },
+ "addr_0460": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "918 CAMBRIDGE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.372584511928,
+  "lon": -71.092432305596
+ },
+ "addr_0461": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "17 CUSHING ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.375228608241,
+  "lon": -71.1513172575
+ },
+ "addr_0462": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "49 ROSELAND ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.386748328179,
+  "lon": -71.116972926785
+ },
+ "addr_0463": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7 FAYETTE PARK, CAMBRIDGE, MA, 02139",
+  "lat": 42.371372853455,
+  "lon": -71.104358715193
+ },
+ "addr_0464": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "50 ROGERS ST, CAMBRIDGE, MA, 02142",
+  "lat": 42.365866771261,
+  "lon": -71.07815307978
+ },
+ "addr_0465": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10 KING PL, CAMBRIDGE, MA, 02139",
+  "lat": 42.370612553932,
+  "lon": -71.10147976729
+ },
+ "addr_0466": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "107 NORFOLK ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.366947333474,
+  "lon": -71.100168439535
+ },
+ "addr_0467": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "115 RIVER ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.363987050227,
+  "lon": -71.108611683562
+ },
+ "addr_0468": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11 GRAY ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.38278347084,
+  "lon": -71.121944513711
+ }
+}

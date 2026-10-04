@@ -1,0 +1,26 @@
+# Homerule on the shared box. One container on the existing Caddy network (deploy_default); the Caddy in
+# /opt/compass/deploy reverse-proxies to it by name. Site config: /opt/caddy-sites/homerule.caddy (see publish.sh).
+name: homerule
+
+services:
+  homerule:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    container_name: homerule
+    env_file: .env
+    volumes:
+      - homerule_data:/srv/out
+      - homerule_cache:/srv/cache
+    ports:
+      - "127.0.0.1:8795:8795"
+    restart: unless-stopped
+
+volumes:
+  homerule_data:
+  homerule_cache:
+
+networks:
+  default:
+    name: deploy_default
+    external: true

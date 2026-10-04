@@ -1,0 +1,5 @@
+# Homerule: drop-in for the shared Caddy (/opt/caddy-sites). Published by deploy/publish.sh.
+homerule.ruleandrecord.com {
+	encode zstd gzip
+	reverse_proxy homerule:8795
+}

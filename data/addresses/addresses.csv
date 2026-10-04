@@ -1,0 +1,469 @@
+address_id,street,postal_city,state,zip,year_built,units,use_code,source
+addr_0001,691 S Mill St,Los Angeles,CA,90021,1921,57,0556 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0002,365 S Cloverdale Ave,Los Angeles,CA,90036,1928,24,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0003,969 Dewey Ave,Los Angeles,CA,90006,1966,5,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0004,1321 N Martel Ave,Los Angeles,CA,90046,2017,23,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0005,350 S Cloverdale Ave,Los Angeles,CA,90036,1936,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0006,22651 del Valle St,Los Angeles,CA,91364,2005,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0007,1310 N Vista St,Los Angeles,CA,90046,1949,5,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0008,30 S Venice Blvd,Los Angeles,CA,90291,1965,5,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0009,2204 Strongs Dr,Los Angeles,CA,90291,1973,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0010,334 S Cloverdale Ave,Los Angeles,CA,90036,1988,58,0501 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0011,1021 S Berendo St,Los Angeles,CA,90006,2019,44,0550 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0012,7820 Baird Ave,Los Angeles,CA,91335,1964,20,0501 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0013,11 S Venice Blvd,Los Angeles,CA,90291,1970,15,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0014,1122 S Shenandoah St,Los Angeles,CA,90035,1956,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0015,1026 S Shenandoah St,Los Angeles,CA,90035,1954,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0016,438 S Venice Blvd,Los Angeles,CA,90291,1991,5,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0017,1020 S New Hampshire Ave,Los Angeles,CA,90006,1924,20,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0018,2901 E Olympic Blvd,Los Angeles,CA,90023,1939,232,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0019,1616 N Vista St,Los Angeles,CA,90046,1921,14,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0020,1033 S Bedford St,Los Angeles,CA,90035,1954,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0021,13505 Burbank Blvd,Los Angeles,CA,91401,1963,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0022,1031 S Sherbourne Dr,Los Angeles,CA,90035,1954,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0023,1050 S Shenandoah St,Los Angeles,CA,90035,1958,5,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0024,13508 Burbank Blvd,Los Angeles,CA,91401,1986,7,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0025,1016 S Shenandoah St,Los Angeles,CA,90035,1955,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0026,7900 Reseda Blvd,Los Angeles,CA,91335,1963,43,0501 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0027,339 S Detroit St,Los Angeles,CA,90036,1929,12,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0028,423 S Cloverdale Ave,Los Angeles,CA,90036,1947,7,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0029,355 S Detroit St,Los Angeles,CA,90036,1949,12,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0030,5828 Woodman Ave,Los Angeles,CA,91401,1957,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0031,1020 S Mariposa Ave,Los Angeles,CA,90006,,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0032,8135 Reseda Blvd,Los Angeles,CA,91335,1981,10,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0033,23100 Avenue San Luis,Los Angeles,CA,91364,1992,140,0501 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0034,7918 Reseda Blvd,Los Angeles,CA,91335,1987,42,0501 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0035,330 S Cochran Ave,Los Angeles,CA,90036,1930,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0036,431 S Cloverdale Ave,Los Angeles,CA,90036,1929,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0037,21 S Venice Blvd,Los Angeles,CA,90291,1964,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0038,669 N Boyle Ave,Los Angeles,CA,90033,1901,7,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0039,443 S Cloverdale Ave,Los Angeles,CA,90036,1928,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0040,960 S New Hampshire Ave,Los Angeles,CA,90006,1962,5,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0041,5207 W 8th St,Los Angeles,CA,90036,1924,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0042,5904 Woodman Ave,Los Angeles,CA,91401,1962,13,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0043,13453 Burbank Blvd,Los Angeles,CA,91401,1951,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0044,7428 Hollywood Blvd,Los Angeles,CA,90046,1987,36,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0045,2817 W 11th St,Los Angeles,CA,90006,1923,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0046,342 S Cochran Ave,Los Angeles,CA,90036,1991,39,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0047,14 Westminster Ave,Los Angeles,CA,90291,1912,25,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0048,12610 Burbank Blvd,Los Angeles,CA,91607,1964,7,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0049,1401 Mitchell Pl,Los Angeles,CA,90033,1969,20,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0050,1416 N Martel Ave,Los Angeles,CA,90046,1962,6,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0051,20 Westminster Ave,Los Angeles,CA,90291,1912,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0052,1108 S Bedford St,Los Angeles,CA,90035,1964,8,0500 Five or More Units or Apartments (Any Combination),LA County Assessor Parcel Data 2026 (ArcGIS Assessor_Parcel_Data_2026)
+addr_0053,3542 23rd St,San Francisco,CA,94110,1912,7,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0054,2727 Clay St,San Francisco,CA,94115,1910,5,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0055,525 Filbert St,San Francisco,CA,94133,1908,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0056,562 6th Ave,San Francisco,CA,94118,1965,10,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0057,170 Downey St,San Francisco,CA,94117,1900,7,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0058,1409 Shrader St,San Francisco,CA,94117,1906,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0059,1381 20th Ave,San Francisco,CA,94122,1962,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0060,1369 9th Ave,San Francisco,CA,94122,1965,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0061,485 Warren Dr,San Francisco,CA,94131,1961,9,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0062,370 Green St,San Francisco,CA,94133,1911,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0063,667 33rd Ave,San Francisco,CA,94121,1963,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0064,1235 Pine St,San Francisco,CA,94109,1912,12,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0065,2025 Stockton St,San Francisco,CA,94133,1974,8,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0066,1 Fair Oaks St,San Francisco,CA,94110,1924,10,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0067,1670 Sutter St,San Francisco,CA,94109,1978,15,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0068,1800 23rd Ave,San Francisco,CA,94122,1954,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0069,3110 Laguna St,San Francisco,CA,94123,1925,8,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0070,100 Dolores St,San Francisco,CA,94103,1916,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0071,159 Dolores St,San Francisco,CA,94103,1921,5,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0072,1251 20th Ave,San Francisco,CA,94122,1908,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0073,1267 Filbert St,San Francisco,CA,94109,1911,12,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0074,4328 Geary Blvd,San Francisco,CA,94118,1908,11,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0075,741 14th St,San Francisco,CA,94114,1929,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0076,908 Vallejo St,San Francisco,CA,94133,1924,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0077,1768 9th Ave,San Francisco,CA,94122,1954,5,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0078,1445 Waller St,San Francisco,CA,94117,1955,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0079,2140 Pacific Ave,San Francisco,CA,94115,1929,27,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0080,725 Union St,San Francisco,CA,94133,1914,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0081,200 Arguello Blvd,San Francisco,CA,94118,1961,14,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0082,3525 Mission St,San Francisco,CA,94110,1926,8,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0083,448 Broderick St,San Francisco,CA,94117,1905,9,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0084,1355 Leavenworth St,San Francisco,CA,94109,1917,17,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0085,1600 Anza St,San Francisco,CA,94118,1910,5,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0086,821 Pine St,San Francisco,CA,94108,1922,12,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0087,1274 Union St,San Francisco,CA,94109,1909,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0088,1216 Clay St,San Francisco,CA,94108,1965,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0089,1300 Haight St,San Francisco,CA,94117,1910,12,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0090,218 Union St,San Francisco,CA,94133,1963,7,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0091,700 Castro St,San Francisco,CA,94114,1927,12,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0092,805 Leavenworth St,San Francisco,CA,94109,1924,100,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0093,2429 Vallejo St,San Francisco,CA,94123,1906,11,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0094,1492 Larkin St,San Francisco,CA,94109,1907,7,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0095,409 10th Ave,San Francisco,CA,94118,1923,10,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0096,571 33rd Ave,San Francisco,CA,94121,1960,12,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0097,538 3rd Ave,San Francisco,CA,94118,1964,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0098,2250 Pine St,San Francisco,CA,94115,1913,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0099,50 Alta St,San Francisco,CA,94133,1955,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0100,3040 Franklin St,San Francisco,CA,94123,1925,12,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0101,60 Crestline Dr,San Francisco,CA,94131,1964,12,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0102,909 Haight St,San Francisco,CA,94117,1905,6,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0103,3674 16th St,San Francisco,CA,94114,1890,5,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0104,36 Spofford St,San Francisco,CA,94108,1907,9,MRES Multi-Family Residential,DataSF wv5m-vpq2 (roll 2025) + EAS 3mea-di5p
+addr_0105,5041 Lotus St,San Diego,CA,92107,,10,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0106,4556 Ohio St,San Diego,CA,92116,,7,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0107,3818 Van Dyke Ave,San Diego,CA,92105,1991,14,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0108,3837 Highland Ave,San Diego,CA,92105,1981,7,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0109,4485 Illinois St,San Diego,CA,92116,1952,14,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0110,14103 Old el Camino Real,San Diego,CA,92130,2002,24,153 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0111,2875 Monroe Ave,San Diego,CA,92116,1986,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0112,18605 Caminito Cantilena,San Diego,CA,92128,1998,114,160 (ASR_LANDUS 16),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0113,2259 Market St,San Diego,CA,92102,2020,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0114,1902 Market St,San Diego,CA,92102,,12,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0115,3361 Dale St,San Diego,CA,92104,1970,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0116,4929 del Monte Ave,San Diego,CA,92107,1971,20,150 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0117,2250 Congress St,San Diego,CA,92110,1960,10,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0118,241 14th St,San Diego,CA,92101,2022,368,160 (ASR_LANDUS 16),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0119,741 11th Ave,San Diego,CA,92101,,10,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0120,4956 Santa Cruz Ave,San Diego,CA,92107,1947,8,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0121,3225 30th St,San Diego,CA,92104,1949,5,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0122,717 Whiting Ct,San Diego,CA,92109,1947,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0123,3434 Wilshire Ter,San Diego,CA,92104,2022,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0124,1675 Bacon St,San Diego,CA,92107,1969,5,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0125,3440 Florida St,San Diego,CA,92104,1970,28,150 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0126,1066 Lincoln Ave,San Diego,CA,92103,1959,7,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0127,4311 3rd Ave,San Diego,CA,92103,2021,132,160 (ASR_LANDUS 16),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0128,1704 Market St,San Diego,CA,92101,2023,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0129,2525 Market St,San Diego,CA,92102,2008,5,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0130,4953 Santa Cruz Ave,San Diego,CA,92107,,5,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0131,12726 Torrey Bluff Dr,San Diego,CA,92130,1987,48,160 (ASR_LANDUS 16),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0132,4422 30th St,San Diego,CA,92116,1953,7,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0133,4454 Utah St,San Diego,CA,92116,1987,11,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0134,936 W Lewis St,San Diego,CA,92103,1950,5,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0135,4077 Goldfinch St,San Diego,CA,92103,,21,150 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0136,4933 Narragansett Ave,San Diego,CA,92107,,5,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0137,4055 Winona Ave,San Diego,CA,92105,1986,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0138,1029 Hayes Ave,San Diego,CA,92103,1959,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0139,2175 Bacon St,San Diego,CA,92107,1932,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0140,3175 Wing St,San Diego,CA,92110,1970,24,150 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0141,516 25th St,San Diego,CA,92102,2008,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0142,4942 Santa Cruz Ave,San Diego,CA,92107,,6,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0143,4082 N 48th St,San Diego,CA,92105,1959,8,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0144,2401 G St,San Diego,CA,92102,,10,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0145,2517 G St,San Diego,CA,92102,2026,8,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0146,1476 la Playa Ave,San Diego,CA,92109,1960,10,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0147,3870 Van Dyke Ave,San Diego,CA,92105,1985,18,150 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0148,4928 Coronado Ave,San Diego,CA,92107,,9,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0149,3806 Fairmount Ave,San Diego,CA,92105,2003,116,160 (ASR_LANDUS 16),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0150,13710 Portofino Dr,Del Mar,CA,92014,1977,44,150 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0151,3358 Grim Ave,San Diego,CA,92104,2026,10,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0152,2254 Moore St,San Diego,CA,92110,2010,31,150 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0153,1561 Ocean Blvd,San Diego,CA,92107,1952,5,140 (ASR_LANDUS 14),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0154,13525 Zinnia Hills Pl,San Diego,CA,92130,2006,108,163 (ASR_LANDUS 16),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0155,4050 Brant St,San Diego,CA,92103,1963,37,150 (ASR_LANDUS 15),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0156,10615 Calle Mar Mariposa,San Diego,CA,92130,2015,179,160 (ASR_LANDUS 16),"SanGIS parcels via ArcGIS Online mirror (Hunsakersd SanGIS_Parcels, May 2025)"
+addr_0157,1624 Walnut St,Berkeley,CA,94709,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0158,1901 6th St,Berkeley,CA,94710,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0159,2929 Harper St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0160,1943 Haste St,Berkeley,CA,94704,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0161,1912 Woolsey St,Berkeley,CA,94703,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0162,1112 Allston Way,Berkeley,CA,94702,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0163,1723 Oregon St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0164,2700 Benvenue Ave,Berkeley,CA,94705,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0165,1647 Woolsey St,Berkeley,CA,94703,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0166,3114 California St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0167,950 Bancroft Way,Berkeley,CA,94710,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0168,53 Menlo Pl,Berkeley,CA,94707,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0169,1902 Harmon St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0170,2143 Cedar St,Berkeley,CA,94709,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0171,1229 Evelyn Ave,Berkeley,CA,94706,,,2700,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0172,1349 Rose St,Berkeley,CA,94702,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0173,2407 10th St,Berkeley,CA,94710,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0174,1360 Hopkins St,Berkeley,CA,94702,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0175,2520 California St,Berkeley,CA,94703,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0176,1181 Colusa Ave,Berkeley,CA,94707,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0177,2810 Benvenue Ave,Berkeley,CA,94705,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0178,1630 Woolsey St,Berkeley,CA,94703,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0179,2723 Forest Ave,Berkeley,CA,94705,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0180,1636 63rd St,Berkeley,CA,94703,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0181,3105 College Ave,Berkeley,CA,94705,,,2700,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0182,1793 Oxford St,Berkeley,CA,94709,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0183,1507 Ada St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0184,2425 Prince St,Berkeley,CA,94705,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0185,2601 Piedmont Ave,Berkeley,CA,94704,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0186,1916 Yolo Ave,Berkeley,CA,94707,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0187,2511 Ellsworth St,Berkeley,CA,94704,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0188,2202 Blake St,Berkeley,CA,94704,,,2700,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0189,2909 Adeline St,Berkeley,CA,94703,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0190,1917 Fairview St,Berkeley,CA,94703,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0191,3007 Shattuck Ave,Berkeley,CA,94705,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0192,6432 Benvenue Ave,Berkeley,CA,94618,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0193,2838 Fulton St,Berkeley,CA,94705,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0194,1600 M L King Jr Way,Berkeley,CA,94709,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0195,3037 College Ave,Berkeley,CA,94705,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0196,3215 King St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0197,2454 Prince St,Berkeley,CA,94705,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0198,1836 Cedar St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0199,2311 Mcgee Ave,Berkeley,CA,94703,,,2700,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0200,2405 Sacramento St,Berkeley,CA,94702,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0201,1341 Milvia St,Berkeley,CA,94709,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0202,2415 7th St,Berkeley,CA,94710,,,2600,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0203,2941 Harper St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0204,2719 Woolsey St,Berkeley,CA,94705,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0205,1852 Virginia St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0206,3132 King St,Berkeley,CA,94703,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0207,2303 Howe St,Berkeley,CA,94705,,,2400,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0208,2424 Stuart St,Berkeley,CA,94705,,,2500,"Berkeley Open Data rax9-nuvx (TaxParcel2017, Alameda County use codes)"
+addr_0209,186 Manhattan Ave,Jersey City,NJ,07307,1910,7,4C 3S-F-D-7U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0210,173 Webster Ave,Jersey City,NJ,07307,1880,5,4C 3S-CB+F-D-5U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0211,124 Virginia Ave,Jersey City,NJ,07304,,6,4C 3S-F-6U-NH-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0212,466-468 Wayne St,Jersey City,NJ,07306,,15,4C 3S-B-A-15U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0213,344 St. Pauls Ave,Jersey City,NJ,07306,,6,4C 3S-F-D-6U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0214,75 Lake St,Jersey City,NJ,07306,1915,5,4C 2S-BT-B-D-5U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0215,268 Fairmount Ave,Jersey City,NJ,07306,,7,4C 3S-F-7U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0216,1 River Court,Jersey City,NJ,07310,1998,346,4C 32S-RC-346U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0217,574 Bergen Ave,Jersey City,NJ,07304,1928,40,4C 5S-B-A-40U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0218,15 Ravine Ave,Jersey City,NJ,07307,,6,4C 3S-F-D-6U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0219,42 Lienau Pl,Jersey City,NJ,07307,1965,,4C 2S-B-A-12UH6039,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0220,304 Ege Ave,Jersey City,NJ,07304,1900,5,4C 3S-F-D-5U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0221,399 Union St,Jersey City,NJ,07304,,6,4C 3S-F-6U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0222,76 Zabriskie St,Jersey City,NJ,07307,1900,12,4C 3S-F-A-12U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0223,53 Bostwick Ave,Jersey City,NJ,07305,1915,6,4C 3S-B-D-6U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0224,83 Bergen Ave,Jersey City,NJ,07305,1924,32,4C 4S-B-A-32U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0225,15 Pierce Ave,Jersey City,NJ,07307,1870,5,4C 3S-F-D-5U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0226,114 Arlington Ave,Jersey City,NJ,07305,1910,7,4C 3S-F-D-7U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0227,336 New York Ave,Jersey City,NJ,07307,1900,6,4C 3S-F-D-6U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0228,3139 Kennedy Blvd,Jersey City,NJ,07306,1928,21,4C 4S-B-A-21U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0229,53 Wright Ave,Jersey City,NJ,07306,,12,4C 3S-B-12U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0230,121 Sherman Ave,Jersey City,NJ,07307,1900,6,4C 3S-F-D-6U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0231,66 Bleecker St,Jersey City,NJ,07307,1993,45,4C 6S-CB-45U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0232,187 Myrtle Ave,Jersey City,NJ,07305,,6,4C 3S-B-D-6U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0233,114 Glenwood Ave,Jersey City,NJ,07306,,25,4C 4S-B-A-25U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0234,136-138 Grant Ave,Jersey City,NJ,07305,,21,4C 4S-B-A-21U-BG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0235,2348 Kennedy Blvd,Jersey City,NJ,07304,,25,4C 4S-B-A-25U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0236,94 Tonnele Ave,Jersey City,NJ,07306,1890,8,4C 4S-B-D-8U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0237,38 Wales Ave,Jersey City,NJ,07306,1900,6,4C 3S-F-D-6U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0238,214-216 Seaview Ave,Jersey City,NJ,07305,1925,,4C 3S-BA-12UHA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0239,132 Booraem Ave,Jersey City,NJ,07307,1917,6,4C 3S-B-D-6U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0240,135 Hopkins Ave,Jersey City,NJ,07306,1890,12,4C 3S-F-D-12U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0241,308 Clerk St,Jersey City,NJ,07304,,5,4C 3S-BT-F-D-5U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0242,301 Halladay St,Jersey City,NJ,07304,1885,5,4C 3S-F-D-5U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0243,569 Bergen Ave,Jersey City,NJ,07304,,34,4C 5S-B-A-34U-H-E,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0244,128 Bayview Ave,Jersey City,NJ,07305,1890,6,4C 3S+BT-F-6U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0245,186-188 South St,Jersey City,NJ,07307,,24,4C 3S-F-A-24U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0246,107 Booraem Ave,Jersey City,NJ,07307,,8,4C 3S-BT-B-D-8U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0247,14 Skillman Ave,Jersey City,NJ,07306,1920,6,4C 3S-B-D-6U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0248,383 Baldwin Ave,Jersey City,NJ,07306,,6,4C 3S-B-D-6U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0249,239-41 Fowler Ave,Jersey City,NJ,07305,,29,4C 4S-B-A-29U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0250,83 Bostwick Ave,Jersey City,NJ,07305,1917,6,4C 3S-B-D-6U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0251,272 Hutton St,Jersey City,NJ,07307,,35,4C 5S-B-A-35U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0252,281 Cator Ave,Jersey City,NJ,07305,,,4C 3S-F-D-6UNH-BG3,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0253,834 Grand St,Jersey City,NJ,07304,,10,4C 4S-B-A-10U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0254,103 Lincoln St,Jersey City,NJ,07307,,6,4C 3S-F-6U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0255,146 Seaview Ave,Jersey City,NJ,07305,1890,6,4C 3S-B-D-6U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0256,78 Summit Ave,Jersey City,NJ,07304,1915,17,4C 2S-B-17U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0257,126 Randolph Ave,Jersey City,NJ,07305,1900,7,4C 3S-BT-F-D-7U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0258,245 Van Vorst St,Jersey City,NJ,07302,1910,24,4C 5S-B-A-24U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0259,153 St. Pauls Ave,Jersey City,NJ,07306,,6,4C 3S-F-D-6U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0260,464 Monmouth St,Jersey City,NJ,07302,1900,8,4C 4S-B-D-8U-NH,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0261,611 Park Ave,Hoboken,NJ,07030,,6,4C 4B-6U-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0262,923 Park Ave,Hoboken,NJ,07030,,10,4C 5B-10U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0263,404 Adams St,Hoboken,NJ,07030,,8,4C 4B-9U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0264,1032 Hudson St,Hoboken,NJ,07030,,11,4C 5B-11U-H-BA-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0265,501-23 Clinton St,Hoboken,NJ,07030,,134,4C 10CB-134U-PS,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0266,227 Grand St,Hoboken,NJ,07030,,5,4C 5B-5U-H-(CO-OP),"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0267,911-923 Clinton St,Hoboken,NJ,07030,,90,"4C 2,5B-90U-H-BA","NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0268,600 Willow Ave,Hoboken,NJ,07030,,10,4C 5B-10U-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0269,206 Bloomfield St,Hoboken,NJ,07030,,14,4C 5B-14U-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0270,842 Park Ave,Hoboken,NJ,07030,,10,4C 5B-10U-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0271,731-33 Jefferson St,Hoboken,NJ,07030,,11,4C 5B-11U-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0272,807 Park Ave,Hoboken,NJ,07030,,10,4C 5B-10U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0273,908 Park Ave,Hoboken,NJ,07030,1880,5,4C 4B-5U-X-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0274,1231 Park Ave,Hoboken,NJ,07030,,11,4C 5B-11U-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0275,1253 Bloomfield St,Hoboken,NJ,07030,,26,4C 5B-R-26U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0276,909 Hudson St,Hoboken,NJ,07030,1901,6,4C 4B-6U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0277,132 Jefferson St,Hoboken,NJ,07030,,7,4C 4B-7U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0278,232-234 Hudson St Rear230,Hoboken,NJ,07030,,26,4C 4B-26U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0279,85 Madison St,Hoboken,NJ,07030,1999,25,4C 6B-25U-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0280,400 Monroe St,Hoboken,NJ,07030,,7,4C 4F-7U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0281,224 River 235 Hudson,Hoboken,NJ,07030,,115,4C 12B-115U-4C-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0282,405 Monroe St,Hoboken,NJ,07030,,5,4C 3F-5U-H-(LE),"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0283,1401 Hudson St,Hoboken,NJ,07030,2010,93,4C 13B-93U-2C-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0284,321 Willow Ave,Hoboken,NJ,07030,,12,4C 5B-12U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0285,619 Adams St,Hoboken,NJ,07030,,40,4C 5B-40U-38PS,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0286,719 Clinton St,Hoboken,NJ,07030,,19,4C 5B-19U-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0287,931 Garden St,Hoboken,NJ,07030,,10,4C 5B-10U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0288,205 Madison St,Hoboken,NJ,07030,2002,16,4C 5B-16U-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0289,923 Willow Ave,Hoboken,NJ,07030,,10,4C 5B-10U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0290,614 Second St,Hoboken,NJ,07030,,6,4C 3F-6U-X,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0291,308 Madison St,Hoboken,NJ,07030,,10,4C 5B-10U-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0292,721 Willow Ave,Hoboken,NJ,07030,,10,4C 5B-10U-X-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0293,2 Fourteenth/1401 Shipyrd,Hoboken,NJ,07030,2006,127,4C 12B-127U/133U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0294,919 Willow Ave,Hoboken,NJ,07030,,10,4C 5B-10U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0295,652-658 First St,Hoboken,NJ,07030,,31,4C 5B-31U-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0296,925 Garden St,Hoboken,NJ,07030,,10,4C 5B-10U-H-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0297,78 Jefferson St,Hoboken,NJ,07030,2000,23,4C 6B-23U-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0298,510-14 Fourth St/406-Jeff,Hoboken,NJ,07030,2002,68,4C 5B-68U-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0299,250-262 11th St,Hoboken,NJ,07030,,48,"4C 3,5B-48U-H-BA","NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0300,529 Jefferson St,Hoboken,NJ,07030,,8,4C 4F-8U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0301,602 Park Ave,Hoboken,NJ,07030,,10,4C 5B-10U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0302,234 Park Ave,Hoboken,NJ,07030,,20,4C 5B-20U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0303,709 Willow Ave,Hoboken,NJ,07030,,10,4C 5B-10U-X-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0304,637 Garden St,Hoboken,NJ,07030,,8,4C 3B-6U/2B-2U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0305,521 Madison St,Hoboken,NJ,07030,,6,4C 4B-6U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0306,929 Willow Ave,Hoboken,NJ,07030,,11,4C 5B-11U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0307,1020 Park Ave,Hoboken,NJ,07030,,10,4C 5B-10U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0308,120 Jackson St,Hoboken,NJ,07030,,6,4C 3F-6U-BA,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0309,201-205 Clinton St,Hoboken,NJ,07030,1999,9,4C 4B-9U-G,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0310,312 Monroe St,Hoboken,NJ,07030,,8,4C 4F-8U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0311,91 Grand St,Hoboken,NJ,07030,,5,4C 4B-5U-H,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0312,318 Jefferson St,Hoboken,NJ,07030,,8,4C 4B-8U,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0313,683-689 Elizabeth Ave,Newark,NJ,07112,,,4C 5SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0314,98 Stone St,Newark,NJ,07104,,,4C 2SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0315,14-22 Treadwell St,Newark,NJ,07104,1900,,4C 2SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0316,53 Fleming Ave,Newark,NJ,07105,1912,,4C 3S.F.,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0317,197-199 Schuyler Ave,Newark,NJ,07112,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0318,218-228 Chancellor Ave,Newark,NJ,07112,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0319,46-50 Carteret St,Newark,NJ,07104,,,4C 2SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0320,103-117 Lincoln Ave,Newark,NJ,07104,,,4C 2SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0321,274-276 Roseville Ave,Newark,NJ,07107,1910,,4C 1.5SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0322,108-136 Ml King Blvd,Newark,NJ,07104,1900,,4C 22SSS,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0323,46 Thomas St,Newark,NJ,07114,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0324,625-627 Ferry St,Newark,NJ,07105,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0325,5-9 Romaine Pl,Newark,NJ,07104,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0326,708 Summer Ave,Newark,NJ,07104,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0327,279-285 Mt Prospect Ave,Newark,NJ,07104,,,4C 4SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0328,205 Parkhurst St,Newark,NJ,07114,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0329,284 E Kinney St,Newark,NJ,07105,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0330,590 S 18th St,Newark,NJ,07103,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0331,63-65 Monroe St,Newark,NJ,07105,,,4C 4S.B.,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0332,108 Ferguson St,Newark,NJ,07105,1910,4,4C 2S.B.,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0333,133-135 Adams St,Newark,NJ,07105,,,4C 4SB2UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0334,447-449 5th St,Newark,NJ,07107,,,4C 4SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0335,85-147 Prince St,Newark,NJ,07103,,,4C,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0336,638 S 13th St,Newark,NJ,07103,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0337,129-149 Chancellor Ave,Newark,NJ,07112,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0338,430-438 Walnut St,Newark,NJ,07105,,,4C 3SB4UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0339,247-249 Malvern St,Newark,NJ,07105,,,4C 2SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0340,443-461 Elizabeth Ave,Newark,NJ,07112,,,4C,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0341,373-375 N 6th St,Newark,NJ,07107,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0342,519 S 17th St,Newark,NJ,07103,,,4C,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0343,153-155 Sunset Ave,Newark,NJ,07106,1920,,4C 2SF2UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0344,225-227 Sunset Ave,Newark,NJ,07106,1920,,4C 2SF2UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0345,361-363 Badger Ave,Newark,NJ,07112,,,4C 3SF2UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0346,348-350 New York Ave,Newark,NJ,07105,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0347,63 Norfolk St,Newark,NJ,07103,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0348,329 Oliver St,Newark,NJ,07105,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0349,464-466 Summer Ave,Newark,NJ,07104,1910,,4C 2.5SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0350,383-385 Avon Ave,Newark,NJ,07108,,,4C 3SB5UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0351,246-248 Oliver St,Newark,NJ,07105,,,4C 4SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0352,777-783 Sandford Ave,Newark,NJ,07106,,,4C 3SB10UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0353,86 Napoleon St,Newark,NJ,07105,,,4C 4SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0354,42-44 Tillinghast St,Newark,NJ,07108,,,4C 3SF3UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0355,150 South St,Newark,NJ,07114,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0356,26-28 Cottage St,Newark,NJ,07102,,,4C 2SF2UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0357,114 Chapel St,Newark,NJ,07105,1847,3,4C 3SF3UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0358,101 Camden St,Newark,NJ,07103,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0359,10 Fleming Ave,Newark,NJ,07105,,,4C 3S.F.4UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0360,263-265 Elm St,Newark,NJ,07105,,,4C 3SF1UG,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0361,138 South St,Newark,NJ,07114,,,4C 3SB,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0362,646-648 N 6th St,Newark,NJ,07107,,,4C,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0363,133 Walnut St,Newark,NJ,07105,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0364,153-155 Smith St,Newark,NJ,07106,,,4C 3SF,"NJOGIS Parcels_Composite_NJ_WM (MOD-IV, class 4C) + NJ AddressPoints"
+addr_0365,71 Joy St,Boston,MA,02114,1875,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0366,568 Warren St,Dorchester,MA,02121,1920,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0367,2 Tupelo St,Roxbury,MA,02119,1935,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0368,84 Chandler St,Boston,MA,02116,1899,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0369,5 Phillips St,Boston,MA,02114,1899,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0370,6 Lesher St,Roslindale,MA,02131,1920,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0371,120 Pleasant St,Dorchester,MA,02125,1910,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0372,56 Selkirk Rd,Brighton,MA,02135,1930,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0373,408 E Eighth St,South Boston,MA,02127,2015,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0374,50 St Margaret St,Dorchester,MA,02125,2016,,A: LUXURY APARTMENT,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0375,3 Quincy Ct,Boston,MA,02113,1899,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0376,142 Calumet St,Roxbury Crossing,MA,02120,1906,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0377,49 S Russell St,Boston,MA,02114,1899,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0378,42 Grove St,Boston,MA,02114,1900,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0379,116 River St,Mattapan,MA,02126,1970,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0380,9 Woodward St,South Boston,MA,02127,1920,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0381,65 Tremont St,Brighton,MA,02135,1899,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0382,345 E St,South Boston,MA,02127,1900,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0383,81 Beacon St,Boston,MA,02108,1926,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0384,397 Commonwealth Av,Boston,MA,02215,1899,,A: LUXURY APARTMENT,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0385,14 Oxford St,Boston,MA,02111,1900,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0386,84 Falcon St,East Boston,MA,02128,1920,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0387,1126 Commonwealth Av,Allston,MA,02134,1899,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0388,444 Geneva St,Dorchester,MA,02122,1905,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0389,11 Trenton St,East Boston,MA,02128,1900,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0390,92 Everett St,East Boston,MA,02128,1900,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0391,11 Church St,Boston,MA,02116,1915,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0392,39 Charter St,Boston,MA,02113,1899,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0393,595 Dudley St,Dorchester,MA,02125,1899,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0394,272 Wood Av,Hyde Park,MA,02136,1920,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0395,217 E Berkeley St,Boston,MA,02118,1900,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0396,355 Harvard St,Dorchester,MA,02124,2004,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0397,158 Boylston St,Jamaica Plain,MA,02130,1910,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0398,326 Shawmut Av,Boston,MA,02118,1899,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0399,45 Magnolia St,Dorchester,MA,02125,1900,,A: ROOMING HOUSE,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0400,40 Cunard St,Roxbury Crossing,MA,02120,1899,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0401,77 Lubec St,East Boston,MA,02128,1913,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0402,62 Clarendon St,Boston,MA,02116,1899,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0403,475 Columbia Rd,Dorchester,MA,02125,1930,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0404,133 St Alphonsus St,Roxbury Crossing,MA,02120,1895,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0405,9 Winship St,Brighton,MA,02135,1900,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0406,17 Verrill St,Mattapan,MA,02126,1905,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0407,7 Fenwood Rd,Boston,MA,02115,1900,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0408,419 Massachusetts Av,South Boston,MA,02127,1910,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0409,748 E Fourth St,South Boston,MA,02127,1920,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0410,262 Lincoln St,Allston,MA,02134,1910,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0411,50 Lewis St,Boston,MA,02113,1895,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0412,119 Appleton St,Boston,MA,02116,1900,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0413,35 Warren Av,Boston,MA,02116,1899,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0414,120 Humboldt Av,Dorchester,MA,02121,1980,,A: SUBSD HOUSING S- 8,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0415,37 Joy St,Boston,MA,02114,1899,,A: APT 7-30 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0416,12 E Springfield St,Boston,MA,02118,1910,,R4: APT 4-6 UNITS,Analyze Boston property-assessment FY2026 (ee73430d)
+addr_0417,92 Ellery St,Cambridge,MA,02138,1975,11,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0418,24 Eighth St,Cambridge,MA,02141,1910,5,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0419,17 Plymouth St,Cambridge,MA,02141,1910,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0420,206 Otis St,Cambridge,MA,02139,1880,8,114 AFFORDABLE APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0421,130 Cushing St,Cambridge,MA,02138,1871,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0422,11 Ellery St,Cambridge,MA,02138,1910,19,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0423,102 Trowbridge St,Cambridge,MA,02138,1900,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0424,11 Ware St,Cambridge,MA,02138,1929,98,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0425,72 Elm St,Cambridge,MA,02139,1915,6,114 AFFORDABLE APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0426,44 Pleasant St,Cambridge,MA,02139,1920,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0427,16 Mellen St,Cambridge,MA,02138,1886,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0428,120 Columbia St,Cambridge,MA,02139,1920,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0429,166 Webster Ave,Cambridge,MA,02141,1910,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0430,364 Harvard St,Cambridge,MA,02138,1905,15,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0431,353 Harvard St,Cambridge,MA,02138,1920,26,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0432,10 Jay St,Cambridge,MA,02141,1902,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0433,4 Ellsworth Ave,Cambridge,MA,02139,1930,11,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0434,122 Gore St,Cambridge,MA,02141,1900,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0435,35 Harding St,Cambridge,MA,02141,1910,5,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0436,227 Charles St,Cambridge,MA,02141,1920,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0437,140 Magazine St,Cambridge,MA,02139,1910,15,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0438,224 Norfolk St,Cambridge,MA,02139,1920,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0439,35-37 Inman St,Cambridge,MA,02139,1900,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0440,32 Chatham St,Cambridge,MA,02139,1900,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0441,82 Henry St,Cambridge,MA,02139,1887,5,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0442,41 Clifton St,Cambridge,MA,02140,1930,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0443,76 Plymouth St,Cambridge,MA,02141,1900,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0444,122 Berkshire St,Cambridge,MA,02141,1920,11,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0445,9 Fairfield St,Cambridge,MA,02138,1950,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0446,38 Shepard St,Cambridge,MA,02138,1900,8,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0447,143-159 Putnam Ave,Cambridge,MA,02139,1990,22,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0448,216 Franklin St,Cambridge,MA,02139,1900,6,114 AFFORDABLE APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0449,10 Clay St,Cambridge,MA,02140,1960,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0450,249 Western Ave,Cambridge,MA,02139,1894,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0451,60 Plymouth St,Cambridge,MA,02141,1900,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0452,22 Hurley St,Cambridge,MA,02141,2021,18,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0453,72 School St,Cambridge,MA,02139,1930,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0454,121 Thorndike St,Cambridge,MA,02141,1920,5,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0455,64 Oxford St,Cambridge,MA,02138,1935,17,114 AFFORDABLE APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0456,125 Hampshire St,Cambridge,MA,02139,1915,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0457,1445 Cambridge St,Cambridge,MA,02139,1940,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0458,307 Washington St,Cambridge,MA,02139,1900,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0459,407-413 Cambridge St,Cambridge,MA,02141,1900,6,114 AFFORDABLE APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0460,918 Cambridge St,Cambridge,MA,02139,1900,19,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0461,17 Cushing St,Cambridge,MA,02141,1892,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0462,49 Roseland St,Cambridge,MA,02140,1910,6,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0463,7 Fayette Pk,Cambridge,MA,02139,1900,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0464,50 Rogers St,Cambridge,MA,02142,2019,136,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0465,10 King Pl,Cambridge,MA,02139,1900,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0466,103-107 Norfolk St,Cambridge,MA,02139,1900,20,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0467,115 River St,Cambridge,MA,02139,1925,4,111 4-8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)
+addr_0468,1-11 Gray St,Cambridge,MA,02138,1890,24,112 >8-UNIT-APT,Cambridge Open Data eey2-rv59 (Property Database FY2026)

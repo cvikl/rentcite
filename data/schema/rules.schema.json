@@ -1,0 +1,413 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "rules.json",
+ "type": "array",
+ "items": {
+  "$ref": "#/$defs/Item"
+ },
+ "$defs": {
+  "Clause": {
+   "properties": {
+    "field": {
+     "title": "Field",
+     "type": "string"
+    },
+    "operator": {
+     "enum": [
+      "==",
+      "!=",
+      "<",
+      "<=",
+      ">",
+      ">=",
+      "in",
+      "not_in"
+     ],
+     "title": "Operator",
+     "type": "string"
+    },
+    "value": {
+     "title": "Value"
+    },
+    "note": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Note"
+    }
+   },
+   "required": [
+    "field",
+    "operator",
+    "value"
+   ],
+   "title": "Clause",
+   "type": "object"
+  },
+  "Condition": {
+   "description": "Boolean tree: AND/OR/NOT of clauses. `type: ALWAYS` means no coverage test (covers everyone).",
+   "properties": {
+    "type": {
+     "default": "ALWAYS",
+     "enum": [
+      "AND",
+      "OR",
+      "NOT",
+      "ALWAYS"
+     ],
+     "title": "Type",
+     "type": "string"
+    },
+    "clauses": {
+     "items": {
+      "anyOf": [
+       {
+        "$ref": "#/$defs/Condition"
+       },
+       {
+        "$ref": "#/$defs/Clause"
+       }
+      ]
+     },
+     "title": "Clauses",
+     "type": "array"
+    }
+   },
+   "title": "Condition",
+   "type": "object"
+  },
+  "Exemption": {
+   "properties": {
+    "description": {
+     "title": "Description",
+     "type": "string"
+    },
+    "conditions": {
+     "$ref": "#/$defs/Condition"
+    }
+   },
+   "required": [
+    "description",
+    "conditions"
+   ],
+   "title": "Exemption",
+   "type": "object"
+  },
+  "Jurisdiction": {
+   "properties": {
+    "level": {
+     "enum": [
+      "state",
+      "county",
+      "city"
+     ],
+     "title": "Level",
+     "type": "string"
+    },
+    "state": {
+     "title": "State",
+     "type": "string"
+    },
+    "county": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "County"
+    },
+    "city": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "City"
+    }
+   },
+   "required": [
+    "level",
+    "state"
+   ],
+   "title": "Jurisdiction",
+   "type": "object"
+  },
+  "KeyValue": {
+   "description": "The one number or formula the rule is about, for field accuracy scoring (e.g. '5% + CPI, max 10%').",
+   "properties": {
+    "label": {
+     "title": "Label",
+     "type": "string"
+    },
+    "value": {
+     "title": "Value",
+     "type": "string"
+    }
+   },
+   "required": [
+    "label",
+    "value"
+   ],
+   "title": "KeyValue",
+   "type": "object"
+  },
+  "Precedence": {
+   "description": "Precedence declared by the source text itself.\n\nrelationship:\n  supersedes   this rule displaces rules of the same category at `target_scope` (e.g. a state preemption)\n  yields_to    this rule steps aside where a rule of the same category at `target_scope` applies\n               (e.g. the CA state rent cap yields to a stricter local ordinance)\n  stacks_with  both apply (default when the text is silent)\n  none         the text says nothing and the rule is the only one at its level\ntarget_scope: state | county | city | local (county or city) | none\ntarget_rule_ids: resolved by code after extraction, never by the model.",
+   "properties": {
+    "relationship": {
+     "default": "stacks_with",
+     "enum": [
+      "supersedes",
+      "yields_to",
+      "stacks_with",
+      "none"
+     ],
+     "title": "Relationship",
+     "type": "string"
+    },
+    "target_scope": {
+     "default": "none",
+     "enum": [
+      "state",
+      "county",
+      "city",
+      "local",
+      "none"
+     ],
+     "title": "Target Scope",
+     "type": "string"
+    },
+    "source_language": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Source Language"
+    },
+    "target_rule_ids": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Target Rule Ids",
+     "type": "array"
+    }
+   },
+   "title": "Precedence",
+   "type": "object"
+  },
+  "Item": {
+   "properties": {
+    "rule_id": {
+     "title": "Rule Id",
+     "type": "string"
+    },
+    "category": {
+     "title": "Category",
+     "type": "string"
+    },
+    "jurisdiction": {
+     "$ref": "#/$defs/Jurisdiction"
+    },
+    "title": {
+     "title": "Title",
+     "type": "string"
+    },
+    "requirement": {
+     "title": "Requirement",
+     "type": "string"
+    },
+    "requirement_es": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Requirement Es"
+    },
+    "key_value": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/KeyValue"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "coverage_conditions": {
+     "$ref": "#/$defs/Condition"
+    },
+    "exemptions": {
+     "items": {
+      "$ref": "#/$defs/Exemption"
+     },
+     "title": "Exemptions",
+     "type": "array"
+    },
+    "effective_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Effective Date"
+    },
+    "superseded_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Superseded Date"
+    },
+    "status": {
+     "default": "enacted",
+     "enum": [
+      "enacted",
+      "pending",
+      "struck",
+      "repealed"
+     ],
+     "title": "Status",
+     "type": "string"
+    },
+    "precedence": {
+     "$ref": "#/$defs/Precedence"
+    },
+    "penalty": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Penalty"
+    },
+    "source_citation": {
+     "title": "Source Citation",
+     "type": "string"
+    },
+    "quoted_span": {
+     "title": "Quoted Span",
+     "type": "string"
+    },
+    "source_doc_id": {
+     "title": "Source Doc Id",
+     "type": "string"
+    },
+    "source_url": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Source Url"
+    },
+    "source_char_offset": {
+     "items": {
+      "type": "integer"
+     },
+     "title": "Source Char Offset",
+     "type": "array"
+    },
+    "retrieval_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Retrieval Date"
+    },
+    "confidence": {
+     "default": 0.5,
+     "title": "Confidence",
+     "type": "number"
+    },
+    "verification": {
+     "additionalProperties": true,
+     "title": "Verification",
+     "type": "object"
+    },
+    "extracted_at": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Extracted At"
+    },
+    "model": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Model"
+    }
+   },
+   "required": [
+    "rule_id",
+    "category",
+    "jurisdiction",
+    "title",
+    "requirement",
+    "source_citation",
+    "quoted_span",
+    "source_doc_id"
+   ],
+   "title": "Rule",
+   "type": "object"
+  }
+ }
+}

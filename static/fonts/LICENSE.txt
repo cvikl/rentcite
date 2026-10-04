@@ -1,0 +1,2 @@
+Archivo (Omnibus-Type) and Public Sans (US General Services Administration) are licensed under the SIL Open Font License 1.1.
+Files fetched from Google Fonts (fonts.gstatic.com) on 2026-10-04; latin and latin-ext subsets only.

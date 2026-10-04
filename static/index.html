@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homerule</title>
+<meta name="description" content="Which rental housing rules apply at this address today, and what is about to change. Every answer quotes the law. Not legal advice.">
+<link rel="stylesheet" href="/static/fonts/fonts.css">
+<link rel="stylesheet" href="/static/styles.css">
+<link rel="icon" type="image/svg+xml" href="/static/logo.svg">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 13v7H4V6h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.2" fill="currentColor"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M16 16l5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="top">
+  <a class="wordmark" href="#/" aria-label="Homerule home"><img src="/static/logo.svg" width="26" height="26" alt=""><span>HOMERULE</span></a>
+  <form class="search" id="search-form" role="search" autocomplete="off">
+    <label class="sr-only" for="q">Street address</label>
+    <svg aria-hidden="true"><use href="#i-search"/></svg>
+    <input id="q" type="text" placeholder="Street address, e.g. 1234 Mission St" spellcheck="false" aria-expanded="false" aria-controls="suggest" aria-autocomplete="list">
+    <button type="button" class="clear" id="clear-q" aria-label="Clear" hidden><svg aria-hidden="true"><use href="#i-x"/></svg></button>
+    <ul id="suggest" class="suggest" role="listbox" hidden></ul>
+  </form>
+  <div class="asof" title="Every answer is valid as of this date">
+    <label for="asof">AS OF</label>
+    <input id="asof" type="date">
+    <button type="button" class="link" id="asof-today">today</button>
+  </div>
+  <nav class="views" aria-label="Views">
+    <a href="#/" data-view="notice">Notice</a>
+    <a href="#/changes" data-view="changes">Changes</a>
+    <a href="#/record" data-view="record">Record</a>
+    <a href="#/add" data-view="add">Add a law</a>
+  </nav>
+</header>
+
+<main id="main">
+  <!-- NOTICE -->
+  <section id="view-notice" class="view" data-view="notice">
+    <div class="sheet" id="sheet">
+      <div class="sheet-empty" id="sheet-empty">
+        <p class="eyebrowless">POSTED FOR</p>
+        <h1>Which rules apply at this address today, and what is about to change.</h1>
+        <p class="lede">Type a street from the sample set, or pick a city to browse. Every line on the notice quotes the law it comes from, with the date the text was retrieved. When a rule depends on a fact the records do not hold, the notice says <b>unknown</b> and asks you.</p>
+        <div class="cities" id="cities" aria-label="Browse by city"></div>
+        <details class="other">
+          <summary>Any other address <svg aria-hidden="true"><use href="#i-chev"/></svg></summary>
+          <form id="free-form" class="free">
+            <label>Street <input name="street" required placeholder="1 Main St"></label>
+            <label>City <input name="city" required placeholder="Boston"></label>
+            <label>State <select name="state"><option>CA</option><option>NJ</option><option>MA</option></select></label>
+            <label>ZIP <input name="zip" placeholder="02127" inputmode="numeric"></label>
+            <label>Year built <input name="year_built" type="number" min="1600" max="2100" placeholder="unknown"></label>
+            <label>Units <input name="units" type="number" min="1" placeholder="unknown"></label>
+            <button class="btn" type="submit">Post the notice</button>
+            <p class="caption">The legal city comes from the Census Geocoder, not the postal city. Facts you type are labelled as yours.</p>
+          </form>
+        </details>
+      </div>
+      <div id="sheet-body" hidden></div>
+    </div>
+  </section>
+
+  <!-- CHANGES -->
+  <section id="view-changes" class="view" data-view="changes" hidden>
+    <div class="board-head">
+      <h1>Posted changes</h1>
+      <p class="lede">Each test runs the same engine at two dates over every sample address. The affected set is every address the rule reaches; a struck law reaches nobody by construction. Conflicts come from precedence language in the statutes themselves.</p>
+    </div>
+    <div class="board" id="changes-board"></div>
+  </section>
+
+  <!-- RECORD -->
+  <section id="view-record" class="view" data-view="record" hidden>
+    <div class="board-head">
+      <h1>Posting record</h1>
+      <p class="lede">What was read, when it was retrieved, what the model answered, what the verifier said, and every pipeline run. The model only reads; plain code decides every stamp on the notice.</p>
+    </div>
+    <div class="record" id="record"></div>
+  </section>
+
+  <!-- ADD -->
+  <section id="view-add" class="view" data-view="add" hidden>
+    <div class="board-head">
+      <h1>Add a law</h1>
+      <p class="lede">Drop a statute, ordinance or bill as plain text. It goes through the unmodified pipeline: chunking, extraction, verbatim quote slicing, verification, re-evaluation of every address, and a change test with its effective date. No hand edits anywhere.</p>
+    </div>
+    <form id="add-form" class="add">
+      <label class="drop" for="add-file"><input id="add-file" name="file" type="file" accept=".txt,.md,.text" required><span id="add-file-name">Choose a .txt file</span></label>
+      <div class="grid2">
+        <label>Title <input name="title" required placeholder="Cambridge Ord. 2026-14, Fair Rental Pricing"></label>
+        <label>Citation <input name="citation" placeholder="Cambridge Mun. Code ch. 8.71"></label>
+        <label>State <select name="state"><option>MA</option><option>CA</option><option>NJ</option></select></label>
+        <label>County <input name="county" placeholder="Middlesex"></label>
+        <label>City <input name="city" placeholder="Cambridge (blank for a state law)"></label>
+        <label>Kind <select name="kind"><option>ordinance</option><option>statute</option><option>bill</option></select></label>
+      </div>
+      <button class="btn" type="submit" id="add-submit">Run the pipeline</button>
+      <p class="caption">Takes about a minute: two model calls for this document, then every address is re-evaluated in code.</p>
+    </form>
+    <div id="add-result" class="add-result" hidden></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p><b>Not legal advice.</b> Homerule shows what the law says and where it says it, as of a date. It does not say what to do, and it never suggests ways around a rule.</p>
+  <p class="caption" id="foot-meta"></p>
+</footer>
+
+<div id="busy" role="status" aria-live="polite" hidden></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

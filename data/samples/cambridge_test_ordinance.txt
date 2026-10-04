@@ -1,0 +1,26 @@
+CITY OF CAMBRIDGE
+IN CITY COUNCIL
+
+ORDINANCE NO. 2026-14 (TEST FIXTURE, NOT A REAL ORDINANCE)
+
+AN ORDINANCE AMENDING TITLE 8 OF THE MUNICIPAL CODE OF THE CITY OF CAMBRIDGE BY ADDING CHAPTER 8.71, "FAIR RENTAL PRICING"
+
+Be it ordained by the City Council of the City of Cambridge as follows:
+
+Section 1. Purpose. The City Council finds that the use of software that pools nonpublic rent and occupancy data from competing housing providers to recommend rents has contributed to rapid rent increases in the City, and that such practices harm residents.
+
+Section 2. Definitions. For the purposes of this chapter:
+"Algorithmic device" means any computer software, service or system that uses one or more algorithms to perform calculations of nonpublic competitor data concerning local or statewide rents or occupancy levels for the purpose of advising a landlord on whether to leave a unit vacant or on the amount of rent to charge a tenant.
+"Covered dwelling unit" means any dwelling unit in a building containing four (4) or more dwelling units offered for rent in the City.
+"Landlord" means an owner, lessor, sublessor or managing agent of a covered dwelling unit.
+
+Section 3. Prohibition. It shall be unlawful for a landlord of a covered dwelling unit to use, employ or rely upon an algorithmic device to set, recommend or adjust the amount of rent or the terms of occupancy of a covered dwelling unit. It shall further be unlawful for any person to sell or license an algorithmic device to a landlord for use in the City.
+
+Section 4. Exemptions. This chapter shall not apply to (a) a dwelling unit owned by a natural person who owns no more than three (3) dwelling units in the City; or (b) a dwelling unit whose rent is subsidized under a federal, state or local program such that the rent is set by the program.
+
+Section 5. Penalties. A landlord who violates this chapter shall be liable for a civil penalty of not more than one thousand dollars ($1,000) per unit per month in which a violation occurs, and shall be liable to any affected tenant for actual damages and reasonable attorney's fees.
+
+Section 6. Effective date. This ordinance shall take effect on March 1, 2027.
+
+Passed to be ordained in City Council on October 5, 2026.
+Attest: City Clerk.
