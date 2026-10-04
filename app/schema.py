@@ -37,6 +37,11 @@ DEFAULT_VOCAB: dict[str, Any] = {
     # set "result_label_style": "spaces" to emit "not yet effective" instead.
     "result_label_style": "snake",
     "levels": ["state", "county", "city"],
+    # "flag": an exemption that rests only on facts the address data never holds (owner type, subsidy,
+    # tenancy length) does not turn a covered building into "unknown"; the rule applies with reduced
+    # confidence and the facts are listed for the renter to answer. "unknown": such exemptions block.
+    "unknown_exemption_policy": "flag",
+    "facts_never_in_data": ["owner_type", "owner_occupied", "rent_subsidized", "tenancy_length_months", "lease_type"],
 }
 
 

@@ -10,7 +10,7 @@ def mk(rule_id, level="state", state="CA", city=None, county=None, category="ren
     return Rule(rule_id=rule_id, category=category, jurisdiction=Jurisdiction(level=level, state=state, city=city, county=county),
                 title=rule_id, requirement="r", coverage_conditions=cov or Condition(), exemptions=ex or [],
                 effective_date=eff, superseded_date=sup, status=status, precedence=prec or Precedence(),
-                source_citation="cite", quoted_span="q", source_doc_id="doc_001", confidence=0.9)
+                source_citation="cite", quoted_span="q", source_doc_id="doc_" + rule_id, confidence=0.9)
 
 
 SF = {"state": "CA", "county": "San Francisco", "city": "San Francisco"}

@@ -1,0 +1,222 @@
+# Massachusetts Senate Bill S.2983 (194th General Court), algorithmic rent pricing, bill text | Mass. S.2983 (194th Gen. Ct.) | https://malegislature.gov/Bills/194/S2983.pdf | retrieved 2026-10-04
+
+SENATE . . . . . . . . . . . . . . No. 2983
+The Commonwealth of Massachusetts
+_______________
+
+In the One Hundred and Ninety-Fourth General Court
+(2025-2026)
+_______________
+
+SENATE, March 12, 2026.
+The committee on Housing, to whom was referred the petitions (accompanied by bill,
+Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent
+setting; and (accompanied by bill, Senate, No. 1016) of Michael O. Moore, Patricia D. Jehlen
+and James B. Eldridge for legislation to establish the Preventing Algorithmic Rent Fixing in the
+Rental Housing Market Act., report the accompanying bill (Senate, No. 2983).
+For the committee,
+Julian Cyr
+
+FILED ON: 2/27/2026
+
+SENATE . . . . . . . . . . . . . . No. 2983
+The Commonwealth of Massachusetts
+_______________
+
+In the One Hundred and Ninety-Fourth General Court
+(2025-2026)
+_______________
+
+An Act prohibiting algorithmic rent setting.
+Be it enacted by the Senate and House of Representatives in General Court assembled, and by the authority
+of the same, as follows:
+
+1
+
+Chapter 186 of the General Laws is hereby amended by adding the following section:-
+
+2
+
+Section 15G. (a) As used in this section, the following words shall have the following
+
+3
+4
+
+meanings unless the context clearly requires otherwise:
+"Algorithmic device", any computational process derived from machine learning or other
+
+5
+
+artificial intelligence techniques, that processes or calculates nonpublic competitor data for the
+
+6
+
+purpose of advising a lessor or landlord concerning the amount of rent that the lessor or landlord
+
+7
+
+may consider charging a tenant; provided, however that "algorithmic device" shall not include:
+
+8
+
+(i) any report published periodically, but not more frequently than monthly, by a trade
+
+9
+
+association that receives renter data and publishes it in an aggregated and anonymous matter; or
+
+10
+
+(ii) a product used for the purpose of establishing rent or income limits in accordance with the
+
+11
+
+affordable housing program guidelines of a local government, the commonwealth, the federal
+
+12
+
+government or other political subdivision.
+
+1 of 3
+
+13
+
+“Coordinating function”, any action utilizing nonpublic competitor data that includes: (i)
+
+14
+
+collecting historical or contemporaneous actual rent prices, supply levels or lease or rental
+
+15
+
+contract termination and renewal dates of residential dwelling units from two or more rental
+
+16
+
+property lessors or landlords; (ii) analyzing or processing of historical or contemporaneous actual
+
+17
+
+rent prices, supply levels or lease or rental contract termination and renewal dates of residential
+
+18
+
+dwelling units from two or more rental property lessors or landlords through use of a system,
+
+19
+
+software or process that uses computation, including by using the information to train an
+
+20
+
+algorithm; and (iii) recommending rental prices, lease renewal terms or ideal occupancy levels to
+
+21
+
+a rental property lessor or landlord.
+
+22
+
+"Coordinator", any person who operates an algorithmic device, software or data analytics
+
+23
+
+service that performs a coordinating function for any residential rental property lessor or
+
+24
+
+landlord, including a residential rental property lessor or landlord performing a coordinating
+
+25
+
+function for their own benefit.
+
+26
+
+"Nonpublic competitor data", information that is not widely available or easily accessible
+
+27
+
+to the public, including information about actual rent prices, occupancy rates, lease start and end
+
+28
+
+dates, and similar data, regardless of whether the data are attributable to a specific competitor or
+
+29
+
+anonymized, and that is derived from or otherwise provided by any other lessor or landlord.
+
+30
+31
+32
+33
+
+“Person”, any natural person or persons, or any corporation, partnership, company, trust
+or association of persons.
+"Residential Dwelling Unit", any house, apartment, accessory unit or other unit intended
+to be used as a primary residence in the state.
+
+2 of 3
+
+34
+
+(b) In setting the amount of rent to be charged to a tenant for the occupancy of a
+
+35
+
+residential dwelling unit, determining any change in the amount of rent to be charged to a tenant
+
+36
+
+for the renewed occupancy of a residential dwelling unit, or otherwise determining what amount
+
+37
+
+to charge a tenant to rent a residential dwelling unit, or determining occupancy levels of
+
+38
+
+residential dwelling units, no lessor or landlord shall employ, use or rely upon an algorithmic
+
+39
+
+device or coordinator.
+
+40
+
+(c) A violation of this section shall constitute a violation of section 2 of Chapter 93A. The
+
+41
+
+civil penalty for each violation of this section shall not exceed $5,000 per violation. For the
+
+42
+
+purposes of this section, each time a rent is determined, increased or otherwise set under
+
+43
+
+subsection (b) shall constitute a single and separate violation.
+
+44
+
+(d) In the case of any successful action to enforce liability pursuant to this chapter, the
+
+45
+
+costs of the action together with reasonable attorney fees, expert fees and the costs of
+
+46
+
+investigation as determined by the court shall be awarded to plaintiffs. Costs and attorney fees,
+
+47
+
+expert fees and the costs of investigation shall be awarded to the attorney general or municipality
+
+48
+
+where the attorney general or municipality successfully enforces this chapter.
+
+3 of 3

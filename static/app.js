@@ -108,7 +108,9 @@
       ]);
       state.address = lk.address; state.lookup = lk; state.timeline = { id, points: tl };
       q.value = `${lk.address.street}, ${lk.address.postal_city}, ${lk.address.state} ${lk.address.zip}`; $('#clear-q').hidden = false;
+      const dragging = document.activeElement && document.activeElement.id === 'tl';
       renderNotice(lk);
+      if (dragging) { const tl = $('#tl'); if (tl) tl.focus({ preventScroll: true }); }
       if (location.hash !== `#/a/${id}`) history.replaceState(null, '', `#/a/${id}`);
     } catch (e) {
       body.innerHTML = `<div class="err-sheet"><h1>Nothing posted</h1><p>${esc(e.message)}</p></div>`;
@@ -192,6 +194,8 @@
   }
 
   function renderNotice(lk) {
+    const openLaw = new Set($$('.rule .law[open]').map((d) => d.closest('.rule').dataset.rule));
+    const scrollY = window.scrollY;
     const a = lk.address, js = lk.jurisdiction_stack, f = lk.building_facts;
     const byCat = {};
     lk.results.forEach((e) => { (byCat[e.category] = byCat[e.category] || []).push(e); });
@@ -224,6 +228,8 @@
       <div class="tear"><a href="/api/outputs/rules.json" download>rules.json<small>every rule, with its quote</small></a><a href="/api/outputs/lookups.json" download>lookups.json<small>every sample address, as of today</small></a><a href="/api/outputs/changes.json" download>changes.json<small>T1–T6, affected addresses</small></a></div>
       <p class="sheet-foot"><span>Posted by Homerule. The model read the law; plain code decided every stamp.</span><span>Not legal advice.</span></p>`;
     state.prev = {}; lk.results.forEach((e) => { state.prev[e.rule_id] = e.result.replace(/ /g, '_'); });
+    openLaw.forEach((id) => { const d = $(`.rule[data-rule="${CSS.escape(id)}"] .law`); if (d) d.open = true; });
+    if (openLaw.size || scrollY) window.scrollTo({ top: scrollY });
     wireNotice();
     if (!$('#sheet-body').dataset.scrolled) { $('#sheet-body').dataset.scrolled = '1'; }
   }
@@ -232,9 +238,13 @@
     const start = new Date('2024-01-01T00:00:00'), end = new Date('2028-12-31T00:00:00');
     const span = end - start;
     const pct = (d) => Math.max(0, Math.min(100, ((new Date(d + 'T00:00:00') - start) / span) * 100));
-    const ticks = points.filter((p) => p.date > '2024-01-01' && p.date < '2028-01-01').map((p) => `<span class="tick ${p.date > state.asOf ? 'red' : ''}" style="left:${pct(p.date).toFixed(2)}%" data-l="${esc(p.date.slice(0, 7))}"></span>`).join('');
+    let lastPct = -10;
+    const ticks = points.filter((p) => p.date > '2024-01-01' && p.date < '2028-01-01').map((p) => {
+      const x = pct(p.date); const labelled = x - lastPct >= 4.5; if (labelled) lastPct = x;
+      return `<span class="tick ${p.date > state.asOf ? 'red' : ''} ${labelled ? '' : 'nolabel'}" style="left:${x.toFixed(2)}%" data-l="${esc(p.date.slice(0, 7))}" title="${esc(p.date)}"></span>`;
+    }).join('');
     const val = Math.round(((new Date(state.asOf + 'T00:00:00') - start) / span) * 1000);
-    return `<div class="timeline"><span class="lbl">Time machine</span><div class="track"><div class="ticks">${ticks}</div><input id="tl" type="range" min="0" max="1000" value="${val}" aria-label="As-of date"><div class="ends"><span>2024</span><span>2026</span><span>2028</span></div></div><div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="${state.lang === 'en'}">EN</button><button type="button" data-lang="es" aria-pressed="${state.lang === 'es'}">ES</button></div></div>`;
+    return `<div class="timeline"><div class="tm-head"><span class="lbl">Time machine</span><output id="tl-date" for="tl" class="tm-date">${esc(state.asOf)}</output><span class="caption tm-hint">Drag to any date; every stamp re-posts for that day. Type an exact date in the top bar.</span></div><div class="track"><div class="ticks">${ticks}</div><input id="tl" type="range" min="0" max="1000" value="${val}" aria-label="As-of date" aria-valuetext="${esc(state.asOf)}"><div class="ends"><span>2024</span><span>2026</span><span>2028</span></div></div><div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="${state.lang === 'en'}">EN</button><button type="button" data-lang="es" aria-pressed="${state.lang === 'es'}">ES</button></div></div>`;
   }
 
   function wireNotice() {
@@ -246,6 +256,8 @@
         const d = new Date(start.getTime() + (end - start) * (tl.value / 1000));
         state.asOf = d.toISOString().slice(0, 10); asof.value = state.asOf;
         $('.stamp-big .d').textContent = state.asOf;
+        const out = $('#tl-date'); if (out) out.value = state.asOf;
+        tl.setAttribute('aria-valuetext', state.asOf);
         clearTimeout(t); t = setTimeout(rerun, 140);
       });
     }

@@ -68,10 +68,13 @@ TARGETS = [
     ("doc_034", "Massachusetts General Laws Chapter 186 Section 15B (security deposits, upfront charges)", "statute", "MA", "", "", "Mass. Gen. Laws ch. 186, § 15B", "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B", ""),
     ("doc_035", "Massachusetts General Laws Chapter 112 Section 87DDD 1/2 (broker fees)", "statute", "MA", "", "", "Mass. Gen. Laws ch. 112, § 87DDD½", "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD1~2", ""),
     ("doc_036", "Massachusetts Senate Bill S.2983 (194th General Court), algorithmic rent pricing, bill text", "bill", "MA", "", "", "Mass. S.2983 (194th Gen. Ct.)", "https://malegislature.gov/Bills/194/S2983.pdf", "pending"),
+    ("doc_038", "California Business and Professions Code section 16729 (common pricing algorithms prohibited, AB 325)", "statute", "CA", "", "", "Cal. Bus. & Prof. Code § 16729", LEG.format(code="BPC", sec="16729"), ""),
+    ("doc_039", "Massachusetts General Laws Chapter 40P Section 4 (general prohibition of rent control; exception)", "statute", "MA", "", "", "Mass. Gen. Laws ch. 40P, § 4", "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4", ""),
+    ("doc_040", "Massachusetts General Laws Chapter 40P Section 5 (preemption of local rent control)", "statute", "MA", "", "", "Mass. Gen. Laws ch. 40P, § 5", "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section5", ""),
     ("doc_037", "Massachusetts House Bill H.5222 (194th General Court), algorithmic rent pricing, bill text", "bill", "MA", "", "", "Mass. H.5222 (194th Gen. Ct.)", "https://malegislature.gov/Bills/194/H5222.pdf", "pending"),
 ]
 # A word the fetched text must contain, to catch a capture of the wrong page.
-EXPECT = {"doc_030": "algorithm", "doc_029": "rent control", "doc_036": "algorithm", "doc_037": "algorithm", "doc_033": "rent control", "doc_034": "security deposit"}
+EXPECT = {"doc_030": "algorithm", "doc_038": "pricing algorithm", "doc_039": "rent control", "doc_040": "rent control", "doc_029": "rent control", "doc_036": "algorithm", "doc_037": "algorithm", "doc_033": "rent control", "doc_034": "security deposit"}
 # Hosts that time out from this network: use the Internet Archive's copy of the official page.
 ARCHIVE_HOSTS = ("malegislature.gov", "pub.njleg.state.nj.us", "ecode360.com", "library.municode.com")
 FIELDS = ["doc_id", "title", "kind", "state", "county", "city", "citation", "url", "retrieval_date", "file", "status", "status_hint", "source_note"]
@@ -115,10 +118,13 @@ def html_to_text(raw: str) -> str:
     t = re.sub(r" *\n *", "\n", t)
     t = re.sub(r"\n{3,}", "\n\n", t)
     # leginfo.legislature.ca.gov: the statute follows the "Code Text" line, a bill follows "Date Published:"
+    version = re.search(r"Version:\s*(\d{2}/\d{2}/\d{2} - [A-Za-z ]+)", t)
     for marker in (r"\nCode Text\n", r"\nDate Published:[^\n]*\n"):
         m2 = re.search(marker, t)
         if m2:
             t = t[m2.end():]
+            if version:
+                t = f"Version: {version.group(1).strip()}\n\n" + t
             break
     return t.strip()
 

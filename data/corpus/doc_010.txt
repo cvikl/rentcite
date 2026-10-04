@@ -1,5 +1,8 @@
 # California SB 763 (2025-2026), Cartwright Act penalties, chaptered bill text | Cal. SB 763 (2025-2026 Reg. Sess.), Stats. 2025 | https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB763 | retrieved 2026-10-04
 
+Version: 10/06/25 - Chaptered
+
+
 SB763:v95#DOCUMENT
 Bill Start
 

@@ -1,19 +1,19 @@
 [
  {
-  "rule_id": "CA-SANFRA-ALGO-015-01",
-  "category": "algorithmic_rent_setting",
+  "rule_id": "CA-STATE-RENT-001-01",
+  "category": "rent_increase_limit",
   "jurisdiction": {
-   "level": "city",
+   "level": "state",
    "state": "CA",
-   "county": "San Francisco",
-   "city": "San Francisco"
+   "county": null,
+   "city": null
   },
-  "title": "San Francisco algorithmic rent-setting ban",
-  "requirement": "Landlords are prohibited from using algorithmic devices or revenue management software that use non-public competitor data to set, recommend, or advise on rents or occupancy levels. Additionally, it is unlawful to sell, license, or provide such devices to San Francisco landlords.",
-  "requirement_es": "Se prohíbe a los propietarios utilizar dispositivos algorítmicos o programas de gestión de ingresos que utilicen datos no públicos de competidores para fijar, recomendar o asesorar sobre los alquileres o los niveles de ocupación. Además, es ilegal vender, licenciar o proporcionar dichos dispositivos a propietarios de San Francisco.",
+  "title": "Statewide rent cap (AB 1482 / SB 567)",
+  "requirement": "Landlords cannot increase rent over a 12-month period by more than 5% plus local CPI inflation, or 10% total, whichever is lower. Rent cannot be raised in more than two increments during that 12-month period.",
+  "requirement_es": "Los propietarios no pueden aumentar el alquiler en un período de 12 meses en más del 5% más la inflación local del IPC, o el 10% en total, lo que sea menor. El alquiler no se puede aumentar en más de dos incrementos durante ese período de 12 meses.",
   "key_value": {
-   "label": "Civil penalty per violation",
-   "value": "up to $1,000"
+   "label": "maximum annual rent increase",
+   "value": "5% + CPI, max 10%"
   },
   "coverage_conditions": {
    "type": "ALWAYS",
@@ -21,7 +21,7 @@
   },
   "exemptions": [
    {
-    "description": "Products used for the purpose of establishing rent or income limits in accordance with affordable housing program guidelines of a local, state, or federal government.",
+    "description": "Deed-restricted affordable housing or housing subsidized by government agreements",
     "conditions": {
      "type": "AND",
      "clauses": [
@@ -29,13 +29,108 @@
        "field": "rent_subsidized",
        "operator": "==",
        "value": true,
-       "note": "product used for establishing rent or income limits in accordance with affordable housing program guidelines"
+       "note": "restricted by deed, regulatory restriction... or subject to an agreement that provides housing subsidies"
       }
      ]
     }
    },
    {
-    "description": "Reports that publish existing rental data in an aggregated manner but do not recommend rents or occupancy levels for future leases.",
+    "description": "Dormitories owned and operated by an institution of higher education or K-12 school",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Housing subject to a local rent control ordinance that restricts annual increases to less than the state cap",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Housing issued a certificate of occupancy within the previous 15 years, unless it is a mobilehome",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "building_age_years",
+       "operator": "<",
+       "value": 15,
+       "note": "issued a certificate of occupancy within the previous 15 years"
+      },
+      {
+       "field": "property_type",
+       "operator": "!=",
+       "value": "mobile_home",
+       "note": "unless the housing is a mobilehome"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Separately alienable residential real property (e.g. single-family home or condo) not owned by a REIT, corporation, or corporate-member LLC, with required statutory notice provided",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "in",
+       "value": [
+        "single_family",
+        "condominium",
+        "mobile_home"
+       ],
+       "note": "alienable separate from the title to any other dwelling unit"
+      },
+      {
+       "field": "owner_type",
+       "operator": "not_in",
+       "value": [
+        "reit",
+        "corporation"
+       ],
+       "note": "The owner is not any of the following: A real estate investment trust... A corporation... A limited liability company in which at least one member is a corporation"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Owner-occupied duplex where the owner lived in one unit at the start of the tenancy and continues in occupancy, neither unit being an ADU or JADU",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "units",
+       "operator": "==",
+       "value": 2,
+       "note": "two separate dwelling units within a single structure"
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "owner occupied one of the units as the owner's principal place of residence"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Homeowners of a mobilehome",
     "conditions": {
      "type": "AND",
      "clauses": [
@@ -49,7 +144,267 @@
     }
    }
   ],
-  "effective_date": "2024-10-14",
+  "effective_date": "2024-04-01",
+  "superseded_date": "2030-01-01",
+  "status": "enacted",
+  "precedence": {
+   "relationship": "yields_to",
+   "target_scope": "local",
+   "source_language": "Housing subject to rent or price control through a public entity’s valid exercise of its police power consistent with Chapter 2.7 (commencing with Section 1954.50) that restricts annual increases in the rental rate to an amount less than that provided in subdivision (a).",
+   "target_rule_ids": [
+    "CA-BERKEL-RENT-017-02",
+    "CA-LOSANG-RENT-013-01",
+    "CA-SANFRA-RENT-014-01",
+    "CA-SANTAA-RENT-020-02"
+   ]
+  },
+  "penalty": "Damages equal to overcharges, reasonable attorney's fees and costs, and treble damages if the owner acted willfully or with oppression, fraud, or malice, plus potential enforcement and injunctive relief by the Attorney General, city attorney, or county counsel.",
+  "source_citation": "Cal. Civ. Code § 1947.12",
+  "quoted_span": "Subject to subdivision (b), an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
+  "source_doc_id": "doc_001",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
+  "source_char_offset": [
+   647,
+   1068
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.96,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The sliced quote supports the core rent increase limit rule and key_value, but does not explicitly contain the details for effective_date, exemptions, two-increment limit, or penalties (which are located in other subdivisions of Cal. Civ. Code § 1947.12)."
+   ],
+   "corrected_fields": [],
+   "cache_key": "ccb1c14d6847ef8ea25e59d30d38c38e5041a68aa7a36404ff1e5eda72187501"
+  },
+  "extracted_at": "2026-10-04T11:38:49Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-STATE-EVICT-002-01",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "state",
+   "state": "CA",
+   "county": null,
+   "city": null
+  },
+  "title": "Statewide Just Cause Eviction Protections (AB 1482)",
+  "requirement": "Landlords cannot terminate a tenancy without stating an at-fault or no-fault just cause once a tenant has continuously occupied the property for 12 months (or 24 months if adult tenants were added). For no-fault evictions, the landlord must provide relocation assistance or a rent waiver equal to one month's rent.",
+  "requirement_es": "Los propietarios no pueden rescindir un contrato de arrendamiento sin indicar una causa justa con o sin culpa una vez que el inquilino haya ocupado continuamente la propiedad durante 12 meses (o 24 meses si se agregaron inquilinos adultos). En los desalojos sin culpa, el propietario debe proporcionar asistencia de reubicación o una exención de alquiler equivalente a un mes de alquiler.",
+  "key_value": {
+   "label": "Relocation assistance for no-fault eviction",
+   "value": "1 month of rent"
+  },
+  "coverage_conditions": {
+   "type": "OR",
+   "clauses": [
+    {
+     "field": "tenancy_length_months",
+     "operator": ">=",
+     "value": 12,
+     "note": "after a tenant has continuously and lawfully occupied a residential real property for 12 months"
+    },
+    {
+     "field": "tenancy_length_months",
+     "operator": ">=",
+     "value": 24,
+     "note": "One or more tenants have continuously and lawfully occupied the residential real property for 24 months or more"
+    }
+   ]
+  },
+  "exemptions": [
+   {
+    "description": "Housing issued a certificate of occupancy within the previous 15 years (except mobilehomes)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "building_age_years",
+       "operator": "<",
+       "value": 15,
+       "note": "Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+      },
+      {
+       "field": "property_type",
+       "operator": "!=",
+       "value": "mobile_home",
+       "note": "unless the housing is a mobilehome"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Single-family homes and condominiums alienable separate from title, not owned by a REIT, corporation, or corporate LLC, with required statutory notice provided",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "in",
+       "value": [
+        "single_family",
+        "condominium"
+       ],
+       "note": "alienable separate from the title to any other dwelling unit"
+      },
+      {
+       "field": "owner_type",
+       "operator": "not_in",
+       "value": [
+        "reit",
+        "corporation"
+       ],
+       "note": "owner is not a real estate investment trust or corporation"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Owner-occupied duplex where owner occupied one unit at the beginning of the tenancy and continues in occupancy",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "units",
+       "operator": "==",
+       "value": 2,
+       "note": "property containing two separate dwelling units within a single structure"
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "owner occupied one of the units as the owner's principal place of residence"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Single-family owner-occupied residence renting no more than two units or bedrooms",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": "Single-family owner-occupied residences"
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "owner-occupant rents or leases no more than two units or bedrooms"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Deed-restricted affordable housing or government subsidized units",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": "Housing restricted by deed, regulatory restriction... as affordable housing... or subject to an agreement that provides housing subsidies"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Tenant shares bathroom or kitchen facilities with owner who maintains principal residence at the property",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "shares bathroom or kitchen facilities with the owner who maintains their principal residence"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Transient and tourist hotel occupancy, dormitories, and healthcare or care facilities",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2026-01-01",
+  "superseded_date": "2030-01-01",
+  "status": "enacted",
+  "precedence": {
+   "relationship": "yields_to",
+   "target_scope": "local",
+   "source_language": "Residential real property subject to a local ordinance requiring just cause for termination of a residential tenancy adopted on or before September 1, 2019, in which case the local ordinance shall apply. Residential real property subject to a local ordinance requiring just cause for termination of a residential tenancy adopted or amended after September 1, 2019, that is more protective than this section, in which case the local ordinance shall apply.",
+   "target_rule_ids": [
+    "CA-BERKEL-EVICT-017-03",
+    "CA-LOSANG-EVICT-013-03",
+    "CA-SANFRA-EVICT-014-02",
+    "CA-SANFRA-EVICT-014-03",
+    "CA-SANFRA-EVICT-014-04",
+    "CA-SANFRA-EVICT-014-05",
+    "CA-SANFRA-EVICT-014-06",
+    "CA-SANFRA-EVICT-014-07"
+   ]
+  },
+  "penalty": "Failure to strictly comply renders termination notice void; liability for actual damages, reasonable attorney's fees and costs, and up to treble actual damages and punitive damages for willful violation, oppression, fraud, or malice. Attorney General, city attorney, or county counsel may seek injunctive relief.",
+  "source_citation": "Cal. Civ. Code § 1946.2",
+  "quoted_span": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+  "source_doc_id": "doc_002",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2",
+  "source_char_offset": [
+   626,
+   912
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.89,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The sliced quote only explicitly supports the general rule that landlords cannot terminate tenancy without just cause after 12 months of continuous occupancy. Other specific details in the record (such as 1 month relocation assistance, detailed exemptions, penalty, and precedence) are not contained in the provided quote excerpt."
+   ],
+   "corrected_fields": [],
+   "cache_key": "08f5b19ce932989912846824b66c7fca0b556c239fc456df9a1d5facfa6feb7a"
+  },
+  "extracted_at": "2026-10-04T11:38:50Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-STATE-DEPOSIT-003-01",
+  "category": "security_deposit",
+  "jurisdiction": {
+   "level": "state",
+   "state": "CA",
+   "county": null,
+   "city": null
+  },
+  "title": "Statewide residential security deposit limit",
+  "requirement": "Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+  "requirement_es": "A excepción de lo dispuesto en los párrafos (2), (3) o (5), un arrendador no exigirá ni recibirá una fianza o depósito, con independencia de su denominación, por una cuantía o valor superior a un mes de alquiler, además del alquiler correspondiente al primer mes abonado al inicio o antes de la ocupación inicial.",
+  "key_value": {
+   "label": "maximum security deposit",
+   "value": "1 month's rent"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [],
+  "effective_date": "2024-07-01",
   "superseded_date": null,
   "status": "enacted",
   "precedence": {
@@ -58,532 +413,109 @@
    "source_language": null,
    "target_rule_ids": []
   },
-  "penalty": "Civil penalties of up to $1,000 per violation, injunctive relief, restitution/return of illegal profits, and reasonable attorney's fees and costs. Each separate month a violation continues and each separate residential dwelling unit constitutes a separate violation.",
-  "source_citation": "S.F. Admin. Code § 37.10C(a)-(d)",
-  "quoted_span": "It shall be unlawful for a landlord to use an algorithmic device described in subdivision (a) when setting rents or occupancy levels for residential dwelling units in San Francisco. Each separate month that a violation exists or continues, and each separate residential dwelling unit for which the landlord used the algorithmic device, shall constitute a separate and distinct violation.",
-  "source_doc_id": "doc_015",
-  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "penalty": null,
+  "source_citation": "Cal. Civ. Code § 1950.5(c)(1)",
+  "quoted_span": "Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+  "source_doc_id": "doc_003",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
   "source_char_offset": [
-   626,
-   1013
+   2084,
+   2356
   ],
   "retrieval_date": "2026-10-04",
-  "confidence": 0.9,
+  "confidence": 0.89,
   "verification": {
    "supported": true,
    "issues": [
-    "The quote specifically supports the prohibition on landlords using algorithmic devices to set rents/occupancy levels and unit/month violation structure, but does not explicitly mention the sale/licensing prohibition, the $1,000 penalty amount, the affordable housing exemption, or the effective date."
+    "The quote directly supports the 1 month's rent limit, but does not support the 21 calendar day return rule, the small landlord/advance rent exemptions, the July 1, 2024 effective date, or the penalty for bad faith claim/retention.",
+    "The requirement includes extra rules not found in the sliced quote."
    ],
-   "corrected_fields": [],
-   "cache_key": "581ab9e545cc3fb9e5782bba1421763369d77b69c3e6f85788c847061922bbd6"
+   "corrected_fields": [
+    "requirement",
+    "requirement_es",
+    "exemptions",
+    "penalty"
+   ],
+   "cache_key": "3ea944a1c250ba59ce4a5b517e1370ea61e0efa860b62745e9822818b0b37397"
   },
-  "extracted_at": "2026-10-04T11:15:32Z",
+  "extracted_at": "2026-10-04T11:38:49Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
-  "rule_id": "CA-SANTAA-EVICT-020-01",
-  "category": "just_cause_eviction",
-  "jurisdiction": {
-   "level": "city",
-   "state": "CA",
-   "county": "Orange",
-   "city": "Santa Ana"
-  },
-  "title": "Just Cause Eviction Protections",
-  "requirement": "After a tenant has continuously and lawfully occupied residential property for 30 days, a landlord cannot terminate the tenancy without stated at-fault or no-fault just cause.",
-  "requirement_es": "Después de que un inquilino haya ocupado continua y legalmente una propiedad residencial durante 30 días, el arrendador no puede rescindir el contrato de alquiler sin una causa justificada culpable o no culpable debidamente indicada.",
-  "key_value": null,
-  "coverage_conditions": {
-   "type": "AND",
-   "clauses": [
-    {
-     "field": "tenancy_length_months",
-     "operator": ">=",
-     "value": 1,
-     "note": "After a Tenant has continuously and lawfully occupied a Residential Real Property for thirty (30) days"
-    }
-   ]
-  },
-  "exemptions": [
-   {
-    "description": "Transient and tourist hotel occupancy as defined in Civil Code § 1940(b)",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_type",
-       "operator": "==",
-       "value": "__unknowable__",
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Housing accommodations in nonprofit hospital, religious facility, extended care, licensed elderly care, or adult residential facility",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_type",
-       "operator": "==",
-       "value": "__unknowable__",
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Dormitories owned and operated by higher education or K-12 school",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_type",
-       "operator": "==",
-       "value": "__unknowable__",
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Housing accommodations where tenant shares bathroom or kitchen facilities with owner maintaining principal residence",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_occupied",
-       "operator": "==",
-       "value": true,
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Single-family owner-occupied residences renting no more than two units or bedrooms (including ADU/JADU)",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "property_type",
-       "operator": "==",
-       "value": "single_family",
-       "note": null
-      },
-      {
-       "field": "owner_occupied",
-       "operator": "==",
-       "value": true,
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Owner-occupied duplex where owner occupied a unit at the start and continues in occupancy",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "property_type",
-       "operator": "==",
-       "value": "duplex",
-       "note": null
-      },
-      {
-       "field": "owner_occupied",
-       "operator": "==",
-       "value": true,
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Housing issued a certificate of occupancy within the previous 15 years",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "building_age_years",
-       "operator": "<",
-       "value": 15,
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Separately alienable residential real property where owner is not a REIT, corporation, or corporate-member LLC, and provided statutory exemption notice",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "property_type",
-       "operator": "in",
-       "value": [
-        "single_family",
-        "condominium"
-       ],
-       "note": null
-      },
-      {
-       "field": "owner_type",
-       "operator": "not_in",
-       "value": [
-        "reit",
-        "corporation"
-       ],
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Deed-restricted affordable housing or government subsidized housing",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "rent_subsidized",
-       "operator": "==",
-       "value": true,
-       "note": null
-      }
-     ]
-    }
-   }
-  ],
-  "effective_date": "2022-10-18",
-  "superseded_date": null,
-  "status": "enacted",
-  "precedence": {
-   "relationship": "yields_to",
-   "target_scope": "state",
-   "source_language": "The provisions of this section related to the termination of Tenants shall not apply to Mobilehomes or Mobilehome Spaces in Mobilehome Parks subject to the termination provisions of the Mobilehome Residency Law, Civil Code section 798.56, as applicable.",
-   "target_rule_ids": []
-  },
-  "penalty": "Failure to strictly comply renders the notice of termination void; affirmative defense in unlawful detainer; landlord liable in civil action for wrongful eviction including costs and reasonable attorneys' fees; administrative citations, infractions, or misdemeanors.",
-  "source_citation": "Santa Ana Mun. Code § 8-3120(a)",
-  "quoted_span": "After a Tenant has continuously and lawfully occupied a Residential Real Property\nfor thirty (30) days, the Owner of the Residential Real Property shall not terminate\nthe Tenancy without just cause, which shall be stated in the written notice to terminate\nTenancy. The provisions of this section related to the termination of Tenants shall\nnot apply to Mobilehomes or Mobilehome Spaces in Mobilehome Parks subject to the termination\nprovisions of the Mobilehome Residency Law, Civil Code section 798.56, as applicable.",
-  "source_doc_id": "doc_020",
-  "source_url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR",
-  "source_char_offset": [
-   10553,
-   11071
-  ],
-  "retrieval_date": "2026-10-04",
-  "confidence": 0.98,
-  "verification": {
-   "supported": true,
-   "issues": [],
-   "corrected_fields": [],
-   "cache_key": "b9994ecdb6042d8c7a0a4e23a09d945aed8226ca74e8e37be0de9e24cce83ff3"
-  },
-  "extracted_at": "2026-10-04T11:15:40Z",
-  "model": "gemini:gemini-3.8-flash"
- },
- {
-  "rule_id": "CA-SANTAA-EVICT-020-02",
-  "category": "just_cause_eviction",
-  "jurisdiction": {
-   "level": "city",
-   "state": "CA",
-   "county": "Orange",
-   "city": "Santa Ana"
-  },
-  "title": "No-Fault Eviction Relocation Assistance or Rent Waiver",
-  "requirement": "If terminating a tenancy for no-fault just cause, the landlord must provide direct relocation assistance or waive rent for the final 3 months, equal to 3 months of the tenant's rent.",
-  "requirement_es": "Si se rescinde un contrato de alquiler por una causa justificada no culpable, el propietario debe proporcionar asistencia directa de reubicación o condonar el alquiler durante los últimos 3 meses, por un monto equivalente a 3 meses del alquiler del inquilino.",
-  "key_value": {
-   "label": "relocation assistance or rent waiver",
-   "value": "3 months of rent"
-  },
-  "coverage_conditions": {
-   "type": "AND",
-   "clauses": [
-    {
-     "field": "tenancy_length_months",
-     "operator": ">=",
-     "value": 1,
-     "note": "Tenancy for which just cause is required"
-    }
-   ]
-  },
-  "exemptions": [
-   {
-    "description": "Tenant found at fault by a government agency or court for conditions triggering an order or need to vacate",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_type",
-       "operator": "==",
-       "value": "__unknowable__",
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Properties exempt from just cause under section 8-3120(e)",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "building_age_years",
-       "operator": "<",
-       "value": 15,
-       "note": null
-      }
-     ]
-    }
-   }
-  ],
-  "effective_date": "2022-10-18",
-  "superseded_date": null,
-  "status": "enacted",
-  "precedence": {
-   "relationship": "stacks_with",
-   "target_scope": "none",
-   "source_language": "The relocation assistance or Rent waiver required by this section shall be credited against any other relocation assistance required by any other law.",
-   "target_rule_ids": []
-  },
-  "penalty": "Failure to strictly comply renders the notice of termination void.",
-  "source_citation": "Santa Ana Mun. Code § 8-3120(d)",
-  "quoted_span": "The amount of relocation assistance or Rent waiver shall be equal to three (3) months\nof the Tenant's Rent that was in effect when the Owner issued the notice to terminate\nthe Tenancy. Any relocation assistance shall be provided within fifteen (15) calendar\ndays of service of the notice.",
-  "source_doc_id": "doc_020",
-  "source_url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR",
-  "source_char_offset": [
-   24099,
-   24387
-  ],
-  "retrieval_date": "2026-10-04",
-  "confidence": 0.98,
-  "verification": {
-   "supported": true,
-   "issues": [],
-   "corrected_fields": [],
-   "cache_key": "b9994ecdb6042d8c7a0a4e23a09d945aed8226ca74e8e37be0de9e24cce83ff3"
-  },
-  "extracted_at": "2026-10-04T11:15:40Z",
-  "model": "gemini:gemini-3.8-flash"
- },
- {
-  "rule_id": "CA-SANTAA-RENT-020-03",
-  "category": "rent_increase_limit",
-  "jurisdiction": {
-   "level": "city",
-   "state": "CA",
-   "county": "Orange",
-   "city": "Santa Ana"
-  },
-  "title": "Annual Allowable Rent Increase Cap",
-  "requirement": "Landlords may not increase rent on residential real property or mobilehome spaces by more than 3% or 80% of the change in the Consumer Price Index (whichever is less) and may not impose more than one rent increase in any 12-month period. If the CPI change is negative, no rent increase is permitted.",
-  "requirement_es": "Los arrendadores no pueden aumentar el alquiler de bienes raíces residenciales o espacios de casas móviles en más del 3% o el 80% del cambio en el Índice de Precios al Consumidor (lo que sea menor) y no pueden imponer más de un aumento en cualquier período de 12 meses. Si el IPC es negativo, no se permite ningún aumento.",
-  "key_value": {
-   "label": "maximum annual rent increase",
-   "value": "min(3%, 80% of CPI)"
-  },
-  "coverage_conditions": {
-   "type": "ALWAYS",
-   "clauses": []
-  },
-  "exemptions": [
-   {
-    "description": "Residential real property with a certificate of occupancy issued after February 1, 1995 pursuant to Costa-Hawkins",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "certificate_of_occupancy_date",
-       "operator": ">",
-       "value": "1995-02-01",
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Housing restricted as deed-restricted affordable housing or subsidized affordable housing",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "rent_subsidized",
-       "operator": "==",
-       "value": true,
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Dormitories owned and operated by an educational institution (higher ed or K-12)",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_type",
-       "operator": "==",
-       "value": "__unknowable__",
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Housing issued a certificate of occupancy within the previous 15 years",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "building_age_years",
-       "operator": "<",
-       "value": 15,
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Separately alienable residential property where owner is not a REIT, corporation, or corporate-member LLC, with required lease notice",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "property_type",
-       "operator": "in",
-       "value": [
-        "single_family",
-        "condominium"
-       ],
-       "note": null
-      },
-      {
-       "field": "owner_type",
-       "operator": "not_in",
-       "value": [
-        "reit",
-        "corporation"
-       ],
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Two-unit property where owner occupied one unit at beginning of tenancy and continues occupancy, excluding ADU/JADU",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "property_type",
-       "operator": "==",
-       "value": "duplex",
-       "note": null
-      },
-      {
-       "field": "units",
-       "operator": "==",
-       "value": 2,
-       "note": null
-      },
-      {
-       "field": "owner_occupied",
-       "operator": "==",
-       "value": true,
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Mobilehome space subject to long-term agreement exceeding one year, newly constructed mobilehome space offered on or after January 1, 1990, or mobilehome not used as primary residence",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "property_type",
-       "operator": "==",
-       "value": "mobile_home",
-       "note": null
-      }
-     ]
-    }
-   }
-  ],
-  "effective_date": "2022-10-18",
-  "superseded_date": null,
-  "status": "enacted",
-  "precedence": {
-   "relationship": "yields_to",
-   "target_scope": "state",
-   "source_language": "unless expressly exempt under the Costa-Hawkins Rental Housing Act codified in California Civil Code section 1954.50, et seq., or the Mobilehome Residency Law codified in California Civil Code sections 798, et seq.",
-   "target_rule_ids": []
-  },
-  "penalty": "Rent increase is ineffective; complete affirmative defense in unlawful detainer; civil action for damages/injunction; administrative citation, infraction, or misdemeanor.",
-  "source_citation": "Santa Ana Mun. Code § 8-3140(a)",
-  "quoted_span": "Increases in Rent on Residential Real Property or Mobilehome Spaces in the City of\nSanta Ana in excess of three percent (3%), or eighty (80%) of the change in the Consumer\nPrice Index, whichever is less, and more than one Rent Increase in any twelve (12)\nmonth period, are prohibited, unless expressly exempt under the Costa-Hawkins Rental\nHousing Act codified in California Civil Code section 1954.50, et seq., or the Mobilehome Residency Law codified in California Civil Code sections 798, et seq. If the change in the Consumer Price Index is negative, no Rent\nIncrease is permitted. The term Consumer Price Index means, at the time of the adjustment\ncalculation completed by the City pursuant to subsection (b), the percentage increase\nin the United State Consumer Price Index for all Urban Consumers in the Los Angeles-Long\nBeach-Anaheim Metropolitan Area published by the Bureau of Labor Statistics, not seasonally\nadjusted, for the most recent twelve (12) month period ending prior to the City's\ncalculation pursuant to subsection (b). A violation of this section occurs upon the\nservice of notice or demand for a prohibited increase in Rent.",
-  "source_doc_id": "doc_020",
-  "source_url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR",
-  "source_char_offset": [
-   44014,
-   45162
-  ],
-  "retrieval_date": "2026-10-04",
-  "confidence": 0.99,
-  "verification": {
-   "supported": true,
-   "issues": [],
-   "corrected_fields": [],
-   "cache_key": "b9994ecdb6042d8c7a0a4e23a09d945aed8226ca74e8e37be0de9e24cce83ff3"
-  },
-  "extracted_at": "2026-10-04T11:15:40Z",
-  "model": "gemini:gemini-3.8-flash"
- },
- {
-  "rule_id": "NJ-STATE-EVICT-022-01",
-  "category": "just_cause_eviction",
+  "rule_id": "CA-STATE-FEE-004-01",
+  "category": "application_screening_fee",
   "jurisdiction": {
    "level": "state",
-   "state": "NJ",
+   "state": "CA",
    "county": null,
    "city": null
   },
-  "title": "New Jersey Anti-Eviction Act Good Cause Eviction Requirement",
-  "requirement": "Landlords cannot remove a residential tenant except by establishing one of the statutory good-cause grounds specified by law.",
-  "requirement_es": "Los arrendadores no pueden desalojar a un inquilino residencial excepto si demuestran una de las causas justificadas establecidas por la ley.",
-  "key_value": null,
+  "title": "Application screening fee cap and requirements",
+  "requirement": "Landlords may charge an application screening fee capped at actual out-of-pocket costs and no more than $30 (adjusted annually for CPI since 1998). Landlords cannot charge a fee if no unit is available, must follow specific application-processing procedures, and must provide an itemized receipt and copy of any consumer credit report obtained.",
+  "requirement_es": "Los propietarios pueden cobrar una tarifa de evaluación de solicitud limitada a los costos directos reales y no más de $30 (ajustados anualmente por el IPC desde 1998). No pueden cobrarla si no hay una unidad disponible, deben seguir procedimientos específicos para procesar solicitudes y deben entregar un recibo desglosado y una copia del informe de crédito del consumidor obtenido.",
+  "key_value": {
+   "label": "maximum screening fee",
+   "value": "$30 per applicant, adjusted annually for CPI since 1998"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [],
+  "effective_date": "2026-01-01",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "yields_to",
+   "target_scope": "state",
+   "source_language": "This section is not intended to preempt any provisions or regulations that govern the collection of deposits and fees under federal or state housing assistance programs.",
+   "target_rule_ids": []
+  },
+  "penalty": null,
+  "source_citation": "Cal. Civ. Code § 1950.6",
+  "quoted_span": "The amount of the application screening fee shall not be greater than the actual\nout-of-pocket costs of gathering information concerning the applicant, including, but not limited to, the cost of using a tenant screening service or a consumer credit reporting service, and the reasonable value of time spent by the landlord or their agent in obtaining information on the applicant. In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+  "source_doc_id": "doc_004",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
+  "source_char_offset": [
+   1303,
+   2030
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.94,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The sliced quote supports the fee cap and CPI adjustment, but does not explicitly mention the effective date of 2026-01-01, the ban on charging fees if no unit is available, itemized receipt, credit report copy, or the precedence clause."
+   ],
+   "corrected_fields": [],
+   "cache_key": "9df111b29c83738594e0fa3bf416daf0a2ec62ce036cdf27c08c91dd19871765"
+  },
+  "extracted_at": "2026-10-04T11:38:47Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-STATE-RENT-008-01",
+  "category": "rent_increase_limit",
+  "jurisdiction": {
+   "level": "state",
+   "state": "CA",
+   "county": null,
+   "city": null
+  },
+  "title": "Costa-Hawkins vacancy decontrol (prohibition on local initial rent controls)",
+  "requirement": "Landlords generally have the right to establish the initial rental rate for a dwelling unit upon a vacancy, preempting local rent control ordinances from capping initial rents for new tenancies.",
+  "requirement_es": "Por lo general, los propietarios tienen el derecho de fijar el alquiler inicial para una vivienda después de una desocupación, lo que anula las ordenanzas locales de control de alquileres que intentan limitar el alquiler inicial para un nuevo inquilino.",
+  "key_value": {
+   "label": "initial rental rate restriction",
+   "value": "prohibited (market rate allowed at vacancy)"
+  },
   "coverage_conditions": {
    "type": "ALWAYS",
    "clauses": []
   },
   "exemptions": [
    {
-    "description": "Owner-occupied premises with not more than two rental units",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_occupied",
-       "operator": "==",
-       "value": true,
-       "note": "owner-occupied premises"
-      },
-      {
-       "field": "units",
-       "operator": "<=",
-       "value": 3,
-       "note": "not more than two rental units"
-      }
-     ]
-    }
-   },
-   {
-    "description": "Hotel, motel or other guest house rented to transient guests or seasonal tenants",
+    "description": "Previous tenancy terminated by the owner by notice pursuant to Section 1946.1 or terminated by a change in tenancy terms under Section 827 (except rent/fee changes permitted by law)",
     "conditions": {
      "type": "AND",
      "clauses": [
@@ -597,7 +529,21 @@
     }
    },
    {
-    "description": "Dwelling unit held in trust or occupied by an immediate family member of the owner with a developmental disability",
+    "description": "Affordable housing agreements with a public entity in exchange for financial contribution or density assistance",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": "agreed by contract with a public entity in consideration for direct financial contribution or assistance"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dwelling cited for serious health, safety, fire, or building code violations unabated for at least 60 days before vacancy",
     "conditions": {
      "type": "AND",
      "clauses": [
@@ -615,97 +561,60 @@
   "superseded_date": null,
   "status": "enacted",
   "precedence": {
-   "relationship": "stacks_with",
-   "target_scope": "none",
-   "source_language": null,
-   "target_rule_ids": []
+   "relationship": "supersedes",
+   "target_scope": "local",
+   "source_language": "Notwithstanding any other provision of law, an owner of residential real property may establish the initial rental rate for a dwelling or unit",
+   "target_rule_ids": [
+    "CA-BERKEL-RENT-017-02",
+    "CA-LOSANG-RENT-013-01",
+    "CA-SANFRA-RENT-014-01",
+    "CA-SANTAA-RENT-020-02"
+   ]
   },
   "penalty": null,
-  "source_citation": "N.J.S.A. 2A:18-61.1",
-  "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be\nremoved by the Superior Court from any house, building, mobile home or land in a mobile home park or\ntenement leased for residential purposes, other than (1) owner-occupied premises with not more than two\nrental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal\ntenant; (2) a dwelling unit which is held in trust on behalf of a member of the immediate family of the person\nor persons establishing the trust, provided that the member of the immediate family on whose behalf the\ntrust is established permanently occupies the unit; and (3) a dwelling unit which is permanently occupied by\na member of the immediate family of the owner of that unit, provided, however, that exception (2) or (3)\nshall apply only in cases in which the member of the immediate family has a developmental disability,\nexcept upon establishment of one of the following grounds as good cause:",
-  "source_doc_id": "doc_022",
-  "source_url": "https://www.nj.gov/dca/codes/codreg/pdf_regs/2A_18_61.pdf",
+  "source_citation": "Cal. Civ. Code § 1954.53(a)",
+  "quoted_span": "Notwithstanding any other provision of law, an owner of residential real property may establish the initial rental rate for a dwelling or unit, except where any of the following applies:",
+  "source_doc_id": "doc_008",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1954.53",
   "source_char_offset": [
-   665,
-   1688
+   663,
+   849
   ],
   "retrieval_date": "2026-10-04",
-  "confidence": 0.95,
+  "confidence": 0.9,
   "verification": {
    "supported": true,
    "issues": [
-    "The effective date of '2013-07-01' is not stated in the provided quote text."
+    "The effective_date '2024-01-01' is not stated or verifiable from the provided quote.",
+    "The specific exemptions listed in the record are truncated/not fully included in the sliced quote, though the quote indicates 'except where any of the following applies:'."
    ],
    "corrected_fields": [
     "effective_date"
    ],
-   "cache_key": "35dacc33b27413edc62fda5bb52d3958f398ef85a86c5100f471bf5e458004f6"
+   "cache_key": "fa987ff978ab21a8a60145dcc5bbce1c9001e6ffdc35aeeda1ce375956dec00e"
   },
-  "extracted_at": "2026-10-04T11:15:32Z",
+  "extracted_at": "2026-10-04T11:38:55Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
-  "rule_id": "NJ-JERSEY-ALGO-028-01",
+  "rule_id": "CA-STATE-ALGO-009-01",
   "category": "algorithmic_rent_setting",
   "jurisdiction": {
-   "level": "city",
-   "state": "NJ",
-   "county": "Hudson",
-   "city": "Jersey City"
+   "level": "state",
+   "state": "CA",
+   "county": null,
+   "city": null
   },
-  "title": "Jersey City Algorithmic Rent-Fixing Prohibition",
-  "requirement": "Landlords and their agents are prohibited from subscribing to, contracting with, or exchanging value for the services of a pricing service provider that coordinates nonpublic competitor rental data, and service providers may not facilitate agreements not to compete.",
-  "requirement_es": "Se prohíbe a los arrendadores y sus agentes suscribirse, contratar o intercambiar valor por los servicios de un proveedor que coordine datos no públicos de competidores, y los proveedores de servicios no pueden facilitar acuerdos contrarios a la competencia.",
+  "title": "Prohibition on common pricing algorithms",
+  "requirement": "Landlords and pricing software providers are prohibited from using or distributing a common pricing algorithm as part of an unlawful restraint of trade or coercing others to adopt recommended prices or commercial terms.",
+  "requirement_es": "Se prohíbe a los propietarios y proveedores de software de fijación de precios utilizar o distribuir un algoritmo de precios común como parte de una restricción ilegal del comercio o coaccionar a otros para que adopten precios o términos comerciales recomendados.",
   "key_value": null,
   "coverage_conditions": {
    "type": "ALWAYS",
    "clauses": []
   },
-  "exemptions": [
-   {
-    "description": "Owners of multiple properties for actions related exclusively to multiple properties controlled by the same rental property owner",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_type",
-       "operator": "==",
-       "value": "__unknowable__",
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Licensed Real Estate Agents operating in accordance with applicable state regulations",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "owner_type",
-       "operator": "==",
-       "value": "__unknowable__",
-       "note": null
-      }
-     ]
-    }
-   },
-   {
-    "description": "Inpatient medical care, licensed long-term care, and detention or correctional facilities",
-    "conditions": {
-     "type": "AND",
-     "clauses": [
-      {
-       "field": "property_type",
-       "operator": "==",
-       "value": "other",
-       "note": null
-      }
-     ]
-    }
-   }
-  ],
-  "effective_date": "2025-05-22",
+  "exemptions": [],
+  "effective_date": null,
   "superseded_date": null,
   "status": "enacted",
   "precedence": {
@@ -714,26 +623,419 @@
    "source_language": null,
    "target_rule_ids": []
   },
-  "penalty": "Punishable under Chapter 1, Art. I, § 1-25; subsequent violations punished by fine of $100 to $2,000 per day; attorney fees and costs awarded in successful actions; civil action by parens patriae or private right of action",
-  "source_citation": "Jersey City Code § 218-12(2)",
-  "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise\nexchange anything of value in return for the services of a Service Provider.\nb.No service provider shall facilitate an agreement not to compete among real estate lessors with respect to any\naspect of residential dwelling units, including rental pricing, fees, or any other rental terms.",
-  "source_doc_id": "doc_028",
-  "source_url": "https://cityofjerseycity.civicweb.net/document/429156/",
+  "penalty": "Violation of the Cartwright Act is punishable as a crime or infraction.",
+  "source_citation": "Cal. Bus. & Prof. Code § 16729",
+  "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+  "source_doc_id": "doc_009",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB325",
   "source_char_offset": [
-   5025,
-   5432
+   3056,
+   3270
   ],
   "retrieval_date": "2026-10-04",
   "confidence": 0.95,
   "verification": {
    "supported": true,
    "issues": [
-    "The quote provided covers the primary prohibition, but does not explicitly contain the effective date, exemptions, or penalty details, though the requirement and core prohibition are fully supported by the text."
+    "The quote specifically supports the prohibition on using or distributing a common pricing algorithm as part of a contract, combination, or conspiracy in restraint of trade, but does not explicitly mention coercing others or penalties; however, the core prohibition is supported."
    ],
    "corrected_fields": [],
-   "cache_key": "0a2a4e8cd46578065c68f6f7b13961b7505e372a096825999f21e108d6230240"
+   "cache_key": "9d0dc931b56c60a5898342f2a5f4926b0532eaf87ad695b321be7c346f1fafae"
   },
-  "extracted_at": "2026-10-04T11:15:36Z",
+  "extracted_at": "2026-10-04T11:38:55Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-LOSANG-RENT-013-01",
+  "category": "rent_increase_limit",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Los Angeles",
+   "city": "Los Angeles"
+  },
+  "title": "Los Angeles Rent Stabilization Ordinance Annual Rent Increase Limit",
+  "requirement": "Landlords of covered rental units may increase rent no more than once every 12 months, based on the annual percentage change in the regional Consumer Price Index as published by the Department, with a minimum increase of 3% and a maximum of 8%. An additional 1% may be added for each utility (gas or electric) if fully paid by the landlord, up to an additional 2%.",
+  "requirement_es": "Los propietarios de unidades de alquiler cubiertas pueden aumentar el alquiler no más de una vez cada 12 meses, según el cambio porcentual anual en el Índice de Precios al Consumidor regional publicado por el Departamento, con un aumento mínimo del 3% y un máximo del 8%. Se puede agregar un 1% adicional por cada servicio público (gas o electricidad) pagado en su totalidad por el propietario, hasta un máximo del 2% adicional.",
+  "key_value": {
+   "label": "annual rent increase cap",
+   "value": "CPI (min 3%, max 8%) + up to 2% for gas/electric"
+  },
+  "coverage_conditions": {
+   "type": "AND",
+   "clauses": [
+    {
+     "field": "certificate_of_occupancy_date",
+     "operator": "<=",
+     "value": "1978-10-01",
+     "note": "Housing accommodations located in a structure for which the first Certificate of Occupancy was issued after October 1, 1978 are exempt"
+    }
+   ]
+  },
+  "exemptions": [
+   {
+    "description": "Single-family dwellings, except where two or more dwelling units are located on the same lot (not exempting duplexes or condominiums).",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": null
+      },
+      {
+       "field": "units",
+       "operator": "==",
+       "value": 1,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Transient hotels, motels, and rooming houses occupied as primary residence for 30 days or less.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dwelling unit in a nonprofit stock cooperative occupied by a shareholder tenant.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "nonprofit",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Hospitals, state licensed care facilities, convents, monasteries, extended medical care, asylums, fraternities/sororities, or school/university student housing.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Government owned/operated housing accommodations specifically exempted from municipal rent regulation by law (excluding Section 8 vouchers).",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "government",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Certified luxury housing accommodations rented at or above specified thresholds on May 31, 1978.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Certified substantial renovation units where work was completed on or after September 1, 1980.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Affordable housing accommodations with recorded 55-year government regulatory agreements for households at or below 60% AMI.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Recreational vehicles not occupied continuously for nine or more months.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "tenancy_length_months",
+       "operator": "<",
+       "value": 9,
+       "note": null
+      },
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "other",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Mobilehome parks first issued a permit to operate on or after February 10, 1986.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "mobile_home",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "1979-05-01",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Violations of any provision of this chapter may be raised as affirmative defenses in unlawful detainer proceedings.",
+  "source_citation": "L.A. Mun. Code § 151.06(D), § 151.07(A)(6)",
+  "quoted_span": "The annual rent increase adjustment shall be based on the Consumer Price Index – All Urban Consumers for the Los Angeles-Long BeachAnaheim-SMSA averaged for the previous twelve (12) month period ending September 30 of each year. It shall reflect the change in the Consumer\nPrice Index over the previous consecutive twelve (12) month period expressed as a percentage and rounded off to the nearest whole number. If the\ncalculated adjustment is three percent (3%) or less, the Department shall set the annual rent increase adjustment at three percent (3%) but, if the\ncalculated adjustment is eight percent (8%) or greater, the Department shall set the annual rent increase adjustment at eight percent (8%).",
+  "source_doc_id": "doc_013",
+  "source_url": "https://planning.lacity.gov/eir/CrossroadsHwd/deir/files/references/J203.pdf",
+  "source_char_offset": [
+   78426,
+   79131
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.93,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quoted text explicitly supports the CPI calculation, 3% floor, and 8% ceiling, but does not explicitly mention the additional 1% utility pass-throughs or 12-month interval in this specific quote slice."
+   ],
+   "corrected_fields": [],
+   "cache_key": "448a5928c3a63842e988ff5e377aa3a56c734c6f6bec5c73e95eeba48be760bc"
+  },
+  "extracted_at": "2026-10-04T11:39:04Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-LOSANG-DEPOSIT-013-02",
+  "category": "security_deposit",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Los Angeles",
+   "city": "Los Angeles"
+  },
+  "title": "Annual Interest on Security Deposits",
+  "requirement": "Landlords holding a residential tenant's security deposit for at least one year must pay annual interest on the deposit, either at the rate established annually by the Rent Adjustment Commission or using actual interest earned from a separate account with bank statements provided. The accrued interest must be paid annually or monthly as a direct payment or rent credit.",
+  "requirement_es": "Los propietarios que retengan el depósito de seguridad de un inquilino residencial durante al menos un año deben pagar un interés anual sobre el depósito, ya sea a la tasa establecida anualmente por la Comisión de Ajuste de Alquileres o según el interés real obtenido de una cuenta bancaria con los estados de cuenta correspondientes. El interés acumulado debe pagarse anual o mensualmente mediante pago directo o crédito al alquiler.",
+  "key_value": {
+   "label": "security deposit interest",
+   "value": "RAC established rate or actual interest earned"
+  },
+  "coverage_conditions": {
+   "type": "AND",
+   "clauses": [
+    {
+     "field": "tenancy_length_months",
+     "operator": ">=",
+     "value": 12,
+     "note": "deposits held for at least one year"
+    }
+   ]
+  },
+  "exemptions": [
+   {
+    "description": "Mobile home parks are not governed by the security deposit interest provisions.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "mobile_home",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "1990-12-06",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "If the landlord fails to pay interest, the tenant may bring an action for recovery in court, including small claims court.",
+  "source_citation": "L.A. Mun. Code § 151.06.02",
+  "quoted_span": "A landlord who is subject to the provisions of Section 1950.5 of the California Civil Code shall pay\nannually interest on all security deposits held for at least one year for his or her tenants as follows:",
+  "source_doc_id": "doc_013",
+  "source_url": "https://planning.lacity.gov/eir/CrossroadsHwd/deir/files/references/J203.pdf",
+  "source_char_offset": [
+   52606,
+   52811
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "448a5928c3a63842e988ff5e377aa3a56c734c6f6bec5c73e95eeba48be760bc"
+  },
+  "extracted_at": "2026-10-04T11:39:04Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-LOSANG-EVICT-013-03",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Los Angeles",
+   "city": "Los Angeles"
+  },
+  "title": "Los Angeles Rent Stabilization Ordinance Just Cause Eviction Protections and Relocation Assistance",
+  "requirement": "A landlord may only recover possession of a rental unit for specified at-fault or no-fault grounds, and must provide statutory notice and pay required relocation assistance for qualifying no-fault evictions.",
+  "requirement_es": "Un propietario solo puede recuperar la posesión de una unidad de alquiler por causales específicas con culpa o sin culpa, y debe entregar una notificación legal y pagar la asistencia para la reubicación requerida en desalojos sin culpa calificados.",
+  "key_value": {
+   "label": "Relocation assistance fee range",
+   "value": "$7,300 to $18,300 (base amounts adjusted annually)"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Tenant received advance written notice prior to tenancy agreement that subdivision application for condo/co-op was on file or approved and building would be demolished or relocated",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Tenant received advance written notice prior to tenancy agreement that application to convert building to condo/co-op project was on file or approved",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Owner recovers unit for a resident manager replacing an existing resident manager in the same unit",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Government order to vacate building housing rental unit due to hazardous conditions caused by a natural disaster",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "1979-05-01",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Affirmative defense to unlawful detainer; landlord liability in civil action for unpaid relocation damages plus reasonable attorney fees and costs; willful/knowing false statements in notices or declarations punishable as a misdemeanor with fine up to $1,000 and/or imprisonment up to six months.",
+  "source_citation": "L.A. Mun. Code § 151.09",
+  "quoted_span": "A landlord may bring an action to recover possession of a rental unit only upon one of the following grounds:",
+  "source_doc_id": "doc_013",
+  "source_url": "https://planning.lacity.gov/eir/CrossroadsHwd/deir/files/references/J203.pdf",
+  "source_char_offset": [
+   89831,
+   89940
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.93,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quote slice supports the general just-cause eviction restriction, but does not explicitly include the dollar ranges for relocation assistance."
+   ],
+   "corrected_fields": [],
+   "cache_key": "448a5928c3a63842e988ff5e377aa3a56c734c6f6bec5c73e95eeba48be760bc"
+  },
+  "extracted_at": "2026-10-04T11:39:07Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
@@ -862,7 +1164,10 @@
    "relationship": "yields_to",
    "target_scope": "state",
    "source_language": "Consistent with the Costa-Hawkins Rental Housing Act (Civil Code Sections 1954.50, et seq.) and regardless of whether otherwise provided under Chapter 37",
-   "target_rule_ids": []
+   "target_rule_ids": [
+    "CA-STATE-RENT-001-01",
+    "CA-STATE-RENT-008-01"
+   ]
   },
   "penalty": "Any rent increase which does not conform with the provisions of this section shall be null and void.",
   "source_citation": "S.F. Admin. Code § 37.3(a)(1)",
@@ -881,7 +1186,7 @@
    "corrected_fields": [],
    "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
   },
-  "extracted_at": "2026-10-04T11:18:41Z",
+  "extracted_at": "2026-10-04T11:38:56Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
@@ -949,7 +1254,7 @@
    "corrected_fields": [],
    "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
   },
-  "extracted_at": "2026-10-04T11:18:51Z",
+  "extracted_at": "2026-10-04T11:38:56Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
@@ -996,7 +1301,7 @@
    "corrected_fields": [],
    "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
   },
-  "extracted_at": "2026-10-04T11:19:00Z",
+  "extracted_at": "2026-10-04T11:38:56Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
@@ -1027,7 +1332,9 @@
    "relationship": "supersedes",
    "target_scope": "state",
    "source_language": "This Section 37.9A(a)(1) shall prevail over any conflicting provision of law authorizing the landlord to establish the rental rate upon the initial hiring of the unit.",
-   "target_rule_ids": []
+   "target_rule_ids": [
+    "CA-STATE-EVICT-002-01"
+   ]
   },
   "penalty": "Actual and exemplary damages in civil suits by displaced tenants or the City; punitive damages up to six months' contract rent for failure to notify Rent Board of intent to re-rent within 10 years.",
   "source_citation": "S.F. Admin. Code § 37.9A",
@@ -1046,7 +1353,7 @@
    "corrected_fields": [],
    "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
   },
-  "extracted_at": "2026-10-04T11:19:00Z",
+  "extracted_at": "2026-10-04T11:38:56Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
@@ -1096,7 +1403,7 @@
    "corrected_fields": [],
    "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
   },
-  "extracted_at": "2026-10-04T11:19:00Z",
+  "extracted_at": "2026-10-04T11:38:56Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
@@ -1143,7 +1450,7 @@
    "corrected_fields": [],
    "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
   },
-  "extracted_at": "2026-10-04T11:19:00Z",
+  "extracted_at": "2026-10-04T11:38:56Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
@@ -1190,7 +1497,7 @@
    "corrected_fields": [],
    "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
   },
-  "extracted_at": "2026-10-04T11:19:00Z",
+  "extracted_at": "2026-10-04T11:38:56Z",
   "model": "gemini:gemini-3.8-flash"
  },
  {
@@ -1269,7 +1576,1628 @@
    "corrected_fields": [],
    "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
   },
-  "extracted_at": "2026-10-04T11:19:11Z",
+  "extracted_at": "2026-10-04T11:38:56Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-ALGO-015-01",
+  "category": "algorithmic_rent_setting",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "San Francisco Algorithmic Pricing and Revenue Management Ban",
+  "requirement": "Landlords are prohibited from using algorithmic revenue management software based on non-public competitor data to set or recommend rents or occupancy levels. It is also unlawful to sell, license, or provide such algorithmic devices to San Francisco landlords.",
+  "requirement_es": "Se prohíbe a los propietarios utilizar software de gestión de ingresos algorítmico basado en datos no públicos de competidores para fijar o recomendar alquileres o niveles de ocupación. También es ilegal vender, licenciar o proporcionar dichos dispositivos algorítmicos a los propietarios de San Francisco.",
+  "key_value": {
+   "label": "algorithmic pricing prohibition",
+   "value": "prohibited"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Products used for the purpose of establishing rent or income limits in accordance with affordable housing program guidelines of a local, state, federal, or other political subdivision.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": "affordable housing program guidelines"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Reports that publish existing rental data in an aggregated manner but do not recommend rents or occupancy levels for future leases.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2024-10-14",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Civil penalties up to $1,000 per violation per month per unit, damages, injunctive relief, restitution, and reasonable attorney's fees and costs.",
+  "source_citation": "S.F. Admin. Code § 37.10C",
+  "quoted_span": "It shall be unlawful for a landlord to use an algorithmic device described in subdivision (a) when setting rents or occupancy levels for residential dwelling units in San Francisco. Each separate month that a violation exists or continues, and each separate residential dwelling unit for which the landlord used the algorithmic device, shall constitute a separate and distinct violation.",
+  "source_doc_id": "doc_015",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   626,
+   1013
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.92,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "Quote does not mention the effective date (2024-10-14).",
+    "Quote does not mention the exemptions or specific civil penalty amount ($1,000 per violation per month per unit, damages, attorney's fees)."
+   ],
+   "corrected_fields": [],
+   "cache_key": "54e496be5516eb82682697b30aa592563ad0dc6071364308122f889d2f854e3a"
+  },
+  "extracted_at": "2026-10-04T11:38:59Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-BERKEL-DEPOSIT-017-01",
+  "category": "security_deposit",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Alameda",
+   "city": "Berkeley"
+  },
+  "title": "Security Deposit Interest Requirement",
+  "requirement": "Landlords holding any security deposit or advance rent must hold it in a fiduciary capacity and pay simple interest annually in December (via cash or rent rebate) and upon move-out, at a rate based on local 6-month CD interest rates determined by the Rent Board.",
+  "requirement_es": "Los propietarios que retengan un depósito de seguridad o pago por adelantado deben conservarlo en carácter fiduciario y pagar intereses simples anualmente en diciembre (mediante reembolso de alquiler o pago en efectivo) y al desocupar la vivienda, a una tasa basada en las tasas de interés locales de certificados de depósito a seis meses determinadas por la Junta de Estabilización del Alquiler.",
+  "key_value": {
+   "label": "interest rate",
+   "value": "average rate on 6-month CDs at banks doing business in Berkeley"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Short-term transient rentals under 14 consecutive days",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Nonprofit cooperatives owned and controlled by a majority of residents",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "nonprofit",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Health facilities, hospitals, skilled nursing facilities, asylums, or non-profit homes for older persons",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Owner-occupied shared rentals where landlord holds at least 50% interest and shares kitchen/bath",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Recognized fraternities and sororities providing housing at cost",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Single-family dwelling with one permitted ADU where landlord occupies a unit (tenancies after Nov 7, 2018)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "501(c)(3) shelters and transitional housing programs",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "nonprofit",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Sabbatical exemption for single-family homes rented for up to 24 months",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Golden Duplex: two-unit property owner-occupied since December 31, 1979",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "units",
+       "operator": "==",
+       "value": 2,
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": null,
+  "source_citation": "Berkeley Mun. Code § 13.76.070",
+  "quoted_span": "Any payment or deposit of monies by the tenant, the primary function of which is to secure\nthe performance of a rental agreement or any part of such agreement, including an\nadvance payment of rent, shall be held by the landlord, in a fiduciary capacity for the\nbenefit of the tenant and shall accrue simple interest at the rate equal to the average rates\nof interest paid on six-month certificates of deposit by banks doing business in the City\nuntil such time as the payment or deposit is returned to the tenant or entitled to be used\nby the landlord as provided in Civil Code Section 1950.5.",
+  "source_doc_id": "doc_017",
+  "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Stabilization%20Ordinance_BMC%20Chapter%2013.76.pdf",
+  "source_char_offset": [
+   23930,
+   24523
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "4d56ee6f9da518ba954b984c2c46b895cc91fa146e9a5d40336a81104b0065ab"
+  },
+  "extracted_at": "2026-10-04T11:39:10Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-BERKEL-RENT-017-02",
+  "category": "rent_increase_limit",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Alameda",
+   "city": "Berkeley"
+  },
+  "title": "Annual General Adjustment of Rent Ceilings",
+  "requirement": "Annual general rent adjustments take effect January 1 and are capped at 65% of the regional CPI-U increase, between 0% and a maximum of 5%. Landlords must provide at least 30 days' advance written notice and be in compliance with registration, habitability, and repair orders.",
+  "requirement_es": "Los ajustes generales anuales de alquiler entran en vigor el 1 de enero y tienen un límite del 65% del aumento del IPC-U regional, entre un mínimo de 0% y un máximo de 5%. Los propietarios deben entregar una notificación por escrito con al menos 30 días de anticipación y estar al día con el registro, la habitabilidad y las órdenes de reparación.",
+  "key_value": {
+   "label": "annual cap",
+   "value": "65% of CPI-U, min 0%, max 5%"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Newly constructed rental units created after June 30, 1980 (partially-covered unit)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "certificate_of_occupancy_date",
+       "operator": ">",
+       "value": "1980-06-30",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Separately alienable single-family dwellings where tenancy commenced on or after January 1, 1996 (partially-covered unit under Costa-Hawkins)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "in",
+       "value": [
+        "single_family",
+        "condominium"
+       ],
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Government-owned or government-subsidized rental units exempt under applicable federal/state law or regulation",
+    "conditions": {
+     "type": "OR",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "government",
+       "note": null
+      },
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Short-term transient rentals rented for less than 14 consecutive days",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Nonprofit cooperatives owned and controlled by a majority of residents",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "nonprofit",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Health facilities, hospitals, skilled nursing facilities, or non-profit homes for older persons",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Owner-occupied shared rental units sharing kitchen or bath with landlord holding >= 50% interest",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Recognized fraternities and sororities",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Single-family dwelling with one permitted ADU where landlord occupies a unit (tenancies after Nov 7, 2018)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "501(c)(3) shelter and transitional housing programs",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "nonprofit",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Sabbatical exemption for single-family homes rented up to 24 months",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Golden Duplex exemption: two-unit property owner-occupied since Dec 31, 1979",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "units",
+       "operator": "==",
+       "value": 2,
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Rent withholding authorized by Board or tenant; damage suit for actual damages plus up to $750 for bad faith retention of excess rent",
+  "source_citation": "Berkeley Mun. Code § 13.76.110",
+  "quoted_span": "Effective January 1 of each year, the rent ceiling for all rental units covered by this\nChapter for which the landlord did not establish an initial rent during the prior calendar\nyear shall be adjusted by 65% of the percentage increase in the Consumer Price Index\nfor All Urban Consumers (CPI-U) in the San Francisco-Oakland-San Jose region as\nreported and published by the U.S. Department of Labor, Bureau of Labor Statistics, for\nthe twelve month period ending the previous June 30. In determining the allowable\npercentage rent increase, numbers of .04 and below shall be rounded down to the nearest\ntenth decimal place and numbers of .05 and above shall be rounded up to the nearest\ntenth decimal place. In no event, however, shall the allowable annual adjustment be less\n\nA.\n\nthan zero (0%) or greater than five percent (5%).",
+  "source_doc_id": "doc_017",
+  "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Stabilization%20Ordinance_BMC%20Chapter%2013.76.pdf",
+  "source_char_offset": [
+   35473,
+   36302
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "4d56ee6f9da518ba954b984c2c46b895cc91fa146e9a5d40336a81104b0065ab"
+  },
+  "extracted_at": "2026-10-04T11:39:10Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-BERKEL-EVICT-017-03",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Alameda",
+   "city": "Berkeley"
+  },
+  "title": "Just Cause Eviction Protections",
+  "requirement": "A landlord may only recover possession of a covered rental unit for one of the enumerated just causes, including nonpayment of rent (exceeding one month's HUD FMR), lease breach causing substantial actual injury, substantial damage, nuisance, refusal of lawful access, substantial repairs, demolition, or owner/relative move-in. Owner move-in evictions require standard relocation assistance of $15,000 (plus $5,000 for qualifying low-income, disabled, elderly, minor children, or long-term tenancies).",
+  "requirement_es": "El propietario solo puede desalojar a un inquilino de una vivienda cubierta por una de las causas justificadas establecidas por ley, tales como falta de pago del alquiler (que exceda un mes del HUD FMR), incumplimiento del contrato que cause daño real sustancial, daños graves, molestias a la paz, negativa de acceso legal, reparaciones sustanciales, demolición o mudanza del propietario o familiar. Los desalojos por mudanza del propietario exigen una asistencia de reubicación estándar de $15,000 (más $5,000 adicionales para hogares de bajos ingresos, con discapacidades, adultos mayores, menores de edad o inquilinos de larga duración).",
+  "key_value": {
+   "label": "standard relocation assistance (owner move-in)",
+   "value": "$15,000 base + $5,000 additional for protected groups"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Short-term transient rentals rented for less than 14 consecutive days",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Nonprofit cooperatives owned and controlled by a majority of residents",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "nonprofit",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Health facilities, hospitals, skilled nursing facilities, or non-profit homes for older persons",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Owner-occupied shared rentals sharing kitchen or bath with landlord holding at least 50% interest",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Recognized fraternities and sororities",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Single-family dwelling with one permitted ADU where landlord occupies a unit (tenancies after Nov 7, 2018)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Sabbatical exemption for single-family homes rented up to 24 months",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Golden Duplex: two-unit property owner-occupied since Dec 31, 1979",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "units",
+       "operator": "==",
+       "value": 2,
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "supersedes",
+   "target_scope": "state",
+   "source_language": "Pursuant to California Civil Code section 1946.2(g)(1)(B), the Board finds that this Chapter is more protective than the provisions of California Civil Code section 1946.2.",
+   "target_rule_ids": [
+    "CA-STATE-EVICT-002-01"
+   ]
+  },
+  "penalty": "Defense to eviction; treble damages and attorney fees for failure to pay relocation assistance; criminal misdemeanor fine up to $500/$1000 and/or 90 days/6 months jail for willful violation",
+  "source_citation": "Berkeley Mun. Code § 13.76.130",
+  "quoted_span": "No landlord shall be entitled to recover possession of a rental unit covered by the\nterms of this chapter unless said landlord shows the existence of one of the following\ngrounds:",
+  "source_doc_id": "doc_017",
+  "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Stabilization%20Ordinance_BMC%20Chapter%2013.76.pdf",
+  "source_char_offset": [
+   49736,
+   49915
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "4d56ee6f9da518ba954b984c2c46b895cc91fa146e9a5d40336a81104b0065ab"
+  },
+  "extracted_at": "2026-10-04T11:39:11Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-BERKEL-ALGO-018-01",
+  "category": "algorithmic_rent_setting",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Alameda",
+   "city": "Berkeley"
+  },
+  "title": "Berkeley Ban on Pricing Algorithms to Set Rents",
+  "requirement": "Landlords are prohibited from using pricing algorithms that analyze competitor data to set rents or manage occupancy levels for residential units. Selling, licensing, or providing such pricing algorithms to Berkeley landlords is also unlawful.",
+  "requirement_es": "Se prohíbe a los propietarios utilizar algoritmos de fijación de precios que analicen datos de competidores para fijar alquileres o gestionar niveles de ocupación en unidades residenciales. También es ilegal vender, licenciar o proporcionar dichos algoritmos de fijación de precios a los propietarios de Berkeley.",
+  "key_value": {
+   "label": "Civil penalty per violation",
+   "value": "up to $1,000"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Products used for the purpose of establishing rent or income limits in accordance with affordable housing guidelines of a local, state, or federal government or other political subdivision",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": "product used for the purpose of establishing rent or income limits in accordance with affordable housing guidelines"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Any report published by a trade association that receives renter data and publishes it in an aggregated and anonymous manner",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Civil penalties of up to $1,000 per violation (each month a violation exists or continues, and each unit for which the algorithm was used, constitutes a separate violation), plus damages, injunctive relief, restitution/return of illegal profits, and reasonable attorney's fees and costs.",
+  "source_citation": "Berkeley Mun. Code § 13.63.030",
+  "quoted_span": "It shall be unlawful for a landlord to use a pricing algorithm described in subsection\nA when setting rents or occupancy levels for residential dwelling units in the city of\nBerkeley. Each separate month that a violation exists or continues, and each separate\nresidential dwelling unit for which the landlord used the pricing algorithm, shall constitute\na separate and distinct violation.",
+  "source_doc_id": "doc_018",
+  "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-03-25%20Item%2002%20Ordinance%207956.pdf",
+  "source_char_offset": [
+   6590,
+   6978
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.9,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The sliced quote supports the ban on landlords using pricing algorithms to set rents/occupancy levels and unit/month violation structure, but does not explicitly mention the $1,000 civil penalty, sale/licensing, or the affordable housing/trade association exemptions (which reside in other subsections of BMC 13.63)."
+   ],
+   "corrected_fields": [],
+   "cache_key": "5d80cb64c97b95ecec527eefdbb624bc29c23c16f07f3656270e8f136a5a1ea1"
+  },
+  "extracted_at": "2026-10-04T11:39:03Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-BERKEL-ALGO-019-01",
+  "category": "algorithmic_rent_setting",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Alameda",
+   "city": "Berkeley"
+  },
+  "title": "Berkeley Coordinated Pricing Algorithm Ban",
+  "requirement": "Landlords are prohibited from using coordinated pricing algorithms that rely on competitor data to set rents or manage occupancy levels for residential units. The sale, licensing, or provision of such algorithms to Berkeley landlords is also illegal.",
+  "requirement_es": "Se prohíbe a los propietarios utilizar algoritmos de fijación coordinada de precios que utilicen datos de la competencia para fijar alquileres o gestionar niveles de ocupación en unidades residenciales. También es ilegal vender, licenciar o proporcionar dichos algoritmos a propietarios en Berkeley.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Reports published by a trade association receiving renter data and publishing it in an aggregated and anonymous manner",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Products used for the purpose of establishing rent or income limits in accordance with affordable housing guidelines of a local, state, or federal government",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": "product used to establish rent or income limits under affordable housing guidelines"
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2026-03-01",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Civil penalties up to $1,000 per violation (each separate month and each separate unit constitutes a violation), damages, injunctive relief, restitution/return of illegal profits, and prevailing attorney's fees and costs.",
+  "source_citation": "Berkeley Mun. Code § 13.63.030",
+  "quoted_span": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described\nin subsection A when setting rents or occupancy levels for residential dwelling units in\nthe city of Berkeley.",
+  "source_doc_id": "doc_019",
+  "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-07-08%20Item%2001%20Amendments%20to%20Ordinance%20Prohibiting.pdf",
+  "source_char_offset": [
+   6862,
+   7057
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.9,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The sliced quote supports the landlord prohibition on using coordinated pricing algorithms for residential units in Berkeley, but does not state the sale/licensing prohibition, exemptions, effective date, or penalty details."
+   ],
+   "corrected_fields": [],
+   "cache_key": "4dd0cb1a02949def28e042ad234696033f4e3504054766b062f57c9d5f2ec0b4"
+  },
+  "extracted_at": "2026-10-04T11:39:04Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANTAA-RENT-020-02",
+  "category": "rent_increase_limit",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Orange",
+   "city": "Santa Ana"
+  },
+  "title": "Annual Rent Increase Limit",
+  "requirement": "Rent increases are capped at 3% or 80% of the change in CPI (whichever is less) and are restricted to no more than one rent increase in any 12-month period. If the change in CPI is negative, no rent increase is permitted.",
+  "requirement_es": "Los aumentos de alquiler tienen un límite del 3% o el 80% de la variación del IPC (lo que sea menor) y no se permite más de un aumento en cualquier período de 12 meses. Si la variación del IPC es negativa, no se permite ningún aumento de alquiler.",
+  "key_value": {
+   "label": "annual rent cap",
+   "value": "lesser of 3% or 80% of CPI"
+  },
+  "coverage_conditions": {
+   "type": "AND",
+   "clauses": [
+    {
+     "field": "certificate_of_occupancy_date",
+     "operator": "<=",
+     "value": "1995-02-01",
+     "note": "Pursuant to Costa-Hawkins, exempts property with certificate of occupancy issued after February 1, 1995"
+    },
+    {
+     "field": "building_age_years",
+     "operator": ">=",
+     "value": 15,
+     "note": "Exempts housing issued a certificate of occupancy within the previous 15 years"
+    }
+   ]
+  },
+  "exemptions": [
+   {
+    "description": "Residential Real Property with a certificate of occupancy issued after February 1, 1995 under Costa-Hawkins",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "certificate_of_occupancy_date",
+       "operator": ">",
+       "value": "1995-02-01",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Housing issued a certificate of occupancy within the previous 15 years",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "building_age_years",
+       "operator": "<",
+       "value": 15,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Deed-restricted affordable housing or government subsidized housing",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dormitories owned and operated by an educational institution",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "other",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Alienably separate dwelling units (single-family, condo) not owned by a REIT, corporation, or corporate-member LLC, where proper notice has been provided",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "in",
+       "value": [
+        "single_family",
+        "condominium"
+       ],
+       "note": null
+      },
+      {
+       "field": "owner_type",
+       "operator": "not_in",
+       "value": [
+        "reit",
+        "corporation"
+       ],
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Two separate dwelling units within a single structure (duplex) where owner occupied one unit at commencement and continues in occupancy",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "duplex",
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Mobilehome Space subject to long-term lease, constructed on/after Jan 1 1990, or not used as primary residence",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "mobile_home",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2022-10-18",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "yields_to",
+   "target_scope": "state",
+   "source_language": "unless expressly exempt under the Costa-Hawkins Rental Housing Act codified in California Civil Code section 1954.50, et seq., or the Mobilehome Residency Law codified in California Civil Code sections 798, et seq.",
+   "target_rule_ids": [
+    "CA-STATE-RENT-001-01",
+    "CA-STATE-RENT-008-01"
+   ]
+  },
+  "penalty": "Rent increase is ineffective; administrative citation; civil action for damages and injunctive relief; complete affirmative defense in an unlawful detainer action.",
+  "source_citation": "Santa Ana Mun. Code § 8-3140",
+  "quoted_span": "Increases in Rent on Residential Real Property or Mobilehome Spaces in the City of\nSanta Ana in excess of three percent (3%), or eighty (80%) of the change in the Consumer\nPrice Index, whichever is less, and more than one Rent Increase in any twelve (12)\nmonth period, are prohibited,",
+  "source_doc_id": "doc_020",
+  "source_url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR",
+  "source_char_offset": [
+   44014,
+   44298
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "f44ff8e5af4560c5d3c7c009313922fc99c3e91a13d3dec659fba87db55d32b0"
+  },
+  "extracted_at": "2026-10-04T11:39:14Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "NJ-STATE-EVICT-022-01",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "state",
+   "state": "NJ",
+   "county": null,
+   "city": null
+  },
+  "title": "Anti-Eviction Act Good Cause Requirement",
+  "requirement": "Landlords cannot remove residential tenants except by establishing one of the statutory good cause grounds enumerated in the Anti-Eviction Act.",
+  "requirement_es": "Los propietarios no pueden desalojar a inquilinos residenciales excepto al demostrar una de las causales legales justificadas enumeradas en la Ley contra el Desalojo.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Owner-occupied premises with not more than two rental units",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "owner-occupied premises"
+      },
+      {
+       "field": "units",
+       "operator": "<=",
+       "value": 3,
+       "note": "not more than two rental units"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Hotel, motel or guest house rented to a transient guest or seasonal tenant",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dwelling unit held in trust or permanently occupied by an immediate family member of the owner who has a developmental disability",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": null,
+  "source_citation": "N.J.S.A. 2A:18-61.1",
+  "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be\nremoved by the Superior Court from any house, building, mobile home or land in a mobile home park or\ntenement leased for residential purposes, other than (1) owner-occupied premises with not more than two\nrental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal\ntenant; (2) a dwelling unit which is held in trust on behalf of a member of the immediate family of the person\nor persons establishing the trust, provided that the member of the immediate family on whose behalf the\ntrust is established permanently occupies the unit; and (3) a dwelling unit which is permanently occupied by\na member of the immediate family of the owner of that unit, provided, however, that exception (2) or (3)\nshall apply only in cases in which the member of the immediate family has a developmental disability,\nexcept upon establishment of one of the following grounds as good cause:",
+  "source_doc_id": "doc_022",
+  "source_url": "https://www.nj.gov/dca/codes/codreg/pdf_regs/2A_18_61.pdf",
+  "source_char_offset": [
+   665,
+   1688
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.96,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "043419c898758d6d6007e3e2969b3ea55fc014a08cd97696ce78467d5bd09b0c"
+  },
+  "extracted_at": "2026-10-04T11:39:08Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "NJ-STATE-DEPOSIT-023-01",
+  "category": "security_deposit",
+  "jurisdiction": {
+   "level": "state",
+   "state": "NJ",
+   "county": null,
+   "city": null
+  },
+  "title": "Security deposit limit and annual increase cap",
+  "requirement": "A landlord cannot require more than 1.5 times one month's rent as a security deposit. Any annual increase in the security deposit cannot exceed 10 percent of the current security deposit.",
+  "requirement_es": "El arrendador no puede exigir más de 1.5 veces el monto de un mes de alquiler como depósito de seguridad. Cualquier aumento anual del depósito no puede exceder el 10 por ciento del depósito de seguridad actual.",
+  "key_value": {
+   "label": "maximum security deposit",
+   "value": "1.5 months' rent"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the provisions of the act",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "owner-occupied premises"
+      },
+      {
+       "field": "units",
+       "operator": "<=",
+       "value": 2,
+       "note": "not more than two rental units"
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2004-01-01",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Unlawful diversion of security deposit trust funds is punishable as a disorderly persons offense with a fine of not less than $200, imprisonment for not more than 30 days, or both.",
+  "source_citation": "N.J.S.A. 46:8-21.2",
+  "quoted_span": "An owner or lessee may not require more than a sum equal to 1 1/2 times 1 month's rental\naccording to the terms of contract, lease, or agreement as a security for the use or rental of real\nproperty used for dwelling purposes. Whenever an owner or lessee collects from a tenant an\nadditional amount of security deposit, the amount collected annually as additional security shall\nnot be greater than 10 percent of the current security deposit.",
+  "source_doc_id": "doc_023",
+  "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/sdepsit_law.pdf",
+  "source_char_offset": [
+   19097,
+   19538
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.96,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quote does not contain the penalty text or exemptions, though it supports the core requirement and key value under N.J.S.A. 46:8-21.2."
+   ],
+   "corrected_fields": [],
+   "cache_key": "58a751fc92deeb0472e2d2c94a669340bf6e21389397888f4085e3b88c810cb1"
+  },
+  "extracted_at": "2026-10-04T11:39:13Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "NJ-STATE-DEPOSIT-023-02",
+  "category": "security_deposit",
+  "jurisdiction": {
+   "level": "state",
+   "state": "NJ",
+   "county": null,
+   "city": null
+  },
+  "title": "Return of security deposit deadline and double damages penalty",
+  "requirement": "Landlords must return the security deposit plus accrued interest, minus itemized allowable deductions, within 30 days of lease termination (or within 5 business days if displaced by fire, flood, condemnation, or evacuation, or 15 business days for domestic violence lease termination). A tenant wrongfully denied their deposit is entitled to double the amount wrongfully withheld, plus costs and reasonable attorney's fees.",
+  "requirement_es": "Los arrendadores deben devolver el depósito de seguridad más los intereses acumulados, menos las deducciones desglosadas permitidas, dentro de los 30 días posteriores a la terminación del contrato (o dentro de 5 días hábiles si fue desplazado por incendio, inundación, expropiación o evacuación, o 15 días hábiles por rescisión debido a violencia doméstica). El inquilino a quien se le retenga indebidamente su depósito tiene derecho al doble de la cantidad retenida indebidamente, más costas y honorarios de abogados.",
+  "key_value": {
+   "label": "deposit return deadline",
+   "value": "30 days"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the provisions of the act",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "owner-occupied premises"
+      },
+      {
+       "field": "units",
+       "operator": "<=",
+       "value": 2,
+       "note": "not more than two rental units"
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2008-01-01",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "supersedes",
+   "target_scope": "state",
+   "source_language": "Notwithstanding the provisions of this or any other section of law to the contrary",
+   "target_rule_ids": [
+    "NJ-STATE-DEPOSIT-023-01"
+   ]
+  },
+  "penalty": "The court shall award recovery of double the amount of moneys wrongfully withheld, together with full court costs and, in the court's discretion, reasonable attorney's fees; civil penalties between $500 and $2,000 for willful withholding where deposits were made by a State entity on behalf of a tenant.",
+  "source_citation": "N.J.S.A. 46:8-21.1",
+  "quoted_span": "Within 30 days after the termination of the tenant's lease or licensee's agreement, the owner\nor lessee shall return by personal delivery, registered or certified mail the sum so deposited plus\nthe tenant's portion of the interest or earnings accumulated thereon, less any charges expended in\naccordance with the terms of a contract, lease, or agreement, to the tenant or licensee, or, in the\ncase of a lease terminated pursuant to P.L.1971, c.318 (C.46:8-9.1), the executor or administrator\nof the estate of the tenant or licensee or the surviving spouse of the tenant or licensee so\nterminating the lease. The interest or earnings and any such deductions shall be itemized and the\ntenant, licensee, executor, administrator or surviving spouse notified thereof by personal\ndelivery, registered or certified mail. Notwithstanding the provisions of this or any other section\nof law to the contrary, no deductions shall be made from a security deposit of a tenant who\nremains in possession of the rental premises.\nWithin five business days after:\na. the tenant is caused to be displaced by fire, flood, condemnation, or evacuation, and\nb.",
+  "source_doc_id": "doc_023",
+  "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/sdepsit_law.pdf",
+  "source_char_offset": [
+   11808,
+   12944
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.93,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quote cuts off before mentioning the domestic violence exception, the double damages penalty, or the owner-occupied exemption, though it supports the general 30-day deadline, itemized deductions requirement, and the 5-day displacement rule."
+   ],
+   "corrected_fields": [],
+   "cache_key": "58a751fc92deeb0472e2d2c94a669340bf6e21389397888f4085e3b88c810cb1"
+  },
+  "extracted_at": "2026-10-04T11:39:14Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "NJ-STATE-SCREEN-024-01",
+  "category": "screening_restriction",
+  "jurisdiction": {
+   "level": "state",
+   "state": "NJ",
+   "county": null,
+   "city": null
+  },
+  "title": "Criminal History Screening Restrictions (Fair Chance in Housing Act)",
+  "requirement": "Landlords cannot inquire into an applicant's criminal history or evaluate criminal records prior to making a conditional offer, subject to limited exceptions for sex offender registration and methamphetamine production. After a conditional offer, landlords may only consider specified serious or recent convictions, must conduct an individualized assessment, and must allow the applicant an opportunity to dispute inaccuracies or show rehabilitation before withdrawing the offer.",
+  "requirement_es": "Los propietarios no pueden consultar el historial penal de un solicitante ni evaluarlo antes de hacer una oferta condicional, salvo excepciones limitadas relacionadas con el registro de delincuentes sexuales y la producción de metanfetamina. Tras una oferta condicional, solo pueden considerar ciertas condenas graves o recientes, deben realizar una evaluación individualizada y permitir que el solicitante impugne inexactitudes o demuestre rehabilitación antes de retirar la oferta.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Dwelling unit in an owner-occupied premises of not more than four dwelling units",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "dwelling unit in an owner-occupied premises"
+      },
+      {
+       "field": "units",
+       "operator": "<=",
+       "value": 4,
+       "note": "not more than four dwelling units"
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2022-01-01",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Civil penalties up to $1,000 for a first violation within 5 years, up to $5,000 for one prior violation within 5 years, and up to $10,000 for two or more violations within 7 years; division orders may include cease and desist, conditional offer or unit placement, application fee return, and paying up to $1,000 to the applicant.",
+  "source_citation": "N.J.S.A. 46:8-55, 46:8-56",
+  "quoted_span": "A housing provider shall not require an applicant to complete any housing application that includes any inquiries regarding\nan applicant's criminal record prior to the provision of a conditional offer, except that a housing provider may consider whether\nan applicant has ever been convicted of drug-related criminal activity for the manufacture or production of methamphetamine\non the premises of federally assisted housing, and whether the applicant is subject to a lifetime registration requirement under\na State sex offender registration program.\n(2) A housing provider shall not make any oral or written inquiry regarding an applicant's criminal record prior to making a\nconditional offer.",
+  "source_doc_id": "doc_024",
+  "source_url": "https://www.njoag.gov/wp-content/uploads/2021/12/Fair-Chance-in-Housing-Act_NJSA-46-8-52-et-seq.pdf",
+  "source_char_offset": [
+   6235,
+   6928
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.93,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quote specifically covers pre-conditional offer inquiry bans and the exceptions for methamphetamine and sex offender registration. Post-conditional offer individualized assessment, exemptions (owner-occupied <= 4 units), penalties, and effective date are from other sections of the Act not included in the sliced quote, but the core requirement stated in the quote supports the rule."
+   ],
+   "corrected_fields": [],
+   "cache_key": "c4161a18c751f608acd2c03687f401f073c2e4ba702b548659e005afc99a2995"
+  },
+  "extracted_at": "2026-10-04T11:39:13Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "NJ-JERSEY-ALGO-028-01",
+  "category": "algorithmic_rent_setting",
+  "jurisdiction": {
+   "level": "city",
+   "state": "NJ",
+   "county": "Hudson",
+   "city": "Jersey City"
+  },
+  "title": "Jersey City Algorithmic Rent-Fixing Prohibition",
+  "requirement": "Landlords and their agents are prohibited from subscribing to, contracting with, or exchanging value for the services of a pricing service provider that coordinates nonpublic competitor rental data or recommends rents, lease terms, or occupancy levels. Service providers are also barred from facilitating non-compete agreements among housing providers.",
+  "requirement_es": "Se prohíbe a los arrendadores y sus agentes suscribirse, contratar o intercambiar cualquier cosa de valor por los servicios de un proveedor que coordine datos no públicos de competidores o recomiende precios de alquiler, términos de arrendamiento o niveles de ocupación. Los proveedores de servicios tampoco pueden facilitar acuerdos de no competencia entre arrendadores.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Inpatient medical care, licensed long-term care, and detention or correctional facilities",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "other",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Internal coordination by owners exclusively among multiple properties controlled by the same rental property owner",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Licensed real estate agents operating in accordance with applicable state regulations",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "First violation punishable under Chapter 1, § 1-25; subsequent violations punishable by a fine of $100 to $2,000 per day; civil actions with costs and reasonable attorney fees.",
+  "source_citation": "Jersey City Code § 218-12(2) (Ord. 25-057)",
+  "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise\nexchange anything of value in return for the services of a Service Provider.\nb.No service provider shall facilitate an agreement not to compete among real estate lessors with respect to any\naspect of residential dwelling units, including rental pricing, fees, or any other rental terms.",
+  "source_doc_id": "doc_028",
+  "source_url": "https://cityofjerseycity.civicweb.net/document/429156/",
+  "source_char_offset": [
+   5025,
+   5432
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "7be9bf4775921925a8e1952eeaea0af2964a88987b8cc66826e3f0dedb2b2647"
+  },
+  "extracted_at": "2026-10-04T11:39:15Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "MA-STATE-FEE-034-01",
+  "category": "application_screening_fee",
+  "jurisdiction": {
+   "level": "state",
+   "state": "MA",
+   "county": null,
+   "city": null
+  },
+  "title": "Permitted upfront move-in charges",
+  "requirement": "At or prior to the start of a tenancy, a landlord may only require upfront payments for first month's rent, last month's rent at the same rate, a security deposit up to one month's rent, and the purchase and installation cost for a key and lock.",
+  "requirement_es": "Al comienzo de un arrendamiento o antes, el arrendador únicamente puede exigir pagos por adelantado correspondientes al primer mes de alquiler, el último mes de alquiler calculado a la misma tarifa, un depósito de seguridad equivalente a un mes de alquiler, y el costo de compra e instalación de llave y cerradura.",
+  "key_value": {
+   "label": "maximum allowed upfront categories",
+   "value": "first month's rent, last month's rent, security deposit (max 1 month), key and lock cost"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Vacation or recreational rentals of 100 days or less",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Lease provisions conflicting with this section or attempting to waive it are void and unenforceable; failure to comply with deposit handling or return triggers forfeiture and treble damages.",
+  "source_citation": "Mass. Gen. Laws ch. 186, § 15B(1)(b)",
+  "quoted_span": "At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:\n\n  (i) rent for the first full month of occupancy; and,\n\n  (ii) rent for the last full month of occupancy calculated at the same rate as the first month; and,",
+  "source_doc_id": "doc_034",
+  "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
+  "source_char_offset": [
+   1940,
+   2313
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.9,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quote is truncated before clauses (iii) and (iv) which specify the security deposit and lock/key costs, though the excerpt covers the general upfront limit structure and items (i) and (ii).",
+    "The effective date '2025-08-01' is not supported by the quote or statutory citation."
+   ],
+   "corrected_fields": [
+    "effective_date"
+   ],
+   "cache_key": "8bd6f9b0ee726bf5f0cace16fdb78194520a3e272355519794a76b23e601b075"
+  },
+  "extracted_at": "2026-10-04T11:39:20Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "MA-STATE-DEPOSIT-034-02",
+  "category": "security_deposit",
+  "jurisdiction": {
+   "level": "state",
+   "state": "MA",
+   "county": null,
+   "city": null
+  },
+  "title": "Security deposit limit and holding requirements",
+  "requirement": "A security deposit cannot exceed the first month's rent. The landlord must hold it in a separate interest-bearing bank account, provide a receipt and condition statement, pay annual interest, and return the deposit within 30 days after the tenancy ends minus only permitted deductions.",
+  "requirement_es": "El depósito de seguridad no puede exceder el alquiler del primer mes. El arrendador debe mantenerlo en una cuenta bancaria separada que genere intereses, entregar un recibo y un estado de la condición del inmueble, pagar intereses anuales y devolver el depósito dentro de los 30 días posteriores al fin del arrendamiento, deduciendo únicamente los conceptos permitidos.",
+  "key_value": {
+   "label": "security deposit cap",
+   "value": "1 month's rent"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Vacation or recreational rentals of 100 days or less",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Forfeiture of the right to retain the deposit or counterclaim for damages, plus treble damages, 5% interest, court costs, and reasonable attorney's fees for specified violations.",
+  "source_citation": "Mass. Gen. Laws ch. 186, § 15B(1)(b)(iii), (3), (4), (6), (7)",
+  "quoted_span": "a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);",
+  "source_doc_id": "doc_034",
+  "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
+  "source_char_offset": [
+   2323,
+   2539
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.94,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quote only explicitly demonstrates that the security deposit is equal to the first month's rent and references subsections (2) and (3); details regarding 30-day return, treble damages, etc., are in referenced subsections not contained in the quote slice."
+   ],
+   "corrected_fields": [],
+   "cache_key": "8bd6f9b0ee726bf5f0cace16fdb78194520a3e272355519794a76b23e601b075"
+  },
+  "extracted_at": "2026-10-04T11:39:20Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "MA-STATE-FEE-035-01",
+  "category": "application_screening_fee",
+  "jurisdiction": {
+   "level": "state",
+   "state": "MA",
+   "county": null,
+   "city": null
+  },
+  "title": "Broker licensing requirement for charging rental finding fees",
+  "requirement": "No person may charge a fee to find dwelling accommodations for prospective tenants unless they are a licensed real estate broker or salesperson.",
+  "requirement_es": "Ninguna persona puede cobrar una tarifa por buscar alojamiento residencial para posibles inquilinos a menos que sea un corredor o vendedor de bienes raíces con licencia.",
+  "key_value": {
+   "label": "unlicensed fee prohibition",
+   "value": "fee prohibited unless licensed"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": null,
+  "source_citation": "Mass. Gen. Laws ch. 112, § 87DDD½",
+  "quoted_span": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve.",
+  "source_doc_id": "doc_035",
+  "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD1~2",
+  "source_char_offset": [
+   865,
+   1097
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "cf90435b553119f43b57c1276c791589ceb0ecf11ca6f8158a8235fde093fd6a"
+  },
+  "extracted_at": "2026-10-04T11:39:18Z",
   "model": "gemini:gemini-3.8-flash"
  }
 ]

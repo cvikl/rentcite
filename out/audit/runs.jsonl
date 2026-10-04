@@ -3,3 +3,4 @@
 {"step": "extract", "at": "2026-10-04T11:19:14Z", "docs": 1, "rules": 8, "llm_calls": 5, "cache_hits": 0, "model": "gemini:gemini-3.8-flash", "seconds": 42.9}
 {"step": "lookup", "at": "2026-10-04T11:37:14Z", "as_of": "2026-10-04", "addresses": 468, "results": {"unknown": 416, "applies": 260}}
 {"step": "changes", "at": "2026-10-04T11:37:14Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}
+{"step": "extract", "at": "2026-10-04T11:39:21Z", "docs": 29, "rules": 32, "llm_calls": 53, "cache_hits": 5, "model": "gemini:gemini-3.8-flash", "seconds": 37.8}

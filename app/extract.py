@@ -44,7 +44,7 @@ Rules of the job:
 4. Dates: ISO YYYY-MM-DD. effective_date is the date the rule as described takes effect (if the text gives an operative date for the latest amendment, use that). Use null when the text states no date. Never guess a date.
 5. Coverage conditions describe WHICH BUILDINGS or TENANCIES the rule reaches, as a boolean tree, using only the allowed fact fields. If the rule covers every rental in its jurisdiction, use {"type":"ALWAYS","clauses":[]}. Express "certificate of occupancy before DATE" as certificate_of_occupancy_date < "DATE". Express "built within the last N years" as building_age_years < N. Express unit-count tests with units. Do not put the jurisdiction itself in the conditions.
 6. Exemptions: each with a description and its own condition tree. Exemptions whose test is not expressible with the allowed fields (e.g. "tenant is a government employee") still get a record with an empty ALWAYS-false shape: use {"type":"AND","clauses":[{"field":"owner_type","operator":"==","value":"__unknowable__"}]} so code reports unknown rather than guessing.
-7. Precedence must come from explicit words in the text (preempt, notwithstanding any local ordinance, shall not apply where a local ordinance, supersede, in addition to). If the text is silent use "stacks_with" and target_scope "none".
+7. Precedence must come from explicit words in the text (preempt, notwithstanding any local ordinance, shall not apply where a local ordinance, supersede, in addition to) and source_language must quote those words. If the text is silent use "stacks_with" and target_scope "none". A rule that preempts or displaces other rules only reaches the buildings its own coverage_conditions describe: write those conditions (for example a vacancy-decontrol or new-construction carve-out reaches units with certificate_of_occupancy_date after a date, or property_type in [single_family, condominium]), never ALWAYS, unless the text truly bars every local rule in the category for every building.
 8. requirement: 1-2 plain sentences a renter can act on (English). requirement_es: the same in Spanish. key_value: the single number or formula at the heart of the rule (e.g. label "annual cap", value "5% + CPI, max 10%").
 9. quote: pick the 1-4 sentences that state the rule itself (the cap, the prohibition, the amount). "chunk" is the chunk id in square brackets. "start_words" are the first 4-8 words of the span copied exactly as written in that chunk; "end_words" the last 4-8 words copied exactly. Never alter spelling, punctuation or case.
 10. confidence 0-1: how sure you are that this is a real rule in this category with correct fields.
@@ -81,7 +81,8 @@ Record shape:
 
 
 VERIFY_SYSTEM = """You are a verifier. For each extracted rule you receive the structured record and the exact quote that was sliced from the source. Check that the quote supports the category, the key value, the effective date, the status and the coverage conditions. Reply with JSON {"checks":[{"index": i, "supported": true|false, "issues": ["..."], "corrections": {field: value}, "confidence": 0.0-1.0}]}.
-Corrections may only touch: category, key_value, effective_date, status, coverage_conditions, exemptions, precedence, penalty, requirement, requirement_es, source_citation. Never rewrite the quote. If the quote does not state the rule at all set supported=false. Do not add rules."""
+Corrections may only touch: category, key_value, effective_date, status, coverage_conditions, exemptions, precedence, penalty, requirement, requirement_es, source_citation. Never rewrite the quote. If the quote does not state the rule at all set supported=false. Do not add rules.
+Check precedence strictly: "supersedes" or "yields_to" is only correct when the quoted span itself contains words of preemption or deference (preempt, notwithstanding any local ordinance, shall not apply where a local ordinance, supersede); otherwise correct precedence to {"relationship": "stacks_with", "target_scope": "none", "source_language": null}."""
 
 
 def _window_chunks(doc: Document) -> list[list[Chunk]]:
@@ -180,6 +181,15 @@ def _to_rule(doc: Document, raw: dict[str, Any], n: int, model: str) -> Optional
         return None
     # exemptions that are literally the whole coverage make no sense; keep only if they have a tree
     rule.exemptions = [e for e in rule.exemptions if e.conditions.type != "ALWAYS"]
+    # California: a chaptered non-urgency statute takes effect on January 1 after enactment (Cal. Const. art. IV, § 8(c)).
+    # Applied in code from the chaptering date in the bill text when the model found no stated operative date.
+    if rule.effective_date is None and doc.state == "CA" and doc.kind == "bill" and rule.status == "enacted":
+        m = re.search(r"(?:Approved by Governor|Filed with Secretary of State)\s+[A-Z][a-z]+ \d{1,2}, (\d{4})", doc.text)
+        m2 = re.search(r"Version:\s*\d{2}/\d{2}/(\d{2}) - Chaptered", doc.text)
+        year = int(m.group(1)) if m else (2000 + int(m2.group(1)) if m2 else None)
+        if year and not re.search(r"urgency statute", doc.text, re.I):
+            rule.effective_date = f"{year + 1}-01-01"
+            rule.verification = {**rule.verification, "effective_date_rule": "Cal. Const. art. IV, § 8(c): January 1 after chaptering; derived in code"}
     # a doc that is a bill and the model says enacted without a chapter: trust the manifest hint if present
     hint = (doc.extra.get("status_hint") or "").strip()
     if hint in ("enacted", "pending", "struck", "repealed"):

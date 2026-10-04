@@ -11,8 +11,11 @@ from __future__ import annotations
 from datetime import date
 from typing import Any, Optional
 
-from .schema import (APPLIES, NOT_YET_EFFECTIVE, OMIT, PENDING, SUPERSEDED, UNKNOWN, Clause, Condition, Jurisdiction,
+from .schema import (APPLIES, NOT_YET_EFFECTIVE, OMIT, PENDING, SUPERSEDED, UNKNOWN, VOCAB, Clause, Condition, Jurisdiction,
                      Rule, norm_place, parse_date)
+
+NEVER_IN_DATA = set(VOCAB.get("facts_never_in_data", []))
+FLAG_UNKNOWN_EXEMPTIONS = VOCAB.get("unknown_exemption_policy", "flag") == "flag"
 
 TRUE, FALSE, UNK = "true", "false", "unknown"
 NOT_TABLE = {TRUE: FALSE, FALSE: TRUE, UNK: UNK}
@@ -155,20 +158,35 @@ def scope_matches(scope: str, other: Jurisdiction) -> bool:
 
 # ----------------------------------------------------------------------------- decide
 def coverage_outcome(rule: Rule, facts: dict[str, Any]) -> tuple[str, list[str]]:
-    """TRUE / FALSE / UNK for 'this building is covered and not exempt', plus the missing facts."""
+    """TRUE / FALSE / UNK for 'this building is covered and not exempt', plus the missing facts.
+
+    Under the "flag" policy an exemption that rests entirely on facts the address data never holds
+    is reported as a possible exemption (TRUE with the facts listed) rather than blocking. An exemption
+    that also tests a data fact (e.g. units <= 2 AND owner is a natural person) still yields unknown."""
     missing: list[str] = []
     cov = evaluate(rule.coverage_conditions, facts, missing)
     if cov == FALSE:
         return FALSE, []
     ex = FALSE
+    flagged: list[str] = []
     if rule.exemptions:
-        exs = [evaluate(e.conditions, facts, missing) for e in rule.exemptions]
+        exs = []
+        for e in rule.exemptions:
+            m: list[str] = []
+            r = evaluate(e.conditions, facts, m)
+            fields = {c.field for c in _leaves(e.conditions)}
+            if r == UNK and FLAG_UNKNOWN_EXEMPTIONS and fields and fields <= NEVER_IN_DATA:
+                flagged.extend(m)
+                r = FALSE
+            else:
+                missing.extend(m)
+            exs.append(r)
         ex = TRUE if TRUE in exs else (UNK if UNK in exs else FALSE)
     if cov == TRUE and ex == TRUE:
         return FALSE, []
     if cov == UNK or ex == UNK:
         return UNK, sorted(set(missing))
-    return TRUE, []
+    return TRUE, sorted(set(flagged))
 
 
 def _window_ok(rule: Rule, as_of: date) -> str:
@@ -206,7 +224,10 @@ def decide(rule: Rule, facts: dict[str, Any], as_of: date, stack: dict[str, Any]
         if sup_by:
             ids = ", ".join(r.rule_id for r in sup_by)
             return SUPERSEDED, f"displaced by {ids}", []
-    return APPLIES, _applies_reason(rule, facts), []
+    reason = _applies_reason(rule, facts)
+    if missing:
+        reason += "; a stated exemption could apply if " + ", ".join(missing) + " were known"
+    return APPLIES, reason, missing
 
 
 def superseding_rules(rule: Rule, facts: dict[str, Any], as_of: date, stack: dict[str, Any], rules: list[Rule],
@@ -220,9 +241,9 @@ def superseding_rules(rule: Rule, facts: dict[str, Any], as_of: date, stack: dic
             continue
         relation = None
         p_other, p_self = other.precedence, rule.precedence
-        if p_other.relationship == "supersedes" and (rule.rule_id in p_other.target_rule_ids or scope_matches(p_other.target_scope, rule.jurisdiction)):
+        if p_other.relationship == "supersedes" and rule.rule_id in p_other.target_rule_ids:
             relation = "supersedes"
-        elif p_self.relationship == "yields_to" and (other.rule_id in p_self.target_rule_ids or scope_matches(p_self.target_scope, other.jurisdiction)):
+        elif p_self.relationship == "yields_to" and other.rule_id in p_self.target_rule_ids:
             relation = "yields_to"
         if relation is None:
             continue
@@ -292,13 +313,13 @@ def conflicts_for(rule: Rule, facts: dict[str, Any], as_of: date, stack: dict[st
 
 def _relation(a: Rule, b: Rule) -> Optional[str]:
     pa, pb = a.precedence, b.precedence
-    if pb.relationship == "supersedes" and (a.rule_id in pb.target_rule_ids or scope_matches(pb.target_scope, a.jurisdiction)):
+    if pb.relationship == "supersedes" and a.rule_id in pb.target_rule_ids:
         return "superseded by"
-    if pa.relationship == "supersedes" and (b.rule_id in pa.target_rule_ids or scope_matches(pa.target_scope, b.jurisdiction)):
+    if pa.relationship == "supersedes" and b.rule_id in pa.target_rule_ids:
         return "supersedes"
-    if pa.relationship == "yields_to" and scope_matches(pa.target_scope, b.jurisdiction):
+    if pa.relationship == "yields_to" and b.rule_id in pa.target_rule_ids:
         return "yields to"
-    if pb.relationship == "yields_to" and scope_matches(pb.target_scope, a.jurisdiction):
+    if pb.relationship == "yields_to" and a.rule_id in pb.target_rule_ids:
         return "is yielded to by"
     return None
 
@@ -307,6 +328,9 @@ def resolve_precedence_targets(rules: list[Rule]) -> None:
     """Fill precedence.target_rule_ids in code from target_scope + category + jurisdiction overlap."""
     for r in rules:
         p = r.precedence
+        # Precedence must rest on explicit statutory words; a relationship with no quoted language is downgraded.
+        if p.relationship in ("supersedes", "yields_to") and not (p.source_language or "").strip():
+            p.relationship, p.target_scope = "stacks_with", "none"
         if p.relationship not in ("supersedes", "yields_to") or p.target_scope == "none":
             p.target_rule_ids = []
             continue
@@ -314,6 +338,8 @@ def resolve_precedence_targets(rules: list[Rule]) -> None:
         for o in rules:
             if o.rule_id == r.rule_id or o.category != r.category or o.jurisdiction.state != r.jurisdiction.state:
                 continue
+            if o.source_doc_id == r.source_doc_id or o.jurisdiction.level == r.jurisdiction.level:
+                continue  # a document never displaces its own rules; precedence runs across levels of government
             if not scope_matches(p.target_scope, o.jurisdiction):
                 continue
             # the two jurisdictions must overlap: a state rule overlaps every local rule in the state;

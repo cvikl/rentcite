@@ -1,192 +1,254 @@
-# Massachusetts House Bill H.5222 (194th General Court), algorithmic rent pricing | Mass. H.5222 (194th Gen. Ct.) | https://malegislature.gov/Bills/194/H5222 | retrieved 2026-10-04
+# Massachusetts House Bill H.5222 (194th General Court), algorithmic rent pricing, bill text | Mass. H.5222 (194th Gen. Ct.) | https://malegislature.gov/Bills/194/H5222.pdf | retrieved 2026-10-04
 
-Bill H.5222
+HOUSE . . . . . . . . No. 5222
+The Commonwealth of Massachusetts
+________________________________________
 
-Skip to Content
+HOUSE OF REPRESENTATIVES, March 12, 2026.
+The committee on Housing, to whom was referred the petition
+(accompanied by bill, House, No. 1564) of Lindsay N. Sabadosa relative
+to preventing algorithmic rent fixing in the rental housing market, reports
+recommending that the accompanying bill (House, No. 5222) ought to
+pass.
+For the committee,
+RICHARD M. HAGGERTY.
 
-Bill H.5222
-194th (Current)
+FILED ON: 3/6/2026
 
-Search the Legislature
+HOUSE . . . . . . . . . . . . . . . No. 5222
+The Commonwealth of Massachusetts
+_______________
 
-Search the Legislature
+In the One Hundred and Ninety-Fourth General Court
+(2025-2026)
+_______________
 
-Search
+An Act relative to preventing algorithmic rent fixing in the rental housing market.
+Be it enacted by the Senate and House of Representatives in General Court assembled, and by the authority
+of the same, as follows:
 
-An Act relative to preventing algorithmic rent fixing in the rental housing market
+1
+2
 
-View Text
-Print Preview
-Download PDF
+The General Laws are hereby amended by inserting after chapter 40Y the following
+chapter:-
 
-Bill Information
+3
 
-Bill Information
+CHAPTER 40Z
 
-Sponsor:
+4
 
-Joint Committee on Housing
+PREVENTING ALGORITHMIC RENT FIXING IN THE RENTAL HOUSING
 
-Status:
-Referred to House Committee on Ways and Means
+5
+6
+7
 
-Tabs
+MARKET
+Section 1. As used in this chapter, the following words shall, unless the context clearly
+requires otherwise, have the following meanings:
 
-Bill History
+8
 
-Cosponsors
+“Coordinate”, with respect to a service provider, the:
 
-Committee Vote
+9
 
-Committee Summary
+(i) collecting of historical or contemporaneous actual rent prices, price changes, supply
 
-Bill History
+10
 
-Displaying 3 actions for Bill H.5222
+levels, occupancy rates or lease or rental contract termination and renewal dates of residential
 
-Date
+11
 
-Branch
-Action
+dwelling units;
 
-3/12/2026
-House
+1 of 4
 
-Reported from the committee on Housing
+12
+13
+14
 
-3/12/2026
-House
+(ii) analyzing or processing of the information described in clause (i), including with the
+use of a system, software or process that uses computation; and
+(iii) recommending of rental prices, lease terms, occupancy levels, or other commercial
 
-New draft of H1564
+15
 
-3/12/2026
-House
+term to a real estate lessor, provided that publication of a fair market rent calculated using
 
-Bill reported favorably by committee and referred to the committee on House Ways and Means
+16
 
-Similar Bills
+publicly available data shall not constitute a recommendation.
 
-H.1564
-194th (Current)
+17
+18
+19
+20
 
-An Act relative to preventing algorithmic rent fixing in the rental housing market
+“Person”, any natural person, corporation, partnership, limited liability company, firm or
+association.
+“Predispute arbitration agreement”, an agreement to arbitrate a dispute that has not yet
+arisen at the time of the making of the agreement.
 
-S.1016
-194th (Current)
+21
 
-An Act relative to preventing algorithmic rent fixing in the rental housing market
+“Predispute joint-action waiver”, an agreement, whether or not part of a predispute
 
-The information contained in this website is for general information purposes only. The General Court provides this information as a public service and while we endeavor to keep the data accurate and current to the best of our ability, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+22
 
-Update Testimony
+arbitration agreement, that would prohibit or waive the right of one of the parties to participate in
 
-Either add testimony in the text field or upload a testimony attachment (Word file)
+23
 
-Upload Attachment:
+a joint, class or collective action in a judicial, arbitral, administrative or other forum, concerning
 
-Cancel
+24
 
-Previously uploaded file:
+a dispute that has not yet arisen at the time of the making of the agreement.
 
-Allowed file types: Word (limit of 5 MB), Video (limit of 100 MB)
+25
 
-File size exceeds the limit (Word: 5 MB, Video: 100 MB).
+“Real estate lessor”, any individual, corporation, partnership, association, joint-stock
 
-Is the video attached above in American Sign Language (ASL)
+26
 
-Yes
+company, trust or unincorporated organization that owns real property and leases such property
 
-No
+27
 
-Must provide selection if uploaded video is ASL.
+or any portion thereof in the form of a residential dwelling unit.
 
-I am requesting to be on a panel
+28
 
-Yes
+“Residential dwelling unit”, any house, apartment, accessory unit or other unit intended
 
-No
+29
 
-Panel Instructions
+to be used as a person’s primary residence; provided, that “residential dwelling unit” shall not
 
-Other names on the panel
+30
 
-Cancel
-Update
+include inpatient medical care, licensed long-term care and detention or correctional facilities.
 
-×
+31
 
-Register for MyLegislature
+“Service provider”, any person that performs a coordination function for any real estate
 
-Register With An Existing Account
+32
 
-Sign in with Facebook
-Sign in with Google
+lessor or rentor.
+2 of 4
 
-Register With Your Email Address
+33
 
-Email Address
+Section 2. (a) No real estate lessor, or any agent or subcontractor thereof, shall subscribe
 
-Password
+34
 
-Confirm Password
+to, contract with or otherwise exchange anything of value in return for the services of a service
 
-Register
-Registering...
+35
 
-Already have an account? Sign in here.
-Forgot Password?
+provider.
 
-×
+36
+37
+38
 
-Sign in to MyLegislature
+(b) No service provider shall facilitate an agreement to not compete among real estate
+lessors with respect to residential dwelling units.
+Section 3. (a) A violation of this section shall also constitute an unfair method of
 
-Sign In With Your Facebook or Google+ Account
+39
 
-Sign in with Facebook
-Sign in with Google
+competition, and a violation of the provisions of chapter 93 and chapter 93A. Nothing in this
 
-Sign In With Your MyLegislature Account
+40
 
-Email*
+section shall impair or limit the applicability of either chapter or the antitrust laws, generally.
 
-Password*
+41
 
-Forgot Password?
+(b) Pursuant to a motion by the plaintiff promptly made, the court may award simple
 
-Sign In
-Signing In...
+42
 
-Not Registered? Click here.
-Learn More Here! »
+interest on actual damages sustained by the plaintiff for the period beginning on the date of
 
-×
+43
 
-Forgot Password
+service of the pleading of the plaintiff setting forth a claim under this chapter and ending on the
 
-Please enter your email address. If there is an account associated with that address, a password reset link will be mailed to you.
+44
 
-Email Address
+date of judgment, or for any shorter period therein.
 
-Reset Password
-Processing...
-Cancel
+45
 
-×
+(c) At the election of the person alleging conduct constituting a violation of this section,
 
-Sign In Required
+46
 
-This feature is exclusive to users ofMyLegislature
+or the named representative of a class or in a collective action alleging such conduct, no
 
-Sign In
+47
 
-Register
+predispute arbitration agreement or predispute joint-action waiver shall be valid or enforceable
 
-×
+48
 
-Search The Legislature
+with respect to a case which is filed under federal, tribal or state or local law and relates to a
 
-Search the Legislature
+49
 
-Search the Legislature
+violation of this chapter.
 
-Search
+50
+
+(d) In the case of any successful action to enforce liability pursuant to this chapter, the
+
+51
+
+costs of the action together with reasonable attorney fees, expert fees and the costs of
+
+52
+
+investigation as determined by the court shall be awarded to plaintiffs. Costs and attorney fees,
+
+53
+
+expert fees and the costs of investigation shall be awarded to the attorney general or municipality
+
+54
+
+where the attorney general or municipality successfully enforces this chapter.
+3 of 4
+
+55
+
+Section 4. In a civil action filed pursuant to the provisions of chapter 93, a complaint:
+
+56
+
+(i) plausibly pleads a violation of chapter 93A if the complaint contains factual
+
+57
+
+allegations demonstrating that the existence of a contract, combination in the form of trust or
+
+58
+
+otherwise, or conspiracy in restraint of trade or commerce is among the realm of plausible
+
+59
+
+possibilities; and
+
+60
+
+(ii) need not allege facts tending to exclude the possibility of independent action.
+
+4 of 4

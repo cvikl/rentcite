@@ -75,6 +75,8 @@ def evaluate_address(a: Address, stack: JurisdictionStack, rules: list[Rule], as
         conf = r.confidence * (0.6 + 0.4 * stack.confidence)
         if res == UNKNOWN:
             conf *= 0.7
+        elif missing:
+            conf *= 0.85  # applies, with a possible exemption resting on facts the data never holds
         entries.append(ResultEntry(
             rule_id=r.rule_id, category=r.category, result=result_label(res), reason=reason,
             citation=r.source_citation, quoted_span=r.quoted_span, source_doc_id=r.source_doc_id,

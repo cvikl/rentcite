@@ -9,5 +9,7 @@
   },
   "statuses": ["enacted", "pending", "struck", "repealed"],
   "result_label_style": "snake",
+  "unknown_exemption_policy": "flag",
+  "facts_never_in_data": ["owner_type", "owner_occupied", "rent_subsidized", "tenancy_length_months", "lease_type"],
   "levels": ["state", "county", "city"]
 }

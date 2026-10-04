@@ -1,5 +1,8 @@
 # California AB 325 (2025-2026), common pricing algorithms, chaptered bill text | Cal. AB 325 (2025-2026 Reg. Sess.), Stats. 2025 | https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB325 | retrieved 2026-10-04
 
+Version: 10/06/25 - Chaptered
+
+
 AB325:v90#DOCUMENT
 Bill Start
 

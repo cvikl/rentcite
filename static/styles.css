@@ -91,8 +91,8 @@ button.link:hover { color: #000; }
 .suggest li .meta { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
 .suggest li.none { color: var(--muted); cursor: default; }
 .suggest li.none:hover { background: transparent; }
-.asof { display: flex; align-items: center; gap: 8px; border: 2px solid #fff; border-radius: 6px; padding: 8px 10px 8px 12px; transform: rotate(-1.5deg); background: transparent; }
-.asof label { font-family: var(--display); font-weight: 900; font-stretch: 75%; letter-spacing: .08em; font-size: 13px; }
+.asof { display: flex; align-items: center; gap: 8px; border: 2.5px solid var(--red); color: #fff; border-radius: 6px; padding: 8px 10px 8px 12px; transform: rotate(-1.5deg); background: transparent; }
+.asof label { font-family: var(--display); font-weight: 900; font-stretch: 75%; letter-spacing: .08em; font-size: 13px; text-transform: uppercase; color: #FF8A99; }
 .asof input { border: 0; background: transparent; color: #fff; font-family: var(--display); font-weight: 700; font-size: 15px; width: 150px; padding: 2px 0; }
 .asof input::-webkit-calendar-picker-indicator { filter: invert(1); cursor: pointer; }
 .asof button.link { color: #fff; }
@@ -149,7 +149,12 @@ main { flex: 1; width: 100%; max-width: calc(var(--sheet-w) + 48px); margin: 0 a
 .stamp-big .l { font-size: 11px; }
 
 /* timeline */
-.timeline { padding: 14px 56px 16px; border-bottom: 1px solid var(--rule); background: var(--sheet-2); display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; }
+.timeline { padding: 16px 56px 18px; border-bottom: 1px solid var(--rule); background: var(--sheet-2); display: grid; grid-template-columns: 1fr auto; grid-template-areas: "head lang" "track track"; gap: 8px 14px; align-items: center; }
+.timeline .tm-head { grid-area: head; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.timeline .tm-date { font-family: var(--display); font-weight: 900; font-stretch: 75%; font-size: 24px; letter-spacing: .02em; color: var(--red); line-height: 1; font-variant-numeric: tabular-nums; }
+.timeline .tm-hint { max-width: 52ch; }
+.timeline .track { grid-area: track; }
+.timeline .lang { grid-area: lang; }
 .timeline .lbl { font-family: var(--display); font-weight: 800; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .timeline .track { position: relative; height: 52px; }
 .timeline input[type=range] { position: absolute; left: 0; right: 0; top: 0; height: 34px; width: 100%; margin: 0; background: transparent; -webkit-appearance: none; appearance: none; cursor: pointer; }
@@ -161,6 +166,7 @@ main { flex: 1; width: 100%; max-width: calc(var(--sheet-w) + 48px); margin: 0 a
 .timeline .ticks { position: absolute; left: 0; right: 0; top: 10px; height: 14px; pointer-events: none; }
 .timeline .tick { position: absolute; top: 0; width: 1.5px; height: 14px; background: var(--muted); transform: translateX(-50%); }
 .timeline .tick.red { background: var(--red); }
+.timeline .tick.nolabel::after { content: none; }
 .timeline .tick::after { content: attr(data-l); position: absolute; top: 15px; left: 50%; transform: translateX(-50%); font-size: 10.5px; color: var(--muted); white-space: nowrap; font-family: var(--display); font-weight: 600; }
 .timeline .ends { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); font-family: var(--display); font-weight: 600; }
 .timeline .lang { display: inline-flex; border: 1.5px solid var(--ink); border-radius: 3px; overflow: hidden; }
@@ -338,7 +344,7 @@ table.t a { color: var(--blue); }
   main { padding: 18px 16px 32px; }
   .sheet-empty, .notice-head, .cat, .none-posted, .sheet-foot { padding-left: 22px; padding-right: 22px; }
   .yours { margin-left: 22px; margin-right: 22px; }
-  .timeline { padding: 12px 22px 14px; grid-template-columns: 1fr; }
+  .timeline { padding: 12px 22px 14px; grid-template-columns: 1fr; grid-template-areas: "head" "track" "lang"; }
   .timeline .lang { justify-self: start; }
   .sheet-empty h1 { font-size: 34px; }
   .notice-head { grid-template-columns: 1fr; }
