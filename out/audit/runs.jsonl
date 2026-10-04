@@ -11,3 +11,7 @@
 {"step": "changes", "at": "2026-10-04T11:55:56Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}
 {"step": "lookup", "at": "2026-10-04T12:09:19Z", "as_of": "2026-10-04", "addresses": 468, "results": {"applies": 3100, "unknown": 630, "pending": 155}}
 {"step": "changes", "at": "2026-10-04T12:09:20Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}
+{"step": "extract", "at": "2026-10-04T12:10:59Z", "docs": 1, "rules": 1, "llm_calls": 2, "cache_hits": 0, "model": "gemini:gemini-3.8-flash", "seconds": 4.8}
+{"step": "lookup", "at": "2026-10-04T12:10:59Z", "as_of": "2026-10-04", "addresses": 468, "results": {"applies": 3100, "unknown": 630, "pending": 155, "not_yet_effective": 52}}
+{"step": "changes", "at": "2026-10-04T12:10:59Z", "tests": ["T1", "T2", "T3", "T4", "T5", "T6"]}
+{"step": "add-doc", "at": "2026-10-04T12:10:59Z", "doc_id": "doc_041", "title": "Cambridge Ord. 2026-14 Fair Rental Pricing (test fixture)", "rules": ["MA-CAMBRI-ALGO-041-01"]}
