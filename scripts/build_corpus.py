@@ -67,9 +67,11 @@ TARGETS = [
     ("doc_033", "Massachusetts General Laws Chapter 40P, Massachusetts Rent Control Prohibition Act", "statute", "MA", "", "", "Mass. Gen. Laws ch. 40P", "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P", ""),
     ("doc_034", "Massachusetts General Laws Chapter 186 Section 15B (security deposits, upfront charges)", "statute", "MA", "", "", "Mass. Gen. Laws ch. 186, § 15B", "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B", ""),
     ("doc_035", "Massachusetts General Laws Chapter 112 Section 87DDD 1/2 (broker fees)", "statute", "MA", "", "", "Mass. Gen. Laws ch. 112, § 87DDD½", "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD1~2", ""),
-    ("doc_036", "Massachusetts Senate Bill S.2983 (194th General Court), algorithmic rent pricing", "bill", "MA", "", "", "Mass. S.2983 (194th Gen. Ct.)", "https://malegislature.gov/Bills/194/S2983", "pending"),
-    ("doc_037", "Massachusetts House Bill H.5222 (194th General Court), algorithmic rent pricing", "bill", "MA", "", "", "Mass. H.5222 (194th Gen. Ct.)", "https://malegislature.gov/Bills/194/H5222", "pending"),
+    ("doc_036", "Massachusetts Senate Bill S.2983 (194th General Court), algorithmic rent pricing, bill text", "bill", "MA", "", "", "Mass. S.2983 (194th Gen. Ct.)", "https://malegislature.gov/Bills/194/S2983.pdf", "pending"),
+    ("doc_037", "Massachusetts House Bill H.5222 (194th General Court), algorithmic rent pricing, bill text", "bill", "MA", "", "", "Mass. H.5222 (194th Gen. Ct.)", "https://malegislature.gov/Bills/194/H5222.pdf", "pending"),
 ]
+# A word the fetched text must contain, to catch a capture of the wrong page.
+EXPECT = {"doc_030": "algorithm", "doc_029": "rent control", "doc_036": "algorithm", "doc_037": "algorithm", "doc_033": "rent control", "doc_034": "security deposit"}
 # Hosts that time out from this network: use the Internet Archive's copy of the official page.
 ARCHIVE_HOSTS = ("malegislature.gov", "pub.njleg.state.nj.us", "ecode360.com", "library.municode.com")
 FIELDS = ["doc_id", "title", "kind", "state", "county", "city", "citation", "url", "retrieval_date", "file", "status", "status_hint", "source_note"]
@@ -172,8 +174,29 @@ def fetch_archive(client: httpx.Client, url: str) -> tuple[bytes, str, str]:
     raise RuntimeError("archive unavailable")
 
 
-def looks_like_law(text: str) -> bool:
-    return len(text) >= 800 and not re.search(r"(access denied|too many requests|page not found|enable javascript)", text[:3000], re.I)
+def looks_like_law(text: str, doc_id: str = "") -> bool:
+    if len(text) < 800 or re.search(r"(access denied|too many requests|page not found|enable javascript)", text[:3000], re.I):
+        return False
+    want = EXPECT.get(doc_id)
+    return bool(re.search(want, text, re.I)) if want else True
+
+
+def ocr_pdf(data: bytes, tmp: Path) -> str:
+    """Scanned PDF: rasterise with pdftoppm and read with tesseract (page by page)."""
+    tmp.write_bytes(data)
+    workdir = tmp.parent / ".ocr"
+    workdir.mkdir(exist_ok=True)
+    for old in workdir.glob("*"):
+        old.unlink()
+    subprocess.run(["pdftoppm", "-r", "200", "-gray", "-png", str(tmp), str(workdir / "p")], check=True, timeout=600)
+    pages = []
+    for png in sorted(workdir.glob("p-*.png")):
+        r = subprocess.run(["tesseract", str(png), "-", "--psm", "6"], capture_output=True, text=True, timeout=300)
+        pages.append(r.stdout)
+        png.unlink()
+    workdir.rmdir()
+    t = "\n\n".join(pages)
+    return re.sub(r"\n{3,}", "\n\n", t).strip()
 
 
 def main() -> int:
@@ -215,9 +238,12 @@ def main() -> int:
                         raise
                 if data[:5] == b"%PDF-" or "pdf" in ctype:
                     text = pdf_to_text(data, tmp)
+                    if len(text) < 300:
+                        text = ocr_pdf(data, tmp)
+                        note = (note + "; " if note else "") + "scanned PDF read with tesseract OCR; quotes are OCR text"
                 else:
                     text = html_to_text(data.decode("utf-8", errors="replace"))
-                if not looks_like_law(text):
+                if not looks_like_law(text, doc_id):
                     raise RuntimeError(f"content does not look like statute text ({len(text)} chars)")
                 header = f"# {title} | {citation} | {url} | retrieved {TODAY}\n\n"
                 (OUT / fname).write_text(header + text + "\n", encoding="utf-8")
