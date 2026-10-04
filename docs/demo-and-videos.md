@@ -5,7 +5,7 @@ Written for: the team recording the three submission videos (team, demo, tech). 
 ## Submission checklist (both app.hack-nation.ai and the backup Google Form)
 
 - [ ] GitHub repo public, README explains how to run, `out/rules.json`, `out/lookups.json`, `out/changes.json` committed
-- [ ] Live demo link: https://homerule.ruleandrecord.com (not localhost)
+- [ ] Live demo link: https://rentcite.agenticworld.uk (not localhost)
 - [ ] Team video (who we are)
 - [ ] Demo video (problem, solution, the tool running; T1 to T6 results on screen)
 - [ ] Tech video (pipeline, models, APIs, architecture; score.py report on screen; hour-16 document processed on camera)

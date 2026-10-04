@@ -1,1 +1,5 @@
 {"step": "geocode", "at": "2026-10-04T10:46:56Z", "addresses": 468, "methods": {"census_geocoder": 463, "postal_alias_table+census_nomatch": 5}}
+{"step": "extract", "at": "2026-10-04T11:16:17Z", "docs": 5, "rules": 30, "llm_calls": 13, "cache_hits": 0, "model": "gemini:gemini-3.8-flash", "seconds": 49.9}
+{"step": "extract", "at": "2026-10-04T11:19:14Z", "docs": 1, "rules": 8, "llm_calls": 5, "cache_hits": 0, "model": "gemini:gemini-3.8-flash", "seconds": 42.9}
+{"step": "lookup", "at": "2026-10-04T11:37:14Z", "as_of": "2026-10-04", "addresses": 468, "results": {"unknown": 416, "applies": 260}}
+{"step": "changes", "at": "2026-10-04T11:37:14Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}

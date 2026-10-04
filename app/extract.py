@@ -38,7 +38,7 @@ CATEGORY_GUIDE = {
 
 SYSTEM = """You are an extraction engine for a housing-law navigator. You read one legal document and return every distinct rule it contains that falls into six categories, as JSON. You never give legal advice, never invent provisions and never paraphrase a quote: for quotes you only point at a chunk and copy its first and last words exactly.
 Rules of the job:
-1. One record per distinct obligation, cap, prohibition or protection. A section with a cap AND a separate exemption list is one rule with exemptions, not two rules. A section that sets several different obligations in different categories gives several records.
+1. One record per headline rule: the thing a renter would list as "the rule" (the cap and its formula, the just-cause requirement, the deposit maximum, the fee cap, the screening limit, the algorithmic-pricing ban). A section with a cap AND an exemption list is one rule with exemptions. Sub-procedures that implement a headline rule (petitions, passthroughs, banking, buyout procedures, foreclosure transitions, hearing rules, relocation payment schedules, re-rental restrictions) are folded into the headline record's requirement text, not separate records. A document usually yields 1 to 4 records; only give more when it sets genuinely distinct obligations with different coverage.
 2. Skip provisions outside the six categories (e.g. habitability, lead paint, condo conversion).
 3. Status: "enacted" for law in force or chaptered/approved acts even if their operative date is in the future; "pending" for bills not yet passed; "struck" for measures the text says were invalidated, struck, removed from the ballot or failed; "repealed" if the text says repealed.
 4. Dates: ISO YYYY-MM-DD. effective_date is the date the rule as described takes effect (if the text gives an operative date for the latest amendment, use that). Use null when the text states no date. Never guess a date.
@@ -284,7 +284,7 @@ def extract_document(doc: Document, llm: Optional[LLM] = None, verify: bool = Tr
             audit["verification"].append({"error": str(e)[:300]})
             log.warning("verification failed for %s: %s", doc.doc_id, e)
     # drop rules the verifier rejected outright with no support and low confidence
-    rules = [r for r in rules if r.confidence >= 0.3 or r.verification.get("supported", True)]
+    rules = [r for r in rules if r.verification.get("supported", True) or r.confidence >= 0.45]
     audit["rules"] = [r.rule_id for r in rules]
     return rules, audit
 

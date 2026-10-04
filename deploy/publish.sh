@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Publish Homerule to the shared Hetzner box -> https://homerule.ruleandrecord.com
+# Publish Homerule to the shared Hetzner box -> https://rentcite.agenticworld.uk
 #   bash deploy/publish.sh
 # Same conventions as the other services (see ../../infra/README.md): app in /opt/homerule, container on the existing
 # Caddy network, Caddy drop-in in /opt/caddy-sites, zero-downtime `caddy reload`. Touches nothing else on the box.
-# Requires a DNS A record for homerule.ruleandrecord.com pointing at the box (Cloudflare, DNS-only).
+# DNS: rentcite.agenticworld.uk is a DNS-only A record on Cloudflare pointing at the box.
 set -euo pipefail
 HOST=${SERVER:-root@37.27.202.168}
 APP_DIR=/opt/homerule
@@ -21,8 +21,6 @@ ssh "$HOST" "chmod 600 $APP_DIR/deploy/.env"
 
 echo "==> build + start"
 ssh "$HOST" "cd $APP_DIR/deploy && docker compose build homerule && docker compose up -d homerule"
-# the outputs and cache live in volumes so 'Add a law' survives restarts; seed them from the image on first start
-ssh "$HOST" "cd $APP_DIR/deploy && docker compose exec -T homerule sh -c 'ls out/rules.json >/dev/null 2>&1 || true'"
 
 echo "==> caddy drop-in + reload"
 rsync -az "$ROOT/deploy/homerule.caddy" "$HOST:/opt/caddy-sites/homerule.caddy"
@@ -31,4 +29,4 @@ ssh "$HOST" "cd /opt/compass/deploy && docker compose exec -T caddy caddy reload
 echo "==> health"
 sleep 3
 ssh "$HOST" "curl -sf http://127.0.0.1:8795/api/health && echo"
-curl -sS -o /dev/null -w "https://homerule.ruleandrecord.com  HTTP %{http_code}\n" --max-time 30 https://homerule.ruleandrecord.com/ || echo "  (first HTTPS hit may lag while Let's Encrypt issues the cert)"
+curl -sS -o /dev/null -w "https://rentcite.agenticworld.uk  HTTP %{http_code}\n" --max-time 30 https://rentcite.agenticworld.uk/ || echo "  (first HTTPS hit may lag while Let's Encrypt issues the cert)"

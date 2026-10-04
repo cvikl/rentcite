@@ -1,0 +1,1792 @@
+# Berkeley Rent Stabilization and Eviction for Good Cause Ordinance, BMC Chapter 13.76 | Berkeley Mun. Code ch. 13.76 | https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Stabilization%20Ordinance_BMC%20Chapter%2013.76.pdf | retrieved 2026-10-04
+
+ORDINANCE NO. 7,950-N.S.
+AN ORDINANCE OF THE PEOPLE OF THE CITY OF BERKELEY AMENDING
+BERKELEY MUNICIPAL CODE CHAPTER 13.76 TO FURTHER PROTECT THE
+RIGHTS OF TENANTS TO BE SAFE FROM ARBITRARY AND EXCESSIVE RENT
+INCREASES AND EVICTIONS, AND TO ESTABLISH THE RIGHT TO ORGANIZE
+TENANT ASSOCIATIONS
+The People of Berkeley do hereby ordain as follows:
+Section 1. Title. This amendment to Chapter 13.76 shall be known and may be cited as
+the “Berkeley Tenant Protection and Right to Organize Act.”
+Section 2. Amendment of Chapter 13.76. Chapter 13.76 of the Berkeley Municipal Code
+is amended to read as follows:
+13.76.010
+
+Title.
+
+This Chapter shall be known as the Rent Stabilization and Eviction for Just Cause
+Ordinance.
+13.76.020
+
+Findings.
+
+A. On June 5, 1973, the City Council (hereinafter, “Council”) declared the existence of a
+housing emergency in the City of Berkeley (hereinafter, “the City”), based upon Council’s
+finding of a pattern of steadily rising rents, a shortage of decent housing and an increased
+deterioration of the existing housing stock in the City.
+B. On November 27, 1979, the Council passed an ordinance establishing a temporary
+rent stabilization program, effective until June 30, 1980.
+In 1980, the People of Berkeley passed the Rent Stabilization and Eviction for
+Good Cause Ordinance, establishing the registration of rental units, the regulation of
+rental increase amounts, and the requirement for a landlord to provide good cause prior
+to terminating a tenancy.
+
+C.
+
+In 1995, the California Legislature enacted the Costa-Hawkins Rental Housing Act,
+which prohibited the ability of local governments to control the rental amount on a rental
+unit at the commencement of a new tenancy and to control the rental amount in single
+family homes or rental units with an initial Certificate of Occupancy issued after February
+
+D.
+
+Ordinance No. 7,950-N.S.
+
+Page 1 of 41
+
+1, 1995. As a result of the Costa-Hawkins Rental Housing Act, many rental units became
+unaffordable to Berkeley residents.
+The City continues to experience a severe housing shortage and an
+unprecedented increase in the number of residents experiencing housing hardships.
+According to data from the United States Census Bureau, in 2019, 53% of Berkeley renter
+households were “rent burdened,” paying more than 30% of their household income
+towards rent.
+
+E.
+
+Due to the continuance of the housing emergency which existed when the voters
+of Berkeley first enacted this Chapter, the Berkeley Rent Stabilization Board (hereinafter,
+“Board”) finds that reasonable regulation of aspects of the landlord-tenant relationship is
+necessary to foster constructive communication, maintain an adequate supply of a variety
+of rental housing options, and protect the health, safety, and general welfare of the public.
+
+F.
+
+Because the People of Berkeley have periodically updated this Chapter through
+various updates, the Board finds a need to enact non-substantive changes to this Chapter
+in 2024 in order to make the provisions of this Chapter more consistent with modern
+usage and clarity.
+
+G.
+
+Pursuant to California Civil Code section 1946.2(g)(1)(B), the Board finds that this
+Chapter is more protective than the provisions of California Civil Code section 1946.2.
+The just cause for termination of a residential tenancy under this Chapter is consistent
+with California Civil Code section 1946.2; however, this Chapter further limits the reasons
+for termination of a residential tenancy, and provides for higher relocation assistance
+amounts in the event of a termination.
+
+H.
+
+13.76.030
+
+Purpose.
+
+The purpose of this Chapter is to regulate residential rent increases in the City of Berkeley,
+to protect tenants from unwarranted rent increases and arbitrary, discriminatory, or
+retaliatory evictions, to facilitate the formation of tenant associations to balance the
+relationship between tenants and landlords, to help maintain the diversity of the Berkeley
+community, and to ensure compliance with legal obligations relating to the rental of
+housing. This legislation is designed to address the City’s housing crisis, preserve the
+public peace, health and safety, and advance the housing policies of the City with regard
+to low and fixed income persons, marginalized communities, students, persons with
+disabilities, and older adults.
+
+Ordinance No. 7,950-N.S.
+
+Page 2 of 41
+
+13.76.040
+
+Definitions.
+
+A. "Board" refers to the elected Rent Stabilization Board established by this chapter and
+
+Article XVII of the Charter of the City of Berkeley.
+B. "Commissioners" means the members of the Board who are denominated
+
+commissioners.
+C. "Housing services" include but are not limited to repairs, maintenance, painting,
+
+providing light, hot and cold water, elevator service, window shades and screens,
+storage, kitchen, bath and laundry facilities and privileges, janitor services, refuse
+removal, furnishing, telephone, parking and any other benefit, privilege or facility
+connected with the use or occupancy of any rental unit, including the right for tenants
+to organize as set forth in Section 13.76.135. Services to a rental unit shall include a
+proportionate part of services provided to common facilities of the building in which
+the rental unit is contained.
+D. "Landlord" means an owner of record, lessor, sublessor or any other person or entity
+
+entitled to receive rent for the use or occupancy of any rental unit, or an agent,
+representative or successor of any of the foregoing.
+E. "Rent" means the consideration, including any deposit, bonus, benefit or gratuity
+
+demanded or received for or in connection with the use or occupancy of rental units
+and housing services. Such consideration shall include, but not be limited to, monies
+and fair market value of goods or services rendered to or for the benefit of the landlord
+under the rental agreement.
+F. "Rental agreement" means an agreement, oral, written or implied, between a landlord
+
+and a tenant for use or occupancy of a rental unit and for housing services.
+G. "Rental unit" means any unit in any real property, including the land appurtenant
+
+thereto, rented or available for rent for residential use or occupancy (including units
+covered by the Berkeley Live/Work Ordinance No. 5217-NS), located in the City of
+Berkeley, together with all housing services connected with use or occupancy of such
+property such as common areas and recreational facilities held out for use by the
+tenant.
+H. "Property" means a parcel of real property which is assessed and taxed as an
+
+undivided whole.
+
+Ordinance No. 7,950-N.S.
+
+Page 3 of 41
+
+I.
+
+"Tenant" means any renter, tenant, subtenant, lessee, or sublessee of a rental unit, or
+successor to a renter’s interest, or any group of tenants, subtenants, lessees, or
+sublessees of any rental unit, or any other person entitled to the use or occupancy of
+such rental unit.
+
+J.
+
+"Partially-covered unit" means any rental that is subject to all sections of this Chapter
+except: Section 13.76.100: Establishment of base rent ceiling and posting; Section
+13.76.110: Annual general adjustment of rent ceilings; and Section 13.76.120:
+Individual adjustments of rent ceilings.
+
+K. "Fully-exempt unit" means any rental unit that is not subject to any section of this
+
+Chapter.
+L.
+
+"Tenant Association" means any group of tenants, residing in rental units in the same
+building or in different buildings operated by the same management company, agent
+or landlord, which requests to be so designated as set forth in Section 13.76.135 of
+this Chapter.
+
+M. "Rent ceiling" means the maximum allowable rent which a landlord may charge on
+any rental unit covered by this Chapter.
+N. "Base rent ceiling" means the maximum allowable rent established under Section
+13.76.100 of this Chapter.
+O. "Fees" means for the purpose of this Chapter, a charge fixed by law for services of
+public officers or for use of a privilege under control of government.
+13.76.050
+
+Applicability.
+
+A. All sections of this Chapter shall apply to all real property that is being rented or is
+available for rent for residential use in whole or in part, except for the following as
+provided in this section.
+B. The following rental units are Partially-covered units:
+Newly Constructed Rental Units. A rental unit created after June 30, 1980.
+For purposes of this partial exemption, the date a unit was created is based upon
+the date of the first certificate of occupancy issued for the subject unit.
+
+1.
+
+Ordinance No. 7,950-N.S.
+
+Page 4 of 41
+
+However, in the event of the repeal or amendment of Civil Code Section 1954.52
+such that “certificate of occupancy” is no longer the operative standard set forth
+under state law, the date a unit was created shall be determined by the final
+inspection approval by the City. A rental unit shall only be deemed newly
+constructed for fifteen years after the date of final inspection approval by the City.
+Notwithstanding any provision in this Chapter and to the extent that state or local
+law permits, any residential rental units created as a result of demolition or
+replacement where such demolition or replacement is affected via the creation of
+a “housing development project” as defined in the Housing Crisis Act of 2019
+(Senate Bill 330), shall not be exempt as “newly constructed rental units” and,
+unless otherwise exempt, shall be covered by all provisions of this Chapter.
+Separately Alienable Rental Units. Rental units in a residential property
+containing only a Single Family Dwelling (as defined in Subtitle 23F.04 of the
+Zoning Ordinance), unless the tenancy commenced before January 1, 1996. This
+partial exemption shall apply only as long as the pertinent provisions of California
+Civil Code Section 1954.50 et. seq. ("Costa-Hawkins") remain in effect and require
+such an exemption.
+
+2.
+
+Government-Owned or Government-Subsidized Rental Units. Rental units
+which a government agency or authority owns, operates, manages, or in which
+governmentally subsidized tenants reside to the extent that applicable Federal law,
+State law, or administrative regulation specifically exempts such units from local or
+municipal price control. Such rental units shall be subject to all provisions of this
+Chapter except those from which applicable Federal law, State law, or
+administrative regulation specifically exempts the rental units.
+
+3.
+
+C. The following rental units are Fully-exempt units:
+Short-Term Transient Rentals. Rental units which are rented primarily to
+transient guests for use or occupancy less than fourteen consecutive days in
+establishments such as hotels, motels, inns, tourist homes, and rooming and
+boarding houses. However, the payment of rent every fourteen days or less shall
+not by itself exempt any unit from coverage by this Chapter.
+
+1.
+
+Ordinance No. 7,950-N.S.
+
+Page 5 of 41
+
+Co-op Rental Units. Rental units in nonprofit cooperatives owned and
+controlled by a majority of the residents.
+
+2.
+
+Rental Units in Health Facilities. Rental units in any hospital, skilled nursing
+facility, health facility, asylum, or non-profit home for older persons.
+
+3.
+
+For the purposes of this Subsection, the following definitions apply:
+"Skilled nursing facility" means a health facility or a distinct part of a hospital which
+provides the following basic services: skilled nursing care and supportive care to
+patients whose primary need is for availability of skilled nursing care on an
+extended basis. It provides 24-hour inpatient care and, as a minimum, includes
+medical, nursing, dietary, pharmaceutical services and an activity program. The
+facility shall have effective arrangements, confirmed in writing, through which
+services required by the patients, but not regularly provided within the facility, can
+be obtained promptly when needed.
+"Health facility" means any facility, place or building which is organized, maintained
+and operated for the diagnosis, care and treatment of human illness, physical or
+mental, including convalescence and rehabilitation and including care during and
+after pregnancy, or for any one or more of these purposes, for one or more
+persons, to which such persons are admitted for a 24-hour stay or longer.
+Owner-Occupied Shared Rental Units. A rental unit in a residential property
+where the landlord shares kitchen or bath facilities with the tenant(s) of such rental
+unit and where the landlord occupied a unit in the same property as his/her
+principal residence at the inception of the tenancy.
+
+4.
+
+For the purposes of this subsection, the term landlord shall be defined only as the
+owner of record holding at least 50% interest in the property.
+Fraternities and Sororities. A rental unit or room which is rented by an active
+member of a fraternity or sorority recognized by the University of California
+Berkeley, or a rental unit or room which is rented by an active member of a
+fraternity or sorority identified by Rent Board Resolution. To qualify for the
+exemption, the rental unit must be owned by the fraternity or sorority or by an entity
+
+5.
+
+Ordinance No. 7,950-N.S.
+
+Page 6 of 41
+
+whose sole purpose is the maintenance and operation of the fraternity or sorority's
+rental units for the benefit of the members in order to provide housing to said
+members at cost.
+Accessory Dwelling Units. Rental units in a residential property containing
+only a Single Family Dwelling (as defined in Subtitle 23F.04 of the Zoning
+Ordinance) and one lawfully established and fully permitted Accessory Dwelling
+Unit where the landlord also occupies a unit in the same property as his/her
+principal residence. This subsection (13.76.0S0N) shall only apply to properties
+containing a single Accessory Dwelling Unit, shall only apply to units compliant
+
+6.
+
+with all applicable requirements of Chapter 23C.24 ("Accessory Dwelling Units"),
+and shall only apply to tenancies created after November 7, 2018.
+Shelters and Transitional Housing. Rental units in a facility owned or leased
+by an organization exempt from federal income taxes under Section 501(c)(3) of
+the Internal Revenue Code that has the primary purpose of operating a treatment,
+recovery, therapy, sanctuary or shelter program for qualified clients, where such
+rental units are provided incident to the client's participation in the primary program
+and where the client has been informed in writing of the temporary or transitional
+nature of the housing at the inception of his or her participation in the program.
+
+7.
+
+However, except as may be preempted by the Transitional Housing Participant
+Misconduct Act (California Health and Safety Code Sections 50580 et. seq.) or
+other state or federal law, such rental units shall not be exempted from the
+requirements of Section 13.76.130, Good Cause Required for Eviction. For
+purposes of Section 13.76.130.A.2, the client's continued eligibility for participation
+in the treatment, recovery, therapy, sanctuary or shelter program shall be deemed
+a material term of the client's rental agreement with the program's operator.
+“Sabbatical” Exemption for Single-Family Homes. A rental unit in a
+residential property containing only a Single Family Dwelling (as defined in Subtitle
+23F.04 of the Zoning Ordinance) and owned by a property owner who:
+
+8.
+
+a) owns only one residential unit in the City;
+
+Ordinance No. 7,950-N.S.
+
+Page 7 of 41
+
+b) occupied that residential unit for at least 365 consecutive days as their
+
+principal residence immediately prior to renting the unit;
+c) is absent from the unit for a period not to exceed 24 months; and
+d) such period is specified in the lease.
+
+9.
+Golden Duplex Exemption. Rental units in a residential property which is
+divided into two units where one of the units was owner-occupied on December
+31, 1979, and is currently occupied by the landlord as their principal residence.
+Rental units which become non-exempt under this provision shall have the
+provisions of Subsections 13.76.080J and 13.76.100C. applied to them.
+For the purposes of this subsection, the term landlord shall be defined only as the
+owner of record holding at least 50% interest in the property.
+13.76.060
+
+Rent Stabilization Board.
+
+A. Composition. There shall be in the City an elected Rent Stabilization Board; the Board
+
+shall consist of nine Commissioners. The Board shall elect annually as chairperson
+one of its members to serve in that capacity.
+B. Eligibility. Residents who are duly qualified electors of the City are eligible to serve as
+
+Commissioners on the Board.
+C. Full Disclosure of Holdings. Candidates for the position of Commissioner shall fulfill the
+
+requirements as set forth in the City Charter in Article III, Section 6 1/2.
+In addition, when filing nomination papers, candidates shall submit a verified statement
+of their interests and dealings in real property, including but not limited to its ownership,
+sale or management and investment in and association with partnerships, corporations,
+joint ventures and syndicates engaged in its ownership, sale or management during the
+previous three years.
+D. Election of Commissioners. Commissioners shall be elected at the statewide general
+
+election held in November of even numbered years.
+
+Ordinance No. 7,950-N.S.
+
+Page 8 of 41
+
+E. Terms of Office. Commissioners’ terms of office shall be as set forth in Article XVII of
+
+the Berkeley City Charter.
+F. Powers and Duties. The elected Rent Stabilization Board shall have the power to
+
+determine, to arbitrate and to set rent levels, whether through general or individual
+adjustments, of any unit which has controlled rents under any Berkeley Ordinance, and
+to administer any Berkeley program which regulates rents and evictions. The Board
+shall have the following powers and duties:
+1. Set the rent ceilings for all rental units.
+2. Require registration of all rental units under Section 13.76.080.
+3. Publicize the manner in which the base rent ceiling is established under Section
+
+13.76.100.
+4. To make adjustments in the rent ceiling in accordance with Sections 13.76.110
+
+and 13.76.120.
+5. Set rents at fair and equitable levels in view of and in order to achieve the purposes
+
+of this Chapter.
+6. To issue orders, rules and regulations, conduct hearings and charge fees as set
+
+below.
+7. Make such studies, surveys and investigations, conduct such hearings, and obtain
+
+such information as is necessary to carry out its powers and duties.
+8. Report annually to the city council of the city of Berkeley on the status of rental
+
+housing units covered by this Chapter.
+9. Administer oaths and affirmations and subpoena witnesses and relevant
+documents.
+10. Establish rules and regulations for settling civil claims under Section 13.76.150.
+11. Seek injunctive relief under Section 13.76.150.
+12. Pursue civil remedies in courts of appropriate jurisdiction.
+
+Ordinance No. 7,950-N.S.
+
+Page 9 of 41
+
+13. Intervene as an interested party in any litigation brought before a court of
+appropriate jurisdiction by a landlord or tenant with respect to rental units covered by
+this Chapter.
+14. Hold public hearings.
+15. Charge and collect registration fees, including penalties for late payments and
+fines, as set by schedule, for failure to re-register a rental unit within fifteen (15) days
+of the commencement of a new tenancy.
+16. Require that landlords of rental units subject to the requirement to register under
+Section 13.76.080 provide notice of the existence of this Chapter to each new tenant
+at the commencement of their tenancy.
+17. Other powers necessary to carry out the purposes of this Chapter which are not
+inconsistent with the terms of this Chapter.
+18. Except as provided in Section 13.76.060N of this Chapter, the Board shall finance
+its reasonable and necessary expenses for its operation without the use of general
+fund monies of the City.
+G. Rules and Regulations: The Board shall issue and follow such rules and regulations,
+
+including those which are contained in this Chapter, as will further the purposes of this
+Chapter. The Board shall publicize its rules and regulations prior to promulgation in at
+least one newspaper of general circulation in the City.
+All rules and regulations and relevant documents explaining the decisions, orders, and
+policies of the Board shall be kept in the Board’s office and shall be available to the public
+for inspection and copying.
+The Board shall publicize this Chapter so that all residents of Berkeley will have the
+opportunity to become informed about their legal rights and duties under this Chapter.
+The Board shall prepare a brochure which fully describes the legal rights and duties of
+landlords and tenants under this Chapter. The brochure shall be made available to the
+public.
+H. Meetings: The Board shall hold regularly scheduled meetings. Special meetings shall
+
+be called at the request of at least a majority of the Commissioners of the Board. The
+Board shall hold its initial meeting no later than July 15, 1980.
+
+Ordinance No. 7,950-N.S.
+
+Page 10 of 41
+
+I. Quorum: Five Commissioners shall constitute a quorum for the Board.
+J. Voting: The affirmative vote of five Commissioners of the Board is required for a
+
+decision, including all motions, rules, regulations, and orders of the Board.
+K. Compensation: The Rent Stabilization Board shall be a working Board. Commissioners
+
+shall be paid compensation and benefits in an amount set by the Board in order to
+compensate Commissioners for their time and work performed as required by this
+Chapter and the City Charter.
+L. Dockets: The Board shall maintain and keep in its office all hearing dockets, which shall
+
+be available for public inspection.
+M. Vacancies: If a vacancy shall occur on the Board, a qualified person to fill such vacancy
+
+shall be selected in accordance with the procedures set forth in Article V of the City
+Charter.
+N. Financing: The Board shall finance its reasonable and necessary expenses by
+
+charging landlords annual registration fees in amounts deemed reasonable by the
+Board. The registration fee for partially-exempt units shall reasonably approximate the
+cost of registration and counseling services for such units, and shall not include the
+cost of services from which such units are exempt. Such registration fees shall not be
+passed on to tenants in the form of rent increases except with the express prior
+approval of the Board. The Board is also empowered to request and receive funding,
+when and if necessary, from the City and/or any other available source for its
+reasonable and necessary expenses, including expenses incurred at the request of the
+City.
+O. Staff: The Board shall be a working Board and shall employ such staff as may be
+
+necessary to perform its functions efficiently and as provided by Berkeley Ordinance.
+P. Registration: The Board shall require the registration of all rental units covered by this
+
+chapter as provided for in Section 13.76.080. The Board may also require landlords to
+provide current information supplementing their registration statements.
+Q.
+
+Conflict of Interest: Commissioners shall be subject to the requirements of the
+California Political Reform Act and other applicable state and local conflict of interest
+codes. Commissioners shall not necessarily be disqualified from exercising any of their
+powers and duties on the grounds of a conflict of interest solely on the basis of their
+
+Ordinance No. 7,950-N.S.
+
+Page 11 of 41
+
+status as a landlord or tenant. However, a commissioner shall be disqualified from
+ruling on a petition for an individual adjustment of a rent ceiling under Section
+13.76.120, where the commissioner is either the landlord of the property or a tenant
+residing in the property that is involved in the petition.
+13.76.070
+
+Security deposits.
+
+Any payment or deposit of monies by the tenant, the primary function of which is to secure
+the performance of a rental agreement or any part of such agreement, including an
+advance payment of rent, shall be held by the landlord, in a fiduciary capacity for the
+benefit of the tenant and shall accrue simple interest at the rate equal to the average rates
+of interest paid on six-month certificates of deposit by banks doing business in the City
+until such time as the payment or deposit is returned to the tenant or entitled to be used
+by the landlord as provided in Civil Code Section 1950.5. The interest accrued by said
+payment or deposit through October 31st of each year shall be returned to the tenant
+annually in December of each year, either through a rent rebate or cash payment, and
+shall be at a rate equal to the 12-month average of the average rates of interest paid on
+six-month certificates of deposit by banks doing business in the City on the first business
+day of each month for the prior 12 months ending on November 1st, rounded to the
+nearest tenth. On or before November 15th of each year, the Board shall give public
+notice of the rate to be effective for the following December. Upon the tenant’s departure
+from the premises, the balance of any interest accrued since the last October 31st shall
+be paid at the average monthly rate from the last November 1st to the date of departure
+and shall be returned to the tenant along with the appropriate part of the principal and any
+prior unpaid interest. The Board shall compute and publicize the interest rate applicable
+under this section on an ongoing basis.
+13.76.080
+
+Rent registration.
+
+A. The Board shall require all landlords to file a rent registration statement with the Board
+
+by September 1, 1980 for each rental unit covered by this Chapter, except for FullyExempt Units as set forth in Section 13.76.050.C.
+B. Landlords shall provide in their initial rent registration statement the following
+
+information:
+(1) The address of each rental unit;
+(2) The name and address of the landlord(s) and the managing agent, if any;
+Ordinance No. 7,950-N.S.
+
+Page 12 of 41
+
+(3) The date on which the landlord received legal title to or equitable interest in the
+
+rental unit;
+(4) The housing services provided for the rental unit;
+(5) The rent in effect on June 6, 1978;
+(6) The rent in effect on December 30, 1979;
+(7) The base rent ceiling;
+(8) The lowest rent in effect between June 6, 1978, and the date of the adoption of
+
+this Chapter;
+(9) The amount of any deposits or other monies in addition to periodic rent demanded
+
+or received by the landlord in connection with the use or occupancy of the rental
+unit;
+(10) Whether the rental unit was vacant or occupied on May 31, 1980;
+(11) Rent in effect on December 31, 1981.
+C. All rent registration statements provided by landlords in accordance with this Chapter
+
+shall include an affidavit signed by the landlord declaring under penalty of perjury that
+the information provided in the rent registration statement is true and correct.
+D. Notice at Commencement of Tenancy. The landlord of any rental unit subject to this
+section must give the tenant a written notice on a form prescribed by the Board within 15
+days of the commencement of the tenancy. The form shall include the following
+information:
+(1) The existence and scope of this Chapter;
+(2) The tenant's rights to petition against certain rent increases, if applicable;
+Whether the landlord is permitted to set the initial rent and subsequent rents
+during the tenancy without limitation (such as pursuant to California Civil Code
+Sections 1947.12 and 1954.52); and
+
+(3)
+
+Any provisions of this Chapter which the landlord claims the rental unit to
+be exempt from.
+
+(4)
+
+Ordinance No. 7,950-N.S.
+
+Page 13 of 41
+
+If rental units subject to this Chapter are located in a property with an interior common
+area that all of the building's tenants have access to, the landlord must post a notice
+containing the information in subparagraph (1) and, if applicable to all units at the
+property, the information in subparagraphs (2) through (4).
+All registration statements under this section shall include an affidavit signed by the
+landlord declaring under penalty of perjury that the landlord has provided this notice at
+the commencement of the current tenancy. A landlord that has failed to provide a notice
+pursuant to this subsection shall not be in compliance with this section.
+E. Vacancy Registration. Any landlord who rents a unit to a new tenant after January 1,
+1996, shall re-register the rental unit with the Board within fifteen (15) days of the
+commencement of a new tenancy on a form prescribed by the Board. Re-registering the
+unit shall include providing all current tenancy information as established by the Board's
+Regulations.
+F. The Board shall provide forms for the registration information required by this section
+and shall make other reasonable efforts to facilitate the fulfillment of the requirements set
+forth in this section.
+G. Every annual registration fee required by this Chapter which is not paid on or before
+July 1 is declared delinquent, and the Board shall add to said registration fee and collect
+a penalty of one hundred percent of the fee so delinquent in addition to the fee. Every six
+months that the fee and penalty remain delinquent, the penalty shall be increased by one
+hundred percent of the original fee. The Board may waive the penalty if payment is made
+within thirty days of the original due date.
+A landlord may request the Board to waive all or part of the penalty if the landlord can
+show good cause for the delinquent payment.
+H. The amount of any registration fee, penalty, and fine imposed by the provisions of this
+chapter shall be deemed a debt to the Board.
+I. Within thirty days after the filing of a rent registration statement, the Board shall provide
+a true and correct copy of said statement to the occupant of the respective unit.
+J. Landlords of formerly exempt units shall register within 60 days of coming under
+coverage of this Chapter. The registration fee for this first-time registration shall be pro-
+
+Ordinance No. 7,950-N.S.
+
+Page 14 of 41
+
+rated based upon the number of months remaining to the next July 1 annual registration
+deadline.
+K. No landlord shall be deemed to be in compliance with this Section with respect to a
+given unit until the landlord has completed registration for all covered units in the same
+property. Registration shall be deemed complete when all required information has been
+provided, any notice required by subsection 13.76.080.D has been provided to the Board,
+and all outstanding fees and penalties have been paid.
+L. Registration fees shall not be passed along to the tenants without the express, prior
+approval of the Board. Under no circumstances shall penalties be passed along to
+tenants.
+M. Landlords of Partially-Covered Units (set forth above in Section 13.76.050.B.) shall
+register within 60 days of coming under coverage of this Chapter. The registration fee for
+this first-time registration shall be pro-rated based upon the number of months remaining
+to the next July 1 annual registration deadline.
+13.76.090 Confidentiality of information submitted to Board.
+The Board shall adopt rules and regulations providing for the confidentiality of information
+submitted to the Board in support of a petition for an individual rent ceiling adjustment
+under Section 13.76.120 of this Chapter when such confidentiality is deemed necessary
+by the Board and where otherwise permitted by state law.
+13.76.100 Establishment of base rent ceiling and posting.
+Base Rent Ceiling. Upon adoption of this Chapter, no landlord shall charge rent for
+any rental unit covered by the terms of this Chapter affecting rents in an amount greater
+than the lawful rent which was actually due and payable on, or last preceding, May 31,
+1980, under the periodic term of the rental agreement, in accordance with the provisions
+of the Temporary Rent Stabilization Ordinance, No. 5212-N.S., except as permitted by
+the Board under Sections 13.76.110 and 13.76.120 of this Chapter. Such lawful rent in
+effect on May 31, 1980, is the base rent ceiling and is a reference point from which the
+rent ceiling shall be adjusted in accordance with Sections 13.76.110 and 13.76.120. For
+such rental units where no rent was in effect on May 31, 1980, the base rent ceiling shall
+be the most recent lawful periodic rent in effect for that rental unit during the six months
+preceding that date. For such rental units where no periodic rent was in effect on May 31,
+1980, or during the six months preceding that date and no other rent has been certified
+
+A.
+
+Ordinance No. 7,950-N.S.
+
+Page 15 of 41
+
+or determined by the Board after hearing, the base rent ceiling shall be the first periodic
+rent charged following May 31, 1980.
+Posting. The Board may establish reasonable rules and regulations for the posting
+of rent ceiling and other relevant information to further the purposes of this Chapter.
+
+B.
+
+Previously Exempt Units. For rental units specified in Section 13.76.050.C.9, the
+base rent ceiling shall be the rent in effect on June 1, 1980. For such rental units where
+the landlord lawfully established a new initial rent any time after January 1, 1996, the
+most recently established initial rent shall become the unit’s base rent ceiling and the
+reference point from which the rent ceiling shall be adjusted in accordance with Sections
+13.76.110 and 13.76.120. Initial rent shall mean the first periodic rental rate established
+for the existing tenancy.
+
+C.
+
+Vacancy Rent Increases Preserved. This subdivision shall apply to the extent that
+state law no longer mandates that a landlord may establish the initial rental rate for any
+tenancy in a unit that is otherwise subject to a residential rent control ordinance. For such
+rental units where the landlord lawfully established a new initial rent under the CostaHawkins Rental Housing Act (Civil Code Section 1954.50 et seq.), the Base Rent Ceiling
+shall be the most recent lawfully established periodic rent. For such rental units that were
+exempt from rent stabilization pursuant to the Costa-Hawkins Rental Housing Act, the
+Base Rent Ceiling shall be the most recent lawfully established periodic rent.
+
+D.
+
+Utilities. A tenant may only be responsible for utilities if: 1) the utility charge is
+included in the base rent and does not increase during the tenancy; 2) the utility service
+is separately or individually metered and the lease agreement requires that the tenant
+registers the utility account in their own name; or 3) the utility service is in compliance
+with Board regulations, specifying other technologies, mechanisms, or policies that the
+Rent Board deems functionally similar to separate and individual metering.
+E.
+
+This prohibition shall not apply to leases entered into before February 6, 2024 to the
+extent that the lease provides that the tenant shall pay for one or more utility. For all other
+tenancies, this prohibition shall apply regardless of whether the written lease allows for
+split utility charges or ration utility billing services. In the event a lease entered into after
+February 6, 2024 charges the tenant for utilities in violation of this section, the landlord
+may petition pursuant to Section 13.76.120 of this Chapter to adjust the rent ceiling to
+include the average cost of utilities for the unit.
+
+Ordinance No. 7,950-N.S.
+
+Page 16 of 41
+
+13.76.110 Annual general adjustment of rent ceilings.
+Effective January 1 of each year, the rent ceiling for all rental units covered by this
+Chapter for which the landlord did not establish an initial rent during the prior calendar
+year shall be adjusted by 65% of the percentage increase in the Consumer Price Index
+for All Urban Consumers (CPI-U) in the San Francisco-Oakland-San Jose region as
+reported and published by the U.S. Department of Labor, Bureau of Labor Statistics, for
+the twelve month period ending the previous June 30. In determining the allowable
+percentage rent increase, numbers of .04 and below shall be rounded down to the nearest
+tenth decimal place and numbers of .05 and above shall be rounded up to the nearest
+tenth decimal place. In no event, however, shall the allowable annual adjustment be less
+
+A.
+
+than zero (0%) or greater than five percent (5%). The Board shall publish and publicize
+the annual general adjustment on or about October 31st of each year.
+An upward general adjustment in rent ceilings does not automatically provide for
+a rent increase. Allowable rent increases pursuant to a general upward adjustment shall
+become effective only after the landlord gives the tenant at least a 30 days written notice
+of such rent increase and the notice period expires.
+
+B.
+
+If the maximum allowable rent specified under this Chapter for a rental unit is
+greater than the rent specified for such unit in the rental agreement, the lower rent
+specified in the rental agreement shall be the maximum allowable rent until the rental
+agreement expires. If the maximum allowable rent specified under this Chapter for a
+rental unit is less than the rent specified for such unit in the rental agreement, the lower
+rent specified under this Chapter shall be the maximum allowable rent.
+
+C.
+
+No rent increase pursuant to an upward general adjustment of a rent ceiling shall
+be effective if the landlord:
+
+D.
+
+1. Has continued to fail to comply, after order of the Board, with any provisions of this
+
+Chapter and/or orders or regulations issued thereunder;
+2. Has failed to bring the rental unit into compliance with the implied warranty of
+
+habitability;
+3. Has failed to make repairs as ordered by the housing inspection services of the;
+
+or
+
+Ordinance No. 7,950-N.S.
+
+Page 17 of 41
+
+4. Has failed to completely register by July 1, except as provided in Subsection E.
+
+below.
+The amount of an upward general adjustment for which a landlord shall be eligible
+shall decrease by ten percent (10%) per month for each month beyond October 1 for
+which the landlord fails to register.
+
+E.
+
+An owner who has previously been out of compliance with the ordinance,
+regulations, or applicable housing, health and safety codes, and has been denied Annual
+General Adjustments, may be granted them prospectively as set forth in Board
+regulations.
+
+F.
+
+13.76.120 Individual adjustments of rent ceilings.
+Petitions. Upon receipt of a petition by a landlord and/or tenant, the rent ceiling of
+individual controlled rental units may be adjusted upward or downward in accordance
+with the procedures set forth elsewhere in this Section. The petition shall be on the form
+provided by the Board. The Board may set a reasonable per unit fee based upon the
+expenses of processing the petition to be paid by the petitioner at the time of filing.
+Notwithstanding any other provision of this Section, the Board or hearing examiner may
+refuse to hold a hearing and/or grant an individual rent ceiling adjustment for a rental unit
+if an individual hearing has been held and decision made with regard to the rent ceiling
+for such unit, within the previous six months.
+
+A.
+
+Hearing Procedure. The Board shall enact rules and regulations governing
+hearings and appeals of individual adjustments of rent ceilings which shall include the
+following:
+
+B.
+
+1. Hearing Examiner. A hearing examiner appointed by the Board shall conduct a
+
+hearing to act upon the petition for individual adjustments of rent ceilings and shall
+have the power to administer oaths and affirmations.
+2. Notice. The Board shall notify the landlord if the petition was filed by the tenant, or
+
+the tenant, if the petition was filed by the landlord, of the receipt of such a petition
+and a copy thereof.
+
+Ordinance No. 7,950-N.S.
+
+Page 18 of 41
+
+3. Time of Hearing. The hearing officer shall notify all parties as to the time, date and
+
+place of the hearing.
+4. Records. The hearing examiner may require either party to an individual rent
+
+ceiling adjustment hearing to provide it with any books, records and papers
+deemed pertinent in addition to that information contained in registration
+statements. The hearing examiner shall conduct a current building inspection
+and/or request the City to conduct a current building inspection if the hearing
+examiner finds good cause to believe the Board’s current information does not
+reflect the current condition of the controlled rental unit. The tenant may request
+the hearing examiner to order such an inspection prior to the date of the hearing.
+All documents required under this section shall be made available to the parties
+involved prior to the hearing at the office of the Board. In cases where information
+filed in a petition for an individual rent ceiling adjustment or in additional
+submissions filed at the request of the hearing examiner is inadequate or false, no
+action shall be taken on said petition until the deficiency is remedied.
+5. Open Hearings. All individual rent ceiling adjustment hearings shall be open to the
+
+public.
+6. Right of Assistance. All parties to a hearing may have assistance in presenting
+
+evidence and developing their position from attorneys, legal workers, Tenant
+Association, representatives or any other persons designated by said parties.
+7. Hearing Record. The Board shall make available for inspection and copying by
+
+any person an official record which shall constitute the exclusive record for
+decision on the issues at the hearing. The record of the hearing, or any part of
+one, shall be obtainable for the cost of copying. The record of the hearing shall
+include: all exhibits, papers and documents required to be filed or accepted into
+evidence during the proceedings; a list of participants present; a summary of all
+testimony accepted in the proceedings; a statement of all materials officially
+noticed; all recommended decisions, orders and/or rulings; all final decisions,
+orders and/or rulings, and the reasons for each final decision, order and/or ruling.
+Any party may have the proceeding tape recorded or otherwise transcribed at his
+or her own expense.
+8. Burden of Proof and Notice of Decision. No individual rent ceiling adjustment shall
+
+be granted unless supported by the preponderance of the evidence submitted at
+
+Ordinance No. 7,950-N.S.
+
+Page 19 of 41
+
+the hearing. All parties to a hearing shall be sent a notice of the decision and a
+copy of the findings of fact and law upon which said decision is based. At the same
+time, parties to the proceedings shall also be notified of their right to and the time
+limit for any appeal allowed by the Board and/or to judicial review of the decision
+pursuant to this Section and Section 13.76.180 of this Chapter.
+9. Consolidation. All landlord petitions pertaining to tenants in the same building shall
+
+be consolidated for hearing, and all petitions filed by tenants occupying the same
+building shall be consolidated for hearing unless there is a showing of good cause
+not to consolidate such petitions.
+10. Appeal. Any person aggrieved by the decision of the hearing examiner may appeal
+
+to the Board or to any appeals panel of the Board established by the Board, so
+long as such panel has at least three Commissioners. On appeal the Board or
+panel shall affirm, reverse, remand, or modify the decision of the hearing examiner.
+The Board or panel may conduct a new (de novo) hearing or may act on the basis
+of the record before the hearing examiner without holding a hearing. An appeal to
+the Board shall be filed no later than thirty days after receipt of the notice of the
+decision of the hearing examiner. The Board may set a reasonable appeal fee to
+be paid by the appellant at the time of filing the appeal.
+11. Finality of Decision. The decision of the hearing examiner shall be the final
+
+decision of the Board in the event of no appeal to the Board. The decision of the
+hearing examiner shall not be stayed pending appeal; however, in the event that
+the Board or panel reverses or modifies the decision of the hearing examiner, the
+Board shall order the appropriate party to make retroactive payments to restore
+the parties to the position they would have occupied had the hearing examiner’s
+decision been the same as that of the Board’s.
+12. Time for Decision. The rules and regulations adopted by the Board shall provide
+
+for final Board action on any individual rent adjustment petition within 120 days
+following the date of filing of the individual rent ceiling adjustment petition, unless
+the conduct of the petitioner or other good cause is responsible for the delay.
+13. Board Action in Lieu of Reference to Hearing Examiner. The Board, on its own
+
+motion or on the request of any landlord or tenant, may hold a hearing on an
+individual petition for a rent ceiling adjustment without the petition first being heard
+by a hearing examiner.
+
+Ordinance No. 7,950-N.S.
+
+Page 20 of 41
+
+In making individual adjustments of the rent ceiling, the Board or the hearing
+examiner shall consider the purposes of this Chapter and shall specifically consider all
+relevant factors, including (but not limited to):
+
+C.
+
+1. Increases or decreases in property taxes;
+2. Unavoidable increases or any decreases in maintenance and operating expenses;
+3. The cost of completed capital improvements to the rental unit (as distinguished
+
+from ordinary repair, replacement and maintenance) where such capital
+improvements are necessary to bring the property into compliance or maintain
+compliance with applicable local code requirements affecting health and safety,
+and where such capital improvement costs are properly amortized over the life of
+the improvement;
+4. Increases or decreases in the number of tenants occupying the rental unit, living
+
+space, furniture, furnishings, equipment, or other housing services provided, or
+occupancy rules;
+5. Substantial deterioration of the controlled rental unit other than as a result of
+
+normal wear and tear;
+6. Failure on the part of the landlord to provide adequate housing services, or to
+
+comply substantially with applicable state rental housing laws, local housing,
+health and safety codes, or the rental agreement;
+7. Whether parties conferred in good faith relating to housing services and
+
+conditions, landlord-tenant relations, rent increases, and other issues of common
+interest or concern;
+8. The pattern of recent rent increases or decreases;
+9. The landlord’s rate of return on investment. In determining such return, all relevant
+factors, including but not limited to the following shall be considered: the landlord’s
+actual cash down payment, method of financing the property, and any federal or state
+tax benefits accruing to the landlord as a result of ownership of the property;
+10. Whether or not the property was acquired or is held as a long-term or short-term
+investment; and
+
+Ordinance No. 7,950-N.S.
+
+Page 21 of 41
+
+11. Whether or not the landlord has received rent in violation of the terms of this
+chapter or has otherwise failed to comply with the Chapter.
+It is the intent of this Chapter that individual upward adjustments in the rent ceilings on
+units be made only when the landlord demonstrates that such adjustments are necessary
+to provide the landlord with a fair return on investment.
+No individual upward adjustment of a rent ceiling shall be authorized by the Board
+by reason of increased interest or other expenses resulting from the landlord’s refinancing
+the rental unit if, at the time the landlord refinanced, the landlord could reasonably have
+foreseen that such increased expenses could not be covered by the rent schedule then
+in existence, except where such refinancing is necessary for the landlord to make capital
+improvements which meet the criteria set forth in Section 13.76.120 C.3. This paragraph
+shall only apply to that portion of the increased expenses resulting from the refinancing
+that were reasonably foreseeable at the time of the refinancing of the rental unit and shall
+only apply to rental units refinanced after the date of adoption of this Chapter.
+
+D.
+
+Except for cases of individual hardship as set forth in Subsection 13.76.120.I. of
+this Chapter, no individual upward adjustment of a rent ceiling shall be authorized by the
+Board because of the landlord’s increased interest or other expenses resulting from the
+sale of the property, if at the time the landlord acquired the property, the landlord could
+have reasonably foreseen that such increased expenses would not be covered by the
+rent schedule then in effect. This Subsection (13.76.120 E.) shall only apply to rental units
+acquired after the date of adoption of this Chapter.
+
+E.
+
+No upward adjustment of an individual rent ceiling shall be authorized by the Board
+under this Section if the landlord:
+
+F.
+
+1. Has continued to fail to comply, after order of the Board, with any provisions of this
+
+Chapter and/or orders or regulations issued thereunder by the Board; or
+2. Has failed to bring the rental unit into compliance with the implied warranty of
+
+habitability,
+Allowable rent increases pursuant to an individual upward adjustment of the rent
+ceiling shall become effective only after the landlord gives the tenant at least a 30 day
+written notice of such rent increase and the notice period expires.
+
+G.
+
+Ordinance No. 7,950-N.S.
+
+Page 22 of 41
+
+If the Board makes a downward individual adjustment of the ceiling, such rent
+decrease shall take effect no later than 30 days after the effective date set by the Board
+for the downward adjustment.
+
+H.
+
+No provision of this Chapter shall be applied so as to prohibit the Board from
+granting an individual rent adjustment that is demonstrated necessary by the landlord to
+provide the landlord with a fair return on investment.
+
+I.
+
+13.76.130
+
+Just cause required for eviction.
+
+A. No landlord shall be entitled to recover possession of a rental unit covered by the
+terms of this chapter unless said landlord shows the existence of one of the following
+grounds:
+1. Non-payment of Rent. The tenant has failed to pay rent to which the landlord is
+
+legally entitled pursuant to the lease or rental agreement and under the provisions of
+state or local law, unless the tenant has withheld rent pursuant to applicable law; and
+said failure has continued after service on the tenant of a written notice setting forth
+the amount of rent then due and requiring it to be paid, within a period, specified in
+the notice, of not less than three days. Rent that is lawfully withheld pursuant to
+emergency legislation that authorizes rent withholding during the effective period of
+a state of emergency applicable in the City shall not constitute grounds for recovery
+of possession except as expressly provided in the applicable emergency legislation.
+Emergency legislation adopted during the emergency may prohibit recovery of
+possession for lawfully withheld rent even after the expiration of a state or local
+emergency. This subsection shall not constitute grounds where the amount of rent
+demanded is less than one month of fair market rent for a unit of equivalent size in
+the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the U.S.
+Department of Housing and Urban Development for the fiscal year in which the rent
+is demanded.
+2. Substantial Violation of Material Lease Causing Actual Injury. The tenant has
+
+continued, after written notice to cease, to substantially violate any of the material
+terms of the rental agreement, except the obligation to surrender possession on
+proper notice as required by law, and provided that such terms are reasonable and
+legal and have been accepted in writing by the tenant or made part of the rental
+agreement; and provided further that, where such terms have been accepted by the
+tenant or made part of the rental agreement subsequent to the initial creation of the
+Ordinance No. 7,950-N.S.
+
+Page 23 of 41
+
+tenancy, the landlord shall have first notified the tenant in writing that he or she need
+not accept such terms or agree to their being made part of the rental agreement.
+Material terms of the rental agreement only include those terms of the rental
+agreement which both parties have expressly agreed upon and do not include any
+changes of the terms of tenancy, other than the amount of rent owing for the
+premises, which the landlord has attempt to impose unilaterally under Civil Code
+Section 827.
+In order to assert this ground for eviction, the landlord must demonstrate all of the
+following: that the tenant's lease violation caused substantial actual damage to the
+landlord; and that the tenant's behavior was unreasonable.
+Actual injury must be a direct result of the tenant’s breach of lease and is not limited
+to physical or personal injury. Substantial actual injury includes but is not limited to
+the harm caused by a tenant’s failure to comply with income recertification mandated
+by state or federal statute or regulation for deed-restricted affordable housing units.
+Notwithstanding any contrary provision in this Chapter or in the rental agreement, a
+landlord is not entitled to recover possession of a rental unit under this Subsection
+where a tenant permits his or her rental unit to be occupied by a subtenant, provided:
+(a) The landlord has unreasonably withheld consent to the subtenancy; and
+(b) The tenant remains an actual occupant of the rental unit; and
+(c) The number of tenants and subtenants actually occupying the rental unit does
+
+not exceed the number of occupants originally allowed by the rental
+agreement or the Board’s regulations, whichever is greater.
+(d) Withholding of consent by the landlord shall be deemed to be unreasonable
+
+where:
+
+i. The tenant’s written request for consent was given at least two weeks prior
+
+to commencement of the subtenancy;
+ii. The proposed new subtenant has, upon the landlord’s written request,
+
+completed the landlord’s standard form application or provided sufficient
+information to allow the landlord to conduct a standard background check,
+
+Ordinance No. 7,950-N.S.
+
+Page 24 of 41
+
+including references and credit, income and other reasonable background
+information; and
+The proposed new subtenant meets the landlord’s customary
+occupancy qualifications and has not refused the landlord’s request to be
+bound by the terms of the current rental agreement between the landlord and
+the tenant; and
+
+iii.
+
+The landlord has not articulated in writing a well-founded reason for
+refusing consent.
+
+iv.
+
+Any notice to cease given pursuant to this Subsection must state allegations in
+sufficient detail so that a reasonable person would understand the alleged violation
+and resulting injury, including the specific term of the lease allegedly violated, the
+date of the alleged violation, and the injury that occurred as a result of the alleged
+violation.
+3. Substantial Damage to Premises. The tenant has willfully caused or allowed
+
+substantial damage to the premises beyond normal wear and tear and has refused,
+after written notice, to pay the reasonable costs of repairing such damage and cease
+damaging said premises.
+4. Destruction of Peace. The tenant has continued, following written notice to cease,
+to be so disorderly as to destroy the peace and quiet of other tenants or occupants of
+the premises or the tenant is otherwise subject to eviction pursuant to subdivision 4
+of Code of Civil Procedure Section 1161.
+5. Refusal of Lawful Access to Unit. The tenant has, after written notice to cease,
+refused the landlord access to the unit as required by state or local law.
+6. Substantial and Necessary Repairs.
+The landlord, after having obtained all necessary permits from the City,
+seeks in good faith to undertake substantial repairs which are necessary to bring
+the property into compliance with applicable codes and laws affecting the health
+and safety of tenants of the building or where necessary under an outstanding
+notice of code violations affecting the health and safety of tenants of the building,
+and where such repairs cannot be completed while the tenant resides on the
+premises.
+
+(a)
+
+Ordinance No. 7,950-N.S.
+
+Page 25 of 41
+
+Where such repairs can be completed in a period of 60 or fewer days, and
+the tenant, within 30 days after the service of a notice of termination of his or her
+tenancy, agrees in writing to vacate the premises during the period required to
+complete the repairs at no charge to the landlord, other than abatement of the
+obligation to pay rent for the premises during the period required to complete the
+repairs, the landlord may not recover possession pursuant to this Subsection
+(13.76.130A.6.) unless the tenant shall fail or refuse to vacate the premises in
+accordance with such agreement.
+
+(b)
+
+Where the landlord owns any other residential rental units in the City, and
+any such unit is vacant and available at the time of premises or the entry of a
+
+(c)
+
+judgment by a court of competent jurisdiction awarding possession of the
+premises to the landlord, the landlord shall, as a condition of obtaining possession
+pursuant to this Subsection (13.76.130A.6), notify tenant in writing of the
+existence and address of each such vacant rental unit and offer tenant the right,
+at the tenant’s option:
+i. To enter into a rental agreement (to be designated as a "temporary rental
+
+agreement") on any available rental unit which the tenant may choose, at a
+rent not to exceed the lesser of the lawful rent which may be charged for such
+available rental unit or the lawful rent in effect, at the time of the notice of
+termination of tenancy, on the unit being vacated, said rental agreement to
+be for a term of the lesser of ninety days or until completion of repairs on the
+rental unit being vacated by tenant; or
+ii. To enter into a new rental agreement or lease for such available rental unit
+
+at a rent not to exceed the lawful rent which may be charged for such
+available rental unit.
+Where the landlord recovers possession under this subsection
+13.76.130A.(6), the tenant must be given the right of first refusal to re-occupy the
+
+(d)
+
+unit upon completion of the required work. In the event the landlord files an
+application for an individual rent adjustment within six months following the
+completion of the work, the tenant shall be a party to such proceeding the same
+as if he or she were still in possession, unless the landlord shall submit, with such
+application, a written waiver by the tenant of his or her right to re-occupy the
+premises pursuant to this Subsection.
+
+Ordinance No. 7,950-N.S.
+
+Page 26 of 41
+
+7. Demolition Permit Issued by the City. The landlord, after having obtained all
+necessary permits from the City of Berkeley, seeks in good faith to recover
+possession of the rental unit, in order to remove the rental unit from the market by
+demolition
+8. Owner Move-in Evictions.
+The landlord seeks in good faith with honest intent and without ulterior
+motive to recover possession for his/her own use and occupancy as his/her
+principal residence for a period of at least 36 consecutive months; or
+
+(a)
+
+(b)
+
+For the use and occupancy as the principal residence by the landlord’s
+
+spouse or by the landlord’s child, or parent for a period of at least 36 consecutive
+months.
+For the purposes of this Subsection (13.76.130A.8), the term landlord shall
+be defined as the owner of record, as of the time of giving of a notice terminating
+tenancy, and at all times thereafter to and including the earlier of the tenant’s
+surrender of possession of the premises or the entry of a judgment of a court of
+competent jurisdiction awarding possession of the premises to the landlord,
+holding at least a 50% interest in the property and shall not include a lessor,
+sublessor, or agent of the owner of record.
+
+(c)
+
+All notices terminating tenancy pursuant to subsection 13.76.130.A.7 shall
+include the following: the existence and potential availability of relocation
+assistance under subsection 13.76.130A.8.g; the existence of tenant protections
+for families with minor children as defined in Subsection 13.76.130A.8.k; the
+name and relationship of any qualified relative for purposes of Subsection
+13.76.130A.8.b; and the landlord’s ownership interest in any residential
+properties in the City where such interest, in any form whatsoever, is ten percent
+(10%) or greater. The landlord shall, within ten days of giving notice, file a copy
+of the notice terminating tenancy with the Board.
+
+(d)
+
+The landlord may not recover possession under this Subsection
+(13.76.130A.8) if a comparable unit, owned by the landlord in the City, was, at
+the time of the landlord’s decision to seek to recover possession of the rental unit,
+already vacant and available, or if a comparable unit, owned by the landlord in
+the City, thereafter becomes vacant at any time until the earlier of the tenant’s
+
+(e)
+
+Ordinance No. 7,950-N.S.
+
+Page 27 of 41
+
+surrender of possession of the premises or the entry of a judgment of a court of
+competent jurisdiction awarding possession of the premises to the landlord. In an
+action by or against the tenant, evidence that a comparable unit was vacant and
+available within ninety days prior to the date of a notice terminating the tenant’s
+tenancy shall create a presumption that such unit was vacant and available at the
+time of the landlord’s decision to seek to recover possession of the premises.
+"Presumption" means that the court must find the existence of the presumed fact
+unless and until the contrary is proven by a preponderance of the evidence.
+The landlord shall offer any non-comparable unit owned by the landlord to
+the tenant if a non-comparable unit becomes available before the recovery of
+
+(f)
+
+possession of the tenant’s unit at a rate based on the rent the tenant is paying
+with an upward or downward adjustment based on the condition, size, and other
+amenities of the replacement unit. Disputes concerning the initial rent for the
+replacement unit shall be determined by the Board.
+Where a landlord recovers possession of a unit under Subsection
+13.76.130A.8, the landlord is required to provide standard relocation assistance
+to tenant households where at least one occupant has resided in the unit for one
+year or more in the amount of $15,000. The landlord is required to provide an
+additional $5,000 relocation assistance to tenant households that qualify as low-
+
+(g)
+
+income; or include disabled or elderly tenants; minor children; or tenancies which
+began prior to January 1, 1999. The relocation fees set forth above shall be
+increased in accordance with the rules set forth in Subsection 13.76.130A.7.h
+below. The procedures for payment of this relocation assistance are set forth
+below in Subsection 13.76.130A.7.p.(i) through (iv). The following definitions
+apply for any tenant households evicted for owner move-in under Subsection
+13.76.130A.8:
+i. "Low-income tenants" means persons and families whose income does not
+
+exceed the qualifying limits for lower income families as established and
+amended from time to time pursuant to Section 8 of the United States
+Housing Act of 1937, or as otherwise defined in Health and Safety Code
+Section 50079.5.
+ii. A person is "disabled" if that person has a physical or mental impairment
+
+that limits one or more of a person’s major life activities within the meaning
+
+Ordinance No. 7,950-N.S.
+
+Page 28 of 41
+
+of the California Fair Housing and Employment Act (Government Code §
+12926).
+iii. "Elderly" is defined as sixty (60) years of age or older.
+iv. "Minor child" means a person who is under 18 years of age.
+v. "Tenancy began prior to January 1, 1999" is a tenancy where an "original
+
+occupant" (as defined by Board regulation) still permanently resides in the
+rental unit.
+(h) Effective January 1 of each year beginning in 2018, the fees set forth above
+
+in Subsection 13.76.130A.8.g., shall be increased in an amount based on the
+Consumer Price Index - All Urban Consumers in the San Francisco-OaklandSan Jose Region averaged for the 12-month period ending June 30, of each
+year, as determined and published by United States Department of Labor.
+Any increase shall be published by the Board on or before October 31st of
+each year.
+It shall be evidence that the landlord has acted in bad faith if the landlord or
+the landlord’s qualified relative for whom the tenant was evicted does not move
+into the rental unit within three months from the date of the tenant’s surrender of
+possession of the premises or occupy said unit as his/her principal residence for
+a period of at least 36 consecutive months.
+(i)
+
+(j) Once a landlord has successfully recovered possession of a rental unit
+
+pursuant to Subsection 13.76.130A.8.a., then no other current or future
+landlords may recover possession of any other rental unit on the property
+pursuant to Subsection 13.76.130A.8.a. It is the intention of this subsection
+that only one specific unit per property may be used for such occupancy under
+Subsection 13.76.130A.8.a and that once a unit is used for such occupancy,
+all future occupancies under Subsection 13.76.130A.8.a must be of that same
+unit.
+
+(k) A landlord may not recover possession of a unit from a tenant under
+
+Subsection 13.76.130A.8 if any tenant in the rental unit has a custodial or
+family relationship with a minor child who is residing in the unit, the tenant with
+the custodial or family relationship has resided in the unit for 12 months or
+
+Ordinance No. 7,950-N.S.
+
+Page 29 of 41
+
+more, and the effective date of the notice of termination of tenancy falls during
+the school year. The term "school year" as used in this subsection means the
+first day of instruction for the Fall Semester through the first day of the month
+following the last day of instruction for the Spring Semester, as posted on the
+Berkeley Unified School District website for each year.
+i.
+For purposes of Subsection 13.76.130A.8.k, the term "custodial
+relationship" means that the person is a legal guardian of the child, or has a
+caregiver’s authorization affidavit for the child as defined by Section 6550 of
+the California Family Code, or that the person has provided full-time custodial
+care of the child pursuant to an agreement with the child’s legal guardian or
+court-recognized caregiver and has been providing that care for at least one
+year or half of the child’s lifetime, whichever is less. The term "family
+relationship" means that the person is the biological or adoptive parent,
+grandparent, brother, sister, aunt or uncle of the child, or the spouse or
+domestic partner of such relations.
+(l) A landlord may not recover possession of a unit from a tenant under
+
+Subsection 13.76.130A.8 if any tenant in the rental unit:
+i. Is 60 years of age or older and has been residing on the property for
+five years or more; or
+ii. Is disabled and has been residing on the property for five years or more;
+or
+iii. Has resided on the property for five years or more and the landlord has a
+ten percent (10%) or greater ownership interest, in any form whatsoever, in
+five or more residential rental units in the City.
+A tenant who claims to be a member of one of the classes protected by
+Subsection 13.76.130A.8.l must submit a statement, with supporting evidence, to
+the landlord. A tenant’s failure to submit a statement at any point prior to the trial
+
+(m)
+
+date of an unlawful detainer action for possession of the tenant’s unit shall be
+deemed an admission that the tenant is not protected by Subsection
+13.76.130A.8.l. A landlord may challenge a tenant’s claim of protected status by
+raising it as an issue at trial in an unlawful detainer action for possession of the
+tenant’s unit.
+
+Ordinance No. 7,950-N.S.
+
+Page 30 of 41
+
+The provisions of Subsection 13.76.130A.8.l shall not apply to the following
+situations:
+
+(n)
+
+i. Where a person is the owner of three or fewer residential units in the City
+
+and has no greater than a nine percent (9%) ownership interest in any other
+residential unit in the City; or
+ii. Where each residential rental unit in the City in which the landlord holds an
+
+ownership interest of ten percent (10%) or greater is occupied by a tenant
+otherwise protected from eviction by Subsection 13.76.130A.8.I and the
+landlord’s qualified relative who is seeking possession of a unit subject to
+Subsection 13.76.130A.8.b is 60 years of age or older or is disabled as
+defined in Subsection 13.76.130A.8.l.(ii) above; or
+Where each residential rental unit in the City in which the landlord
+holds an ownership interest of ten percent (10%) or greater is occupied by a
+tenant otherwise protected from eviction by Subsection 13.76.130A.8.I, the
+landlord has owned the unit for which possession is being sought subject to
+Subsection 13.76.130A.8.a for five years or more and is 60 years of age or
+older or is disabled as defined in Subsection 13.76.130A.8.l.(ii).
+
+iii.
+
+Where a landlord recovers possession under Subsection 13.76.130A.8, the
+tenant must be given the right of first refusal to re-occupy the unit upon its next
+vacancy.
+
+(o)
+
+When a landlord is required to provide a relocation assistance payment
+subject to Subsection 13.76.130A.8.g, the payment shall be divided among the
+tenants occupying the rental unit at the time of service of the notice to terminate
+tenancy.
+
+(p)
+
+i. Within ten days of service of a notice terminating tenancy under Subsection
+
+13.76.130A.8, the landlord shall deposit the standard relocation assistance
+(for households where an occupant has resided one year or more) with the
+City or its designated agent to be held in escrow. Within ten days after the
+funds are deposited into escrow, the City shall release the standard relocation
+assistance to the tenant household, unless the landlord notifies the Rent
+Stabilization Program in writing that the landlord disputes the tenant’s
+eligibility to receive such assistance.
+
+Ordinance No. 7,950-N.S.
+
+Page 31 of 41
+
+ii. In order to claim entitlement to additional relocation assistance under
+
+Subsection 13.76.130A.8.g, a tenant must notify the landlord and the Rent
+Stabilization Program in writing that the tenant is claiming low-income,
+disabled, elderly, tenant with minor child status, or a claim that the tenancy
+began prior to January 1, 1999 (hereinafter "entitlement to additional
+relocation assistance") per Subsection 13.76.130A.8.g within 30 days of filing
+of notice of termination of tenancy with the Rent Stabilization Program. The
+landlord shall deposit the additional relocation payment with the Rent
+Stabilization Program or its designated agent to be held in escrow for any
+tenant household who claims entitlement to additional relocation assistance
+within ten days after such notice claiming entitlement to additional relocation
+assistance is mailed. Within ten days after the funds are deposited into
+escrow, the Rent Stabilization Program shall authorize release of the
+relocation assistance to the tenant household that claims entitlement to
+additional relocation assistance, unless the landlord notifies the Rent
+Stabilization Program in writing that the landlord disputes the tenant’s
+eligibility to receive such assistance.
+When a tenant household’s eligibility to receive standard or
+additional relocation assistance as described in Subsection 13.76.130A.8.g
+
+iii.
+
+is disputed, either party may file a petition with the Board requesting a
+determination of eligibility or file a claim in a court of competent jurisdiction.
+The Board shall release disputed relocation assistance funds to either the
+tenant or the landlord upon receipt of either a written agreement by both the
+landlord and the affected tenant, an order of a court of competent jurisdiction,
+or an order of a City or Board hearing examiner issued pursuant to a petition
+process conducted in accordance with applicable Board regulations.
+The landlord may rescind the notice of termination of tenancy prior
+to any release of relocation payment to the tenants by serving written notice
+
+iv.
+
+stating such rescission on the tenants. In such instance, the relocation
+payment shall be released to the landlord. Subsequent to the release of any
+relocation payment to the tenants, the landlord may rescind the notice of
+termination of tenancy only upon the written agreement of the tenants to
+remain in possession of the rental unit. If the tenants remain in possession of
+the rental units after service of a landlord’s written notice of rescission of the
+
+Ordinance No. 7,950-N.S.
+
+Page 32 of 41
+
+eviction, the tenants shall provide an accounting to the landlord of the amount
+of the relocation payment expended for moving costs, return to the landlord
+that portion of the relocation payment not expended for moving costs, and
+assign to the landlord all rights to recover the amount of relocation payment
+paid to third parties. If a rescission occurs under this Subsection, the tenant(s)
+shall continue the tenancy on the same terms as before the notice was
+served.
+v. Where a landlord has served a notice of termination of tenancy on a tenant
+
+prior to the date that this amendment takes effect and the notice of
+termination of tenancy has not expired, the landlord shall deposit the full
+relocation payment with the City or its designated agent to be held in escrow
+for the tenants if the tenants have not vacated the rental unit as of the effective
+date of this amendment, and the landlord shall pay the full relocation payment
+to the tenants if the tenants have vacated the rental unit as of the effective
+date of this amendment. Said deposit in escrow or payment to the tenants
+shall be made within ten days of the effective date of this amendment.
+Failure of the landlord to make any payment specified herein shall
+be a defense to any action to recover possession of a rental unit based upon
+the landlord’s termination of tenancy notice pursuant to this Subsection
+(13.76.130A.8). In addition, if the tenants of a rental unit have vacated the
+unit as a result of a notice of termination of tenancy pursuant to this
+Subsection (13.76.130A.8), and the landlord fails to make any payment
+specified herein, the landlord shall be liable to the tenants for three times the
+amount of the payment as well as reasonable attorney fees.
+
+vi.
+
+A tenant who prevails in an action brought under this Subsection
+(13.76.130A.8), in addition to any damages and/or costs awarded by the court,
+shall be entitled to recover all reasonable attorney’s fees incurred in bringing or
+defending the action.
+
+(q)
+
+At least twice annually, Board staff shall report to the Board regarding the
+occupancy status of units possession of which has been recovered pursuant to
+this Subsection (13.76.130A.8) within the prior 36 months.
+
+(r)
+
+If any provision or clause of this Subsection (13.76.130A.8) or the
+application thereof to any person or circumstance is held to be unconstitutional
+
+(s)
+
+Ordinance No. 7,950-N.S.
+
+Page 33 of 41
+
+or to be otherwise invalid by any court of competent jurisdiction, such invalidity
+shall not affect other provisions or clauses, and to this end the provisions and
+applications of this Subsection are severable.
+9. Exemption of Temporary Lease of Owner’s Principal Residence. A landlord or
+lessor seeks in good faith to recover possession of the rental unit for their occupancy
+as a principal residence, where the landlord or lessor has previously occupied the
+rental unit as their principal residence and has the right to recover possession of the
+unit for their occupancy as a principal residence under an existing rental agreement
+with the current tenants.
+10. Expiration of Temporary Rental Agreement for Replacement Housing During
+Substantial Repairs. The tenant fails to vacate a rental unit occupied under the terms
+of a temporary rental agreement entered into pursuant to the provisions of Subsection
+13.76.130A.6.c., following expiration of the term of said temporary rental agreement,
+and following written notice of the availability of tenant’s previous rental unit for reoccupancy by tenant (if the term of the rental agreement has expired by reason of the
+completion of repairs on the old rental unit), or of written notice to quit (if the term of
+the rental agreement has expired by reason of the expiration of a period of 90 days).
+Contents of Notice to Terminate Tenancy. A landlord’s failure to specify just cause
+as listed above in subsections 1. through 10. of Section 13.76.130A. in the notice of
+termination or the notice to quit and in the complaint for possession shall be a defense to
+any action for possession of a rental unit covered by the terms of this chapter. Any notice
+terminating tenancy must additionally include a statement that advice regarding the notice
+terminating tenancy is available from the Rent Board, the current phone number for the
+Rent Board's housing counseling services, and the current address to the Rent Board's
+website.
+
+B.
+
+Allegation of Notice to Terminate Tenancy In any action to recover possession of
+a rental unit covered by the terms of this chapter, except an action to recover possession
+under Subsection 13.76.130.A.6., 13.76.130.A.7., or 13.76.130.A.10., a landlord shall
+allege, as to each rental unit on the property, substantial compliance as of the date of the
+notice of termination or notice to quit and as of the date of the commencement of the
+action for possession with the implied warranty of habitability and compliance as of the
+date of the notice of termination or notice to quit and as of the date of the commencement
+of the action for possession with Sections 13.76.100 (Rent Ceiling) and 13.76.080 (Rent
+Registration) of this Chapter.
+
+C.
+
+Ordinance No. 7,950-N.S.
+
+Page 34 of 41
+
+D. Filing of Termination Notices and Unlawful Detainer Summons and Complaints. The
+landlord shall file with the Board a copy of any notice of termination, notice to quit, and
+summons and complaint, no later than three business days after the tenant has been
+served with such notice or summons and complaint. The Board may provide an email
+address to which the landlord may send any notice of termination, notice to quit, and
+summons and complaint.
+13.76.135 Right to Organize.
+A. Tenant Association. This section shall be limited to 1) parcels that contain ten or more
+
+rental units; and 2) parcels that contain between one and nine rental units, so long as
+the rental units are managed by a property management company as defined by
+Board regulation.
+Tenants of such a residential rental property may establish a Tenant Association by
+providing their Landlord a petition signed by Tenants representing at least 50% of the
+occupied rental units, including Rooming Houses as defined by Board regulation, of
+the residential rental property certifying their desire to form a Tenant Association, and
+identifying the Tenant Association. For purposes of this subsection, a petition may
+include individual written statements signed by said Tenants or some combination of
+individual and collective written statements.
+B. Confer in Good Faith. Landlords and Tenant Associations shall confer with each other
+
+in good faith regarding housing services and conditions, community life, landlordtenant relations, rent increases, and other issues of common interest or concern.
+“Confer in good faith” means that the parties shall have the mutual obligation,
+personally or through their authorized representatives, to meet and confer and
+continue for a reasonable period of time, in order to exchange freely information,
+opinions, and proposals, and to endeavor to reach agreement. Examples of conferring
+in good faith include, but are not limited to, maintaining a designated point of contact,
+engaging in regular communications, responding to reasonable requests for
+information, allowing participation by non-resident advocates, providing adequate
+time for limited-English speakers to obtain translation services, providing and
+adhering to timelines for addressing habitability concerns, and negotiating and putting
+agreements into writing. In addition, a Landlord may not prohibit a Tenant from
+
+Ordinance No. 7,950-N.S.
+
+Page 35 of 41
+
+allowing a Tenant Association representative to attend meetings involving the
+Landlord and one or more Tenants. The Board, through regulation, may further define
+good faith.
+C. Organizing Activities. “Organizing Activities” means:
+1. initiating contact with tenants, including conducting door-to-door surveys, to
+
+ascertain interest in and/or seek support for forming a Tenant Association;
+2. joining or supporting a Tenant Association;
+3. distributing literature, requesting or providing information, offering assistance,
+
+convening meetings (which may occur without a landlord or landlord
+representative present); or
+4. otherwise acting on behalf of one or more tenants in the building regarding
+
+issues of common interest or concern.
+The term “Organizing Activities” shall include, but is not limited to, the operations of a
+Tenant Association. A person’s participation or failure to participate in Organizing
+Activities shall have no effect on whether that person qualifies as a tenant. The Board,
+through regulation, may further define Organizing Activities. In addition, a tenant’s right
+to engage in Organizing Activities, to receive assistance from a Tenant Association, and
+to have Organizing activities occur at the property shall qualify as a housing service, and
+a landlord’s failure to confer in good faith with a Tenant Association may send the
+Landlord a single standing request to attend meetings for the duration of the calendar
+year.
+D. A Landlord must on written request of the Tenant Association attend, either
+
+themselves or through their representative, at least one Tenant Association meeting
+per calendar quarter, though more frequent attendance at the request of the Tenant
+Association is permitted. Landlord or Landlord's representative must remain in
+attendance at the meeting until all agenda items are complete, unless the meeting
+extends for more than two hours, in which case the Landlord or Landlord's
+representative may withdraw from the meeting and request that the remaining items
+be continued to a subsequent meeting. These meetings shall occur at a mutually
+convenient time and place. To request that a landlord or their representative attend a
+meeting, the Tenant Association shall send the Landlord a written request at least 14
+days in advance; alternatively, if the Tenant Association meets at a regularly
+Ordinance No. 7,950-N.S.
+
+Page 36 of 41
+
+scheduled time and place, then the Tenant Association may send the Landlord a
+single standing request to attend meetings for the duration of the calendar year.
+E. Private Right of Action. In the event of a violation of this section, any Tenant
+
+Association, or individual tenant, aggrieved by the violation may institute a civil
+proceeding for injunctive relief, and actual money actual damages as specified below,
+and whatever other relief the court deems appropriate. In addition to the above
+awards of damages in a civil action under this Chapter, a prevailing plaintiff shall be
+entitled to an award of reasonable attorney's fees.
+
+13.76.140 Retaliation prohibited.
+No landlord may threaten to bring, or bring, an action to recover possession, cause the
+tenant to quit the unit involuntarily, serve any notice to quit or notice of termination of
+tenancy, decrease any services, including a tenant’s right to engage in Organizing
+Activities, or increase the rent where the landlord’s intent is retaliation against the tenant
+for the tenant’s assertion or exercise of rights under this Chapter. Such retaliation shall
+be a defense to an action to recover possession, or it may serve as the basis for an
+affirmative action by the tenant for actual and punitive damages and injunctive relief. In
+an action by or against a tenant, evidence of the assertion or exercise by the tenant of
+rights under this Chapter within six months prior to the alleged act of retaliation shall
+create a presumption that the landlord’s act was retaliatory. "Presumption" means that
+the court must find the existence of the fact presumed unless and until its nonexistence
+is proven by a preponderance of the evidence. A tenant may assert retaliation
+affirmatively or as a defense to the landlord’s action without the aid of the presumption
+regardless of the period of time which has elapsed between the tenant’s assertion or
+exercise of rights under this Chapter and the alleged act of retaliation.
+13.76.150
+
+Remedies.
+
+For Violation of Rent Ceilings or Failure to Register. If a landlord fails to register in
+accordance with Section 13.76.080 of this Chapter, or if a landlord demands, accepts,
+receives or retains any payment in excess of the maximum allowable rent permitted by
+this Chapter, a tenant may take any or all of the following actions until compliance is
+achieved:
+
+A.
+
+Ordinance No. 7,950-N.S.
+
+Page 37 of 41
+
+1. A tenant may petition the Board for appropriate relief. If the Board, after the
+
+landlord has proper notice and after a hearing, determines that a landlord has willfully
+and knowingly failed to register a rental unit covered by this Chapter or violated the
+provisions of Sections 13.76.100, 13.76.110 and 13.76.120 of this Chapter, the Board
+may authorize the tenant of such rental unit to withhold all or a portion of the rent for
+the unit until such time as the rental unit is brought into compliance with this Chapter.
+After a rental unit is brought into compliance, the Board shall determine what portion,
+if any, of the withheld rent is owed to the landlord for the period in which the rental
+unit was not in compliance. Whether or not the Board allows such withholding, no
+landlord who has failed to comply with the Chapter shall at any time increase rents
+for a rental unit until such unit is brought into compliance.
+2. A tenant may withhold up to the full amount of his or her periodic rent which is
+
+charged or demanded by the landlord under the provisions of this Chapter. In any
+action to recover possession based on nonpayment of rent, possession shall not be
+granted where the tenant has withheld rent in good faith under this Section.
+3. A tenant may seek injunctive relief on behalf of herself or himself to restrain the
+
+landlord from demanding or receiving any rent on the unit until the landlord has
+complied with the terms of this Chapter.
+4. A tenant may file a damage suit against the landlord for actual damages when the
+
+landlord receives or retains any rent in excess of the maximum rent allowed under
+this Chapter. Upon further proof of a bad faith claim by the landlord or the landlord’s
+retention of rent in excess of the maximum rent allowed by this Chapter, the tenant
+shall receive a judgment of up to $750 in addition to any actual damages.
+For Violation of Eviction Proceedings. If it is shown in the appropriate court that the
+event which the landlord claims as grounds to recover possession under Subsection
+13.76.130A.6, Subsection 13.76.130A.7, or Subsection 13.76.130A.8 is not initiated
+
+B.
+
+within two months after the tenant vacates the unit, or it is shown the landlord’s claim was
+false or in bad faith, the tenant shall be entitled to regain possession and to actual
+damages. If the landlord’s conduct was willful, the tenant shall be entitled to damages in
+an amount of $750 or three times the actual damages sustained, whichever is greater.
+Both the City Attorney and the Board shall have the separate authority to bring an
+action for injunctive relief on behalf of tenants seeking compliance by landlords with this
+
+C.
+
+Ordinance No. 7,950-N.S.
+
+Page 38 of 41
+
+Chapter or to restrain or enjoin any violation of this chapter or of the rules, regulations,
+orders and decisions of the Board.
+D. If a tenant fails to bring a civil or administrative action within 120 days from the date
+of the first occurrence of a violation of this Chapter, the Board may either settle the claim
+arising from the violation or bring such action. Thereafter, the tenant on whose behalf the
+board acted may not bring an action against the landlord in regard to the same violation
+for which the board has made a settlement or brought an action. In the event the Board
+settles the claim it shall be entitled to retain from any payments made by the landlord, the
+costs it incurred in settlement, and the tenant aggrieved by the violation shall be entitled
+to the remainder.
+13.76.160 Partial invalidity.
+If any provision of this Chapter or application thereof is held to be invalid, this invalidity
+shall not affect other provisions or applications of this Chapter which can be given effect
+without the invalid provisions or applications, and to this end the provisions and
+applications of this chapter are severable.
+13.76.170
+
+Nonwaiverability.
+
+Any provision in a rental agreement which waives or modifies any provision of this Chapter
+is contrary to public policy and void.
+13.76.180
+
+Judicial review.
+
+A landlord or tenant aggrieved by any action or decision of the Board may seek judicial
+review in a court of appropriate jurisdiction.
+13.76.190 Criminal penalties.
+Any landlord who is found by a court of competent jurisdiction to be guilty of a willful
+violation of Section 13.76.130 of this Chapter shall be subject to up to a $500 fine and/or
+90 days in jail for a first offense and up to a $1000 fine and/or six months in jail for any
+subsequent offenses.
+Section 3. Adoption of Chapter 13.85, the Housing Retention Program. Chapter
+13.85 of the Berkeley Municipal Code is hereby added as follows:
+13.85.010 Purpose
+The purpose of this chapter is to ensure that the City allocates reasonable funding from
+existing sources to an ongoing Housing Retention Program, whose goal will be to prevent
+
+Ordinance No. 7,950-N.S.
+
+Page 39 of 41
+
+homelessness by ensuring that at-risk residents of the City of Berkeley are able to remain
+in stable housing.
+13.85.020 Funding
+The City Manager or their designee shall recommend how and to what extent the City
+uses revenues from the general fund to fund the Housing Retention Program and prevent
+homelessness, with a goal of allocating no less than $1,180,000.00 per year for this
+purpose. The target allocation shall increase annually to track the increase in the
+Consumer Price Index for all Bay Area Consumers.
+13.85.030 Operations
+The City Manager or their designee is authorized to promulgate any necessary rules or
+regulations to effectuate the Housing Retention Program including eligibility criteria,
+application procedures, and any other rule or regulation necessary to administer the
+Program.
+Section 4. Severability – Liberal Construction. If any section, subsection, sentence,
+clause, or phrase of this Ordinance is, for any reason, held to be unconstitutional or
+invalid, such decision shall not affect other provisions or applications of this Chapter which
+can be given effect without the invalid provisions or application, and to this end the
+provisions of this Chapter are declared to be severable. The People of Berkeley declare
+that they would have adopted this Ordinance and each section, subsection, sentence,
+clause, or phrase of the Ordinance in spite of the fact that any one or more of the same
+be declared unconstitutional or invalid. This Chapter shall be liberally construed to
+achieve the purposes of this Chapter and to preserve its validity.
+Section 5. Competing Ordinances. In the event that there is another ordinance on the
+ballot during the same election which seeks to regulate residential housing which also
+passes, the ordinance which obtains the higher number of votes shall be the controlling
+ordinance.
+Section 6. Effective Date. This Ordinance shall be effective only if approved by a majority
+of the voters voting thereon and shall go into effect ten (10) days after the vote is declared
+by the City Council. The Mayor and City Clerk and hereby authorized to execute this
+Chapter to give evidence of its adoption by the voters.
+
+Ordinance No. 7,950-N.S.
+
+Page 40 of 41
+
+The foregoing is a true and correct copy of Ordinance No. 7,950-N.S., and the
+same was approved by a vote of the electorate of the City of Berkeley on November 5,
+2024.
+At a special meeting of the Council of the City of Berkeley held on December 10,
+2024, this Ordinance was adopted by the following vote:
+Ayes:
+
+Bartlett, Blackaby, Humbert, Kesarwani, Lunaparra, O’Keefe, Taplin,
+Tregub, and Ishii.
+
+Noes:
+
+None.
+
+Absent:
+
+None.
+
+ATTEST:
+
+__________________________
+Adena Ishii, Mayor
+
+Mark Numainville, City Clerk
+
+Date signed: ____________________
+
+Ordinance No. 7,950-N.S.
+
+Page 41 of 41

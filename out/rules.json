@@ -1,1 +1,1275 @@
-[]
+[
+ {
+  "rule_id": "CA-SANFRA-ALGO-015-01",
+  "category": "algorithmic_rent_setting",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "San Francisco algorithmic rent-setting ban",
+  "requirement": "Landlords are prohibited from using algorithmic devices or revenue management software that use non-public competitor data to set, recommend, or advise on rents or occupancy levels. Additionally, it is unlawful to sell, license, or provide such devices to San Francisco landlords.",
+  "requirement_es": "Se prohíbe a los propietarios utilizar dispositivos algorítmicos o programas de gestión de ingresos que utilicen datos no públicos de competidores para fijar, recomendar o asesorar sobre los alquileres o los niveles de ocupación. Además, es ilegal vender, licenciar o proporcionar dichos dispositivos a propietarios de San Francisco.",
+  "key_value": {
+   "label": "Civil penalty per violation",
+   "value": "up to $1,000"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Products used for the purpose of establishing rent or income limits in accordance with affordable housing program guidelines of a local, state, or federal government.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": "product used for establishing rent or income limits in accordance with affordable housing program guidelines"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Reports that publish existing rental data in an aggregated manner but do not recommend rents or occupancy levels for future leases.",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2024-10-14",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Civil penalties of up to $1,000 per violation, injunctive relief, restitution/return of illegal profits, and reasonable attorney's fees and costs. Each separate month a violation continues and each separate residential dwelling unit constitutes a separate violation.",
+  "source_citation": "S.F. Admin. Code § 37.10C(a)-(d)",
+  "quoted_span": "It shall be unlawful for a landlord to use an algorithmic device described in subdivision (a) when setting rents or occupancy levels for residential dwelling units in San Francisco. Each separate month that a violation exists or continues, and each separate residential dwelling unit for which the landlord used the algorithmic device, shall constitute a separate and distinct violation.",
+  "source_doc_id": "doc_015",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   626,
+   1013
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.9,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quote specifically supports the prohibition on landlords using algorithmic devices to set rents/occupancy levels and unit/month violation structure, but does not explicitly mention the sale/licensing prohibition, the $1,000 penalty amount, the affordable housing exemption, or the effective date."
+   ],
+   "corrected_fields": [],
+   "cache_key": "581ab9e545cc3fb9e5782bba1421763369d77b69c3e6f85788c847061922bbd6"
+  },
+  "extracted_at": "2026-10-04T11:15:32Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANTAA-EVICT-020-01",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Orange",
+   "city": "Santa Ana"
+  },
+  "title": "Just Cause Eviction Protections",
+  "requirement": "After a tenant has continuously and lawfully occupied residential property for 30 days, a landlord cannot terminate the tenancy without stated at-fault or no-fault just cause.",
+  "requirement_es": "Después de que un inquilino haya ocupado continua y legalmente una propiedad residencial durante 30 días, el arrendador no puede rescindir el contrato de alquiler sin una causa justificada culpable o no culpable debidamente indicada.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "AND",
+   "clauses": [
+    {
+     "field": "tenancy_length_months",
+     "operator": ">=",
+     "value": 1,
+     "note": "After a Tenant has continuously and lawfully occupied a Residential Real Property for thirty (30) days"
+    }
+   ]
+  },
+  "exemptions": [
+   {
+    "description": "Transient and tourist hotel occupancy as defined in Civil Code § 1940(b)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Housing accommodations in nonprofit hospital, religious facility, extended care, licensed elderly care, or adult residential facility",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dormitories owned and operated by higher education or K-12 school",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Housing accommodations where tenant shares bathroom or kitchen facilities with owner maintaining principal residence",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Single-family owner-occupied residences renting no more than two units or bedrooms (including ADU/JADU)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Owner-occupied duplex where owner occupied a unit at the start and continues in occupancy",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "duplex",
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Housing issued a certificate of occupancy within the previous 15 years",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "building_age_years",
+       "operator": "<",
+       "value": 15,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Separately alienable residential real property where owner is not a REIT, corporation, or corporate-member LLC, and provided statutory exemption notice",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "in",
+       "value": [
+        "single_family",
+        "condominium"
+       ],
+       "note": null
+      },
+      {
+       "field": "owner_type",
+       "operator": "not_in",
+       "value": [
+        "reit",
+        "corporation"
+       ],
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Deed-restricted affordable housing or government subsidized housing",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2022-10-18",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "yields_to",
+   "target_scope": "state",
+   "source_language": "The provisions of this section related to the termination of Tenants shall not apply to Mobilehomes or Mobilehome Spaces in Mobilehome Parks subject to the termination provisions of the Mobilehome Residency Law, Civil Code section 798.56, as applicable.",
+   "target_rule_ids": []
+  },
+  "penalty": "Failure to strictly comply renders the notice of termination void; affirmative defense in unlawful detainer; landlord liable in civil action for wrongful eviction including costs and reasonable attorneys' fees; administrative citations, infractions, or misdemeanors.",
+  "source_citation": "Santa Ana Mun. Code § 8-3120(a)",
+  "quoted_span": "After a Tenant has continuously and lawfully occupied a Residential Real Property\nfor thirty (30) days, the Owner of the Residential Real Property shall not terminate\nthe Tenancy without just cause, which shall be stated in the written notice to terminate\nTenancy. The provisions of this section related to the termination of Tenants shall\nnot apply to Mobilehomes or Mobilehome Spaces in Mobilehome Parks subject to the termination\nprovisions of the Mobilehome Residency Law, Civil Code section 798.56, as applicable.",
+  "source_doc_id": "doc_020",
+  "source_url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR",
+  "source_char_offset": [
+   10553,
+   11071
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.98,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "b9994ecdb6042d8c7a0a4e23a09d945aed8226ca74e8e37be0de9e24cce83ff3"
+  },
+  "extracted_at": "2026-10-04T11:15:40Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANTAA-EVICT-020-02",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Orange",
+   "city": "Santa Ana"
+  },
+  "title": "No-Fault Eviction Relocation Assistance or Rent Waiver",
+  "requirement": "If terminating a tenancy for no-fault just cause, the landlord must provide direct relocation assistance or waive rent for the final 3 months, equal to 3 months of the tenant's rent.",
+  "requirement_es": "Si se rescinde un contrato de alquiler por una causa justificada no culpable, el propietario debe proporcionar asistencia directa de reubicación o condonar el alquiler durante los últimos 3 meses, por un monto equivalente a 3 meses del alquiler del inquilino.",
+  "key_value": {
+   "label": "relocation assistance or rent waiver",
+   "value": "3 months of rent"
+  },
+  "coverage_conditions": {
+   "type": "AND",
+   "clauses": [
+    {
+     "field": "tenancy_length_months",
+     "operator": ">=",
+     "value": 1,
+     "note": "Tenancy for which just cause is required"
+    }
+   ]
+  },
+  "exemptions": [
+   {
+    "description": "Tenant found at fault by a government agency or court for conditions triggering an order or need to vacate",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Properties exempt from just cause under section 8-3120(e)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "building_age_years",
+       "operator": "<",
+       "value": 15,
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2022-10-18",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": "The relocation assistance or Rent waiver required by this section shall be credited against any other relocation assistance required by any other law.",
+   "target_rule_ids": []
+  },
+  "penalty": "Failure to strictly comply renders the notice of termination void.",
+  "source_citation": "Santa Ana Mun. Code § 8-3120(d)",
+  "quoted_span": "The amount of relocation assistance or Rent waiver shall be equal to three (3) months\nof the Tenant's Rent that was in effect when the Owner issued the notice to terminate\nthe Tenancy. Any relocation assistance shall be provided within fifteen (15) calendar\ndays of service of the notice.",
+  "source_doc_id": "doc_020",
+  "source_url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR",
+  "source_char_offset": [
+   24099,
+   24387
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.98,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "b9994ecdb6042d8c7a0a4e23a09d945aed8226ca74e8e37be0de9e24cce83ff3"
+  },
+  "extracted_at": "2026-10-04T11:15:40Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANTAA-RENT-020-03",
+  "category": "rent_increase_limit",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "Orange",
+   "city": "Santa Ana"
+  },
+  "title": "Annual Allowable Rent Increase Cap",
+  "requirement": "Landlords may not increase rent on residential real property or mobilehome spaces by more than 3% or 80% of the change in the Consumer Price Index (whichever is less) and may not impose more than one rent increase in any 12-month period. If the CPI change is negative, no rent increase is permitted.",
+  "requirement_es": "Los arrendadores no pueden aumentar el alquiler de bienes raíces residenciales o espacios de casas móviles en más del 3% o el 80% del cambio en el Índice de Precios al Consumidor (lo que sea menor) y no pueden imponer más de un aumento en cualquier período de 12 meses. Si el IPC es negativo, no se permite ningún aumento.",
+  "key_value": {
+   "label": "maximum annual rent increase",
+   "value": "min(3%, 80% of CPI)"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Residential real property with a certificate of occupancy issued after February 1, 1995 pursuant to Costa-Hawkins",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "certificate_of_occupancy_date",
+       "operator": ">",
+       "value": "1995-02-01",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Housing restricted as deed-restricted affordable housing or subsidized affordable housing",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dormitories owned and operated by an educational institution (higher ed or K-12)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Housing issued a certificate of occupancy within the previous 15 years",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "building_age_years",
+       "operator": "<",
+       "value": 15,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Separately alienable residential property where owner is not a REIT, corporation, or corporate-member LLC, with required lease notice",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "in",
+       "value": [
+        "single_family",
+        "condominium"
+       ],
+       "note": null
+      },
+      {
+       "field": "owner_type",
+       "operator": "not_in",
+       "value": [
+        "reit",
+        "corporation"
+       ],
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Two-unit property where owner occupied one unit at beginning of tenancy and continues occupancy, excluding ADU/JADU",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "duplex",
+       "note": null
+      },
+      {
+       "field": "units",
+       "operator": "==",
+       "value": 2,
+       "note": null
+      },
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Mobilehome space subject to long-term agreement exceeding one year, newly constructed mobilehome space offered on or after January 1, 1990, or mobilehome not used as primary residence",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "mobile_home",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2022-10-18",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "yields_to",
+   "target_scope": "state",
+   "source_language": "unless expressly exempt under the Costa-Hawkins Rental Housing Act codified in California Civil Code section 1954.50, et seq., or the Mobilehome Residency Law codified in California Civil Code sections 798, et seq.",
+   "target_rule_ids": []
+  },
+  "penalty": "Rent increase is ineffective; complete affirmative defense in unlawful detainer; civil action for damages/injunction; administrative citation, infraction, or misdemeanor.",
+  "source_citation": "Santa Ana Mun. Code § 8-3140(a)",
+  "quoted_span": "Increases in Rent on Residential Real Property or Mobilehome Spaces in the City of\nSanta Ana in excess of three percent (3%), or eighty (80%) of the change in the Consumer\nPrice Index, whichever is less, and more than one Rent Increase in any twelve (12)\nmonth period, are prohibited, unless expressly exempt under the Costa-Hawkins Rental\nHousing Act codified in California Civil Code section 1954.50, et seq., or the Mobilehome Residency Law codified in California Civil Code sections 798, et seq. If the change in the Consumer Price Index is negative, no Rent\nIncrease is permitted. The term Consumer Price Index means, at the time of the adjustment\ncalculation completed by the City pursuant to subsection (b), the percentage increase\nin the United State Consumer Price Index for all Urban Consumers in the Los Angeles-Long\nBeach-Anaheim Metropolitan Area published by the Bureau of Labor Statistics, not seasonally\nadjusted, for the most recent twelve (12) month period ending prior to the City's\ncalculation pursuant to subsection (b). A violation of this section occurs upon the\nservice of notice or demand for a prohibited increase in Rent.",
+  "source_doc_id": "doc_020",
+  "source_url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR",
+  "source_char_offset": [
+   44014,
+   45162
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.99,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "b9994ecdb6042d8c7a0a4e23a09d945aed8226ca74e8e37be0de9e24cce83ff3"
+  },
+  "extracted_at": "2026-10-04T11:15:40Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "NJ-STATE-EVICT-022-01",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "state",
+   "state": "NJ",
+   "county": null,
+   "city": null
+  },
+  "title": "New Jersey Anti-Eviction Act Good Cause Eviction Requirement",
+  "requirement": "Landlords cannot remove a residential tenant except by establishing one of the statutory good-cause grounds specified by law.",
+  "requirement_es": "Los arrendadores no pueden desalojar a un inquilino residencial excepto si demuestran una de las causas justificadas establecidas por la ley.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Owner-occupied premises with not more than two rental units",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "owner-occupied premises"
+      },
+      {
+       "field": "units",
+       "operator": "<=",
+       "value": 3,
+       "note": "not more than two rental units"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Hotel, motel or other guest house rented to transient guests or seasonal tenants",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dwelling unit held in trust or occupied by an immediate family member of the owner with a developmental disability",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": null,
+  "source_citation": "N.J.S.A. 2A:18-61.1",
+  "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be\nremoved by the Superior Court from any house, building, mobile home or land in a mobile home park or\ntenement leased for residential purposes, other than (1) owner-occupied premises with not more than two\nrental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal\ntenant; (2) a dwelling unit which is held in trust on behalf of a member of the immediate family of the person\nor persons establishing the trust, provided that the member of the immediate family on whose behalf the\ntrust is established permanently occupies the unit; and (3) a dwelling unit which is permanently occupied by\na member of the immediate family of the owner of that unit, provided, however, that exception (2) or (3)\nshall apply only in cases in which the member of the immediate family has a developmental disability,\nexcept upon establishment of one of the following grounds as good cause:",
+  "source_doc_id": "doc_022",
+  "source_url": "https://www.nj.gov/dca/codes/codreg/pdf_regs/2A_18_61.pdf",
+  "source_char_offset": [
+   665,
+   1688
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The effective date of '2013-07-01' is not stated in the provided quote text."
+   ],
+   "corrected_fields": [
+    "effective_date"
+   ],
+   "cache_key": "35dacc33b27413edc62fda5bb52d3958f398ef85a86c5100f471bf5e458004f6"
+  },
+  "extracted_at": "2026-10-04T11:15:32Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "NJ-JERSEY-ALGO-028-01",
+  "category": "algorithmic_rent_setting",
+  "jurisdiction": {
+   "level": "city",
+   "state": "NJ",
+   "county": "Hudson",
+   "city": "Jersey City"
+  },
+  "title": "Jersey City Algorithmic Rent-Fixing Prohibition",
+  "requirement": "Landlords and their agents are prohibited from subscribing to, contracting with, or exchanging value for the services of a pricing service provider that coordinates nonpublic competitor rental data, and service providers may not facilitate agreements not to compete.",
+  "requirement_es": "Se prohíbe a los arrendadores y sus agentes suscribirse, contratar o intercambiar valor por los servicios de un proveedor que coordine datos no públicos de competidores, y los proveedores de servicios no pueden facilitar acuerdos contrarios a la competencia.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Owners of multiple properties for actions related exclusively to multiple properties controlled by the same rental property owner",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Licensed Real Estate Agents operating in accordance with applicable state regulations",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Inpatient medical care, licensed long-term care, and detention or correctional facilities",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "other",
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2025-05-22",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Punishable under Chapter 1, Art. I, § 1-25; subsequent violations punished by fine of $100 to $2,000 per day; attorney fees and costs awarded in successful actions; civil action by parens patriae or private right of action",
+  "source_citation": "Jersey City Code § 218-12(2)",
+  "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise\nexchange anything of value in return for the services of a Service Provider.\nb.No service provider shall facilitate an agreement not to compete among real estate lessors with respect to any\naspect of residential dwelling units, including rental pricing, fees, or any other rental terms.",
+  "source_doc_id": "doc_028",
+  "source_url": "https://cityofjerseycity.civicweb.net/document/429156/",
+  "source_char_offset": [
+   5025,
+   5432
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [
+    "The quote provided covers the primary prohibition, but does not explicitly contain the effective date, exemptions, or penalty details, though the requirement and core prohibition are fully supported by the text."
+   ],
+   "corrected_fields": [],
+   "cache_key": "0a2a4e8cd46578065c68f6f7b13961b7505e372a096825999f21e108d6230240"
+  },
+  "extracted_at": "2026-10-04T11:15:36Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-RENT-014-01",
+  "category": "rent_increase_limit",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "San Francisco Annual Allowable Rent Increase",
+  "requirement": "Landlords may only increase rent once per year by up to 60% of the regional CPI increase, capped at an absolute maximum of 7%. Unused increases may be banked and imposed on subsequent anniversary dates.",
+  "requirement_es": "Los propietarios solo pueden aumentar el alquiler una vez al año hasta el 60% del aumento del IPC regional, con un tope máximo absoluto del 7%. Los aumentos no utilizados se pueden acumular y aplicar en fechas de aniversario posteriores.",
+  "key_value": {
+   "label": "annual cap",
+   "value": "60% of CPI, max 7%"
+  },
+  "coverage_conditions": {
+   "type": "AND",
+   "clauses": [
+    {
+     "field": "certificate_of_occupancy_date",
+     "operator": "<",
+     "value": "1979-06-13",
+     "note": "newly constructed and first received a certificate of occupancy after the effective date of Ordinance No. 276-79 (June 13, 1979)"
+    }
+   ]
+  },
+  "exemptions": [
+   {
+    "description": "Housing accommodations in hotels, motels, inns, tourist houses, rooming and boarding houses occupied for less than 32 continuous days",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "tenancy_length_months",
+       "operator": "<",
+       "value": 1,
+       "note": "occupied by a tenant for thirty-two (32) continuous days or more"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dwelling units in non-profit cooperatives owned, occupied and controlled by a majority of residents",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "nonprofit",
+       "note": "dwelling units in non-profit cooperatives owned, occupied and controlled by a majority of the residents"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Accommodations in hospitals, convents, care facilities, or school/university dormitories",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "other",
+       "note": "hospital, convent, monastery, extended care facility, asylum, residential care... or dormitories owned and operated by an institution of higher education"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Dwelling units whose rents are controlled or regulated by any government agency (with specific exceptions)",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": "dwelling units whose rents are controlled or regulated by any government unit, agency or authority"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Buildings certified as having undergone substantial rehabilitation",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": "certified has undergone a substantial rehabilitation"
+      }
+     ]
+    }
+   },
+   {
+    "description": "Separately alienable parcels (single-family homes, condominiums) under Costa-Hawkins with tenancies created on or after January 1, 1996",
+    "conditions": {
+     "type": "OR",
+     "clauses": [
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "single_family",
+       "note": "alienable separate from the title to any other dwelling unit"
+      },
+      {
+       "field": "property_type",
+       "operator": "==",
+       "value": "condominium",
+       "note": "subdivided interest in a subdivision"
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "1979-06-13",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "yields_to",
+   "target_scope": "state",
+   "source_language": "Consistent with the Costa-Hawkins Rental Housing Act (Civil Code Sections 1954.50, et seq.) and regardless of whether otherwise provided under Chapter 37",
+   "target_rule_ids": []
+  },
+  "penalty": "Any rent increase which does not conform with the provisions of this section shall be null and void.",
+  "source_citation": "S.F. Admin. Code § 37.3(a)(1)",
+  "quoted_span": "A landlord who has reported the required information about their rental unit to the Rent\nBoard as set forth in Section 37.15 shall have a license to impose annually a rent increase which\ndoes not exceed a tenant's base rent by more than 60% of said published increase. In no event,\nhowever, shall the allowable annual increase be greater than 7%.",
+  "source_doc_id": "doc_014",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   38875,
+   39221
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
+  },
+  "extracted_at": "2026-10-04T11:18:41Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-EVICT-014-02",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "Just cause eviction requirements and permitted grounds",
+  "requirement": "A landlord may only recover possession of a rental unit for one of the specified just-cause grounds, which must be the dominant motive for eviction and stated in writing in the notice to vacate.",
+  "requirement_es": "El arrendador solo puede recuperar la posesión de una unidad de alquiler por uno de los motivos de causa justa especificados, el cual debe ser el motivo dominante del desalojo y constar por escrito en el aviso de desalojo.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Owner resides in the same rental unit with the tenant",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_occupied",
+       "operator": "==",
+       "value": true,
+       "note": "A landlord who resides in the same rental unit with his or her tenant may evict said tenant without just cause"
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "1980-08-24",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "supersedes",
+   "target_scope": "local",
+   "source_language": "Notwithstanding Section 37.3, this Section 37.9 shall apply as of August 24, 1980, to all landlords and tenants of rental units as defined in Section 37.2(r).",
+   "target_rule_ids": [
+    "CA-SANFRA-EVICT-014-03",
+    "CA-SANFRA-EVICT-014-04",
+    "CA-SANFRA-EVICT-014-05",
+    "CA-SANFRA-EVICT-014-06",
+    "CA-SANFRA-EVICT-014-07"
+   ]
+  },
+  "penalty": "Administrative penalty of $250 for first violation, $500 for second, and $1,000 for subsequent violations for failure to file statements of occupancy under Section 37.9(a)(8)(vii)",
+  "source_citation": "S.F. Admin. Code § 37.9",
+  "quoted_span": "A landlord shall not endeavor to recover possession of a rental unit unless:",
+  "source_doc_id": "doc_014",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   142747,
+   142823
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
+  },
+  "extracted_at": "2026-10-04T11:18:51Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-EVICT-014-03",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "Unlawful Evictions, Notice, and Tenant Protections (San Francisco Rent Ordinance)",
+  "requirement": "Landlords may not endeavor to recover possession or evict a tenant except on the specific enumerated just-cause grounds authorized under Section 37.9. Tenants must be provided required written notices, including a 10-day notice to cure for certain lease violations, and protected classes (such as qualifying elderly, disabled, or school-year educators/families) have specialized protections against certain no-fault evictions.",
+  "requirement_es": "Es ilegal que un propietario intente desalojar o desaloje a un inquilino excepto bajo las causales justificadas explícitamente autorizadas bajo la Sección 37.9. Los inquilinos deben recibir las notificaciones requeridas por escrito, incluido un período de subsanación de 10 días para ciertas infracciones, y ciertas clases protegidas (adultos mayores, personas con discapacidades o familias/educadores durante el año escolar) tienen protecciones adicionales contra ciertos desalojos sin falta.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [],
+  "effective_date": null,
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Misdemeanor subject to fines and penalties under Section 37.10A; civil action for injunctive relief, actual damages trebled (not less than three times actual damages), and reasonable attorney's fees and costs.",
+  "source_citation": "S.F. Admin. Code § 37.9(e)-(o)",
+  "quoted_span": "It shall be unlawful for a landlord or any other person who willfully assists the landlord\nto endeavor to recover possession or to evict a tenant except as provided in Section 37.9(a) and\n(b).",
+  "source_doc_id": "doc_014",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   179986,
+   180178
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
+  },
+  "extracted_at": "2026-10-04T11:19:00Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-EVICT-014-04",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "Relocation Payments and Re-Rental Restrictions for Ellis Act Displacements",
+  "requirement": "Landlords withdrawing units from the rental market under the Ellis Act must provide statutory relocation payments per eligible tenant (with extra payments for seniors or disabled tenants) and comply with strict re-rental and rent restrictions if the units are returned to the rental market within 5 to 10 years.",
+  "requirement_es": "Los propietarios que retiran unidades del mercado de alquiler bajo la Ley Ellis deben proporcionar pagos legales de reubicación por inquilino elegible (con pagos adicionales para personas de la tercera edad o con discapacidades) y cumplir con estrictas restricciones de re-alquiler y límites de renta si las unidades vuelven a ofrecerse en alquiler dentro de 5 a 10 años.",
+  "key_value": {
+   "label": "Ellis Act relocation per tenant (effective Sept 1, 2022)",
+   "value": "$10,000 (max $30,000 per unit) plus $6,700 for senior/disabled"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [],
+  "effective_date": "2022-09-01",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "supersedes",
+   "target_scope": "state",
+   "source_language": "This Section 37.9A(a)(1) shall prevail over any conflicting provision of law authorizing the landlord to establish the rental rate upon the initial hiring of the unit.",
+   "target_rule_ids": []
+  },
+  "penalty": "Actual and exemplary damages in civil suits by displaced tenants or the City; punitive damages up to six months' contract rent for failure to notify Rent Board of intent to re-rent within 10 years.",
+  "source_citation": "S.F. Admin. Code § 37.9A",
+  "quoted_span": "Where a landlord seeks eviction based upon\n\nSection 37.9(a)(13), and the notice of intent to withdraw rental units is filed with the Rent Board\n\non or after September 1, 2022, the landlord shall pay relocation payments in the manner\n\ndescribed in Subsection 37.9A(e)(1)(A) and (B), except that the specific amount of the relocation\n\nbenefit shall be $10,000 per Eligible Tenant, and the total relocation payment shall be $30,000 in\n\nthe event there are more than three Eligible Tenants in the unit; and further, an Eligible Tenant\n\nwho meets any of the criteria listed in Subsection 37.9A(e)(1)(C) shall be entitled to receive an\n\nadditional payment of $6,700, in two payments of $3,350 each, the timing of which is set forth in\n\nthat subsection.",
+  "source_doc_id": "doc_014",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   210132,
+   210878
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
+  },
+  "extracted_at": "2026-10-04T11:19:00Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-EVICT-014-05",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "Relocation Expenses for Covered No-Fault Evictions",
+  "requirement": "Eligible tenants who receive a covered no-fault eviction notice (such as owner/relative move-in, capital improvements, or substantial rehabilitation) are entitled to statutory relocation expenses, including an additional payment for senior, disabled, or household occupants with minor children.",
+  "requirement_es": "Los inquilinos elegibles que reciban una notificación de desalojo sin falta cubierto (como mudanza del propietario o pariente, mejoras de capital o rehabilitación sustancial) tienen derecho a recibir gastos de reubicación reglamentarios, incluyendo pagos adicionales para personas mayores de 60 años, personas con discapacidades o menores en el hogar.",
+  "key_value": {
+   "label": "Base relocation payment per eligible tenant",
+   "value": "$4,500 (max $13,500 per unit) plus $3,000 senior/disabled/child supplement (subject to annual CPI adjustment)"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [],
+  "effective_date": "2006-08-10",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": null,
+  "source_citation": "S.F. Admin. Code § 37.9C",
+  "quoted_span": "Each Eligible Tenant who receives a Covered No-Fault Eviction Notice, in addition to\n\nall rights under any other provision of law, shall be entitled to receive relocation expenses from\n\nthe landlord, in the amounts specified in section 37.9C(e).",
+  "source_doc_id": "doc_014",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   228131,
+   228376
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
+  },
+  "extracted_at": "2026-10-04T11:19:00Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-EVICT-014-06",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "Eviction Protections After Foreclosure",
+  "requirement": "Tenants occupying a rental unit at the time of foreclosure cannot be evicted by the successor owner who took title through foreclosure without just cause under Section 37.9 or before the expiration of their existing lease, whichever is later, and must be provided written notice of their rights within 15 days.",
+  "requirement_es": "Los inquilinos que ocupen una unidad al momento de una ejecución hipotecaria no pueden ser desalojados por el nuevo titular que obtuvo la propiedad tras la ejecución, salvo por causa justificada bajo la Sección 37.9 o al finalizar el contrato de arrendamiento existente (lo que ocurra más tarde), y deben recibir notificación por escrito de sus derechos dentro de 15 días.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [],
+  "effective_date": "2010-04-25",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Failure to provide mandatory foreclosure notices serves as a complete defense to an eviction under Section 37.9.",
+  "source_citation": "S.F. Admin. Code § 37.9D",
+  "quoted_span": "Any residential tenant who was in possession of a rental unit at the time of\n\nforeclosure may not be evicted by the person or entity who took title through foreclosure (see\n\nSection 37.9D(a)), except for just cause as provided in Section 37.9 and related provisions of\n\nChapter 37, or at the end of the tenant's existing lease, whichever occurs later.",
+  "source_doc_id": "doc_014",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   232211,
+   232562
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
+  },
+  "extracted_at": "2026-10-04T11:19:00Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-EVICT-014-07",
+  "category": "just_cause_eviction",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "Prohibition of Fixed-Term Agreements Circumventing Just Cause",
+  "requirement": "Lease provisions requiring a tenant to vacate at the end of a stated term or classifying failure to vacate at term expiration as just cause for eviction are void as contrary to public policy, unless Chapter 37 expressly authorizes a fixed term.",
+  "requirement_es": "Las disposiciones contractuales que exigen que un inquilino desocupe la unidad al vencer un plazo fijo o que califiquen la falta de desocupación como justa causa de desalojo son nulas por ser contrarias al orden público, salvo que el Capítulo 37 autorice expresamente dicho plazo fijo.",
+  "key_value": null,
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [],
+  "effective_date": "2020-06-22",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Civil penalties up to two times amount paid or received; administrative penalties up to $100 per day (up to $1,000 per listing defect); reasonable attorney's fees.",
+  "source_citation": "S.F. Admin. Code § 37.9F(b)",
+  "quoted_span": "Consistent with Section 37.9(a)(2) and\n\nSection 37.9(e), any provision of any lease or rental agreement that purports to require a tenant\n\nto vacate a rental unit at the expiration of a stated term, or that purports to characterize a\n\ntenant’s failure to vacate the rental unit at the end of the stated term as a just cause for eviction\n\n(either of them, a “Fixed-Term Agreement”), shall be void as contrary to public policy, and a\n\nlandlord may not attempt to recover possession of the unit without just cause.",
+  "source_doc_id": "doc_014",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   252370,
+   252881
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.95,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
+  },
+  "extracted_at": "2026-10-04T11:19:00Z",
+  "model": "gemini:gemini-3.8-flash"
+ },
+ {
+  "rule_id": "CA-SANFRA-ALGO-014-08",
+  "category": "algorithmic_rent_setting",
+  "jurisdiction": {
+   "level": "city",
+   "state": "CA",
+   "county": "San Francisco",
+   "city": "San Francisco"
+  },
+  "title": "Ban on sale and use of algorithmic rent-setting devices",
+  "requirement": "Landlords in San Francisco are prohibited from using algorithmic devices or revenue management software that relies on non-public competitor data to set or advise on rents or occupancy levels. Selling or licensing such software to San Francisco landlords is also unlawful.",
+  "requirement_es": "Se prohíbe a los propietarios en San Francisco utilizar dispositivos algorítmicos o programas de gestión de ingresos basados en datos no públicos de competidores para fijar o recomendar alquileres o niveles de ocupación. También es ilegal vender o licenciar dicho software a propietarios de San Francisco.",
+  "key_value": {
+   "label": "algorithmic rent-setting",
+   "value": "prohibited"
+  },
+  "coverage_conditions": {
+   "type": "ALWAYS",
+   "clauses": []
+  },
+  "exemptions": [
+   {
+    "description": "Reports publishing aggregated existing rental data without recommending rents or occupancy levels for future leases",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "owner_type",
+       "operator": "==",
+       "value": "__unknowable__",
+       "note": null
+      }
+     ]
+    }
+   },
+   {
+    "description": "Products used to establish rent or income limits under affordable housing program guidelines",
+    "conditions": {
+     "type": "AND",
+     "clauses": [
+      {
+       "field": "rent_subsidized",
+       "operator": "==",
+       "value": true,
+       "note": null
+      }
+     ]
+    }
+   }
+  ],
+  "effective_date": "2024-10-14",
+  "superseded_date": null,
+  "status": "enacted",
+  "precedence": {
+   "relationship": "stacks_with",
+   "target_scope": "none",
+   "source_language": null,
+   "target_rule_ids": []
+  },
+  "penalty": "Civil penalties of up to $1,000 per violation, money damages, restitution of illegal profits, injunctive relief, and reasonable attorney's fees and costs",
+  "source_citation": "S.F. Admin. Code § 37.10C",
+  "quoted_span": "It shall be unlawful for a landlord to use an algorithmic device\n\ndescribed in subdivision (a) when setting rents or occupancy levels for residential dwelling units\n\nin San Francisco.",
+  "source_doc_id": "doc_014",
+  "source_url": "https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf",
+  "source_char_offset": [
+   272424,
+   272607
+  ],
+  "retrieval_date": "2026-10-04",
+  "confidence": 0.98,
+  "verification": {
+   "supported": true,
+   "issues": [],
+   "corrected_fields": [],
+   "cache_key": "37426379cd9218e43c3d544ae957086eaaaf4bcf718ff45ff4ea788fe98b0b25"
+  },
+  "extracted_at": "2026-10-04T11:19:11Z",
+  "model": "gemini:gemini-3.8-flash"
+ }
+]

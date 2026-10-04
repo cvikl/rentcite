@@ -1,0 +1,2255 @@
+# Santa Ana Rent Stabilization and Just Cause Eviction Ordinance, Municipal Code Chapter 8 Article XIX | Santa Ana Mun. Code ch. 8, art. XIX (§§ 8-3100 et seq.) | https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR | retrieved 2026-10-04
+
+ARTICLE XIX. - RENT STABILIZATION AND JUST CAUSE EVICTION ORDINANCE
+
+DIVISION 1. - GENERALLY
+
+Sec. 8-3100 - Title.
+
+This Article shall be known in its entirety as the "City of Santa Ana Rent Stabilization
+and Just Cause Eviction Ordinance" and, for the sake of convenience, as the "Rent
+Stabilization and Just Cause Eviction Ordinance."
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3101. - Reserved.
+
+Editor's note—
+Ord. No. NS-3073, § 1, adopted November 5, 2024, repealed § 8-3101. Former § 8-3101 pertained to background
+and derived from Ord. No. NS-3027, § 3, adopted October 18, 2022.
+
+Sec. 8-3102. - Definitions.
+
+a)
+
+For purposes of this Article, the words and phrases shall be defined as set forth
+herein, unless the context clearly indicates a different meaning is intended.
+
+b)
+
+Words and phrases used in this Article, which are not specifically defined, shall
+be construed according to their context and the customary usage of the language.
+
+c)
+
+Words and phrases defined:
+
+"Annual Allowable Rent Adjustment" means the limit on the Maximum Allowable Rent Increase,
+which a Landlord may charge on any Rental Unit each year.
+
+"Capital Improvement" means an improvement, addition or major repair to a Rental Unit
+that were paid for and completed after November 19, 2021 (the effective date of the
+first adopted Rent Stabilization Ordinance), provided such new improvement, addition
+or major repair has a useful life of five (5) years or more and that is required to
+be amortized over the useful life of the improvement, such as: structural, electrical,
+plumbing, or mechanism system, roofing, carpeting, draperies, stuccoing the outside
+of a building, air conditioning, security gates, swimming pool, sauna or hot tub,
+fencing, children's play equipment permanently installed, the complete exterior painting
+of a building, and other similar improvements as defined under the straight line depreciation
+provisions of the Internal Revenue Code and the regulations issued pursuant thereto
+and determined by the Rental Housing Board. Capital Improvement does not include normal
+or routine maintenance, repair, replacements, and/or deterioration resulting from
+an unreasonable delay in the undertaking of completion or after a Notice of Violation
+by a government agency ordering repairs.
+
+"City" means the City of Santa Ana.
+
+"Hearing Officer" means a person who has been appointed by the Program Administrator
+to perform the duties set forth in this Article.
+
+"Housing Services" means those services provided and associated with the use or occupancy
+of a Rental Unit including, but not limited to, insurance, repairs, replacement, maintenance,
+effective waterproofing and weather protection, painting, providing light, heat, hot
+and cold water, elevator service, window shades and screens, laundry facilities and
+privileges, janitorial services, utilities that are paid by the Landlord, refuse removal,
+allowing pets, telephone, parking, storage, the right to have a specified number of
+Tenants or occupants, computer technologies, entertainment technologies, including
+cable or satellite television services, and any other benefits, privileges or facilities
+connected with the use or occupancy of such Rental Unit including a proportionate
+share of the services provided to common facilities of the building in which such
+Rental Unit is located and/or of the property on which such Rental Unit is located.
+
+"Landlord" or "Owner" means an owner of record, lessor, sublessor or any person, partnership,
+corporation, family trust, or any other business entity, or any successor in interest
+thereto, offering for rent or lease any Rental Unit or Mobilehome or Mobilehome Space
+in a Mobilehome Park in the City and shall include the employee, agent or representative
+of the Landlord if the agent or representative has the full authority to answer for
+the Landlord and enter into binding agreements on behalf of the Landlord.
+
+"Mediator" means a person whom the Program Administrator determines meets all of the
+following criteria:
+
+1)
+
+Has received forty (40) to eighty (80) hours of formal training in mediation, including
+training in anti-racism, elimination of bias, diversity, equity, inclusion, and cultural
+competency; and,
+
+2)
+
+Has mediated Rent disputes and/or has had other experience or training showing a capability
+to mediate the issues which arise in landlord/tenant disputes.
+
+"Mobilehome" means a structure designed for human habitation and for being moved on
+a street or highway under permit pursuant to Section 35790 of the Vehicle Code. Mobilehome
+includes a manufactured home, as defined in Section 18007 of the Health and Safety
+Code, and a Mobilehome, as defined in Section 18008 of the Health and Safety Code,
+but does not include a recreational vehicle, as defined in Section 799.29 of this
+code and Section 18010 of the Health and Safety Code or a commercial coach as defined
+in Section 18001.8 of the Health and Safety Code.
+
+"Mobilehome Space" means the rental of a spot for a Mobilehome within a Mobilehome
+Park by a homeowner, as defined in Civil Code section 798.9, or a resident, as defined
+in Civil Code section 798.11.
+
+"Mobilehome Park" means an area of land where two (2) or more Mobilehome Spaces are
+rented, or held out for rent, to accommodate Mobilehomes used for human habitation.
+
+"Net Operating Income" means the net revenue received by the Landlord after paying
+the normal Operating Expenses (gross revenue less normal operating expenses).
+
+"Operating Expenses" means the costs of normal operations, including, but not limited
+to, management, taxes, insurance, maintenance, repairs and other recurring costs.
+
+"Program Administrator" is a person designated by the City Manager to administer the
+provisions of this Article.
+
+"Rental Registry Fee" or "Fee" means the fee the City imposes on each Rental Unit
+to cover the costs to administer the provisions of this Article.
+
+"Rent" means all periodic compensation, including all non-monetary consideration,
+that a Tenant provides to a Landlord concerning the use or occupancy of a Rental Unit,
+including any amount included in the Rent for utilities (unless separately billed
+to the Tenant by the utility company), parking, storage, pets or for any other fee
+or charge associated with the Tenancy for the use or occupancy of a Rental Unit and
+related Housing Services. Rent includes, without limitation, the fair market value
+of goods accepted, labor performed, or services rendered. With respect to Mobilehomes
+and Mobilehome Spaces in Mobilehome Parks, any regulations of rent, fees, and costs
+included within the Mobilehome Residency Law, Civil Code section 798, et seq., shall
+be incorporated into the definition of Rent, as applicable.
+
+"Rent Increase" means any additional Rent demanded of or paid by a Tenant for a Rental
+Unit, including any reduction in Housing Services without a corresponding reduction
+in the amount demanded or paid for Rent; or a pro rata increase in costs of Housing
+Services apportioned to a Rental Unit.
+
+"Rental Agreement" means a lease, sublease, or other agreement, written, oral or implied,
+between a Landlord and a Tenant for the use and/or occupancy of a Rental Unit and
+for Housing Services. With respect to Mobilehomes and Mobilehome Spaces in Mobilehome
+Parks, any regulations of rental agreements or leases within the Mobilehome Residency
+Law, Civil Code section 798, et seq., shall be incorporated into the definition of
+Rental Agreement, as applicable.
+
+"Rental Housing Board" or "Board" means the Rental Housing Board established by Division
+5 of this Article XIX of Chapter 8 of the Santa Ana Municipal Code.
+
+"Rental Registry" means the database or portal where Landlords register Rental Units,
+update Rental Unit information, update Tenancy information, submit notices, and pay
+the Rental Registry Fee.
+
+"Rental Unit" means any building, structure, or part thereof, or any Mobilehome and
+Mobilehome Spaces in a Mobilehome Park, offered or available for rent for residential
+use or occupancy in the City, including the land appurtenant thereto, together with
+all Housing Services in connection with the use or occupancy thereof, including common
+areas and recreational facilities held out for use by the Tenant, which is not exempt
+pursuant to the exemptions set forth in this Article.
+
+"Residential Real Property" or "Residential Property" means any housing unit, including
+a room or group of rooms designed and intended for occupancy by one or more persons,
+including a Rental Unit and a Mobilehome or Mobilehome Space in a Mobilehome Park,
+offered for rent or lease in the City.
+
+"Tenancy" means the right or entitlement of a Tenant to use or occupy a Rental Unit,
+including a Mobilehome or Mobilehome Space in a Mobilehome Park.
+
+"Tenant" means any renter, tenant, subtenant, lessee, sub-lessee, roommate with Landlord's
+consent, or any other person or entity entitled under the terms of a Rental Agreement,
+or by sufferance, or by state or federal law, to the use or occupancy of any Rental
+Unit and (i) has the legal responsibility for the payment of Rent for a Rental Unit
+or (ii) has agreed to pay the Rent for a Rental Unit.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3103. - Implementing regulations, policies and procedures.
+
+The City Manager or Program Administrator shall have the authority to promulgate regulations,
+policies and procedures to implement the requirements and fulfill the purposes of
+this Article. No person shall fail to comply with such regulations, policies and procedures.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3052, § 3, 10-17-23; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3104. - Mobilehome residency law.
+
+The provisions of this Article shall not supersede the regulations of the state Mobilehome
+Residency Law, Civil Code section 798, et seq., as applicable. If there is any conflict
+between the terms of this Article and the Mobilehome Residency Law, the Mobilehome
+Residency Law shall prevail.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Secs. 8-3105—8-3119. - Reserved.
+
+DIVISION 2. - JUST CAUSE EVICTIONS
+
+Sec. 8-3120. - Restrictions on termination of tenancy without just cause.
+
+(a)
+
+After a Tenant has continuously and lawfully occupied a Residential Real Property
+for thirty (30) days, the Owner of the Residential Real Property shall not terminate
+the Tenancy without just cause, which shall be stated in the written notice to terminate
+Tenancy. The provisions of this section related to the termination of Tenants shall
+not apply to Mobilehomes or Mobilehome Spaces in Mobilehome Parks subject to the termination
+provisions of the Mobilehome Residency Law, Civil Code section 798.56, as applicable.
+
+1)
+
+The Owner shall post a notice on a form prescribed by the City, providing information
+about the existence of this Division 2 of Article XIX of Chapter 8 of the Santa Ana Municipal Code, including protections related to immigration or
+citizenship status of Tenant found under Civil Code section 1940.35 and Code of Civil
+Procedure section 1161.4, as may be amended. Notice must be posted in a conspicuous
+location on the property. The notice shall be written in the language that the Owner
+and Tenant used to negotiate the terms of the Tenancy (e.g., Spanish, Chinese, Tagalog,
+Vietnamese and Korean), as well as English.
+
+2)
+
+In addition to all other notice requirements specified elsewhere in this Division,
+the Owner of any Residential Real Property or Mobilehome Space, is required to provide
+written notice to Tenants of their rights under this Division as follows:
+
+A.
+
+The notice required by this Division must be on a form prescribed by the City and
+include the following information:
+
+i.
+
+The existence and scope of this Division 2 of Article XIX of Chapter 8 of the Santa Ana Municipal Code; and,
+
+ii.
+
+The right to relocation assistance in limited circumstances pursuant to subsection
+(d)(2) herein.
+
+B.
+
+The Owner must provide Tenant with the notice upon serving any notice of change in
+terms of Tenancy.
+
+C.
+
+The Owner must provide the notice on or before the commencement of all Tenancies initiated
+after the effective date of this Division.
+
+(b)
+
+For purposes of this section, "just cause" includes either of the following:
+
+1)
+
+At-fault just cause, which is any of the following:
+
+A.
+
+Default in the payment of Rent.
+
+B.
+
+A breach of a material term of the lease, as described in paragraph (3) of Section
+1161 of the Code of Civil Procedure, including, but not limited to, violation of a
+provision of the lease after being issued a written notice to correct the violation.
+A "breach of a material term" shall not include:
+
+i.
+
+The obligation to limit occupancy, provided that the additional occupant who joins
+the Tenant of the Residential Real Property thereby exceeding the limits on occupancy
+set forth in the lease is:
+
+I.
+
+A dependent under age eighteen (18); or
+
+II.
+
+A replacement Tenant who moved in after an approved Tenant vacated the Residential
+Real Property, so long as the addition does not exceed the Uniform Housing Code.
+
+i.
+
+The Owner shall have the right to approve or deny the prospective additional or replacement
+Tenant, who is not a minor dependent child, provided that the Owner does not unreasonably
+withhold approval. If the Owner fails to respond to the Tenant in writing with a description
+of the reasons for the denial of the request within a reasonable amount of time of
+receipt of the Tenant's written request, the Tenant's request shall be deemed approved
+by the Owner if the lease is for a period of one (1) year or less.
+
+ii.
+
+A change in the terms of the Tenancy that is not the result of an express written
+agreement signed by both of the parties. An Owner is not required to obtain a Tenant's
+written consent to a change in the terms of the Tenancy if the change in the terms
+of the Tenancy is authorized by this section, or if the Owner is required to change
+the terms of the Tenancy pursuant to federal, State, or local law. Nothing in this
+subsection shall exempt an Owner from providing legally required notice of a change
+in the terms of the Tenancy.
+
+C.
+
+Maintaining, committing, or permitting the maintenance or commission of a nuisance
+as described in paragraph (4) of Section 1161 of the Code of Civil Procedure.
+
+D.
+
+Committing waste as described in paragraph (4) of Section 1161 of the Code of Civil
+Procedure.
+
+E.
+
+The Tenant had a written lease that terminated on or after the effective date of this
+Ordinance, and after a written request or demand from the Owner, the Tenant has refused
+to execute a written extension or renewal of the lease for an additional term of similar
+duration with similar provisions, provided that those terms do not violate this section
+or any other provision of law.
+
+F.
+
+Criminal activity by the Tenant on the Residential Real Property, including any common
+areas, or any criminal activity or criminal threat, as defined in subdivision (a)
+of Section 422 of the Penal Code, on or off the Residential Real Property, that is
+directed at any Owner or agent of the Owner of the Residential Real Property or members
+of Tenant's household or other Tenants of the Residential Real Property. This at-fault,
+just cause provision shall apply if the Owner has, within a reasonable time, reported
+the criminal activity to law enforcement. Further, at-fault, just cause eviction of
+a Tenant under this provision shall only apply to that Tenant who committed the criminal
+activity described herein. If a Tenant is acquitted or found not guilty of the charges
+giving rise to eviction, or if charges are not filed against the Tenant within the
+applicable statute of limitations period, the Tenant shall be offered the right to
+restore the Tenancy only if the same Residential Real Property is available.
+
+G.
+
+Assigning or subletting the premises in violation of the Tenant's lease, as described
+in paragraph (4) of Section 1161 of the Code of Civil Procedure.
+
+i.
+
+Notwithstanding any contrary provision in this section, an Owner shall not take any
+action to terminate a Tenancy based on a Tenant's sublease of the Residential Real
+Property if all the following requirements are met:
+
+I.
+
+The Tenant requests permission from the Owner in writing to sublease the Residential
+Real Property;
+
+II.
+
+The Tenant continues to reside in the Residential Real Property as their primary residence;
+
+III.
+
+The sublease replaces one (1) or more departed Tenants under the lease on a one-for-one
+basis; and
+
+IV.
+
+The Owner fails to respond to the Tenant in writing within a reasonable amount of
+time of the receipt of the Tenant's written request. If the Owner fails to respond
+to the Tenant's written request, the request shall be deemed approved by the Owner
+if the lease is for a period of one (1) year or less. An Owner's reasonable refusal
+of the Tenant's written request may be based on, but is not limited to, the ground
+that the total number of occupants in a Residential Real Property exceeds the maximum
+number of occupants as determined under Section 503(b) of the Uniform Housing Code or successor provision.
+
+H.
+
+The Tenant's refusal to allow the Owner to enter the Residential Real Property as
+authorized by Sections 1101.5 and 1954 of the Civil Code, and Sections 13113.7 and
+17926.1 of the Health and Safety Code.
+
+I.
+
+Using the premises for an unlawful purpose as described in paragraph (4) of Section
+1161 of the Code of Civil Procedure.
+
+J.
+
+The employee, agent, or licensee's failure to vacate after their termination as an
+employee, agent, or a licensee as described in paragraph (1) of Section 1161 of the
+Code of Civil Procedure.
+
+K.
+
+When the Tenant fails to deliver possession of the Residential Real Property after
+providing the Owner written notice as provided in Section 1946 of the Civil Code of
+the Tenant's intention to terminate the hiring of the real property, or makes a written
+offer to surrender that is accepted in writing by the Owner but fails to deliver possession
+at the time specified in that written notice as described in paragraph (5) of Section
+1161 of the Code of Civil Procedure.
+
+2)
+
+No-fault just cause, which includes any of the following:
+
+A.
+
+i.
+
+Intent to occupy the Residential Real Property by the Owner or their spouse, domestic
+partner, children, grandchildren, parents, or grandparents.
+
+ii.
+
+For leases entered into on or after the effective date of this Ordinance, this subsection
+shall apply only if the Tenant agrees, in writing, to the termination, or if a provision
+of the lease allows the Owner to terminate the lease if the Owner, or their spouse,
+domestic partner, children, grandchildren, parents, or grandparents unilaterally decides
+to occupy the Residential Real Property for a period of at least twenty-four (24)
+months, as affirmed by the Owner in a written affidavit submitted to the City. Addition
+of a provision allowing the Owner to terminate the lease as described in this clause
+to a new or renewed Rental Agreement or fixed-term lease constitutes a similar provision
+for the purposes of subparagraph (E) of paragraph (1).
+
+B.
+
+Withdrawal of the Residential Real Property from the rental market for an anticipated
+period of at least twenty-four (24) months, as affirmed by the Owner in a written
+affidavit submitted to the City.
+
+C.
+
+i.
+
+The Owner complying with any of the following:
+
+I.
+
+An order issued by a government agency or court relating to habitability that necessitates
+vacating the Residential Real Property.
+
+II.
+
+An order issued by a government agency or court to vacate the Residential Real Property.
+
+III.
+
+A local ordinance that necessitates vacating the Residential Real Property.
+
+ii.
+
+If it is determined by any government agency or court that the Tenant is at fault
+for the condition or conditions triggering the order or need to vacate under clause
+(i), the Tenant shall not be entitled to relocation assistance as outlined in paragraph
+(3) of subdivision (d).
+
+D.
+
+i.
+
+Intent to demolish or to substantially remodel the Residential Real Property.
+
+ii.
+
+I.
+
+The Owner shall provide advance notice to the Tenant of the ability to reoccupy the
+unit upon completion of the repairs, or if requested by the Tenant, the right of first
+refusal to any comparable vacant Rental Unit which has been offered at comparable
+Rent owned by the Owner; and
+
+II.
+
+In the event the Owner seeks to rent the remodeled unit within six (6) months following
+the completion of the remodeling work, the evicted Tenant shall have the right of
+first refusal to reoccupy and rent the unit, unless the Owner provides a written waiver
+by the Tenant of their right to reoccupy the premises pursuant to this subsection.
+
+iii.
+
+For purposes of this subparagraph, "substantially remodel" means the replacement or
+substantial modification of any structural, electrical, plumbing, or mechanical system
+that requires a permit from a governmental agency, or the abatement of hazardous materials,
+including lead-based paint, mold, or asbestos, in accordance with applicable federal,
+State, and local laws, that cannot be reasonably accomplished in a safe manner with
+the Tenant in place and that requires the Tenant to vacate the Residential Real Property
+for at least thirty (30) days. Cosmetic improvements alone, including painting, decorating,
+and minor repairs, or other work that can be performed safely without having the Residential
+Real Property vacated, do not qualify as a substantial remodel.
+
+(c)
+
+Before an Owner of Residential Real Property issues a notice to terminate a Tenancy
+for just cause that is a curable lease violation, the Owner shall first give notice
+of the violation to the Tenant with an opportunity to cure the violation pursuant
+to paragraph (3) of Section 1161 of the Code of Civil Procedure. If the violation
+is not cured within the time period set forth in the notice, a three-day notice to
+quit without an opportunity to cure may thereafter be served to terminate the Tenancy.
+
+1)
+
+Any written notice to cease or correct must:
+
+A.
+
+Be dated and served upon the Tenant, pursuant to at least one of the methods authorized
+under California Code of Civil Procedure Section 1162, as may be amended;
+
+B.
+
+Inform the Tenant that failure to cure may result in the initiation of eviction proceedings;
+
+C.
+
+Inform the Tenant of the right to request a reasonable accommodation;
+
+D.
+
+Inform the Tenant of the contact number for the Program Administrator; and
+
+E.
+
+Include a specific statement of the reasons for the written notice to cease or correct
+with specific facts to help the Tenant determine the date(s), place(s), witness(es),
+and circumstance(s) that support the reason(s) for the eviction.
+
+(d)
+
+1)
+
+For a Tenancy for which just cause is required to terminate the Tenancy under subdivision
+(a), if an Owner of Residential Real Property issues a termination notice based on
+a no-fault just cause described in paragraph (2) of subdivision (b), the Owner shall,
+regardless of the Tenant's income, at the Owner's option, do one of the following:
+
+A.
+
+Assist the Tenant to relocate by providing a direct payment to the Tenant as described
+in paragraph 3; or
+
+B.
+
+Waive in writing the payment of Rent for the final three (3) months of the Tenancy,
+prior to the Rent becoming due.
+
+2)
+
+If an Owner issues a notice to terminate a Tenancy for no-fault just cause, the Owner
+shall notify the Tenant of the Tenant's right to relocation assistance or Rent waiver
+and all other rights pursuant to this section. If the Owner elects to waive the Rent
+for the final three (3) month of the Tenancy as provided in subparagraph (B) of paragraph
+(1), the notice shall state the amount of Rent waived and that no Rent is due for
+the final three (3) months of the Tenancy.
+
+3)
+
+A.
+
+The amount of relocation assistance or Rent waiver shall be equal to three (3) months
+of the Tenant's Rent that was in effect when the Owner issued the notice to terminate
+the Tenancy. Any relocation assistance shall be provided within fifteen (15) calendar
+days of service of the notice.
+
+B.
+
+If a Tenant fails to vacate after the expiration of the notice to terminate the Tenancy,
+the actual amount of any relocation assistance or Rent waiver provided pursuant to
+this subdivision shall be recoverable as damages in an action to recover possession.
+
+C.
+
+The relocation assistance or Rent waiver required by this section shall be credited
+against any other relocation assistance required by any other law.
+
+4)
+
+An Owner's failure to strictly comply with this section shall render the notice of
+termination void.
+
+(e)
+
+This section shall not apply to the following types of residential real properties
+or residential circumstances:
+
+1)
+
+Transient and tourist hotel occupancy as defined in subdivision (b) of Section 1940
+of the Civil Code.
+
+2)
+
+Housing accommodations in a nonprofit hospital, religious facility, extended care
+facility, licensed residential care facility for the elderly, as defined in Section
+1569.2 of the Health and Safety Code, or an adult residential facility, as defined
+in Chapter 6 of Division 6 of Title 22 of the Manual of Policies and Procedures published by the
+State Department of Social Services.
+
+3)
+
+Dormitories owned and operated by an institution of higher education or a kindergarten
+and grades 1 to 12, inclusive, school.
+
+4)
+
+Housing accommodations in which the Tenant shares bathroom or kitchen facilities with
+the Owner who maintains their principal residence at the Residential Real Property.
+
+5)
+
+Single-family Owner-occupied residences, including a residence in which the Owner-occupant
+rents or leases no more than two (2) units or bedrooms, including, but not limited
+to, an accessory dwelling unit or a junior accessory dwelling unit.
+
+6)
+
+A duplex in which the Owner occupied one (1) of the units as the Owner's principal
+place of residence at the beginning of the Tenancy, so long as the Owner continues
+in occupancy.
+
+7)
+
+Housing that has been issued a certificate of occupancy within the previous fifteen
+(15) years.
+
+8)
+
+Residential Real Property that is alienable separate from the title to any other dwelling
+unit, provided that both of the following apply:
+
+A.
+
+The Owner is not any of the following:
+
+i.
+
+A real estate investment trust, as defined in Section 856 of the Internal Revenue
+Code.
+
+ii.
+
+A corporation.
+
+iii.
+
+A limited liability company in which at least one member is a corporation.
+
+B.
+
+i.
+
+The Tenants have been provided written notice that the Residential Property is exempt
+from this section using the following statement: "This property is not subject to
+the just cause requirements of Santa Ana Municipal Code Chapter 8, Article XIX, Division 2. This property meets the requirements of Santa Ana Municipal
+Code section 8-3120(e)(8) and the Owner is not any of the following: (1) a real estate investment trust,
+as defined by Section 856 of the Internal Revenue Code; (2) a corporation; or (3)
+a limited liability company in which at least one member is a corporation."
+
+ii.
+
+For a Tenancy existing before the effective date of this Ordinance, the notice required
+under clause (i) may, but is not required to, be provided in the Rental Agreement.
+
+iii.
+
+For any Tenancy commenced or renewed on or after the effective date of this Ordinance,
+the notice required under clause (i) must be provided in the Rental Agreement.
+
+iv.
+
+Addition of a provision containing the notice required under clause (i) to any new
+or renewed Rental Agreement or fixed-term lease constitutes a similar provision for
+the purposes of subparagraph (E) of paragraph (1) of subdivision (b).
+
+9)
+
+Housing restricted by deed, regulatory restriction contained in an agreement with
+a government agency, or other recorded document as affordable housing for persons
+and families of very low, low, or moderate income, as defined in Section 50093 of
+the Health and Safety Code, or subject to an agreement that provides housing subsidies
+for affordable housing for persons and families of very low, low, or moderate income,
+as defined in Section 50093 of the Health and Safety Code or comparable federal statutes.
+
+(f)
+
+An Owner of Residential Real Property subject to this section shall provide notice
+to the Tenant as follows:
+
+1)
+
+For any Tenancy commenced or renewed on or after the effective date of this Ordinance,
+as an addendum to the lease or Rental Agreement, or as a written notice signed by
+the Tenant, with a copy provided to the Tenant.
+
+2)
+
+For a Tenancy existing prior to the effective date of this Ordinance, by written notice
+to the Tenant no later than thirty (30) days after the effective date of this Ordinance,
+or as an addendum to the lease or Rental Agreement.
+
+3)
+
+The notification or lease provision shall be in no less than 12-point type, and shall
+include the following: "The Santa Ana Municipal Code provides that after all of the
+Tenants have continuously and lawfully occupied the property for at least thirty (30)
+days, an Owner must provide a statement of cause in any notice to terminate a Tenancy.
+See Division 2 of Article XIX of Chapter 8 of the Santa Ana Municipal Code for more information."
+
+(g)
+
+It shall be a defense to an action for possession of a Rental Unit under this Division
+if a trier of fact determines that:
+
+1)
+
+Both of the following provisions apply:
+
+A.
+
+The Tenant or Tenant's household member is a victim of an act or acts that constitute
+domestic violence, elder or dependent adult abuse, sexual assault, human trafficking,
+or stalking if the domestic violence, elder or dependent adult abuse, sexual assault,
+human trafficking, or stalking has been documented by one of the following:
+
+i.
+
+A temporary restraining order, emergency protective order, or protective order issued
+within the last one hundred eighty (180) days pursuant to law that protects the Tenant
+or a household member from domestic violence, elder or dependent adult abuse, sexual
+assault, human trafficking, or stalking; or
+
+ii.
+
+The Tenant or a member of their household has filed a police report within the previous
+one hundred eighty (180) days alleging that they are a victim of domestic violence,
+elder or dependent adult abuse, sexual assault, human trafficking, or stalking.
+
+B.
+
+The notice to vacate is substantially based upon the act or acts constituting domestic
+violence, elder or dependent adult abuse, sexual assault, human trafficking, or stalking
+against the Tenant or their household member, including, but not limited to, an action
+for possession based on complaints of noise, disturbances, or repeated presence of
+police.
+
+2)
+
+Notwithstanding this Section, an Owner may terminate the Tenancy if:
+
+A.
+
+The Tenant or the person protected by a court order or who filed a police report allows
+the person against whom the protective order has been issued or who was named in the
+police report as committing an act of domestic violence, elder or dependent adult
+abuse, sexual assault, human trafficking, or stalking, to visit the rental property;
+or
+
+B.
+
+The Owner reasonably believes the presence of the person against whom the protective
+order has been issued or who was named in the police report as having committed an
+act of domestic violence, elder or dependent adult abuse, sexual assault, human trafficking,
+or stalking poses a physical threat to other Tenants, guests, invitees, or to a Tenant's
+right to quiet enjoyment and the Owner previously gave the Tenant a three (3) day
+written notice to cease and correct this violation.
+
+3)
+
+The provisions of this Division shall not supersede any other applicable state laws
+relating to victims of an act of domestic violence, sexual assault, stalking, human
+trafficking, abuse of an elder or a dependent adult, or of other specified crimes,
+as provided for in Civil Code section 1946.7 and Code of Civil Procedure sections
+1161.3 and 1174.27.
+
+(h)
+
+It shall be a defense to a no fault just cause action for possession of a Rental Unit
+under this Division if a person under the age of twenty-one (21) is a resident of
+the subject Rental Unit, or has a custodial or family relationship with a Tenant in
+the subject Rental Unit, and who is registered and actively attending any level of
+school during a specified school term.
+
+(i)
+
+At least sixty (60) days prior to the sale of a Mobilehome Park, the Owner shall provide
+notice of such proposed sale to the Mobilehome Park residents and prepare a report
+on the impact of the sale of the Mobilehome Park, including a replacement and relocation
+plan that adequately mitigates the impact upon the ability of any displaced residents
+of the Mobilehome Park to be sold to find adequate housing in a Mobilehome Park, as
+applicable.
+
+(j)
+
+Any waiver of the rights under this section shall be void as contrary to public policy.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3052, § 4, 10-17-23; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3121. - Notice of termination of tenancy.
+
+(a)
+
+When terminating a Tenancy either at-fault or no-fault, an Owner must comply with
+all of the following:
+
+1)
+
+The Owner must serve a written notice in accordance with Civil Code sections 1946
+through 1946.5, to the Tenant that states that, in addition to any information required
+by federal or State law, the Owner will terminate the Tenancy, and that indicates
+at least one at-fault or no-fault just cause reason as provided in section 8-3120(b); and
+
+2)
+
+The Owner has not accepted and will not accept Rent or any other consideration in
+return for the continued use of the Residential Property beyond the term of the terminated
+Tenancy in compliance with Civil Code sections 1945 through 1946.5; and
+
+3)
+
+The Owner qualifies the termination as at-fault or no-fault just cause, as specified
+in section 8-3120(b); and
+
+4)
+
+The Owner has submitted to the City, within five (5) days after service of the notice
+of termination on the Tenant, a true and accurate copy of the Owner's written notice
+of termination, and proof of such service, signed under penalty of perjury, on the
+Tenant, through the City's Rental Registry portal. The Owner shall maintain proof
+of service to the City as evidence that the Owner has complied with this section.
+
+5)
+
+The Owner must provide the notice in the language that the Owner and Tenant used to
+negotiate the terms of the Tenancy, in addition to English.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3122. - Retaliatory eviction and anti-harassment.
+
+(a)
+
+Retaliatory Eviction.
+
+1)
+
+If the main intent of the Owner in terminating a Tenancy or refusing to renew a Tenancy
+is retaliatory in nature, and if the Tenant is not in default as to the payment of
+Rent, then the Owner may not terminate the Tenancy or refuse to renew the Tenancy
+or cause the Tenant to quit involuntarily.
+
+2)
+
+A Tenant may assert retaliation affirmatively or as a defense to the Owner's action
+regardless of the period of time which has elapsed between the Tenant's assertion
+or exercise of rights under this Article and the alleged act of retaliation.
+
+3)
+
+Retaliation against a Tenant because of the Tenant's exercise of rights under this
+Article is prohibited. Retaliation claims may only be brought in court and may not
+be addressed administratively. A court may consider the protections afforded by this
+Article in evaluating a claim of retaliation.
+
+(b)
+
+Anti-Harassment. No Owner, or any person, acting as a principal or agent, offering
+Residential Real Property for rent, or any contractor, subcontractor or employee of
+the Owner shall, with respect to Residential Real Property under any Rental Agreement
+or other Tenancy or estate at will, however created, do any of the following:
+
+1)
+
+Interrupt, terminate, or fail to provide Housing Services required by Rental Agreement
+or by federal, State, County, or local housing, health, or safety laws, or threaten
+to do so, or violate or threaten to violate Civil Code section 789.3.
+
+A.
+
+"Interrupt, terminate, or fail to provide Housing Services" in this provision does
+not include interruptions, terminations, or failure to provide Housing Services as
+a result of interruptions, outages, or terminations caused by events or actions outside
+of the Owner's control, such as utility outages caused by natural disaster. Further,
+this provision does not include stoppages, outages, terminations, and interruptions
+properly noticed to Tenants as required by a signed Rental Agreement.
+
+2)
+
+Take any of the following actions in bad faith:
+
+A.
+
+Fail to perform repairs and maintenance required by Rental Agreement or by federal,
+State, or local laws;
+
+B.
+
+Fail to exercise due diligence in completing repairs and maintenance once undertaken;
+
+C.
+
+Fail to follow appropriate industry repair, containment, or remediation protocols
+designed to minimize exposure to noise, dust, lead, paint, mold, asbestos, or other
+building materials with potentially harmful health impacts;
+
+D.
+
+Conduct elective renovation or construction of unit for the purpose of harassing a
+Tenant;
+
+E.
+
+Refuse to acknowledge or accept receipt of a Tenant's lawful Rent payment as set forth
+in a Rental Agreement, by usual practice of the parties, or in a notice to pay Rent
+or quit;
+
+F.
+
+Refuse to cash or process a Rent check or other form of acceptable Rent payment for
+over thirty (30) days after it is tendered;
+
+G.
+
+Fail to maintain a current address for delivery of Rent payments;
+
+H.
+
+Violate a Tenant's right to privacy without limitation, by requesting information
+regarding residence or citizenship status, protected class status, or social security
+number, except as required by law or in the case of a social security number, for
+the purpose of obtaining information for the qualifications for a Tenancy;
+
+I.
+
+Release information protected by the Tenant's right to privacy except as required
+or authorized by law; or
+
+J.
+
+Request or demand an unreasonable amount of information from Tenant in response to
+a request for reasonable accommodation.
+
+3)
+
+Abuse the right of access into Residential Real Property as established by Civil Code section 1954 or other applicable law. This includes entries for inspections that
+are not related to necessary repairs or services; entries excessive in number; entries
+that improperly target certain Tenants or are used to collect evidence against the
+occupant or otherwise beyond the scope of an otherwise lawful entry; entries or demands
+for entry at times outside of normal business hours, unless for health and safety
+reasons or if the Tenant agrees otherwise; entries contrary to a Tenant's reasonable
+request to change the date or time of entry; photographing or otherwise recording
+portions of a Rental Unit that are beyond the scope of lawful entry or inspection;
+and misrepresenting the reasons for accessing Residential Real Property.
+
+4)
+
+Influence or attempt to influence a Tenant to vacate Residential Real Property through
+fraud, misrepresentation, intimidation or coercion, which shall include threatening
+to report a Tenant to the United States Department of Homeland Security.
+
+5)
+
+Threaten the Tenant, by word or gesture, with physical harm, or abuse Tenant with
+words, either orally or in writing, which are offensive and inherently likely to provoke
+an immediate violent reaction. This includes words used during in-person conversations,
+through social media postings or messages, or other communications.
+
+6)
+
+Violate any law which prohibits discrimination based on race, gender, sexual preference,
+sexual orientation, ethnic background, nationality, religion, age, parenthood, marriage,
+pregnancy, disability, human immunodeficiency virus (HIV)/acquired immune deficiency
+syndrome (AIDS), occupancy by a minor child, or source of income.
+
+7)
+
+Take action to terminate any Tenancy including service of any notice to quit or other
+eviction notice or bring any action to recover possession of a Rental Unit based upon
+facts which the Owner has no reasonable cause to believe to be true or upon a legal
+theory which is untenable under the facts known to the Owner. No Owner shall be liable
+under this subsection for bringing an action to recover possession unless and until
+the Tenant has obtained a favorable termination of that action.
+
+8)
+
+Remove from the Rental Unit personal property, furnishings, or any other items without
+the prior written consent of the Tenant, except when done pursuant to enforcement
+of a legal termination of Tenancy.
+
+9)
+
+Provide false written or verbal information regarding any federal, State, County,
+or local Tenant protections, including mischaracterizing the nature or effect of a
+notice to quit or other eviction notice. False information includes, without limitation,
+requesting or demanding a Tenant:
+
+A.
+
+Sign a new Rental Agreement not in the Tenant's primary language if:
+
+i.
+
+Rental Agreement negotiations were conducted in the Tenant's primary language;
+
+ii.
+
+The existing Rental Agreement is in the Tenant's primary language; or
+
+iii.
+
+Owner is otherwise aware that the new Rental Agreement is not in Tenant's primary
+language.
+
+B.
+
+Enter into a Rent repayment plan if the Owner states, misrepresents, suggests, or
+implies, that the Tenant should or must do so to take advantage of Tenant protection
+laws that do not in fact require such plans.
+
+10)
+
+Offer payments to:
+
+A.
+
+A Tenant to vacate more than once in six (6) months, after the Tenant has notified
+the Owner in writing that the Tenant does not desire to receive further offers of
+payments to vacate;
+
+B.
+
+Attempt to coerce Tenant to vacate accompanied with threats or intimidation. This
+shall not include settlement offers in pending eviction actions made in good faith
+and not accompanied with threats or intimidation.
+
+11)
+
+Communicate with Tenant in a language other than Tenant's primary language for the
+purpose of intimidating, confusing, deceiving or annoying Tenant.
+
+12)
+
+Interfere with a Tenant's right to quiet use and enjoyment of a Rental Unit as that
+right is defined by law.
+
+13)
+
+Commit repeated acts or omissions of such significance as to substantially interfere
+with or disturb the comfort, repose, peace, or quiet of any person lawfully entitled
+to occupancy of such Rental Unit and that cause, are likely to cause, or are intended
+to cause any person lawfully entitled to occupancy of a Rental Unit to vacate such
+Rental Unit or to surrender or waive any rights in relation to such occupancy.
+
+14)
+
+Remove a housing service for the purpose of causing the Tenant to vacate the Residential
+Real Property. For example, taking away a parking space knowing that a Tenant cannot
+find alternative parking and must move.
+
+15)
+
+Interfere with the right of Tenants to organize as Tenants and engage in concerted
+activities with other Tenants for the purpose of mutual aid and protection; provide
+property access to Tenant organizers, advocates, or representatives working with or
+on behalf of Tenants living at a property; convene Tenant or Tenant organization meetings
+in an appropriate space accessible to Tenants under the terms of their Rental Agreement;
+or distribute and post literature informing other Tenants of their rights and of opportunities
+to involve themselves in their project in common areas, including lobby areas and
+bulletin boards.
+
+16)
+
+Threatening or intimidating a Tenant based on their immigration or citizenship status
+or otherwise disclosing a Tenant's immigration or citizenship status in violation
+of California Civil Code section 1940.35(a) and California Code of Civil Procedure
+section 1161.4, as may be amended.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Secs. 8-3123—8-3139. - Reserved.
+
+DIVISION 3. - RENT STABILIZATION
+
+Sec. 8-3140. - Prohibited increases.
+
+(a)
+
+Increases in Rent on Residential Real Property or Mobilehome Spaces in the City of
+Santa Ana in excess of three percent (3%), or eighty (80%) of the change in the Consumer
+Price Index, whichever is less, and more than one Rent Increase in any twelve (12)
+month period, are prohibited, unless expressly exempt under the Costa-Hawkins Rental
+Housing Act codified in California Civil Code section 1954.50, et seq., or the Mobilehome Residency Law codified in California Civil Code sections 798, et seq. If the change in the Consumer Price Index is negative, no Rent
+Increase is permitted. The term Consumer Price Index means, at the time of the adjustment
+calculation completed by the City pursuant to subsection (b), the percentage increase
+in the United State Consumer Price Index for all Urban Consumers in the Los Angeles-Long
+Beach-Anaheim Metropolitan Area published by the Bureau of Labor Statistics, not seasonally
+adjusted, for the most recent twelve (12) month period ending prior to the City's
+calculation pursuant to subsection (b). A violation of this section occurs upon the
+service of notice or demand for a prohibited increase in Rent.
+
+(b)
+
+No later than June 30 each year, beginning with the year 2022, the City shall announce
+the amount of allowable Rent Increase based on subsection (a) herein, which shall
+be effective as of September 1 of that year.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3052, § 6, 10-17-23; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3141. - Reasonable rate of return.
+
+This article allows for an annual adjustment of Residential Real Property or Mobilehome
+Space Rent of up to three percent (3%), or eighty (80%) of the change in the Consumer
+Price Index, whichever is less. A Consumer Price Index-based increase is found and
+determined to provide a just and reasonable return on an Owner's property, and has
+been adopted to encourage good management, reward efficiency, and discourage the flight
+of capital, as well as to be commensurate with returns on comparable investments,
+but not so high as to defeat the purpose of curtailing excessive Rents and rental
+increases. Notwithstanding the foregoing, however, any Owner of Residential Real Property
+or a Mobilehome Park who contends that the limit on rental increases set forth in
+Section 8-3140 above will prevent the Owner from receiving a fair and reasonable return on their
+property may petition for relief from the cap set forth in section 8-3140 pursuant to the procedures set forth in this Division.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3142. - Fair return petition for rent increase.
+
+(a)
+
+A Landlord may submit a Fair Return Petition to the Program Administrator in accordance
+with the procedures set forth in this Division requesting a Rent Increase in excess
+of that provided in this Division in order to obtain a fair and reasonable return
+on the Rental Unit.
+
+(b)
+
+Standard of Review. All relevant factors shall be considered when evaluating a Fair
+Return Petition, including, but not limited to, the following:
+
+1)
+
+Changes in the Consumer Price Index for All Urban Consumers in the Los Angeles-Long
+Beach-Anaheim Metropolitan Area published by the Bureau of Labor Statistics;
+
+2)
+
+The Rent lawfully charged for comparable Rental Units in the City;
+
+3)
+
+The length of time since the last determination on a Fair Return Petition, or the
+last Rent Increase if no previous Fair Return Petition has been made;
+
+4)
+
+The completion of any rehabilitation work related to the Rental Unit, and the cost
+thereof, including materials, labor, construction interest, permit fees, and other
+items deemed appropriate;
+
+5)
+
+Changes in property taxes or other taxes related to the Rental Unit;
+
+6)
+
+Changes in the Rent paid by the Landlord for the lease of the Rental Unit;
+
+7)
+
+Changes in the utility charges for the Rental Unit paid by the Landlord, and the extent,
+if any, of reimbursement from the Tenants;
+
+8)
+
+Changes in reasonable Operating Expenses;
+
+9)
+
+Changes in Net Operating Income;
+
+10)
+
+The need for repairs caused by circumstances other than ordinary wear and tear;
+
+11)
+
+The amount and quality of Housing Services provided by the Landlord to the Tenants;
+
+12)
+
+Compliance with any existing Rental Agreement lawfully entered into between the Landlord
+and Tenants; and
+
+13)
+
+Landlord's substantial compliance with this Article and applicable housing, health
+and safety codes.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3143. - Capital improvement petition.
+
+(a)
+
+Effective July 1, 2023, or as modified by resolution of the City Council, a Landlord
+may submit a Capital Improvement Petition to the Program Administrator in accordance
+with the procedures set forth in this Division requesting a pass-through cost to the
+Tenants to cover expenses incurred by the Landlord to complete Capital Improvements
+for the Rental Unit pursuant to the following provisions:
+
+1)
+
+The Capital Improvement was paid for and completed after November 19, 2021 (the effective
+date of the first adopted Rent Stabilization Ordinance);
+
+2)
+
+The Capital Improvement was paid for and completed prior to the filing of the Capital
+Improvement Petition;
+
+3)
+
+A Capital Improvement Petition must be initiated by the Landlord within two (2) years
+of completion of the Capital Improvement;
+
+4)
+
+A Capital Improvement Petition shall not apply to Rental Units or new Tenants whose
+initial Rent was established after the Landlord completed the Capital Improvement;
+
+5)
+
+The Landlord may not require a Tenant to pay any amount of any cost that is attributable
+to any period of time that the Tenant was not entitled to use and occupy the Rental
+Unit;
+
+6)
+
+The Landlord may not require a Tenant to pay more than the Tenant's share of the cost
+attributable to that Tenant's Rental Unit that is permitted to be passed through to
+the Tenant;
+
+7)
+
+If the Capital Improvement inures solely to the benefit of one or more of the Rental
+Units, but to less than all, the surcharge shall be so annualized, but shall be applied
+and/or prorated only with respect to the one or more Rental Units actually so benefited;
+
+8)
+
+Equipment otherwise eligible as a Capital Improvement will not be considered if a
+"use fee" is charged (i.e. - coin operated washer and dryers); and,
+
+9)
+
+Pass through costs for Capital Improvements shall not be considered Rent and shall
+not be increased when Rent Increases, nor shall they be considered Rent for purposes
+of calculating a Rent Increase.
+
+(b)
+
+Calculating Capital Improvements. Any Capital Improvement pass-through cost must be
+calculated according to the following:
+
+1)
+
+Capital Improvement costs must be amortized over the useful life of the Capital Improvement,
+not to exceed ten percent (10%) of the current Rent; for the purposes of such computation,
+the current Rent for any time period shall not include any Capital Improvement pass-through
+amounts;
+
+2)
+
+For mixed-use structures and Landlord-occupied Rental Units, only the percent of residential
+square footage will be applied in the calculations;
+
+3)
+
+If a unit is occupied by an agent of the Landlord, this unit must be included when
+determining the average costs per Rental Unit; and,
+
+4)
+
+If the Landlord is reimbursed for Capital Improvements (i.e. - insurance, court-awarded
+damages, subsidies, etc.), such reimbursement must be deducted from the Capital Improvements
+before costs are amortized and allocated among the Rental Units.
+
+(c)
+
+Standard of review. All relevant factors shall be considered when evaluating a Capital
+Improvement Petition, including the following:
+
+1)
+
+Capital Improvement completed;
+
+2)
+
+Landlord's Petition made within two (2) years of completion of Capital Improvement;
+
+3)
+
+Distinguished from ordinary repair or maintenance;
+
+4)
+
+For the primary benefit, use, and enjoyment of the Tenant;
+
+5)
+
+Permanently fixed in place or relatively immobile and appropriated to the use of the
+Rental Unit;
+
+6)
+
+No "use fee" or other charge imposed on Tenants for its use; and,
+
+7)
+
+Cost-factored and amortized.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3144. - Tenant petition.
+
+(a)
+
+Effective July 1, 2023, or as modified by resolution of the City Council, a Tenant
+may submit a Petition to the Program Administrator in accordance with the procedures
+set forth in this Division on any one (1) or more of the following grounds:
+
+1)
+
+To request review of a Rent Increase in excess of the maximum allowed Rent Increase;
+
+2)
+
+To request a reduction in Rent based on decreased Housing Services;
+
+3)
+
+To request a reduction in Rent based on failure of the Landlord to maintain a habitable
+premises, including health, safety, fire, or building code violations;
+
+4)
+
+To contest a Capital Improvement cost as an unauthorized or excessive pass through;
+or,
+
+5)
+
+For any other violation of this Article by the Landlord.
+
+(b)
+
+Tenant's time to file a Petition. Where applicable, a Tenant filing a Petition under
+this Division shall do so within the following time limits:
+
+1)
+
+Tenant receiving a notice of Rent Increase shall have thirty (30) days after service
+of such notice to file a Petition for review of Rent;
+
+2)
+
+In instances where notice is not provided as required, the Tenant shall file a Petition
+for review of Rent within thirty (30) days after Tenant knew of the alleged failure
+to comply with the requirements of this Article; and,
+
+3)
+
+For any other violation(s) of this Article by the Landlord, the Tenant shall file
+a Petition within one hundred and eighty (180) days of the alleged violation(s).
+
+(c)
+
+Standard of Review. All relevant factors shall be considered when evaluating a Tenant
+Petition, including the following:
+
+1)
+
+Landlord allows violations of this Article or other applicable state and local statutes
+to persist;
+
+2)
+
+Any reduction of Housing Services, living space, or amenities;
+
+3)
+
+Substantial deterioration of the Rental Unit other than as a result of ordinary wear
+and tear;
+
+4)
+
+Landlord's failure to provide adequate Housing Services;
+
+5)
+
+Tenant provided Landlord with reasonable notice and opportunity to correct the conditions
+that provide the basis for the petition; and,
+
+6)
+
+Landlord's failure to comply substantially with this Article or applicable housing,
+health and safety codes.
+
+(d)
+
+Restoration of Rent Decrease. Where a Rent decrease has been ordered pursuant to this
+Division due to a decrease in Housing Services or failure to maintain habitability,
+the amount of Rent decreased (return of excess Rent) may be restored in accordance
+with procedures set out in the regulations when the former Housing Services or maintenance
+levels are reinstated.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3145. - Petition process.
+
+A Landlord or a Tenant may file Petitions with the Program Administrator, as provided
+in this Division. For purposes of this Petition process, the Landlord and each Tenant
+of a Rental Unit that is the subject of a Petition shall be a "party" to the Petition.
+The Program Administrator shall promulgate regulations regarding procedures for Petitions
+filed under this Article. Petitions shall be governed by such regulations and by the
+provisions of this Section. Petitions shall be available in the language that the
+Owner and Tenant used to negotiate the terms of the Tenancy (e.g., Spanish, Chinese,
+Tagalog, Vietnamese and Korean), as well as English.
+
+(a)
+
+Filing Petition. Upon the filing of a Petition, the Program Administrator shall notify the petitioner
+of the acceptance or denial of the Petition based on the completeness of the submission.
+The Program Administrator shall not assess the merits of the Petition, and shall only
+refuse acceptance of a Petition that does not include required information or documentation
+or comply with the requirements of this Division.
+
+(b)
+
+Filing Fee. Fees for the filing of any Petition shall be established by City Council resolution
+in the City's Miscellaneous Fee Schedule.
+
+(c)
+
+Prior Petition. Notwithstanding any other provision of this Division, no Petition shall proceed if
+a decision has been made with regard to a prior Petition based on the same or substantially
+the same grounds within the previous one hundred and eighty (180) days.
+
+(d)
+
+No Landlord Petition or upward adjustment of Rent shall be authorized under this Division
+if the Landlord:
+
+1)
+
+Has continued to fail to comply, after order of the Board, with any provisions of
+this Article and/or orders or regulations issued thereunder by the Board; or
+
+2)
+
+Has failed to bring the Rental Unit into compliance with the implied warranty of habitability.
+
+(e)
+
+Notice of Petition. As soon as possible after acceptance of a Petition, the Program Administrator shall
+provide written notice to the Landlord, if the Petition was filed by the Tenant, or
+the Tenant, if the Petition was filed by the Landlord, of the receipt of such a Petition.
+The written notice shall inform the parties of the Petition process, the right to
+respond, and include a copy of the completed Petition and supportive documents. Any
+response submitted by the responding party will be made available to the petitioning
+party.
+
+(f)
+
+Hearing Officer. An impartial Hearing Officer appointed by the Program Administrator shall conduct
+a hearing to act upon the Petition. The Hearing Officer has the following powers:
+
+1)
+
+To make a determination on a Petition; and
+
+2)
+
+Any other powers delegated to the Hearing Officer by the Board.
+
+(g)
+
+Board Action in Lieu of Reference to Hearing Officer. The Board, on its own motion, in the Board's sole discretion, may hold a hearing
+on a Petition without the Petition first being heard by a Hearing Officer.
+
+(h)
+
+Time of Hearing. Each accepted Petition shall be scheduled for a hearing by the Hearing Officer to
+be held on a date not more than sixty (60) days from the date the Program Administrator
+accepts the Petition. With agreement of the parties, the Hearing Officer may hold
+the hearing beyond the sixty (60) days. In no event later than ten (10) days prior
+to the hearing, the Hearing Officer shall notify all parties as to the time, date,
+and place of the hearing.
+
+(i)
+
+Consolidation. All Landlord Petitions pertaining to Tenants in the same building shall be consolidated
+for hearing, and all Petitions filed by Tenants occupying the same building shall
+be consolidated for hearing, unless the Program Administrator or Hearing Officer finds
+good cause not to consolidate such Petitions.
+
+(j)
+
+Right of Assistance. All parties to a hearing may have assistance in presenting evidence and developing
+their position from attorneys, legal workers, or any other persons designated by said
+parties.
+
+(k)
+
+Rules of Evidence. Formal rules of evidence shall not be applicable to hearings on Petitions. At such
+a hearing, the parties may offer any documents, testimony, written declarations, or
+other evidence that, in the opinion of the Hearing Officer, is credible and relevant
+to the Petition. The Hearing Officer may consider the results of inspections of the
+property in question and the results of any other investigations conducted by or at
+the request of the Hearing Officer or Program Administrator. Evidence unduly repetitious,
+lacking credibility, or irrelevant evidence shall be excluded upon order by the Hearing
+Officer.
+
+(l)
+
+Evidence. Any party may appear and offer such documents, testimony, written declarations, or
+other evidence as may be pertinent to the proceeding. The Hearing Officer may require
+either party to a Petition to provide any books, records, or papers deemed pertinent,
+in addition to that information contained in the Petition and Rental Registry. The
+Hearing Officer may request the City to conduct a current building inspection if the
+Hearing Officer finds good cause to believe the current information does not reflect
+the current condition of the Rental Unit. All documents required under this section
+shall be made available to the parties involved prior to the hearing. In cases where
+information filed in a Petition or in additional submissions filed at the request
+of the Hearing Officer is inadequate or false, no action shall be taken on said Petition
+until the deficiency is remedied.
+
+(m)
+
+Quantum of Proof. The party who files the Petition shall have the burden of proof. No Petition shall
+be granted unless supported by the preponderance of the evidence submitted at the
+hearing.
+
+(n)
+
+Time for Decision. The policies and procedures adopted by the Board shall provide for final action on
+any Petition within a reasonable time.
+
+(o)
+
+Notice of Decision. The Hearing Officer shall make a determination on the merits of the Petition and
+shall provide a written statement of decision, including findings upon which the determination
+is based. The Hearing Officer's decision on a Petition may be reasonably conditioned
+in any manner necessary to effectuate the purposes of this Article. Additionally,
+the parties to the hearing shall also be notified of their right to any appeal allowed
+by the Board and/or to judicial review of the decision pursuant to this Division.
+
+(p)
+
+Hearing Record. The record of the hearing shall include: the Petition; all exhibits, papers, and
+documents required to be filed or accepted into evidence during the proceedings; a
+list of participants present; a summary of all testimony accepted in the proceedings;
+a statement of all materials officially noticed; all recommended decisions, orders
+and/or rulings; all final decisions, orders and/or rulings; and the reasons for each
+final decision, order and/or ruling. All hearings shall be recorded.
+
+(q)
+
+Appeal. Any person aggrieved by the decisions of the Hearing Officer may appeal to the Board.
+An appeal to the Board shall be filed no later than thirty (30) days after receipt
+of the notice of the decision of the Hearing Officer. On appeal, the Board shall affirm,
+reverse, or modify the decision of the Hearing Officer. Unless the Board elects to
+conduct a de novo hearing, Board review of the Hearing Officer's decision shall be
+based on the hearing record without holding a new hearing. The Board may consider
+additional evidence for good cause, including evidence which did not exist at the
+time of the hearing or which could not be discovered using due diligence by a party.
+If no Board exists, any appeal of the Hearing Officer decision on a Petition shall
+proceed pursuant to the administrative appeal procedures found in Chapter 3 of the Santa Ana Municipal Code.
+
+(r)
+
+Finality of Decision. The decision of the Hearing Officer shall be the final decision of the Board in the
+event of no appeal to the Board. The decision of the Hearing Officer shall not be
+stayed pending appeal; however, in the event that the Board on appeal reverses or
+modifies the decision of the Hearing Officer, the Board shall order the appropriate
+party to make retroactive payments, as applicable, to restore the parties to the position
+they would have occupied had the Hearing Officer's decision been the same as that
+of the Board.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3146. - Voluntary mediation.
+
+(a)
+
+Voluntary mediation services shall be provided by the City. Upon request, the Program
+Administrator shall appoint a Mediator and set a date for a mediation no later than
+thirty (30) days after the acceptance of the subject Petition, unless the Program
+Administrator determines that additional time is required under the circumstances.
+The Program Administrator shall notify the Landlord and Tenant(s) in writing of the
+date, time, and place of the mediation hearing at least ten (10) days prior to the
+mediation. This notice shall be served either in person or through ordinary mail or
+electronic correspondence.
+
+(b)
+
+It is the intent and purpose of mediation to provide a process in which Mediators
+may assist disputants in reaching a voluntary agreement. Accordingly, except as otherwise
+expressly provided herein, there shall be no penalty or disability, either civil or
+criminal, for failure to participate in the mediation process, and there shall be
+no penalty, either civil or criminal, for failure to reach agreement with a disputant
+in the mediation process.
+
+(c)
+
+Mediation is a voluntary collaborative process wherein the Landlord and Tenant(s)
+who have a disagreement can develop options, consider alternatives, and develop a
+consensual agreement. The role of the Mediator is to facilitate open communication
+to resolve a dispute in a non-adversarial and confidential manner.
+
+(d)
+
+If the Landlord and Tenant agree to a resolution, the Mediator may assist the parties
+in preparing a written settlement agreement for the signature of the Landlord and
+the Tenant, provided that in doing so the Mediator confines the assistance to stating
+the settlement as determined by the parties. Such agreement shall constitute a legally
+enforceable contract.
+
+(e)
+
+Should the parties fail to agree to a resolution, or the Mediator determines that
+the parties have reached an impasse, the Mediator may refer the Petition back to the
+Program Administrator to continue the Petition review process detailed in this Division.
+
+(f)
+
+All documents and results related to mediations and facilitations held pursuant to
+this Article shall be kept confidential and shall be inadmissible as evidence in any
+subsequent administrative or judicial proceeding.
+
+(g)
+
+The Mediator and/or Program Administrator shall provide documentation and translation
+services in the language that the Owner and Tenant used to negotiate the terms of
+the Tenancy (e.g., Spanish, Chinese, Tagalog, Vietnamese and Korean), as well as English.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3147. - Exemptions.
+
+(a)
+
+Pursuant to the Costa-Hawkins Rental Housing Act, the provisions of this ordinance
+regulating the amount of Rent that a Residential Real Property Owner may charge shall
+not apply to the following: any Residential Real Property that has a certificate of
+occupancy issued after February 1, 1995 (California Civil Code section 1954.52(a)(1)); and, any other provisions of the Costa-Hawkins Rental Housing
+Act addressing exemptions, as applicable.
+
+(b)
+
+Pursuant to the Mobilehome Residency Law, the provisions of this ordinance regulating
+the amount of Rent that a Mobilehome Park Owner may charge for a Mobilehome Space
+shall not apply to the following: any Mobilehome Space subject to a long term (more
+than one year) Rental Agreement (California Civil Code section 798.17); any newly constructed Mobilehome Space first offered for rent on
+or after January 1, 1990 (California Civil Code section 798.45); Mobilehomes not being used as a person's primary residence that
+are not being leased to someone else (California Civil Code section 798.21); and, any other provisions of the Mobilehome Residency Law addressing
+exemptions, as applicable.
+
+(c)
+
+Pursuant to the Tenant Protection Act of 2019, Civil Code section 1947.12(d), the provisions of this ordinance regulating the amount of Rent
+that a Residential Real Property Owner may charge shall not apply to the following:
+
+(1)
+
+Housing restricted by deed, regulatory restriction contained in an agreement with
+a government agency, or other recorded document as affordable housing for persons
+and families of very low, low, or moderate income, as defined in Section 50093 of
+the Health and Safety Code, or subject to an agreement that provides housing subsidies
+for affordable housing for persons and families of very low, low, or moderate income,
+as defined in Section 50093 of the Health and Safety Code or comparable federal statutes.
+
+(2)
+
+Dormitories owned and operated by an institution of higher education or a kindergarten
+and grades 1 to 12, inclusive, school.
+
+(3)
+
+Housing that has been issued a certificate of occupancy within the previous fifteen
+(15) years.
+
+(4)
+
+Residential Real Property that is alienable separate from the title to any other dwelling
+unit, provided that both of the following apply:
+
+A.
+
+The Owner is not any of the following:
+
+i.
+
+A real estate investment trust, as defined in section 856 of the Internal Revenue
+Code.
+
+ii.
+
+A corporation.
+
+iii.
+
+A limited liability company in which at least one (1) member is a corporation.
+
+B.
+
+i.
+
+The Tenants have been provided written notice that the Residential Real Property is
+exempt from this section using the following statement:
+
+"This property is not subject to the Rent limits imposed by Santa Ana Municipal Code
+section 8-3140 and the Owner is not any of the following: (1) a real estate investment trust, as
+defined by section 856 of the Internal Revenue Code; (2) a corporation; or (3) a limited
+liability company in which at least one (1) member is a corporation."
+
+ii.
+
+For a Tenancy existing before the effective date of this ordinance, the notice required
+under clause (i) may, but is not required to be provided in the Rental Agreement.
+
+iii.
+
+For a Tenancy commenced or renewed on or after the effective date of this ordinance,
+the notice required under clause (i) must be provided in the Rental Agreement.
+
+(5)
+
+A property containing two (2) separate dwelling units within a single structure in
+which the Owner occupied one (1) of the units as the Owner's principal place of residence
+at the beginning of the Tenancy so long as the Owner continues in occupancy, and neither
+unit is an accessory dwelling unit or a junior accessory dwelling unit.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3148. - Rent increase ineffective.
+
+No Rent Increase shall be effective if the Owner:
+
+(a)
+
+Fails to substantially comply with all provisions of this Division, including but
+not limited to the failure to provide notices as required; or
+
+(b)
+
+Fails to maintain the Residential Real Property or Mobilehome Space in compliance
+with California Civil Code Sections 1941.1 et seq. and California Health and Safety
+Code sections 17920.3 and 17920.10, except as to Mobilehomes and Mobilehome Spaces
+in Mobilehome Parks that are subject to the Mobilehome Parks Act, Health and Safety
+Code section 18200, et seq.; Manufactured Housing Act, Health and Safety Code section
+18000, et seq.; or the National Manufactured Housing Construction and Safety Standards
+Act of 1974, 42 U.S.C. sections 5401, et seq., as applicable; or
+
+(c)
+
+Fails to make repairs ordered by the City or court of competent jurisdiction.
+
+(d)
+
+No Rent Increases shall take effect for any Rental Unit unless the Landlord has accurately
+completed the Rental Unit Registration.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3149. - Notice requirements.
+
+(a)
+
+An Owner of any Residential Real Property or Mobilehome Space subject to this provision
+shall, on or before the date of commencement of a Tenancy, give the Tenant a written
+notice in a form prescribed by the City which must include the following information:
+
+(1)
+
+The existence and scope of this Division 3 of Article XIX of Chapter 8 of the Santa Ana Municipal Code; and
+
+(2)
+
+The Tenant's right to respond to any Fair Return or Capital Improvement Petition filed
+with the City by the Owner pursuant to this Division.
+
+(b)
+
+As part of any notice to increase Rent, an Owner must include:
+
+(1)
+
+Notice of the existence of this Division 3 of Article XIX of Chapter 8 of the Santa Ana Municipal Code; and
+
+(2)
+
+The Tenant's right to respond to any Fair Return or Capital Improvement Petition filed
+with the City by the Owner pursuant to this Division, unless such Rent Increase is
+pursuant to an approved Fair Return Petition.
+
+(3)
+
+No Rent Increase shall take effect until the requirements of this Division have been
+met.
+
+(c)
+
+The Owner must give notices to the Tenant in the language that the Owner and Tenant
+used to negotiate the terms of the Tenancy (e.g., English, Spanish, Chinese, Tagalog,
+Vietnamese, and Korean) as well as English.
+
+(d)
+
+Any notices or documents required to be provided from a Landlord to a Tenant by this
+Article or any other federal, state, or local law, including, but not limited to,
+notice of Rent Increase and notice of eviction, shall be provided to the City through
+the Rental Registry portal.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Secs. 8-3150—8-3159. - Reserved.
+
+DIVISION 4. - RENTAL REGISTRY AND RENTAL REGISTRY FEE
+
+Sec. 8-3160. - Rental registry.
+
+Effective July 1, 2023, or as modified by resolution of the City Council, the City
+shall create a Rental Registry and all Landlords with Rental Units in the City of
+Santa Ana shall complete and submit Registration Forms for each Rental Unit pursuant
+to the following:
+
+(a)
+
+Initial Registration. A Landlord must file an initial Registration Form with the City
+for each Rental Unit that is subject to the provisions of this Article. Registration
+of a Rental Unit shall not be complete until an Owner has:
+
+1)
+
+Completely and accurately provided a Registration Form; and,
+
+2)
+
+Paid all fees owed to the City with respect to the Rental Unit including Registration
+Fees imposed pursuant to this Article. (b) Change of Ownership or Management.
+
+1)
+
+Whenever a change in ownership of a Rental Unit occurs, the Landlord shall provide
+the City with written notice of the change in ownership, including the date of transfer,
+and the name, address and contact information of the new Owner, within thirty (30)
+days of the close of escrow.
+
+2)
+
+The new Owner is required to file a Registration Form with the City within sixty (60)
+days of such change. The new Owner's Registration Form will only be accepted by the
+City if it is accompanied by a copy of a written notification on a form prescribed
+by the Program Administrator from the Landlord to all Tenants advising the Tenants
+of the change in ownership of the building and setting forth the name, address and
+contact information of the new Owner and of the new Owner's property manager or representative,
+and a declaration that the new Owner served the written notification on all the Tenants.
+
+3)
+
+Registration amendments also shall be required to be filed with the City within sixty
+(60) days of a change of the property management or authorized agent or if the address
+of the Owner or authorized agent changes.
+
+(c)
+
+Re-Registration Following a Vacancy. A Landlord shall, in the manner described herein,
+re-register a Rental Unit with the City within thirty (30) days after a vacancy has
+occurred and the Rental Unit is re-rented.
+
+(d)
+
+Claim of Exemption. Any Landlord that is claiming any exemption from this Article
+must file a claim of exemption with the City. The Landlord shall provide the City,
+on a form approved by the Program Administrator and accompanied by supporting documentation,
+a written declaration stating the facts which support the claim of exemption from
+the provisions of this Article. If the written declaration and supporting documents
+are not submitted by July 1 of each year for any Rental Unit, that Rental Unit shall
+be deemed to be subject to the provisions of this Article. If the Board determines
+that any Unit was incorrectly registered as exempt due to any affirmative misrepresentation
+by the Owner, the exemption for that Unit may be revoked retroactively, and the Unit
+will be subject to any applicable enforcement measures.
+
+(e)
+
+Termination of Exemption. Any time a Rental Unit that has been exempted under the
+provisions of this Article loses its exempt status due to termination of the conditions
+qualifying it for exemption, the Landlord of such Rental Unit is required to file
+a Registration Form for said Rental Unit within thirty (30) days of the change in
+status.
+
+(f)
+
+Annual Requirement. For the subsequent years after the initial Registration date,
+each Registration Form and claims of exemption(s) must be annually filed on or before
+July 1 of each year. The Rental Housing Board may modify the annual registration date.
+
+(g)
+
+Contents of Registration Form. The Rental Registration Form shall completely and accurately
+provide the following information from the Landlord for each Rental Unit as of the
+date of filing the Registration Form:
+
+1)
+
+Address of each Rental Unit including identifying number or letter;
+
+2)
+
+Number of bedrooms and bathrooms in the Rental Unit;
+
+3)
+
+Name, current address, and contact information of current Owners, authorized representatives
+and property managers;
+
+4)
+
+Date of assumption of ownership by current Owners;
+
+5)
+
+Current Rent;
+
+6)
+
+Date and amount of last Rent Increase; and
+
+7)
+
+Move-in date of current Tenant(s).
+
+The Board and/or Program Administrator may adopt policies and procedures that require
+additional information to be collected and recorded in Registration Forms in furtherance
+of the objectives of this Article.
+
+(h)
+
+Affidavit. All Rental Registration Forms provided by Landlords in accordance with
+this Division shall include an affidavit signed by the Landlord declaring under penalty
+of perjury that the information provided in the Rental Registration Form is true and
+correct.
+
+(i)
+
+Notices. Any notices or documents required to be provided from a Landlord to a Tenant
+by this Article or any other federal, state, or local law, including, but not limited
+to, notice of Rent Increase and notice of eviction, shall be provided to the City
+through the Rental Registry portal.
+
+(j)
+
+Proper Registration. Registration of a Rental Unit shall not be complete until the
+Landlord has:
+
+1)
+
+Paid all fees and penalties owed to the City with respect to the Rental Unit, including
+the Rental Registry Fee, imposed pursuant to this Article; and,
+
+2)
+
+Filed a complete and accurate Registration Form for that Rental Unit including all
+information required by this Division and any policies and procedures adopted by the
+Board and/or Program Administrator.
+
+(k)
+
+Commencing October 1, 2023, the City may commence enforcement against any Landlord
+who fails to register a Rental Unit, or provide current and accurate data regarding
+a Rental Unit, according to this Division. Furthermore, no Landlord shall advertise
+for rent, demand or accept Rent for a Rental Unit, or evict any Tenant from a Rental
+Unit, if the Rental Unit Registration is not complete and accurate. In addition, no
+petition, application, claim or request, and no Rent increases shall take effect for
+any Rental Unit unless the Landlord has accurately completed the Rental Unit Registration.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3052, § 7, 10-17-23; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3161. - Rental registry fee.
+
+Effective July 1, 2023, or as modified by resolution of the City Council, an annual
+Rental Registry Fee shall be imposed on each Rental Unit in the City. All Landlords
+with Rental Units that are subject to this Article shall pay the Rental Registry Fee
+as established by the City Council. The Rental Registry Fee is to fund the City's
+cost to implement, administer, monitor, support, and enforce the provisions of this
+Article.
+
+(a)
+
+Amount of Fee. A Landlord shall pay to the City a Rental Registry Fee for each of
+the Landlord's Rental Units in the City. The amount of the Fee shall be determined
+by resolution of the City Council adopted from time to time and set forth in the City's
+Miscellaneous Fee Schedule. The Fee shall not exceed the amount found by the City
+Council to be necessary to administer the provisions of this Article, and the City
+Council's findings in this regard shall be final.
+
+(b)
+
+Deadline for Landlord Payment of Rental Registry Fee. Annual Rental Registry Fees
+shall be due and owing on July 1 each year, or within thirty (30) calendar days of
+any subsequent changes to the Rental Unit.
+
+(c)
+
+Late Payment. Any Landlord responsible for paying the Rental Registry Fee who fails
+to pay the Fee by October 1, or within sixty (60) calendar days of any mid-year due
+date, will be delinquent and shall, in addition to the Fee, pay additional late charges,
+penalties of assessments as determined by resolution of the City Council. The amount
+of Rental Registry Fee and any penalty imposed by the provisions of this Article shall
+be deemed a debt to the City.
+
+(d)
+
+Pass Through to Tenants. After timely payment of the Rental Registry Fee, the Landlord
+may pass through up to fifty percent (50%) of the Fee to Tenants of the applicable
+Rental Unit, to be paid by the Tenant in twelve (12) equal monthly installments. The
+Fee pass-through shall not be considered part of the Rent in calculating any Rent
+Increase. If a Landlord fails to timely pay the Fee and becomes delinquent, neither
+the Fee nor any penalties can be passed through to the Tenant. In the event a Tenant
+paid Registration Fee pass-through costs in excess of that permitted by this Division,
+the Landlord shall reimburse the Tenant for the Registration Fee pass-through cost
+overpayment.
+
+1)
+
+No Pass-Through for Subsidized Tenants. No portion of the Registration Fee may be
+passed through to Tenants who reside in housing restricted by deed, regulatory restriction
+contained in an agreement with a government agency, or other recorded document as
+affordable housing for persons and families of very low, low, or moderate income,
+as defined in Section 50093 of the Health and Safety Code, or subject to an agreement
+that provides housing subsidies for affordable housing for persons and families of
+very low, low, or moderate income, as defined in Section 50093 of the Health and Safety
+Code or comparable federal statutes.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3052, § 8, 10-17-23; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3162. - Education and outreach.
+
+The Program Administrator shall have the authority to contract with community-based
+organizations for them to assist in the education and outreach related to this Article.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Secs. 8-3163—8-3179. - Reserved.
+
+DIVISION 5. - RENTAL HOUSING BOARD
+
+Sec. 8-3180. - Rental housing board.
+
+There is hereby created and established a Rental Housing Board to perform the functions
+designated in this Article. The composition of the Board and selection of Board Members
+shall be based upon the following:
+
+(a)
+
+Membership of Board. The Rental Housing Board shall consist of seven (7) Board Members.
+Each City Councilmember shall appoint one (1) Board Member, to be approved by the
+City Council, in an equitable order based upon a random lottery process. The Board
+Members of the Rental Housing Board shall be comprised of:
+
+1)
+
+Three (3) Tenants, including at least one (1) Mobilehome Tenant;
+
+2)
+
+Two (2) Landlords; and
+
+3)
+
+Two (2) at-large Members with no financial interest in and no ownership of income-generating
+rental housing.
+
+(b)
+
+Chairperson. The Board shall elect annually one of its Members to serve in the capacity
+as Chairperson.
+
+(c)
+
+Eligibility. Residents of the City are eligible to serve as members of the Board.
+
+(d)
+
+Full Disclosure of Holdings. Nominees for the position of Board Member shall submit
+a verified statement listing all of their interests and dealings in real property,
+including, but not limited to, ownership, sale or management of real property during
+the previous three (3) years. The Board may promulgate additional regulations.
+
+(e)
+
+Conflict of Interest. Board Members shall be subject to the requirements of the California
+Political Reform Act and other applicable state and local conflict of interest codes.
+Accordingly, a Board member shall be disqualified from participating in any hearing
+on an application, petition, or appeal where the Board Member is either the Landlord
+or a Tenant residing at the subject property, or has any other form of conflict of
+interest.
+
+(f)
+
+Training Required. All Board members shall attend training as designated by the Program
+Administrator.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3052, § 9, 10-17-23; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3181. - Rental housing board member term and compensation.
+
+(a)
+
+Term. Board Members shall serve for a term of four (4) years or until their respective
+successors are appointed or qualified, but in no event shall any persons be eligible
+for reappointment who has served three (3) consecutive terms of four (4) years each,
+irrespective of what seat or seats the Board Member is appointed to by the City Council.
+However, the City Council may remove a Board Member at any time for any reason.
+
+(b)
+
+Compensation. Fifty dollars ($50.00) per meeting, plus fifty dollars ($50.00) per
+month automobile allowance.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3182. - Rental housing board powers and duties.
+
+(a)
+
+The Rental Housing Board shall have the following powers and duties:
+
+1)
+
+To hold regular meetings at least once each calendar month, or as needed, as fixed
+by the by-laws of the Board.
+
+2)
+
+Conduct hearings on petitions, applications, and appeals of hearings determined by
+a Hearing Officer submitted by Landlords or Tenants under this Article. Any fees for
+such hearings shall be established by City Council resolution in the City's Miscellaneous
+Fee Schedule.
+
+3)
+
+Promulgate and implement policies and procedures for the administration and enforcement
+of this Article. Make such studies, surveys, and investigations, conduct such hearings,
+and obtain such information as is necessary to carry out its powers and duties.
+
+4)
+
+Review and assess yearly that sufficient number of staff are employed, including a
+Program Administrator, Hearing Officers, housing counselors and legal staff, as may
+be necessary to perform its function efficiently in order to fulfill the purpose of
+this Article.
+
+5)
+
+Any other duties as necessary to administer and enforce this Article.
+
+6)
+
+Such other duties as are designated by resolution of the City Council.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3183. - Rental housing board policies and procedures.
+
+The Board shall issue and follow such policies and procedures, including those which
+are contained in this Article, as will further the purposes of the Article.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3184. - Rental housing board meetings.
+
+(a)
+
+The Board shall hold such regularly scheduled meetings as are necessary to ensure
+the timely performance of its duties under this Article. All regular and special meetings
+shall be called and conducted in accordance with state law.
+
+(b)
+
+Quorum. Four (4) members of the Board shall constitute a quorum for the transaction
+of business.
+
+(c)
+
+Voting. The affirmative vote of four (4) members of the Board is required for a decision,
+including all motions, rules, regulations, and orders of the Board.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Sec. 8-3185. - Judicial review.
+
+Any decision of the Rental Housing Board shall be final unless judicial review is
+sought in a court of competent jurisdiction within thirty (30) days of the date of
+the Board's decision. The Board decision shall take effect immediately unless provided
+otherwise in the decision, regardless of whether a party seeks judicial review.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Secs. 8-3186—8-3199. - Reserved.
+
+DIVISION 6. - ENFORCEMENT AND REMEDIES
+
+Sec. 8-3200. - Violations.
+
+(a)
+
+It shall be unlawful for any person to violate or fail to comply with any provision
+of this Article. The violation of any provision of this Article shall first be punished
+through the use of an administrative citation, as provided in Santa Ana Municipal
+Code section 1-21, et seq., prior to prosecution as a misdemeanor or infraction, as provided in Santa
+Ana Municipal Code section 1-8.
+
+(b)
+
+Civil Action. Any aggrieved person, including the City and the People of the State of California,
+may bring a civil action for damages for any violation of this Article or the rules,
+regulations, orders and decisions of the Rental Housing Board. The burden of proof
+in such cases shall be by a preponderance of the evidence. No administrative remedy
+need be exhausted prior to filing a civil suit pursuant to this section.
+
+(c)
+
+Injunctive Relief. Any person who commits an act, proposes to commit an act, or engages in any pattern
+and practice that violates this Division, or the policies, procedures, regulations,
+rules, orders and decisions of the Rental Housing Board, may be enjoined therefrom
+by any court of competent jurisdiction. An action for injunction under this section
+may be brought by any aggrieved person, including the City and People of the State
+of California. No administrative remedy need be exhausted prior to filing an action
+for injunctive relief pursuant to this section.
+
+(d)
+
+Affirmative Defense. A Landlord's failure to comply with any requirement of this Article may be asserted
+as a complete affirmative defense in an unlawful detainer or any other action brought
+by the Landlord to recover possession of the Rental Unit. Additionally, any attempt
+to recover possession of a Rental Unit in violation of this Article shall render the
+Landlord liable to the Tenant for damages in a civil action for wrongful eviction.
+The prevailing party in an action for wrongful eviction shall recover costs and reasonable
+attorneys' fees.
+
+(e)
+
+Public Nuisance. In addition to other penalties provided by law, any condition caused or permitted
+to exist in violation of any provision of this Article shall be deemed a public nuisance
+and may be summarily abated as such by the City, and each day such condition continues
+shall constitute a new and separate offense.
+
+(f)
+
+Non-Exclusive. The remedies provided in this Article are not exclusive, and nothing in this Article
+shall preclude any person from seeking any other remedies, penalties or procedures
+provided by law, nor is exhaustion of remedies under this section a prerequisite to
+the assertion of any other such right.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+Secs. 8-3201—8-3299. - Reserved.

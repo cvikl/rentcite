@@ -9,16 +9,9 @@ services:
       dockerfile: deploy/Dockerfile
     container_name: homerule
     env_file: .env
-    volumes:
-      - homerule_data:/srv/out
-      - homerule_cache:/srv/cache
     ports:
       - "127.0.0.1:8795:8795"
     restart: unless-stopped
-
-volumes:
-  homerule_data:
-  homerule_cache:
 
 networks:
   default:

@@ -1,0 +1,354 @@
+# Jersey City Ordinance 25-057 adding Code section 218-12, Preventing Algorithmic Rent-Fixing in the Rental Housing Market | Jersey City Code § 218-12 (Ord. 25-057) | https://cityofjerseycity.civicweb.net/document/429156/ | retrieved 2026-10-04
+
+Ordinance of the City of Jersey City, N.J.
+File No.
+Agenda No.
+Agenda No.
+
+Ord. 25-057
+3.3 (1st Reading)
+4.4 (2nd Reading and Final Passage)
+
+ORDINANCE AMENDING AND SUPPLEMENTING CHAPTER 218 (MULTIPLE DWELLINGS), IF
+THE CODE OF ORDINANCES OF THE CITY OF JERSEY CITY BY ADDING NEW SECTION 12,
+ENTITLED “PREVENTING ALGORITHMIC RENT-FIXING IN THE RENTAL HOUSING
+MARKET”
+COUNCIL AS A WHOLE offered and moved adoption of the following ordinance:
+
+Whereas, Jersey City has seen an immense amount of development over the last two decades and has seen immense
+increases in property values;
+Whereas, Jersey City is facing an affordability crisis with rents increasing dramatically annually and thousands of
+residents receiving eviction notices; and
+Whereas, across the country, including in Jersey City, landlords are using software algorithms and other information
+exchanges between competitors to raise rents, artificially constrain supply, and further exacerbate the housing crisis;
+and
+Whereas, corporations sell software or access to information exchanges that promises to boost landlord profits by 1)
+collecting sensitive data from landlords across regional housing markets and 2) processing sensitive data and public
+data to recommend rent increases and create artificial scarcity by leaving a certain percentage of housing units
+vacant; and
+Whereas, the problem is exacerbated by a trend toward consolidation primarily in local rental housing markets, as
+more units wind up in the hands of large, institutional landlords and rental property managers; and
+Whereas, access to affordable housing and fair and transparent rental housing prices is a critical issue for the
+residents of Jersey City; and
+Whereas, by adopting Preventing Algorithmic Rent Fixing in the Rental Housing Market, the city can further its
+commitment to keeping Jersey City affordable and fair.
+NOW, THEREFORE, BE IT ORDAINED BY THE CITY COUNCIL OF THE CITY OF JERSEY CITY THAT:
+that Chapter 218 (Fees and Charges) of the Municipal Code shall be amended by adding subsection 12 (Preventing
+Algorithmic Rent-Fixing in the Rental Housing Market) which reads as follows:
+§218-12 Preventing Algorithmic Rent Fixing in the Rental Housing Market:
+1.Definitions
+a.The following terms, as used in this ordinance, shall have the following meanings:
+i.“Coordinate” or “coordinating” mean, with respect to a service provider, collecting nonpublic competitor
+information from real estate lessors; and, collecting of historical or contemporaneous prices, price changes, supply
+levels, occupancy rates, or lease or rental contract termination and renewal dates of residential dwelling units from
+two or more real estate lessors or from public databases;
+APPROVED AS TO LEGAL FORM
+
+.
+Business Administrator
+
+.
+Corporation Counsel
+
+☐ Certification Required
+
+Ord. 25-057
+
+Rental Housing Market”
+1.analyzing or processing of the information described in subparagraph (1)(a)(i) using a system, software, or process
+that uses computation; and
+2.Recommending to any other party rental prices, lease terms, or occupancy levels to a real estate lessorusing the
+information described in subparagraph (1)(a)(i).
+a.This definition exempts owners of multiple properties for actions related exclusively to multiple properties
+controlled by the same rental property owner; and
+3.Licensed Real Estate Agents are not included in this definition so long as they are operating in accordance with all
+applicable state regulations.
+ii.“Person” means any natural person, corporation, partnership, limited liability company, firm, or association.
+iii.“Residential dwelling unit” means any house, apartment, accessory unit, or other unit intended to be used as a
+person’s primary residence; and does not include inpatient medical care, licensed long-term care, and detention or
+correctional facilities.
+iv.“Real estate lessor” means any individual, corporation, partnership, association, joint-stock company, trust, or
+unincorporated organization that owns real property and leases such property or any portion thereof in the form of a
+residential dwelling unit.
+v.“Service provider” means any person that performs a coordination function, as defined in Section 1(a)(i)(1) of this
+Act, for any real estate lessor or rentor.
+1.Licensed Real Estate Agents are not included in this definition so long as they are operating in accordance with all
+applicable state regulations.
+vi.“Nonpublic Competitor Information” means information, including but not limited to prices, supply levels,
+security deposits, ideal occupancy levels, lease contract termination, renewal dates of residential dwelling units or
+any other material lease terms that is less than 365 days old and is not widely and readily available to the public at
+no cost.
+2.Unlawful Conduct
+a.It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise
+exchange anything of value in return for the services of a Service Provider.
+b.No service provider shall facilitate an agreement not to compete among real estate lessors with respect to any
+aspect of residential dwelling units, including rental pricing, fees, or any other rental terms.
+3.Enforcement
+a.Public Enforcement. The Attorney General or any municipal or county attorney may bring a civil action, as parens
+patriae, in any court of competent jurisdiction, to secure relief as provided in this section for injury sustained by
+natural persons to their property by reason of a violation of this chapter.
+i.City administration: The Office of Landlord-Tenant Affairs and Office of Code Compliance will be empowered to
+enforce this section.
+1.Persons (including residents) who have evidence that a landlord is using a service provider or is in any way
+violating the terms of this section report this to the Office of Landlord/Tenant Relations, which will compile said
+complaints.
+2.The Office of Landlord/Tenant Relations is empowered to cooperate with the Office of Code Compliance to
+investigate such complaints or refer them for prosecution to the municipal prosecutor, Attorney General, or other
+appropriate law enforcement offices.
+b.Private Right of Action. Any person who is injured by a violation of this chapter may sue in any court of
+competent jurisdiction in the county where the defendant resides or is found, or any agent of the defendant resides or
+is found, or where service may be obtained, without respect to the amount in controversy.
+
+Ord. 25-057
+
+Rental Housing Market”
+c.Violations and Penalties:
+i.A first violation of § 218-12 shall be punishable as provided in Chapter 1, General Provisions, Art. I, § 1-25.
+Subsequent violations shall be punished by a fine of not less than $100 and up to $2000, as provided in Chapter 1,
+General Provisions, Art. I, § 1-25. Each day during which an owner is in violation of § 218-12 shall constitute a
+separate violation hereunder.
+d.Attorneys Fees and Costs. In the case of any successful action to enforce liability pursuant to this Act, the court
+shall award plaintiff the costs of the action together with reasonable attorney fees as determined by the court. Costs
+and attorney fees shall be awarded to the attorney general or a city, county, or district attorney in all actions where
+the attorney general or the city, county, or district attorney successfully enforces this article.
+4.Severability. If any provision of this ordinance or application thereof to any person(s) or circumstances is judged
+invalid by a court of competent jurisdiction, the invalidity shall not affect other provisions or applications of the
+ordinance that can be given effect without the invalidated provision or application and to this end the provisions of
+this ordinance are declared severable.
+§ 218-1213. - Exempt dwellings.
+No changes
+§ 218-1314. - Occupancy required.
+No changes
+§ 218-1415. - Extension of time period.
+No Changes
+§ 218-1516. - Violations and penalties
+No Changes
+§ 218-1617. - Conflicts with state law.
+No Changes
+§ 218-1718. - Findings.
+No Changes
+§ 218-1819. - Seating requirements.
+
+All Amendments are stricken out, underlined, and in italics
+
+Ord. 25-057
+
+Rental Housing Market”
+
+RECORD OF COUNCIL VOTE ON INTRODUCTION – May 7 2025
+RIDLEY
+
+AYE
+
+SALEH
+
+AYE
+
+DEGISE
+
+AYE
+
+HULINGS
+
+AYE
+
+SOLOMON
+
+AYE
+
+RIVERA
+
+AYE
+
+BOGGIANO
+
+AYE
+
+GILMORE
+
+AYE
+
+WATTERMAN,
+PRES
+
+ABSENT
+
+8-0
+
+RECORD OF COUNCIL VOTE TO CLOSE PUBLIC HEARING – May 21 2025
+RIDLEY
+
+AYE
+
+SALEH
+
+AYE
+
+DEGISE
+
+AYE
+
+HULINGS
+
+AYE
+
+SOLOMON
+
+AYE
+
+RIVERA
+
+AYE
+
+BOGGIANO
+
+AYE
+
+GILMORE
+
+AYE
+
+WATTERMAN,
+PRES.
+
+AYE
+
+9-0
+
+SPEAKERS:
+Ann M. Hill, Kaileen Perez, Joel Rothfus, Danielle Dadamo, Sarah Levine, Daniel Feldman, Mark Boyles, Noelle
+Brower, Wendy Paul, Kevin Weller, David Wilson, Bruce Shapiro, Shannon Rae, Eve Taylor, Suzanne DeFelice,
+Brendan Coughlin, Jessica Brann, Joe Tarrazi, Adrian Orozco, LaVerne Webb Washington, Shirin Vazir
+MacCormack & Michele Hirsch
+RECORD OF COUNCIL VOTE ON AMENDMENTS, IF ANY – May 21 2025
+RIDLEY
+
+AYE
+
+SALEH
+
+AYE
+
+DEGISE
+
+AYE
+
+HULINGS
+
+AYE
+
+SOLOMON
+
+AYE
+
+RIVERA
+
+AYE
+
+BOGGIANO
+
+AYE
+
+GILMORE
+
+AYE
+
+WATTERMAN,
+PRES.
+
+AYE
+
+9-0
+
+RECORD OF FINAL COUNCIL VOTE – May 21 2025
+RIDLEY
+
+AYE
+
+SALEH
+
+AYE
+
+DEGISE
+
+AYE
+
+HULINGS
+
+AYE
+
+SOLOMON
+
+AYE
+
+RIVERA
+
+AYE
+
+BOGGIANO
+
+AYE
+
+GILMORE
+
+AYE
+
+WATTERMAN,
+PRES.
+
+AYE
+
+9-0
+
+Adopted on first reading of the Council of Jersey City, N.J. on May 7 2025
+Adopted on second and final reading after hearing on May 21 2025
+This is to certify that the foregoing Ordinance was adopted
+by the Municipal Council at its meeting on May 21 2025
+
+.
+City Clerk
+
+.
+Joyce E. Watterman, President of Council
+Approved: May 21 2025
+
+.
+Steven M. Fulop, Mayor
+Date to Mayor: May 22 2025
+Approved: May 22 2025
+
+Ord. 25-057
+
+Rental Housing Market”
+FACT SHEET This summary sheet is to be attached to the front of any ordinance that is submitted for Council consideration.
+Incomplete or vague fact sheets will be returned with the ordinance.
+Project Manager
+James Solomon, Councilperson
+Department
+Municipal Council
+Division
+Municipal Council
+
+201-547-5315
+
+jsolomon@jcnj.org
+
+Note: Project Manager must be available by phone during agenda meeting (Wednesday prior to council meeting @
+1:00 p.m.)
+Meeting
+
+Regular Meeting of Municipal Council - May 21 2025
+
+Purpose
+Ordinance Amending Chapter 218 (Multiple Dwellings) creating Section 12, to prevent algorithmic rent-setting in
+Jersey City
+Cost (Identify all sources and amounts)
+
+Contract term (include all)
+
+N/A
+Approved by
+John Metro, Business Administrator
+
+Status:
+Approved - Apr 29 2025

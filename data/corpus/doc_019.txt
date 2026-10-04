@@ -1,0 +1,184 @@
+# Berkeley Ordinance 7,974-N.S. amending BMC Chapter 13.63 (coordinated pricing algorithms) | Berkeley Mun. Code ch. 13.63 (Ord. 7,974-N.S.) | https://berkeleyca.gov/sites/default/files/documents/2025-07-08%20Item%2001%20Amendments%20to%20Ordinance%20Prohibiting.pdf | retrieved 2026-10-04
+
+Page 1 of 4
+
+01
+
+ORDINANCE NO. 7,974-N.S.
+AMENDING CHAPTER 13.63 OF THE BERKELEY MUNICIPAL CODE PROHIBITING
+THE SALE OR USE OF COORDINATED PRICING ALGORITHMS TO SET RENTS OR
+MANAGE OCCUPANCY LEVELS FOR RESIDENTIAL DWELLING UNITS
+BE IT ORDAINED by the Council of the City of Berkeley as follows:
+Section 1. That Berkeley Municipal Code 13.63 is amended to read as follows:
+Chapter 13.63
+PROHIBITION ON THE SALE OR USE OF COORDINATED PRICING ALGORITHMS
+TO SET RENTS OR MANAGE OCCUPANCY LEVELS FOR RESIDENTIAL
+DWELLING UNITS
+Sections:
+13.63.010 Findings and Purpose
+13.63.020 Definitions
+13.63.030 Use and Sale of Coordinated Pricing Algorithms Prohibited
+13.63.040 Remedies
+13.63.050 Undertaking for the General Welfare
+13.63.060 Severability
+13.63.070 Effective Date
+13.63.010
+
+Findings and purpose.
+
+The Council hereby finds and determines that the adoption of this chapter is
+necessary to the promotion of the public health, safety, and welfare.
+A. In recent years, a number of new software programs, often referred to as
+“algorithmic devices”, have threatened to destabilize rental housing markets in cities
+nationwide, including the City of Berkeley.
+B. These programs enable landlords to indirectly coordinate with one another
+through the sharing of non-public competitively sensitive data in order to artificially
+inflate rents and vacancy rates for rental housing. Participating landlords provide vast
+amounts of proprietary data to the programs, which in turn set or provide
+recommendations for rent and occupancy levels.
+C. More and more landlords in U.S. cities now pool their data and pricing decisions
+using such software.
+D. The software has contributed to double-digit rent increases (over the last nine
+years, median rents have increased 19% in the East Bay), higher vacancy rates, and
+higher rates of eviction, and has generally distorted markets so that rents and vacancy
+rates have increased in tandem.
+
+Ordinance No. 7,974-N.S.
+
+Page 1 of 4
+
+Page 2 of 4
+
+E. Often used by large corporate landlords, the software fuels the consolidation of
+corporate and private equity ownership of rental housing, at the expense of landlords
+large and small who are willing to play by the normal rules. Landlords using these tools
+are not engaging in appropriate market behavior. And the companies developing and
+selling these tools to Berkeley landlords are not doing so either, and are contributing to
+these problems.
+F. A 2022 class action lawsuit filed in the U.S. District Court in the Western District
+of Washington at Seattle (one of over 20 private class action lawsuits that have been
+consolidated into one case) accuses nearly 50 trade associations - including the East
+Bay Rental Housing Association and the Berkeley Property Owners Association – of
+serving as “conduits of the cartel” by providing a venue for RealPage and their property
+owners to conspire. The lawsuit further alleges that landlords use the software to
+agree on prices to set for rent, and to stagger their lease renewal dates so as to avoid
+any oversupplies in rental properties.
+G. Numerous antitrust lawsuits have been filed against certain of these companies,
+including RealPage, Inc. and Yardi Systems, Inc. The lawsuits allege that these
+companies are enabling and participating in a scheme of unlawful rent-fixing. These
+include a lawsuit filed by the District of Columbia Attorney General in November 2023, a
+lawsuit filed by the Arizona Attorney General in February 2024, and more than 20
+federal private class action lawsuits filed nationwide that have been consolidated in the
+federal court in the Middle District of Tennessee. In August 2024, The United States
+Department of Justice, alongside the attorneys general of California and seven other
+states, filed an antitrust lawsuit against RealPage, accusing the company of reducing
+competition among landlords and taking over the market for such algorithm-based rental
+software.
+H. Instead of waiting for court processes which may take years to resolve, this
+ordinance prohibits the sale or use of algorithmic devices for the purpose of setting
+rents on residential dwelling units in the city of Berkeley, to bring immediate relief to
+Berkeley tenants, as well as to put landlords who have been using these devices on
+equal footing with those who are willing to adhere to fair standards for setting rental
+rates.
+I. This Chapter is not intended to prevent the development or sale of software to
+help landlords manage their units generally or through the use of public data. Nor does
+this Chapter regulate the amount of rent that a landlord may charge. This Chapter
+solely regulates the use and sale of the algorithmic devices that analyze and share nonpublic data, to prevent the harms described above.
+13.63.020
+Definitions.
+A. “Coordinated pricing algorithm” means any analytical or computation processes
+that use data to recommend or predict the price of consumer goods or services in direct
+or indirect coordination with one or more competitors, including through a third-party
+vendor such as a software program that uses one or more algorithms to perform
+calculations of competitor data concerning local or statewide rents or occupancy levels,
+for the purpose of advising landlords whether to leave their units vacant or on the
+amount of rent that landlords may obtain from tenants. "Coordinated pricing algorithm"
+includes a product that incorporates a coordinated pricing algorithm, but does not
+
+Ordinance No. 7,974-N.S.
+
+Page 2 of 4
+
+Page 3 of 4
+
+include (a) any report published by a trade association that receives renter data and
+publishes it in an aggregated and anonymous manner or (b) a product used for the
+purpose of establishing rent or income limits in accordance with the affordable housing
+guidelines of a local government, the state, the federal government, or other political
+subdivision.
+B. “Competitor data” means information, including information about actual rent
+prices, occupancy rates, lease start and end dates, and similar data, regardless whether
+the information is attributable to a specific competitor or anonymized, and regardless
+whether it is derived from or otherwise provided by another person that competes in the
+same market or a related market.
+13.63.030
+Use and sale of coordinated pricing algorithms prohibited.
+A. It shall be unlawful to sell, license, or otherwise provide to city of Berkeley
+landlords any coordinated pricing algorithm that sets, recommends, or advises on rents
+or occupancy levels that may be achieved for residential dwelling units in the city of
+Berkeley.
+B. It shall be unlawful for a landlord to use a coordinated pricing algorithm described
+in subsection A when setting rents or occupancy levels for residential dwelling units in
+the city of Berkeley. Each separate month that a violation exists or continues, and each
+separate residential dwelling unit for which the landlord used the coordinated pricing
+algorithm, shall constitute a separate and distinct violation.
+13.63.040
+Remedies.
+A. The City Attorney may file a civil action for violations of section 13.63.030,
+subsections A and/or B, for damages, injunctive relief, restitution/return of illegal profits,
+and/or civil penalties of up to $1,000 per violation. The court shall award reasonable
+attorney’s fees and costs to the city Attorney if the City Attorney is the prevailing party in
+such a civil action.
+B. A tenant may file a civil action for violations of section 13.63.030, subsection B,
+for injunctive relief, money damages, and/or civil penalties of up to $1,000 per violation.
+The court shall award reasonable attorney’s fees and costs to the tenant if the tenant is
+the prevailing party in such a civil action. A lease provision that limits a prevailing
+tenant from obtaining attorneys’ fees shall not be enforceable against a tenant’s claim
+for attorneys’ fees that arises under this subsection 13.63.040 B.
+13.63.050
+Undertaking for the general welfare.
+In enacting and implementing this Chapter 13.63, the City is assuming an
+undertaking only to promote the general welfare. It is not assuming, nor is it imposing
+on its officers and employees, an obligation for breach of which it is liable in money
+damages to any person who claims that such breach proximately caused injury.
+13.63.060
+Severability.
+If any part or provision of this Chapter, or the application of this Chapter to any
+person or circumstance, is held invalid, the remainder of this Chapter, including the
+application of such part or provision to other persons or circumstances, shall not be
+
+Ordinance No. 7,974-N.S.
+
+Page 3 of 4
+
+Page 4 of 4
+
+affected by such a holding and shall continue in full force and effect. To this end, the
+provisions of this Chapter are severable.
+13.63.070
+Effective Date.
+The provisions of this Chapter shall not take effect until March 1, 2026.
+Section 2. Copies of this Ordinance shall be posted for two days prior to adoption in the
+display case located near the walkway in front of the Maudelle Shirek Building, 2134
+Martin Luther King Jr. Way. Within 15 days of adoption, copies of this Ordinance shall
+be filed at each branch of the Berkeley Public Library and the title shall be published in
+a newspaper of general circulation.
+At a regular meeting of the Council of the City of Berkeley held on June 24, 2025,
+this Ordinance was passed to print and ordered published by posting by the following
+vote:
+Ayes:
+
+Bartlett, Blackaby, Humbert, Kesarwani, Lunaparra, O’Keefe, Taplin,
+Tregub, and Ishii.
+
+Noes:
+
+None.
+
+Absent:
+
+None.
+
+Ordinance No. 7,974-N.S.
+
+Page 4 of 4

@@ -359,7 +359,7 @@ table.t a { color: var(--blue); }
 }
 @media (max-width: 480px) {
   .top { padding: 10px 12px; }
-  .asof { padding: 2px 6px; }
+  .asof { padding: 8px 10px; }
   .asof label { display: none; }
   .views a { padding: 7px 9px; font-size: 12.5px; }
   .sheet-empty h1 { font-size: 28px; }

@@ -6,7 +6,7 @@ Homerule reads a corpus of real statute, ordinance and bill text, turns it into 
 
 Built for the 7th Hack-Nation Global AI Hackathon, Challenge 02 (RealPage), October 2026.
 
-- Live demo: https://homerule.ruleandrecord.com
+- Live demo: https://rentcite.agenticworld.uk
 - Outputs the scorer reads: [`out/rules.json`](out/rules.json), [`out/lookups.json`](out/lookups.json), [`out/changes.json`](out/changes.json)
 
 ## How it works

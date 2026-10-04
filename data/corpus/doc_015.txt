@@ -1,0 +1,47 @@
+# San Francisco Administrative Code section 37.10C (use and sale of algorithmic devices prohibited) | S.F. Admin. Code § 37.10C | https://media.api.sf.gov/documents/600_Ordinance_11-24-24.pdf | retrieved 2026-10-04
+
+Sec. 37.10C USE AND SALE OF ALGORITHMIC DEVICES PROHIBITED.
+[Added by Ord. No. 224-24, effective October 14, 2024]
+(a)
+
+Prohibition on Sale. It shall be unlawful to sell, license, or otherwise provide to San Francisco landlords any algorithmic device that sets, recommends, or advises on rents or occupancy levels that may be achieved for residential dwelling units in San Francisco.
+
+(b)
+
+Prohibition on Use. It shall be unlawful for a landlord to use an algorithmic device described in subdivision (a) when setting rents or occupancy levels for residential dwelling units in San Francisco. Each separate month that a violation exists or continues, and each separate residential dwelling unit for which the landlord used the algorithmic device, shall constitute a separate and distinct violation.
+
+(c)
+
+Definitions.
+(1)
+
+''Algorithmic device" means a device, commonly known as revenue management software, that uses one or more algorithms to perform calculations of non-public competitor data concerning local or statewide rents or occupancy levels, for the purpose of advising a landlord on whether to leave a unit vacant or on the amount of rent that the landlord may obtain for that unit. ''Algorithmic device" includes a product that incorporates an algorithmic device, but does not include (A) a report that publishes existing rental data in an aggregated manner but does not recommend rents or occupancy levels for future leases; or (B) a product used for the purpose of establishing rent or income limits in accordance with the affordable housing program guidelines of a local government, the state, the federal government, or other
+
+political subdivision.
+(2)
+
+"Non-public competitor data" means information that is not available to the general public, including information about actual rent prices, occupancy rates, lease start and end dates, and similar data, regardless whether the information is attributable to a specific competitor or anonymized, and regardless whether it is derived from or otherwise provided by another person that competes in the same market or a related market.
+
+(d)
+
+Remedies.
+(1)
+
+The City Attorney may file a civil action for violations of subsections (a) and/or
+37.10C – 1
+
+(b), for damages, injunctive relief, restitution/return of illegal profits, and/or civil penalties of up to $1,000 per violation. The court shall award reasonable attorney's fees and costs to the City Attorney if the City Attorney is the prevailing party in such a civil action.
+
+(2)
+
+A tenant may file a civil action for violations of subsection (b), for injunctive relief, money damages. and/or civil penalties of up to $1,000 per violation. The court shall award reasonable attorney's fees and costs to the tenant if the tenant is the prevailing party in such a civil action. A lease provision that limits a prevailing tenant from obtaining attorneys' fees shall not be enforceable against a tenant's claim for attorneys' fees that arises under this subsection (d)(2).
+
+(e)
+
+Undertaking for the General Welfare. In enacting and implementing this Section 37.10C, the City is assuming an undertaking only to promote the general welfare. It is not assuming, nor is it imposing on its officers and employees, an obligation for breach of which it is liable in money damages to any person who claims that such breach proximately caused injury.
+
+(f)
+
+Severability. If any subsection, sentence, clause, phrase, or word of this Section 37.10C, or any application thereof to any person or circumstance, is held to be invalid or unconstitutional by a decision of a court of competent jurisdiction, such decision shall not affect the validity of the remaining portions or applications of the Section. The Board of Supervisors hereby declares that it would have passed this Section and each and every subsection, sentence, clause, phrase, and word not declared invalid or unconstitutional without regard to whether any other portion of this Section or application thereof would be subsequently declared invalid or unconstitutional.
+
+37.10C – 2

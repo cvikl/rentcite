@@ -90,24 +90,32 @@ def load_corpus(manifest: Path = MANIFEST, corpus_dir: Path = CORPUS_DIR) -> lis
 # ----------------------------------------------------------------------------- chunking
 _PARA = re.compile(r"\n[ \t]*\n+")
 MAX_CHUNK = 1800
+MIN_CHUNK = 700
 
 
 def chunk_text(text: str) -> list[Chunk]:
-    """Paragraph chunks with raw offsets. Long paragraphs are split at sentence ends."""
-    chunks: list[Chunk] = []
-    pos = 0
+    """Paragraph chunks with raw offsets. Small paragraphs (PDF line breaks) are merged up to a target size;
+    long paragraphs are split at sentence ends."""
     pieces: list[tuple[int, int]] = []
+    pos = 0
     for m in _PARA.finditer(text):
         if m.start() > pos:
             pieces.append((pos, m.start()))
         pos = m.end()
     if pos < len(text):
         pieces.append((pos, len(text)))
+    # merge consecutive small paragraphs
+    merged: list[tuple[int, int]] = []
     for s, e in pieces:
-        seg = text[s:e]
-        if not seg.strip():
+        if not text[s:e].strip():
             continue
-        if len(seg) <= MAX_CHUNK:
+        if merged and (e - merged[-1][0]) <= MAX_CHUNK and (merged[-1][1] - merged[-1][0]) < MIN_CHUNK:
+            merged[-1] = (merged[-1][0], e)
+        else:
+            merged.append((s, e))
+    chunks: list[Chunk] = []
+    for s, e in merged:
+        if e - s <= MAX_CHUNK:
             pieces2 = [(s, e)]
         else:
             pieces2 = []
@@ -123,7 +131,6 @@ def chunk_text(text: str) -> list[Chunk]:
                 cur += cut
             pieces2.append((cur, e))
         for s2, e2 in pieces2:
-            # trim leading/trailing whitespace but keep offsets exact
             seg2 = text[s2:e2]
             lead = len(seg2) - len(seg2.lstrip())
             trail = len(seg2) - len(seg2.rstrip())
@@ -180,47 +187,42 @@ def _find_folded(hay: str, needle: str) -> Optional[tuple[int, int]]:
 
 
 def slice_quote(doc: Document, chunk_id: str, start_words: str = "", end_words: str = "",
-                max_len: int = 1200) -> tuple[str, list[int]]:
+                max_len: int = 1500) -> tuple[str, list[int]]:
     """Return (verbatim quote, [start, end]) from the raw text of the document.
 
-    The span runs from the first occurrence of `start_words` to the end of the first occurrence of
-    `end_words` after it, inside the named chunk (falling back to the whole document, then to the
-    whole chunk). The returned string is text[start:end] exactly.
+    The span starts at the first occurrence of `start_words` (looked up in the named chunk first, then
+    in the whole document) and ends at the end of the first occurrence of `end_words` after it, even
+    when that lies in the next chunk. Without end words (or when they cannot be found) the span runs
+    to the end of the sentence that fits within max_len. The returned string is text[start:end] exactly.
     """
     chunk = next((c for c in doc.chunks if c.id == chunk_id), None)
-    scopes = []
-    if chunk is not None:
-        scopes.append((chunk.start, chunk.end))
-    scopes.append((0, len(doc.text)))
-    for s0, e0 in scopes:
-        hay = doc.text[s0:e0]
-        a = _find_folded(hay, start_words) if start_words else None
-        if start_words and a is None:
-            continue
-        start = s0 + a[0] if a else s0
-        if end_words:
-            b = _find_folded(doc.text[start:e0], end_words)
-            if b is None:
-                if chunk is not None and (s0, e0) == (chunk.start, chunk.end):
-                    end = min(chunk.end, start + max_len)
-                else:
-                    continue
-            else:
-                end = start + b[1]
-        else:
-            end = min(e0, start + max_len)
-        if end - start > max_len:
-            end = start + max_len
-            # back off to a word boundary
-            cut = doc.text.rfind(" ", start, end)
-            if cut > start + 40:
-                end = cut
-        if end > start:
-            return doc.text[start:end], [start, end]
-    if chunk is not None:
-        end = min(chunk.end, chunk.start + max_len)
-        return doc.text[chunk.start:end], [chunk.start, end]
-    return "", [0, 0]
+    start: Optional[int] = None
+    if start_words:
+        if chunk is not None:
+            a = _find_folded(doc.text[chunk.start:chunk.end], start_words)
+            if a:
+                start = chunk.start + a[0]
+        if start is None:
+            a = _find_folded(doc.text, start_words)
+            if a:
+                start = a[0]
+    if start is None:
+        if chunk is None:
+            return "", [0, 0]
+        start = chunk.start
+    limit = min(len(doc.text), start + max(max_len * 3, 4000))
+    end: Optional[int] = None
+    if end_words:
+        b = _find_folded(doc.text[start:limit], end_words)
+        if b:
+            end = start + b[1]
+    if end is None or end - start > max_len:
+        hard = min(len(doc.text), start + max_len)
+        if chunk is not None and chunk.end > start and chunk.end <= hard:
+            hard = chunk.end
+        cut = max(doc.text.rfind(". ", start + 40, hard), doc.text.rfind(".\n", start + 40, hard))
+        end = cut + 1 if cut > start else hard
+    return doc.text[start:end], [start, end]
 
 
 def quote_in_corpus(quote: str, docs: list[Document]) -> Optional[str]:
