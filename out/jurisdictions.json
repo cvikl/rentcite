@@ -4678,5 +4678,5005 @@
   "matched_address": "11 GRAY ST, CAMBRIDGE, MA, 02138",
   "lat": 42.38278347084,
   "lon": -71.121944513711
+ },
+ "A0001": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "6238 DE LONGPRE AVE, LOS ANGELES, CA, 90028",
+  "lat": 34.096133031379,
+  "lon": -118.324865073863
+ },
+ "A0002": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1035 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.74981078208,
+  "lon": -74.03181724923
+ },
+ "A0003": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "878 S 14TH ST, NEWARK, NJ, 07108",
+  "lat": 40.724856764464,
+  "lon": -74.210426110952
+ },
+ "A0004": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10050 MOUNTAIR AVE, TUJUNGA, CA, 91042",
+  "lat": 34.251842346844,
+  "lon": -118.293109199528
+ },
+ "A0005": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1609 ADDISON ST, BERKELEY, CA, 94703",
+  "lat": 37.869830696926,
+  "lon": -122.279293972449
+ },
+ "A0006": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "71 WESTLAND AVE, BOSTON, MA, 02115",
+  "lat": 42.343794186875,
+  "lon": -71.08876547331
+ },
+ "A0007": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4257 SAN PEDRO PL, LOS ANGELES, CA, 90011",
+  "lat": 34.006235579229,
+  "lon": -118.271165204282
+ },
+ "A0008": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1065 SUMMIT AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.751069898526,
+  "lon": -74.049026204465
+ },
+ "A0009": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5 WESTERN AVE, CAMBRIDGE, MA, 02163",
+  "lat": 42.364216771469,
+  "lon": -71.11828649689
+ },
+ "A0010": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "134 OXFORD ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.385333082376,
+  "lon": -71.1160583909
+ },
+ "A0011": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "836 RAYMOND BLVD, NEWARK, NJ, 07105",
+  "lat": 40.732646449965,
+  "lon": -74.156177797252
+ },
+ "A0012": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1064 SUMMIT AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.751188750138,
+  "lon": -74.048775549263
+ },
+ "A0013": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "137 N 11TH ST, NEWARK, NJ, 07107",
+  "lat": 40.759893850085,
+  "lon": -74.191694841632
+ },
+ "A0014": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5907 CAHUENGA BLVD, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.177801731811,
+  "lon": -118.361636078081
+ },
+ "A0015": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "15 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.379980886163,
+  "lon": -71.118720021347
+ },
+ "A0016": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3515 FILLMORE ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.801874337429,
+  "lon": -122.436684852142
+ },
+ "A0017": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "225 DUNCAN AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.7277629714,
+  "lon": -74.079234576768
+ },
+ "A0018": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1906 BONITA AVE, BERKELEY, CA, 94704",
+  "lat": 37.873088577747,
+  "lon": -122.272116073506
+ },
+ "A0019": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3820 HAINES ST, SAN DIEGO, CA, 92109",
+  "lat": 32.788734586305,
+  "lon": -117.239511773112
+ },
+ "A0020": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "648 N 6TH ST, NEWARK, NJ, 07107",
+  "lat": 40.771224225449,
+  "lon": -74.180587460657
+ },
+ "A0021": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "22 PRECITA AVE, SAN FRANCISCO, CA, 94110",
+  "lat": 37.746697199975,
+  "lon": -122.418913690663
+ },
+ "A0022": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10908 HARTSOOK ST, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.163485706471,
+  "lon": -118.368312978252
+ },
+ "A0023": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "843 IROLO ST, LOS ANGELES, CA, 90005",
+  "lat": 34.0569182313,
+  "lon": -118.300958567015
+ },
+ "A0024": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "227 CHARLES ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368207474124,
+  "lon": -71.084850671785
+ },
+ "A0025": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2341 8TH ST, BERKELEY, CA, 94710",
+  "lat": 37.863231048622,
+  "lon": -122.293815269518
+ },
+ "A0026": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "59 OAK ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.713718828723,
+  "lon": -74.076996657496
+ },
+ "A0027": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3918 FULTON ST, SAN FRANCISCO, CA, 94118",
+  "lat": 37.773108534668,
+  "lon": -122.473684296131
+ },
+ "A0028": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "585 N 5TH ST, NEWARK, NJ, 07107",
+  "lat": 40.768516151715,
+  "lon": -74.180832847404
+ },
+ "A0029": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "284 VERONA AVE, NEWARK, NJ, 07104",
+  "lat": 40.78286229736,
+  "lon": -74.166168698177
+ },
+ "A0030": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2051 DIVISADERO ST, SAN FRANCISCO, CA, 94115",
+  "lat": 37.788524403095,
+  "lon": -122.440651886856
+ },
+ "A0031": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5624 S SAN PEDRO ST, LOS ANGELES, CA, 90011",
+  "lat": 33.991312087929,
+  "lon": -118.270046050706
+ },
+ "A0032": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "63 OAK ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.7137999274,
+  "lon": -74.077148779124
+ },
+ "A0033": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1260 KEARNY ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.79964889858,
+  "lon": -122.405709002561
+ },
+ "A0034": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "25 GORE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.371703436562,
+  "lon": -71.079128226997
+ },
+ "A0035": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5239 HARMONY AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.165618179362,
+  "lon": -118.366516457468
+ },
+ "A0036": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "33 WARD ST, SOUTH BOSTON, MA, 02127",
+  "lat": 42.32946722555,
+  "lon": -71.054524489253
+ },
+ "A0037": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "770 IROLO ST, LOS ANGELES, CA, 90005",
+  "lat": 34.058302827517,
+  "lon": -118.300824624602
+ },
+ "A0038": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "154 YUKON ST, SAN FRANCISCO, CA, 94114",
+  "lat": 37.757178828285,
+  "lon": -122.442397125228
+ },
+ "A0039": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1 CRAIGIE ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.379449621711,
+  "lon": -71.125838882455
+ },
+ "A0040": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "75 JACKSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738840718117,
+  "lon": -74.041089522043
+ },
+ "A0041": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "122 TIFFANY AVE, SAN FRANCISCO, CA, 94110",
+  "lat": 37.744990908268,
+  "lon": -122.421406384884
+ },
+ "A0042": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "320 FORREST ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.713202456168,
+  "lon": -74.077362139063
+ },
+ "A0043": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4 ORCHARD ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.390119763731,
+  "lon": -71.119075629483
+ },
+ "A0044": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "775 SANDFORD AVE, NEWARK, NJ, 07106",
+  "lat": 40.735737050359,
+  "lon": -74.237036956138
+ },
+ "A0045": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "12829 BRANFORD ST, PACOIMA, CA, 91331",
+  "lat": 34.241771886514,
+  "lon": -118.41212012105
+ },
+ "A0046": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "12 SODEN ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.365690566108,
+  "lon": -71.108340513884
+ },
+ "A0047": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "14 RUTGERS AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.698116647571,
+  "lon": -74.090865859165
+ },
+ "A0048": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1619 COMMONWEALTH AVE, BRIGHTON, MA, 02135",
+  "lat": 42.343402761946,
+  "lon": -71.143549067491
+ },
+ "A0049": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "721 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.745798808889,
+  "lon": -74.033058218101
+ },
+ "A0050": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "36 HOFF ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.764124413322,
+  "lon": -122.420573521471
+ },
+ "A0051": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "65 OAKLAND AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.734681117954,
+  "lon": -74.055436604985
+ },
+ "A0052": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "88 GARDNER ST, ALLSTON, MA, 02134",
+  "lat": 42.35351823784,
+  "lon": -71.125813095903
+ },
+ "A0053": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "32 GARRISON ST, BOSTON, MA, 02116",
+  "lat": 42.345890982312,
+  "lon": -71.07944707371
+ },
+ "A0054": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13 SHETLAND ST, ROXBURY, MA, 02119",
+  "lat": 42.324986499476,
+  "lon": -71.068028337557
+ },
+ "A0055": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "305 10TH AVE, SAN FRANCISCO, CA, 94118",
+  "lat": 37.782619210817,
+  "lon": -122.46876702789
+ },
+ "A0056": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "43 EDGERLY RD, BOSTON, MA, 02115",
+  "lat": 42.345644184192,
+  "lon": -71.087947355571
+ },
+ "A0057": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "57 STONE ST, NEWARK, NJ, 07104",
+  "lat": 40.753432421375,
+  "lon": -74.174377039669
+ },
+ "A0058": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3137 BOSTON AVE, SAN DIEGO, CA, 92113",
+  "lat": 32.693817730505,
+  "lon": -117.126888325341
+ },
+ "A0059": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "86 WALNUT ST, NEWARK, NJ, 07102",
+  "lat": 40.729215526845,
+  "lon": -74.170855709577
+ },
+ "A0060": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5737 WILLOWCREST AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.174656039346,
+  "lon": -118.362720761505
+ },
+ "A0061": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "106 18TH AVE, SAN FRANCISCO, CA, 94121",
+  "lat": 37.785919313984,
+  "lon": -122.477559726965
+ },
+ "A0062": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "77 HOFF ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.763766231452,
+  "lon": -122.420395727367
+ },
+ "A0063": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11 CORTES ST, BOSTON, MA, 02116",
+  "lat": 42.348290028212,
+  "lon": -71.069583391995
+ },
+ "A0064": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "26 CONCORD AVE, CAMBRIDGE, MA, 02138",
+  "lat": 42.379416219968,
+  "lon": -71.125842851742
+ },
+ "A0065": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "63 BAILEY ST, DORCHESTER, MA, 02124",
+  "lat": 42.284452236737,
+  "lon": -71.066465126331
+ },
+ "A0066": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1318 N ORANGE DR, LOS ANGELES, CA, 90028",
+  "lat": 34.0947022093,
+  "lon": -118.341484249454
+ },
+ "A0067": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1335 N VISTA ST, LOS ANGELES, CA, 90046",
+  "lat": 34.095045778052,
+  "lon": -118.351799391859
+ },
+ "A0068": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "42 CLEARWAY ST, BOSTON, MA, 02115",
+  "lat": 42.345336985524,
+  "lon": -71.085769499369
+ },
+ "A0069": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2277 UNION ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.796874616444,
+  "lon": -122.436717035924
+ },
+ "A0070": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "43 FAYETTE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.372611705618,
+  "lon": -71.103267573782
+ },
+ "A0071": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "16 VANDINE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368814396347,
+  "lon": -71.0905953379
+ },
+ "A0072": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1251 10TH AVE, SAN FRANCISCO, CA, 94122",
+  "lat": 37.764890627041,
+  "lon": -122.467520089919
+ },
+ "A0073": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "37 INMAN ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.368713915313,
+  "lon": -71.103956176776
+ },
+ "A0074": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "717 S BERENDO ST, LOS ANGELES, CA, 90005",
+  "lat": 34.059391478589,
+  "lon": -118.294210099909
+ },
+ "A0075": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "27 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.379922700614,
+  "lon": -71.117508170008
+ },
+ "A0076": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "304 E KINNEY ST, NEWARK, NJ, 07105",
+  "lat": 40.724076460199,
+  "lon": -74.162836470045
+ },
+ "A0077": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "91 BROOKLINE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.361566486333,
+  "lon": -71.103733351887
+ },
+ "A0078": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "115 BAYVIEW AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.705324743987,
+  "lon": -74.080499166258
+ },
+ "A0079": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2361 PORTLAND ST, LOS ANGELES, CA, 90007",
+  "lat": 34.032231820463,
+  "lon": -118.282094130957
+ },
+ "A0080": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "690 S CATALINA ST, LOS ANGELES, CA, 90005",
+  "lat": 34.060127849082,
+  "lon": -118.295327996925
+ },
+ "A0081": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "145 TAYLOR ST, SAN FRANCISCO, CA, 94102",
+  "lat": 37.783758897294,
+  "lon": -122.410947938983
+ },
+ "A0082": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "63 INMAN ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.370344257321,
+  "lon": -71.102833387558
+ },
+ "A0083": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "38 KENILWORTH ST, ROXBURY, MA, 02119",
+  "lat": 42.328651609512,
+  "lon": -71.087424612529
+ },
+ "A0084": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1725 CHESTNUT ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.801332618559,
+  "lon": -122.431739349227
+ },
+ "A0085": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1101 CHURCH ST, SAN FRANCISCO, CA, 94114",
+  "lat": 37.753239144697,
+  "lon": -122.427505338235
+ },
+ "A0086": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "67 PLYMOUTH ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.369083221693,
+  "lon": -71.093495991755
+ },
+ "A0087": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "323 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "lat": 40.740414697817,
+  "lon": -74.030768159948
+ },
+ "A0088": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "201 CLEMENT ST, SAN FRANCISCO, CA, 94118",
+  "lat": 37.783026502307,
+  "lon": -122.461275217487
+ },
+ "A0089": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "935 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.748211954503,
+  "lon": -74.030368120288
+ },
+ "A0090": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "30 JACKSON ST, NEWARK, NJ, 07105",
+  "lat": 40.731204856376,
+  "lon": -74.155787524567
+ },
+ "A0091": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2229 DWIGHT WAY, BERKELEY, CA, 94704",
+  "lat": 37.864405329327,
+  "lon": -122.264605312198
+ },
+ "A0092": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2514 PIEDMONT AVE, BERKELEY, CA, 94704",
+  "lat": 37.865583367618,
+  "lon": -122.251697248224
+ },
+ "A0093": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "90 BICKFORD ST, JAMAICA PLAIN, MA, 02130",
+  "lat": 42.324002818423,
+  "lon": -71.101924371068
+ },
+ "A0094": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1371 27TH ST, SAN DIEGO, CA, 92154",
+  "lat": 32.571862077109,
+  "lon": -117.075371141803
+ },
+ "A0095": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "23 ELM ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.367845841037,
+  "lon": -71.098495150944
+ },
+ "A0096": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "81 WESTLAND AVE, BOSTON, MA, 02115",
+  "lat": 42.343854353427,
+  "lon": -71.089157903457
+ },
+ "A0097": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1560 MASON ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.79780463687,
+  "lon": -122.411949673166
+ },
+ "A0098": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0099": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "822 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.746308514721,
+  "lon": -74.028270964888
+ },
+ "A0100": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4732 BANCROFT ST, SAN DIEGO, CA, 92116",
+  "lat": 32.764095185337,
+  "lon": -117.123977567896
+ },
+ "A0101": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "319 FAIRMOUNT AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.725229747686,
+  "lon": -74.070809872433
+ },
+ "A0102": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "124 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "lat": 40.737933172158,
+  "lon": -74.031684861444
+ },
+ "A0103": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2161 ALLSTON WAY, BERKELEY, CA, 94704",
+  "lat": 37.869701586713,
+  "lon": -122.266218694007
+ },
+ "A0104": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "409 N 5TH ST, NEWARK, NJ, 07107",
+  "lat": 40.761814283797,
+  "lon": -74.184328525178
+ },
+ "A0105": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "140 PORTOLA DR, SAN FRANCISCO, CA, 94131",
+  "lat": 37.748652213279,
+  "lon": -122.444191229026
+ },
+ "A0106": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "250 FREMONT ST, SAN FRANCISCO, CA, 94105",
+  "lat": 37.788294915739,
+  "lon": -122.394074444911
+ },
+ "A0107": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10635 SHERMAN GROVE AVE, SUNLAND, CA, 91040",
+  "lat": 34.262255890509,
+  "lon": -118.32017657606
+ },
+ "A0108": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13 JEFFERSON AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.736287315576,
+  "lon": -74.049970012264
+ },
+ "A0109": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2922 OTIS ST, BERKELEY, CA, 94703",
+  "lat": 37.8558347046,
+  "lon": -122.270269918923
+ },
+ "A0110": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "132 2ND AVE, NEWARK, NJ, 07104",
+  "lat": 40.763265479466,
+  "lon": -74.174745021871
+ },
+ "A0111": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10075 TUJUNGA CANYON BLVD, TUJUNGA, CA, 91042",
+  "lat": 34.249924250911,
+  "lon": -118.284430355328
+ },
+ "A0112": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "448 BRODERICK ST, SAN FRANCISCO, CA, 94117",
+  "lat": 37.77431322716,
+  "lon": -122.439298239317
+ },
+ "A0113": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3151 ETON AVE, BERKELEY, CA, 94705",
+  "lat": 37.853156920269,
+  "lon": -122.250637537308
+ },
+ "A0114": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3743 INDIA ST, SAN DIEGO, CA, 92103",
+  "lat": 32.74279009558,
+  "lon": -117.180736253153
+ },
+ "A0115": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0116": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "36 PROSPECT ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.73782973401,
+  "lon": -74.049245065733
+ },
+ "A0117": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1733 N CHEROKEE AVE, LOS ANGELES, CA, 90028",
+  "lat": 34.102120911287,
+  "lon": -118.334821278665
+ },
+ "A0118": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "34 KINGBIRD RD, DORCHESTER, MA, 02124",
+  "lat": 42.292350464404,
+  "lon": -71.093533488467
+ },
+ "A0119": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "607 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lat": 40.744671445285,
+  "lon": -74.035368051004
+ },
+ "A0120": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "139 ELM ST, NEWARK, NJ, 07105",
+  "lat": 40.72835234588,
+  "lon": -74.165047104124
+ },
+ "A0121": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4079 FRONT ST, SAN DIEGO, CA, 92103",
+  "lat": 32.751421595306,
+  "lon": -117.16494526813
+ },
+ "A0122": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4812 S BROADWAY, LOS ANGELES, CA, 90037",
+  "lat": 33.999020066962,
+  "lon": -118.278252342985
+ },
+ "A0123": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "123 CONDOR ST, EAST BOSTON, MA, 02128",
+  "lat": 42.382539410028,
+  "lon": -71.035437146913
+ },
+ "A0124": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "35 BROOKLINE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.362941773312,
+  "lon": -71.102457805365
+ },
+ "A0125": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "227 GRAND ST, HOBOKEN, NJ, 07030",
+  "lat": 40.740020460669,
+  "lon": -74.035814894303
+ },
+ "A0126": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1350 POTRERO AVE, SAN FRANCISCO, CA, 94110",
+  "lat": 37.750954392609,
+  "lon": -122.406250403098
+ },
+ "A0127": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10029 N SEPULVEDA BLVD, MISSION HILLS, CA, 91345",
+  "lat": 34.252367056179,
+  "lon": -118.467596873721
+ },
+ "A0128": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0129": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "532 MULBERRY ST, NEWARK, NJ, 07114",
+  "lat": 40.719764997575,
+  "lon": -74.176858130312
+ },
+ "A0130": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "554 MARKET ST, NEWARK, NJ, 07105",
+  "lat": 40.731588087906,
+  "lon": -74.154426811823
+ },
+ "A0131": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "43 POPLAR ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.754136146986,
+  "lon": -74.046101194189
+ },
+ "A0132": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "587 N 6TH ST, NEWARK, NJ, 07107",
+  "lat": 40.76934816412,
+  "lon": -74.181410596224
+ },
+ "A0133": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8819 LANKERSHIM BLVD, SUN VALLEY, CA, 91352",
+  "lat": 34.229428423859,
+  "lon": -118.387834588124
+ },
+ "A0134": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "101 NORFOLK ST, DORCHESTER, MA, 02124",
+  "lat": 42.288488914986,
+  "lon": -71.076008765993
+ },
+ "A0135": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "843 CLAY ST, SAN FRANCISCO, CA, 94108",
+  "lat": 37.794118952125,
+  "lon": -122.40698604858
+ },
+ "A0136": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "920 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.747367988246,
+  "lon": -74.026733524669
+ },
+ "A0137": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "71 NORFOLK ST, NEWARK, NJ, 07103",
+  "lat": 40.74650540714,
+  "lon": -74.182685493475
+ },
+ "A0138": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1033 E 51ST ST, LOS ANGELES, CA, 90011",
+  "lat": 33.996685074769,
+  "lon": -118.257577562794
+ },
+ "A0139": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "54 STUYVESANT AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.729943720291,
+  "lon": -74.071034378592
+ },
+ "A0140": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "459 BEACON ST, BOSTON, MA, 02115",
+  "lat": 42.351156189935,
+  "lon": -71.088098655836
+ },
+ "A0141": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2601 43RD AVE, SAN FRANCISCO, CA, 94116",
+  "lat": 37.73813158911,
+  "lon": -122.501210314083
+ },
+ "A0142": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4615 AVALON BLVD, LOS ANGELES, CA, 90011",
+  "lat": 34.001426079007,
+  "lon": -118.265290530936
+ },
+ "A0143": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "75 ELM HILL AVE, DORCHESTER, MA, 02121",
+  "lat": 42.310212727666,
+  "lon": -71.087061380822
+ },
+ "A0144": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "114 AMORY ST, ROXBURY, MA, 02119",
+  "lat": 42.319506233426,
+  "lon": -71.100197786289
+ },
+ "A0145": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4515 FELTON ST, SAN DIEGO, CA, 92116",
+  "lat": 32.759371284084,
+  "lon": -117.121714561521
+ },
+ "A0146": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "93-95 HAWKINS ST, NEWARK, NJ, 07105",
+  "lat": 40.727984681112,
+  "lon": -74.138947612797
+ },
+ "A0147": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2850 GOLDEN GATE AVE, SAN FRANCISCO, CA, 94118",
+  "lat": 37.776358944957,
+  "lon": -122.457612633148
+ },
+ "A0148": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "166 5TH ST, NEWARK, NJ, 07107",
+  "lat": 40.751386045226,
+  "lon": -74.190058099169
+ },
+ "A0149": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "25 EVERETT ST, EAST BOSTON, MA, 02128",
+  "lat": 42.368309769533,
+  "lon": -71.036711056222
+ },
+ "A0150": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3784 BROADWAY, SAN DIEGO, CA, 92102",
+  "lat": 32.716024799043,
+  "lon": -117.11184048031
+ },
+ "A0151": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "16 QUEENSBERRY ST, BOSTON, MA, 02215",
+  "lat": 42.343098317562,
+  "lon": -71.095965021374
+ },
+ "A0152": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1669 SUNSET CLIFFS BLVD, SAN DIEGO, CA, 92107",
+  "lat": 32.74094590948,
+  "lon": -117.25076493005
+ },
+ "A0153": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "366 E 55TH ST, LOS ANGELES, CA, 90011",
+  "lat": 33.992394354537,
+  "lon": -118.268297439622
+ },
+ "A0154": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4568 IDAHO ST, SAN DIEGO, CA, 92116",
+  "lat": 32.760412374063,
+  "lon": -117.133977948208
+ },
+ "A0155": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "473 HARVARD ST, DORCHESTER, MA, 02124",
+  "lat": 42.288741879366,
+  "lon": -71.09239312943
+ },
+ "A0156": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "290 GREEN ST, SAN FRANCISCO, CA, 94111",
+  "lat": 37.80031526334,
+  "lon": -122.402990211203
+ },
+ "A0157": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2701 RIDGE RD, BERKELEY, CA, 94709",
+  "lat": 37.876494513292,
+  "lon": -122.257026606732
+ },
+ "A0158": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2522 HILGARD AVE, BERKELEY, CA, 94709",
+  "lat": 37.878591221585,
+  "lon": -122.260493108118
+ },
+ "A0159": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "104 SUNSET AVE, NEWARK, NJ, 07106",
+  "lat": 40.74245866913,
+  "lon": -74.226709353047
+ },
+ "A0160": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "86 CHARLES ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.749433761671,
+  "lon": -74.05173810144
+ },
+ "A0161": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "317 UNION ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.717916452711,
+  "lon": -74.083091056543
+ },
+ "A0162": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1640 N POINSETTIA PL, LOS ANGELES, CA, 90046",
+  "lat": 34.100552498585,
+  "lon": -118.347788965715
+ },
+ "A0163": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "235 2ND ST, JERSEY CITY, NJ, 07302",
+  "lat": 40.722395074274,
+  "lon": -74.043552476848
+ },
+ "A0164": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "725 14TH ST, SAN FRANCISCO, CA, 94114",
+  "lat": 37.76763837901,
+  "lon": -122.42951948205
+ },
+ "A0165": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "734 JAMAICA CT, SAN DIEGO, CA, 92109",
+  "lat": 32.773642646317,
+  "lon": -117.252245356556
+ },
+ "A0166": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1 POTTER PARK, CAMBRIDGE, MA, 02138",
+  "lat": 42.384310248934,
+  "lon": -71.12020099261
+ },
+ "A0167": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4616 FLORIDA ST, SAN DIEGO, CA, 92116",
+  "lat": 32.76124264042,
+  "lon": -117.143850889032
+ },
+ "A0168": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "600 JACKSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.745283626731,
+  "lon": -74.039281685445
+ },
+ "A0169": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "115 KILSYTH RD, BRIGHTON, MA, 02135",
+  "lat": 42.340367940381,
+  "lon": -71.146633078674
+ },
+ "A0170": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8917 CEDROS AVE, PANORAMA CITY, CA, 91402",
+  "lat": 34.232064015614,
+  "lon": -118.453618335394
+ },
+ "A0171": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "127 OGDEN AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.738902438048,
+  "lon": -74.04663280324
+ },
+ "A0172": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8504 WILLIS AVE, PANORAMA CITY, CA, 91402",
+  "lat": 34.224850838975,
+  "lon": -118.455218605953
+ },
+ "A0173": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13180 FOOTHILL BLVD, SYLMAR, CA, 91342",
+  "lat": 34.299371281369,
+  "lon": -118.421538456805
+ },
+ "A0174": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "84 HAMPSHIRE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.368359091009,
+  "lon": -71.0943940217
+ },
+ "A0175": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10 DOVER ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.394678131873,
+  "lon": -71.126686968537
+ },
+ "A0176": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "15 CHESTER ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.393657148181,
+  "lon": -71.124477534158
+ },
+ "A0177": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "166 HIGHLAND AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.729583045817,
+  "lon": -74.073105945172
+ },
+ "A0178": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5308 RIVERTON AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.166828679584,
+  "lon": -118.365290745355
+ },
+ "A0179": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7006 LANEWOOD AVE, LOS ANGELES, CA, 90028",
+  "lat": 34.09915207252,
+  "lon": -118.341635208217
+ },
+ "A0180": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "845 S KINGSLEY DR, LOS ANGELES, CA, 90005",
+  "lat": 34.056870603736,
+  "lon": -118.303137913263
+ },
+ "A0181": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "931 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lat": 40.748003289428,
+  "lon": -74.029444711794
+ },
+ "A0182": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "923 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.748382853996,
+  "lon": -74.032259129478
+ },
+ "A0183": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2427 HILGARD AVE, BERKELEY, CA, 94709",
+  "lat": 37.87845544308,
+  "lon": -122.262349376787
+ },
+ "A0184": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "156 W 32ND ST, LOS ANGELES, CA, 90007",
+  "lat": 34.020782218595,
+  "lon": -118.273514783778
+ },
+ "A0185": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "154 TERHUNE AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.705096415554,
+  "lon": -74.096225420442
+ },
+ "A0186": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "107 BEACON AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.736920404507,
+  "lon": -74.054827866989
+ },
+ "A0187": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "146 CARLTON AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.744920038222,
+  "lon": -74.060798217241
+ },
+ "A0188": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2819 MCGEE AVE, BERKELEY, CA, 94703",
+  "lat": 37.856959944236,
+  "lon": -122.275258218951
+ },
+ "A0189": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1811 CARLETON ST, BERKELEY, CA, 94703",
+  "lat": 37.860487333982,
+  "lon": -122.273498335777
+ },
+ "A0190": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "283 ADAMS ST, NEWARK, NJ, 07105",
+  "lat": 40.722831839974,
+  "lon": -74.16236498265
+ },
+ "A0191": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "60 KIRKLAND ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.377309547812,
+  "lon": -71.110680713996
+ },
+ "A0192": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "780 POST ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.787554937568,
+  "lon": -122.414659903737
+ },
+ "A0193": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1626 BONITA AVE, BERKELEY, CA, 94709",
+  "lat": 37.877436210953,
+  "lon": -122.272592199936
+ },
+ "A0194": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "72 BURBANK ST, BOSTON, MA, 02115",
+  "lat": 42.34449244891,
+  "lon": -71.08932121797
+ },
+ "A0195": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1848 COMMONWEALTH AVE, BRIGHTON, MA, 02135",
+  "lat": 42.339062553814,
+  "lon": -71.152111420394
+ },
+ "A0196": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "16915 BLACKHAWK ST, GRANADA HILLS, CA, 91344",
+  "lat": 34.258955182522,
+  "lon": -118.500920253647
+ },
+ "A0197": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1611 62ND ST, BERKELEY, CA, 94703",
+  "lat": 37.846527054842,
+  "lon": -122.274812039507
+ },
+ "A0198": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "194 HAVRE ST, EAST BOSTON, MA, 02128",
+  "lat": 42.374496794147,
+  "lon": -71.036497835188
+ },
+ "A0199": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "42 BAY STATE RD, CAMBRIDGE, MA, 02138",
+  "lat": 42.387191106272,
+  "lon": -71.140083871382
+ },
+ "A0200": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1853 N HIGHLAND AVE, LOS ANGELES, CA, 90028",
+  "lat": 34.105004287023,
+  "lon": -118.337549044749
+ },
+ "A0201": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2737 BENVENUE AVE, BERKELEY, CA, 94705",
+  "lat": 37.861084663474,
+  "lon": -122.25463879726
+ },
+ "A0202": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1446 JACKSON ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.794522791984,
+  "lon": -122.41889836579
+ },
+ "A0203": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2930 WASHINGTON ST, ROXBURY, MA, 02119",
+  "lat": 42.31845754666,
+  "lon": -71.095569636405
+ },
+ "A0204": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "208 6TH AVE W, NEWARK, NJ, 07107",
+  "lat": 40.756210023298,
+  "lon": -74.186173040995
+ },
+ "A0205": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2425 GRANT ST, BERKELEY, CA, 94703",
+  "lat": 37.864419418207,
+  "lon": -122.274486388915
+ },
+ "A0206": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "401 43RD AVE, SAN FRANCISCO, CA, 94121",
+  "lat": 37.78106651207,
+  "lon": -122.504228232138
+ },
+ "A0207": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "705 W 23RD ST, LOS ANGELES, CA, 90007",
+  "lat": 34.032030548439,
+  "lon": -118.276733095547
+ },
+ "A0208": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "126 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738937251272,
+  "lon": -74.037275318111
+ },
+ "A0209": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "19 TROWBRIDGE ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.371041072612,
+  "lon": -71.11237412069
+ },
+ "A0210": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1432 N CURSON AVE, LOS ANGELES, CA, 90046",
+  "lat": 34.096815880701,
+  "lon": -118.354938535163
+ },
+ "A0211": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "499 BEACON ST, BOSTON, MA, 02215",
+  "lat": 42.350692439566,
+  "lon": -71.089845858115
+ },
+ "A0212": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1311 S VAN NESS AVE, SAN FRANCISCO, CA, 94110",
+  "lat": 37.752168513331,
+  "lon": -122.4161731875
+ },
+ "A0213": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11649 ACAMA ST, STUDIO CITY, CA, 91604",
+  "lat": 34.145584078078,
+  "lon": -118.386856598286
+ },
+ "A0214": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "358 HARVARD ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.371082219474,
+  "lon": -71.110911398922
+ },
+ "A0215": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2295 CALIFORNIA ST, SAN FRANCISCO, CA, 94115",
+  "lat": 37.789075325053,
+  "lon": -122.432052589153
+ },
+ "A0216": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2309 HASTE ST, BERKELEY, CA, 94704",
+  "lat": 37.865531910644,
+  "lon": -122.262957356662
+ },
+ "A0217": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "172 MAVERICK ST, EAST BOSTON, MA, 02128",
+  "lat": 42.369519627611,
+  "lon": -71.037362951665
+ },
+ "A0218": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "15 RICHDALE AVE, CAMBRIDGE, MA, 02140",
+  "lat": 42.388324409245,
+  "lon": -71.121620396425
+ },
+ "A0219": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3735 32ND ST, SAN DIEGO, CA, 92104",
+  "lat": 32.746245203063,
+  "lon": -117.124937736826
+ },
+ "A0220": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "23 FAULKNER ST, DORCHESTER, MA, 02122",
+  "lat": 42.29951865269,
+  "lon": -71.061535322591
+ },
+ "A0221": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "191 PARK DR, BOSTON, MA, 02215",
+  "lat": 42.341033010088,
+  "lon": -71.100162328229
+ },
+ "A0222": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1901 VALLEJO ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.795996387914,
+  "lon": -122.428597910742
+ },
+ "A0223": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "504 COURT ST, HOBOKEN, NJ, 07030",
+  "lat": 40.742214718476,
+  "lon": -74.028940035027
+ },
+ "A0224": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8727 TOBIAS AVE, PANORAMA CITY, CA, 91402",
+  "lat": 34.228507480493,
+  "lon": -118.451718756162
+ },
+ "A0225": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1627 JACKSON ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.794030087633,
+  "lon": -122.421842293682
+ },
+ "A0226": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "663 MASSACHUSETTS AVE, BOSTON, MA, 02118",
+  "lat": 42.335912589034,
+  "lon": -71.0764696579
+ },
+ "A0227": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1401 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.752162276082,
+  "lon": -74.025132220092
+ },
+ "A0228": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "225 COLLINGWOOD ST, SAN FRANCISCO, CA, 94114",
+  "lat": 37.758806229242,
+  "lon": -122.43584550357
+ },
+ "A0229": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0230": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "85 HANCOCK ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.36894090845,
+  "lon": -71.10823462185
+ },
+ "A0231": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "521 ARGUELLO BLVD, SAN FRANCISCO, CA, 94118",
+  "lat": 37.780784398048,
+  "lon": -122.458904742326
+ },
+ "A0232": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "189 3RD ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.367926768436,
+  "lon": -71.080956110328
+ },
+ "A0233": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "30 MEDFIELD ST, BOSTON, MA, 02215",
+  "lat": 42.345263577025,
+  "lon": -71.105981333095
+ },
+ "A0234": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2212 BLAKE ST, BERKELEY, CA, 94704",
+  "lat": 37.863354369764,
+  "lon": -122.26472014852
+ },
+ "A0235": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "6736 SELMA AVE, LOS ANGELES, CA, 90028",
+  "lat": 34.099644694718,
+  "lon": -118.337259232832
+ },
+ "A0236": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1110 JACKSON ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.795227211111,
+  "lon": -122.41341354471
+ },
+ "A0237": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "36 VALLEY ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.744772339215,
+  "lon": -122.423160521356
+ },
+ "A0238": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "15256 ACRE ST, NORTH HILLS, CA, 91343",
+  "lat": 34.229903219394,
+  "lon": -118.465059354597
+ },
+ "A0239": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1476 UNIVERSITY AVE, BERKELEY, CA, 94702",
+  "lat": 37.870240703252,
+  "lon": -122.282479272768
+ },
+ "A0240": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4135 38TH ST, SAN DIEGO, CA, 92105",
+  "lat": 32.752138713798,
+  "lon": -117.111779263182
+ },
+ "A0241": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "913 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lat": 40.747790932129,
+  "lon": -74.029507685512
+ },
+ "A0242": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "87 SIERRA RD, HYDE PARK, MA, 02136",
+  "lat": 42.23648761117,
+  "lon": -71.126219924108
+ },
+ "A0243": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "664 OCEAN AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.70901429936,
+  "lon": -74.076659540243
+ },
+ "A0244": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1126 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.75007710711,
+  "lon": -74.025921583962
+ },
+ "A0245": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "30 W HOWELL ST, DORCHESTER, MA, 02125",
+  "lat": 42.325356355842,
+  "lon": -71.059503187262
+ },
+ "A0246": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4386 COPELAND AVE, SAN DIEGO, CA, 92105",
+  "lat": 32.756800937083,
+  "lon": -117.104047557974
+ },
+ "A0247": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4957 CAPE MAY AVE, SAN DIEGO, CA, 92107",
+  "lat": 32.748875084016,
+  "lon": -117.248171449465
+ },
+ "A0248": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "941 S KENMORE AVE, LOS ANGELES, CA, 90006",
+  "lat": 34.054561165407,
+  "lon": -118.296589306557
+ },
+ "A0249": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "500 HAWTHORNE AVE, NEWARK, NJ, 07112",
+  "lat": 40.719775769166,
+  "lon": -74.215280471054
+ },
+ "A0250": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "211 BALDWIN AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.729192320523,
+  "lon": -74.060120792112
+ },
+ "A0251": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4663 33RD ST, SAN DIEGO, CA, 92116",
+  "lat": 32.762436259509,
+  "lon": -117.122794711786
+ },
+ "A0252": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "15514 CHASE ST, NORTH HILLS, CA, 91343",
+  "lat": 34.224605812398,
+  "lon": -118.470326035112
+ },
+ "A0253": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2250 N POINT ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.802722582821,
+  "lon": -122.444275084577
+ },
+ "A0254": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "805 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.746063788663,
+  "lon": -74.028189698217
+ },
+ "A0255": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "851 E 51ST ST, LOS ANGELES, CA, 90011",
+  "lat": 33.996666263731,
+  "lon": -118.260152086488
+ },
+ "A0256": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "327 JACKSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.742101329412,
+  "lon": -74.0400671093
+ },
+ "A0257": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5 COMMER CT, SAN FRANCISCO, CA, 94124",
+  "lat": 37.732351895037,
+  "lon": -122.384674255589
+ },
+ "A0258": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "471 COLUMBIA RD, DORCHESTER, MA, 02125",
+  "lat": 42.314021035494,
+  "lon": -71.067499784037
+ },
+ "A0259": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "872 N POINT ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.805617181224,
+  "lon": -122.421551166435
+ },
+ "A0260": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2479 LE CONTE AVE, BERKELEY, CA, 94709",
+  "lat": 37.87682628993,
+  "lon": -122.261370866714
+ },
+ "A0261": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "525 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lat": 40.743627056924,
+  "lon": -74.03569006655
+ },
+ "A0262": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2924 JUNIPER ST, SAN DIEGO, CA, 92104",
+  "lat": 32.729713456435,
+  "lon": -117.13126954968
+ },
+ "A0263": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1636 MARTIN LUTHER KING JR WAY, BERKELEY, CA, 94709",
+  "lat": 37.877104430999,
+  "lon": -122.273753258644
+ },
+ "A0264": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "589 ELIZABETH AVE, NEWARK, NJ, 07112",
+  "lat": 40.706702590971,
+  "lon": -74.203997082351
+ },
+ "A0265": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "102 BALDWIN AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.725395005355,
+  "lon": -74.062860646313
+ },
+ "A0266": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "52 BRIGHT ST, JERSEY CITY, NJ, 07302",
+  "lat": 40.716964287987,
+  "lon": -74.04716146876
+ },
+ "A0267": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1314 N VAN NESS AVE, LOS ANGELES, CA, 90038",
+  "lat": 34.095065338349,
+  "lon": -118.31568631956
+ },
+ "A0268": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1848 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.791524228684,
+  "lon": -122.42417782805
+ },
+ "A0269": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1015 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.749581279291,
+  "lon": -74.031887796981
+ },
+ "A0270": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "29 CONCORD ST, JERSEY CITY, NJ, 07306",
+  "lat": 40.733442605846,
+  "lon": -74.052574845456
+ },
+ "A0271": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4115 LINCOLN WAY, SAN FRANCISCO, CA, 94122",
+  "lat": 37.764244000512,
+  "lon": -122.502100180635
+ },
+ "A0272": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.380002159495,
+  "lon": -71.11923068717
+ },
+ "A0273": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3911 CENTRE ST, SAN DIEGO, CA, 92103",
+  "lat": 32.749136257741,
+  "lon": -117.147965593552
+ },
+ "A0274": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7072 EASTMAN ST, SAN DIEGO, CA, 92111",
+  "lat": 32.789776238445,
+  "lon": -117.168439360297
+ },
+ "A0275": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4091 MORRELL ST, SAN DIEGO, CA, 92109",
+  "lat": 32.795607414483,
+  "lon": -117.231646719173
+ },
+ "A0276": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4361 ILLINOIS ST, SAN DIEGO, CA, 92104",
+  "lat": 32.756358147896,
+  "lon": -117.127636770855
+ },
+ "A0277": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2736 GRANT ST, BERKELEY, CA, 94703",
+  "lat": 37.85849365947,
+  "lon": -122.273424660577
+ },
+ "A0278": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1800 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.791146664293,
+  "lon": -122.424100965563
+ },
+ "A0279": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "90 KENSINGTON AVE, JERSEY CITY, NJ, 07304",
+  "lat": 40.723144945194,
+  "lon": -74.075287274906
+ },
+ "A0280": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1215 11TH AVE, SAN FRANCISCO, CA, 94122",
+  "lat": 37.76547270684,
+  "lon": -122.468630232306
+ },
+ "A0281": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1725 N GOWER ST, LOS ANGELES, CA, 90028",
+  "lat": 34.102103469042,
+  "lon": -118.32242566214
+ },
+ "A0282": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2240 10TH ST, BERKELEY, CA, 94710",
+  "lat": 37.865429346313,
+  "lon": -122.292299289201
+ },
+ "A0283": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "90 BARTLETT ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.755542885749,
+  "lon": -122.41994757491
+ },
+ "A0284": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "345 COLUMBIA ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.371521199602,
+  "lon": -71.095359909702
+ },
+ "A0285": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5255 HARMONY AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.165894818542,
+  "lon": -118.366517318934
+ },
+ "A0286": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "27 IRVING TER, CAMBRIDGE, MA, 02138",
+  "lat": 42.375840853959,
+  "lon": -71.111412032264
+ },
+ "A0287": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "404 GRAND ST, HOBOKEN, NJ, 07030",
+  "lat": 40.742295062797,
+  "lon": -74.035272884466
+ },
+ "A0288": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "75 CLENDENNY AVE, JERSEY CITY, NJ, 07304",
+  "lat": 40.718013229375,
+  "lon": -74.0811726863
+ },
+ "A0289": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1741 MARTIN LUTHER KING JR WAY, BERKELEY, CA, 94709",
+  "lat": 37.874873789783,
+  "lon": -122.273285380013
+ },
+ "A0290": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "21 FOREST ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.385243189976,
+  "lon": -71.116197964756
+ },
+ "A0291": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "165 CAMBRIDGEPARK DR, CAMBRIDGE, MA, 02140",
+  "lat": 42.395099011822,
+  "lon": -71.146981411789
+ },
+ "A0292": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "24 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368859452865,
+  "lon": -71.091628846996
+ },
+ "A0293": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1314 NATOMA ST, SAN FRANCISCO, CA, 94103",
+  "lat": 37.768086302987,
+  "lon": -122.418602494007
+ },
+ "A0294": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "178 RICHDALE AVE, CAMBRIDGE, MA, 02140",
+  "lat": 42.389122123461,
+  "lon": -71.126525304753
+ },
+ "A0295": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0296": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "85 MCWHORTER ST, NEWARK, NJ, 07105",
+  "lat": 40.730142326692,
+  "lon": -74.16622635068
+ },
+ "A0297": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "213 SUMMER AVE, NEWARK, NJ, 07104",
+  "lat": 40.758931675998,
+  "lon": -74.171685521994
+ },
+ "A0298": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "361 WASHINGTON ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.365668497367,
+  "lon": -71.099392946846
+ },
+ "A0299": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1037 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.749050177411,
+  "lon": -74.027266530035
+ },
+ "A0300": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "36 TROWBRIDGE ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.371850975157,
+  "lon": -71.111648701864
+ },
+ "A0301": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "165 HAMPSHIRE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.371842605201,
+  "lon": -71.098439445715
+ },
+ "A0302": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "6 CLINTON ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.367516001139,
+  "lon": -71.106823748323
+ },
+ "A0303": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "188 E 35TH ST, LOS ANGELES, CA, 90011",
+  "lat": 34.016877079827,
+  "lon": -118.271171829397
+ },
+ "A0304": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4541 HAMILTON ST, SAN DIEGO, CA, 92116",
+  "lat": 32.759898286948,
+  "lon": -117.136296909949
+ },
+ "A0305": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "638 45TH AVE, SAN FRANCISCO, CA, 94121",
+  "lat": 37.776456954836,
+  "lon": -122.505895195699
+ },
+ "A0306": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "335A HARVARD ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.370715584888,
+  "lon": -71.109090354517
+ },
+ "A0307": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "296 VAN BUREN ST, NEWARK, NJ, 07105",
+  "lat": 40.721814664163,
+  "lon": -74.16080945112
+ },
+ "A0308": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1032 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.748749351079,
+  "lon": -74.026323440878
+ },
+ "A0309": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1706 N STANLEY AVE, LOS ANGELES, CA, 90046",
+  "lat": 34.101835421105,
+  "lon": -118.356114053762
+ },
+ "A0310": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "55 ASHFORD ST, ALLSTON, MA, 02134",
+  "lat": 42.354497619427,
+  "lon": -71.126531334249
+ },
+ "A0311": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "38 SOMME ST, NEWARK, NJ, 07105",
+  "lat": 40.731405439224,
+  "lon": -74.150647497603
+ },
+ "A0312": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "25 ORLANDO ST, MATTAPAN, MA, 02126",
+  "lat": 42.274643004403,
+  "lon": -71.0991080589
+ },
+ "A0313": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "319 W RUNYON ST, NEWARK, NJ, 07108",
+  "lat": 40.719489638436,
+  "lon": -74.209161967359
+ },
+ "A0314": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "6640 LELAND WAY, LOS ANGELES, CA, 90028",
+  "lat": 34.096954047102,
+  "lon": -118.334062631211
+ },
+ "A0315": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5233 CARTWRIGHT AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.165516896714,
+  "lon": -118.363242167449
+ },
+ "A0316": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3978 FLORIDA ST, SAN DIEGO, CA, 92104",
+  "lat": 32.749889290623,
+  "lon": -117.143805824838
+ },
+ "A0317": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2233 CHANNING WAY, BERKELEY, CA, 94704",
+  "lat": 37.866269484742,
+  "lon": -122.264363578265
+ },
+ "A0318": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2041 FRANCISCO ST, BERKELEY, CA, 94709",
+  "lat": 37.875520264007,
+  "lon": -122.270236431385
+ },
+ "A0319": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2315 GRANT ST, BERKELEY, CA, 94703",
+  "lat": 37.866407956138,
+  "lon": -122.27469711854
+ },
+ "A0320": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "408 MADISON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.742822649905,
+  "lon": -74.038062021201
+ },
+ "A0321": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "200 NUNDA AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.729025280221,
+  "lon": -74.079221896001
+ },
+ "A0322": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "227 CYPRESS DR, SAN YSIDRO, CA, 92173",
+  "lat": 32.555470956839,
+  "lon": -117.045151967648
+ },
+ "A0323": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4627 COMPTON AVE, LOS ANGELES, CA, 90011",
+  "lat": 34.001632563866,
+  "lon": -118.247839866285
+ },
+ "A0324": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2003 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.792904441436,
+  "lon": -122.424604033397
+ },
+ "A0325": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "38A GAUTIER AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.72613987341,
+  "lon": -74.079307176087
+ },
+ "A0326": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "46 JEFFERSON ST, NEWARK, NJ, 07105",
+  "lat": 40.731191686503,
+  "lon": -74.16011411828
+ },
+ "A0327": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1605 N MARTEL AVE, LOS ANGELES, CA, 90046",
+  "lat": 34.099942749927,
+  "lon": -118.350240944927
+ },
+ "A0328": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0329": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "51 MADISON ST, NEWARK, NJ, 07105",
+  "lat": 40.730936900745,
+  "lon": -74.159407511479
+ },
+ "A0330": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "5229 WILLOWCREST AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.165448094429,
+  "lon": -118.362200030188
+ },
+ "A0331": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "344 IRVINE TURNER BLVD, NEWARK, NJ, 07108",
+  "lat": 40.722514194915,
+  "lon": -74.193318622525
+ },
+ "A0332": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "26 SONOMA ST, DORCHESTER, MA, 02121",
+  "lat": 42.308190903587,
+  "lon": -71.086856518884
+ },
+ "A0333": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3752 33RD ST, SAN DIEGO, CA, 92104",
+  "lat": 32.746101678529,
+  "lon": -117.12293391208
+ },
+ "A0334": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2025 FRANCISCO ST, BERKELEY, CA, 94709",
+  "lat": 37.875475369217,
+  "lon": -122.270586610925
+ },
+ "A0335": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "125 BEMIS ST, SAN FRANCISCO, CA, 94131",
+  "lat": 37.737182683157,
+  "lon": -122.430367276697
+ },
+ "A0336": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "151 N FIRST ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.372482137906,
+  "lon": -71.075526736217
+ },
+ "A0337": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "66 MONROE ST, NEWARK, NJ, 07105",
+  "lat": 40.730254220709,
+  "lon": -74.158991782803
+ },
+ "A0338": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0339": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "124 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.371616346646,
+  "lon": -71.090029432444
+ },
+ "A0340": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "14735 ROSCOE BLVD, PANORAMA CITY, CA, 91402",
+  "lat": 34.221547468329,
+  "lon": -118.454598749429
+ },
+ "A0341": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4225 50TH ST, SAN DIEGO, CA, 92115",
+  "lat": 32.753521698227,
+  "lon": -117.086787563421
+ },
+ "A0342": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "49 ROSELAND ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.386748328179,
+  "lon": -71.116972926785
+ },
+ "A0343": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0344": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "242 GARFIELD AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.692246111645,
+  "lon": -74.091122112815
+ },
+ "A0345": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "153 W VERNON AVE, LOS ANGELES, CA, 90037",
+  "lat": 34.003875826453,
+  "lon": -118.275158399166
+ },
+ "A0346": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0347": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2142 2ND AVE, SAN DIEGO, CA, 92101",
+  "lat": 32.727653319366,
+  "lon": -117.163065698172
+ },
+ "A0348": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "229 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.739876679452,
+  "lon": -74.034849797859
+ },
+ "A0349": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2400 DANA ST, BERKELEY, CA, 94704",
+  "lat": 37.866568691092,
+  "lon": -122.261163802946
+ },
+ "A0350": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1051 W SIDE AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.735168801416,
+  "lon": -74.070961149168
+ },
+ "A0351": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "628 HYDE ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.786610489702,
+  "lon": -122.41643664948
+ },
+ "A0352": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "42 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "lat": 40.753191626991,
+  "lon": -74.177805398305
+ },
+ "A0353": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1044 E JEFFERSON BLVD, LOS ANGELES, CA, 90011",
+  "lat": 34.012089330967,
+  "lon": -118.257806027731
+ },
+ "A0354": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "73 LUBEC ST, EAST BOSTON, MA, 02128",
+  "lat": 42.370721531914,
+  "lon": -71.033000779013
+ },
+ "A0355": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10701 AMESTOY AVE, GRANADA HILLS, CA, 91344",
+  "lat": 34.264856666784,
+  "lon": -118.506705841287
+ },
+ "A0356": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "16 BRAINERD RD, ALLSTON, MA, 02134",
+  "lat": 42.348858680092,
+  "lon": -71.130629546012
+ },
+ "A0357": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0358": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "717 N 6TH ST, NEWARK, NJ, 07107",
+  "lat": 40.773922773441,
+  "lon": -74.179007529056
+ },
+ "A0359": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "925 PARK AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.748092459219,
+  "lon": -74.030402774821
+ },
+ "A0360": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "140 NEW YORK AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.741104245751,
+  "lon": -74.047111900025
+ },
+ "A0361": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "15 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.368426537915,
+  "lon": -71.092040596292
+ },
+ "A0362": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "368 RIVERWAY, BOSTON, MA, 02115",
+  "lat": 42.334291810524,
+  "lon": -71.110791246894
+ },
+ "A0363": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2451 SHATTUCK AVE, BERKELEY, CA, 94704",
+  "lat": 37.864690284096,
+  "lon": -122.267324831145
+ },
+ "A0364": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0365": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3940 IDAHO ST, SAN DIEGO, CA, 92104",
+  "lat": 32.749235987165,
+  "lon": -117.13391504862
+ },
+ "A0366": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "230 EVERETT ST, EAST BOSTON, MA, 02128",
+  "lat": 42.365643672949,
+  "lon": -71.030306589214
+ },
+ "A0367": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "219 S 35TH ST, SAN DIEGO, CA, 92113",
+  "lat": 32.704217966085,
+  "lon": -117.118695602941
+ },
+ "A0368": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1430 FRANCISCO ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.802780409256,
+  "lon": -122.428752796943
+ },
+ "A0369": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3260 CALIFORNIA ST, BERKELEY, CA, 94703",
+  "lat": 37.848609498456,
+  "lon": -122.276013172823
+ },
+ "A0370": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2222 TOBERMAN ST, LOS ANGELES, CA, 90007",
+  "lat": 34.034721924415,
+  "lon": -118.281203744904
+ },
+ "A0371": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "80 BRUEN ST, NEWARK, NJ, 07105",
+  "lat": 40.730337311596,
+  "lon": -74.166930355672
+ },
+ "A0372": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "314 7TH ST, JERSEY CITY, NJ, 07302",
+  "lat": 40.726486238182,
+  "lon": -74.047955557321
+ },
+ "A0373": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1315 SPRUCE ST, BERKELEY, CA, 94709",
+  "lat": 37.883557224033,
+  "lon": -122.266249122343
+ },
+ "A0374": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "686 S ARDMORE AVE, LOS ANGELES, CA, 90005",
+  "lat": 34.060247782434,
+  "lon": -118.301920522459
+ },
+ "A0375": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1880 FULTON ST, SAN FRANCISCO, CA, 94117",
+  "lat": 37.775695071124,
+  "lon": -122.447766948778
+ },
+ "A0376": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0377": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "206 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738998730944,
+  "lon": -74.031363571985
+ },
+ "A0378": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4053 IDAHO ST, SAN DIEGO, CA, 92104",
+  "lat": 32.751323560417,
+  "lon": -117.133775905804
+ },
+ "A0379": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1336 BRUNNER ST, SAN DIEGO, CA, 92110",
+  "lat": 32.769172247535,
+  "lon": -117.189895788824
+ },
+ "A0380": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0381": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "523 MARKET ST, NEWARK, NJ, 07105",
+  "lat": 40.732015014036,
+  "lon": -74.155856508272
+ },
+ "A0382": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "119 DAY ST, SAN FRANCISCO, CA, 94131",
+  "lat": 37.742927740317,
+  "lon": -122.425132126354
+ },
+ "A0383": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1908 CALIFORNIA ST, BERKELEY, CA, 94703",
+  "lat": 37.872036512971,
+  "lon": -122.280023113182
+ },
+ "A0384": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0385": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1059 UNION ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.79947735291,
+  "lon": -122.416408067433
+ },
+ "A0386": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3654 ARIZONA ST, SAN DIEGO, CA, 92104",
+  "lat": 32.744723856404,
+  "lon": -117.1379712012
+ },
+ "A0387": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10303 CMT ALVAREZ, SAN DIEGO, CA, 92126",
+  "lat": 32.9053438981,
+  "lon": -117.169286391696
+ },
+ "A0388": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "155 CLERK ST, JERSEY CITY, NJ, 07305",
+  "lat": 40.708921674003,
+  "lon": -74.075725799324
+ },
+ "A0389": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "923 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lat": 40.747908908406,
+  "lon": -74.029472700113
+ },
+ "A0390": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "70 DARCY ST, NEWARK, NJ, 07105",
+  "lat": 40.726005356196,
+  "lon": -74.149929644264
+ },
+ "A0391": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "265 22ND ST, SAN DIEGO, CA, 92102",
+  "lat": 32.707989329138,
+  "lon": -117.143904241304
+ },
+ "A0392": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4545 39TH ST, SAN DIEGO, CA, 92116",
+  "lat": 32.759875365223,
+  "lon": -117.110733157421
+ },
+ "A0393": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "91 JORDAN AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.72674257266,
+  "lon": -74.064895908212
+ },
+ "A0394": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "45 RAVINE AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.74028302667,
+  "lon": -74.049129869145
+ },
+ "A0395": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1632 RUSSELL ST, BERKELEY, CA, 94703",
+  "lat": 37.85541480374,
+  "lon": -122.275797862561
+ },
+ "A0396": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3244 CLAIREMONT DR, SAN DIEGO, CA, 92117",
+  "lat": 32.800141615463,
+  "lon": -117.195770657922
+ },
+ "A0397": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1677 BUSH ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.788065631555,
+  "lon": -122.424817163952
+ },
+ "A0398": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "890 GREEN ST, SAN FRANCISCO, CA, 94133",
+  "lat": 37.798969157635,
+  "lon": -122.413748040152
+ },
+ "A0399": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "227 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.739690854009,
+  "lon": -74.033923758593
+ },
+ "A0400": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "174 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "lat": 40.757731471944,
+  "lon": -74.17546726324
+ },
+ "A0401": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "257 14TH ST, SAN FRANCISCO, CA, 94103",
+  "lat": 37.768275245554,
+  "lon": -122.419001453676
+ },
+ "A0402": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2914 LARKIN ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.804747750317,
+  "lon": -122.421779262494
+ },
+ "A0403": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "45 MYRTLE ST, BOSTON, MA, 02114",
+  "lat": 42.359416672345,
+  "lon": -71.066075463637
+ },
+ "A0404": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "240 BOWERS ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.749176716976,
+  "lon": -74.053172054328
+ },
+ "A0405": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10214 FERNGLEN AVE, TUJUNGA, CA, 91042",
+  "lat": 34.254405539147,
+  "lon": -118.294269681844
+ },
+ "A0406": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "170 W SPRINGFIELD ST, BOSTON, MA, 02118",
+  "lat": 42.339468331482,
+  "lon": -71.079433474182
+ },
+ "A0407": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4188 GREENBUSH AVE, SHERMAN OAKS, CA, 91423",
+  "lat": 34.146796782796,
+  "lon": -118.426009923389
+ },
+ "A0408": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "14375 POLK ST, SYLMAR, CA, 91342",
+  "lat": 34.310760350581,
+  "lon": -118.446247129705
+ },
+ "A0409": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4428 GRESHAM ST, SAN DIEGO, CA, 92109",
+  "lat": 32.79763108496,
+  "lon": -117.244179056101
+ },
+ "A0410": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "319 SUMMIT AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.726387646101,
+  "lon": -74.064026798734
+ },
+ "A0411": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1833 BERKELEY WAY, BERKELEY, CA, 94703",
+  "lat": 37.87232876757,
+  "lon": -122.27465308516
+ },
+ "A0412": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "231 GRAFTON AVE, NEWARK, NJ, 07104",
+  "lat": 40.778250739849,
+  "lon": -74.167287967397
+ },
+ "A0413": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2209 GRAND AVE, SAN DIEGO, CA, 92109",
+  "lat": 32.80027114964,
+  "lon": -117.229073590912
+ },
+ "A0414": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1987 CALIFORNIA ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.789718887946,
+  "lon": -122.426993113372
+ },
+ "A0415": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "95 WAYNE ST, JERSEY CITY, NJ, 07302",
+  "lat": 40.719860194431,
+  "lon": -74.046863038788
+ },
+ "A0416": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "882 PAVONIA AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.734106488592,
+  "lon": -74.069855824873
+ },
+ "A0417": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4957 CAHUENGA BLVD, NORTH HOLLYWOOD, CA, 91601",
+  "lat": 34.160498077424,
+  "lon": -118.361590637042
+ },
+ "A0418": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "221 SIP AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.731794725913,
+  "lon": -74.070139397713
+ },
+ "A0419": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1538 HENRY ST, BERKELEY, CA, 94709",
+  "lat": 37.879313015271,
+  "lon": -122.2705189327
+ },
+ "A0420": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4419 CLEVELAND AVE, SAN DIEGO, CA, 92116",
+  "lat": 32.757581273133,
+  "lon": -117.149951913385
+ },
+ "A0421": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "17106 CHATSWORTH ST, GRANADA HILLS, CA, 91344",
+  "lat": 34.264737200693,
+  "lon": -118.505814381942
+ },
+ "A0422": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "23 MARION ST, CAMBRIDGE, MA, 02141",
+  "lat": 42.372408944103,
+  "lon": -71.088992232886
+ },
+ "A0423": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "10 CAMELOT CT, BRIGHTON, MA, 02135",
+  "lat": 42.349362810146,
+  "lon": -71.141330315149
+ },
+ "A0424": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "208 JEFFERSON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.740157173654,
+  "lon": -74.037883549718
+ },
+ "A0425": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "650 POST ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.787814500247,
+  "lon": -122.412614041685
+ },
+ "A0426": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1307 COLUSA ST, SAN DIEGO, CA, 92110",
+  "lat": 32.768532440161,
+  "lon": -117.190773729749
+ },
+ "A0427": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7665 W FOUNTAIN AVE, LOS ANGELES, CA, 90046",
+  "lat": 34.094477803207,
+  "lon": -118.356732566622
+ },
+ "A0428": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "314 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "lat": 40.762317125202,
+  "lon": -74.172382340313
+ },
+ "A0429": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "12 BLACKWOOD ST, BOSTON, MA, 02115",
+  "lat": 42.34315888883,
+  "lon": -71.082683836307
+ },
+ "A0430": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1950 ADDISON ST, BERKELEY, CA, 94704",
+  "lat": 37.870562012406,
+  "lon": -122.272637519825
+ },
+ "A0431": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "245 EUCLID AVE, SAN DIEGO, CA, 92114",
+  "lat": 32.706728960145,
+  "lon": -117.084936538347
+ },
+ "A0432": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "14605 RAYEN ST, PANORAMA CITY, CA, 91402",
+  "lat": 34.231842925425,
+  "lon": -118.450479396041
+ },
+ "A0433": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "720 W 27TH ST, LOS ANGELES, CA, 90007",
+  "lat": 34.028044141305,
+  "lon": -118.27894463392
+ },
+ "A0434": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1225 HYDE ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.792202707791,
+  "lon": -122.417712027591
+ },
+ "A0435": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "310 MONROE ST, HOBOKEN, NJ, 07030",
+  "lat": 40.741775604922,
+  "lon": -74.039361820557
+ },
+ "A0436": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "832 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.747085607112,
+  "lon": -74.031844915269
+ },
+ "A0437": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2969 SAN MARINO ST, LOS ANGELES, CA, 90006",
+  "lat": 34.05457350989,
+  "lon": -118.293871486247
+ },
+ "A0438": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "62 CAMBRIDGE AVE, JERSEY CITY, NJ, 07307",
+  "lat": 40.744904276955,
+  "lon": -74.048682819823
+ },
+ "A0439": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "225 25TH AVE, SAN FRANCISCO, CA, 94121",
+  "lat": 37.78525700396,
+  "lon": -122.485184671551
+ },
+ "A0440": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4042 FULTON ST, SAN FRANCISCO, CA, 94118",
+  "lat": 37.773046725887,
+  "lon": -122.47502114247
+ },
+ "A0441": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4017 ILLINOIS ST, SAN DIEGO, CA, 92104",
+  "lat": 32.750692356257,
+  "lon": -117.127623761555
+ },
+ "A0442": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7014 LANEWOOD AVE, LOS ANGELES, CA, 90028",
+  "lat": 34.099151448276,
+  "lon": -118.341876805569
+ },
+ "A0443": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3526 FAIRMOUNT AVE, SAN DIEGO, CA, 92105",
+  "lat": 32.742658851729,
+  "lon": -117.101032546312
+ },
+ "A0444": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "231 COMMONWEALTH AVE, BOSTON, MA, 02116",
+  "lat": 42.351030509952,
+  "lon": -71.082259034359
+ },
+ "A0445": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8790 VAN NUYS BLVD, PANORAMA CITY, CA, 91402",
+  "lat": 34.229751001697,
+  "lon": -118.450185423298
+ },
+ "A0446": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "610 COLUMBUS AVE, BOSTON, MA, 02118",
+  "lat": 42.339112790328,
+  "lon": -71.083459763098
+ },
+ "A0447": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "208 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lat": 40.73966668696,
+  "lon": -74.035067789528
+ },
+ "A0448": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "153 LAFAYETTE ST, NEWARK, NJ, 07105",
+  "lat": 40.730765527611,
+  "lon": -74.16637215896
+ },
+ "A0449": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "338 CLINTON PL, NEWARK, NJ, 07112",
+  "lat": 40.712312782686,
+  "lon": -74.215190276398
+ },
+ "A0450": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "94 NEPTUNE AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.691942000511,
+  "lon": -74.094734510649
+ },
+ "A0451": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "7300 VALMONT ST, TUJUNGA, CA, 91042",
+  "lat": 34.252257110602,
+  "lon": -118.291114794412
+ },
+ "A0452": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1310 N LAS PALMAS AVE, LOS ANGELES, CA, 90028",
+  "lat": 34.094610686343,
+  "lon": -118.336242443207
+ },
+ "A0453": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "11 CARLISLE ST, CAMBRIDGE, MA, 02139",
+  "lat": 42.372350092405,
+  "lon": -71.097785158487
+ },
+ "A0454": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8944 COLUMBUS AVE, NORTH HILLS, CA, 91343",
+  "lat": 34.232706363083,
+  "lon": -118.465331558771
+ },
+ "A0455": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "78 STEVENS AVE, JERSEY CITY, NJ, 07305",
+  "lat": 40.701284285212,
+  "lon": -74.087633111396
+ },
+ "A0456": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2151 CHATSWORTH BLVD, SAN DIEGO, CA, 92107",
+  "lat": 32.738822467011,
+  "lon": -117.228546774402
+ },
+ "A0457": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1856 GREEN ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.796928164046,
+  "lon": -122.429684738163
+ },
+ "A0458": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1670 E 48TH PL, LOS ANGELES, CA, 90011",
+  "lat": 33.999307703621,
+  "lon": -118.243996855675
+ },
+ "A0459": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "202 SOUTH ST, JERSEY CITY, NJ, 07307",
+  "lat": 40.750737802252,
+  "lon": -74.051069939161
+ },
+ "A0460": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "229 SHEPHARD AVE, NEWARK, NJ, 07112",
+  "lat": 40.712390393489,
+  "lon": -74.211611863532
+ },
+ "A0461": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "735 11TH AVE, SAN FRANCISCO, CA, 94118",
+  "lat": 37.774456141896,
+  "lon": -122.469251256406
+ },
+ "A0462": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "128 ST PAULS AVE, JERSEY CITY, NJ, 07306",
+  "lat": 40.736518619808,
+  "lon": -74.05676729519
+ },
+ "A0463": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4 BEECHWOOD ST, DORCHESTER, MA, 02121",
+  "lat": 42.30507257807,
+  "lon": -71.074772762892
+ },
+ "A0464": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "98 DABNEY ST, ROXBURY, MA, 02119",
+  "lat": 42.324057161703,
+  "lon": -71.084731974369
+ },
+ "A0465": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "141 OXFORD ST, CAMBRIDGE, MA, 02140",
+  "lat": 42.385287646163,
+  "lon": -71.116210705332
+ },
+ "A0466": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "115 NORWAY ST, BOSTON, MA, 02115",
+  "lat": 42.345351761852,
+  "lon": -71.088829313111
+ },
+ "A0467": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "24 ST ALBANS RD, BOSTON, MA, 02115",
+  "lat": 42.333878417918,
+  "lon": -71.106997184859
+ },
+ "A0468": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "13 SHEPARD ST, CAMBRIDGE, MA, 02138",
+  "lat": 42.381661514871,
+  "lon": -71.121015754447
+ },
+ "A0469": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2701 SHATTUCK AVE, BERKELEY, CA, 94705",
+  "lat": 37.860021095027,
+  "lon": -122.266948509568
+ },
+ "A0470": {
+  "state": "CA",
+  "county": "Alameda",
+  "city": "Berkeley",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1919 CURTIS ST, BERKELEY, CA, 94702",
+  "lat": 37.870650504933,
+  "lon": -122.289620577483
+ },
+ "A0471": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "334 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lat": 40.74074767044,
+  "lon": -74.031817207369
+ },
+ "A0472": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "321 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lat": 40.740882326316,
+  "lon": -74.033572724402
+ },
+ "A0473": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "20 PHILLIPS ST, BOSTON, MA, 02114",
+  "lat": 42.360298905905,
+  "lon": -71.067296757754
+ },
+ "A0474": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3438 MCKINLEY AVE, LOS ANGELES, CA, 90011",
+  "lat": 34.012650923784,
+  "lon": -118.260382953065
+ },
+ "A0475": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "361 1ST ST, HOBOKEN, NJ, 07030",
+  "lat": 40.738241528429,
+  "lon": -74.035828506414
+ },
+ "A0476": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "28 COTTAGE ST, NEWARK, NJ, 07102",
+  "lat": 40.728822422354,
+  "lon": -74.171964638319
+ },
+ "A0477": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2250 MISSION ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.761016013708,
+  "lon": -122.419353294864
+ },
+ "A0478": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3860 CHEROKEE AVE, SAN DIEGO, CA, 92104",
+  "lat": 32.748446614415,
+  "lon": -117.114420057856
+ },
+ "A0479": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "12948 MOORPARK ST, STUDIO CITY, CA, 91604",
+  "lat": 34.150301392175,
+  "lon": -118.415275590675
+ },
+ "A0480": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4046 43RD ST, SAN DIEGO, CA, 92105",
+  "lat": 32.750481775488,
+  "lon": -117.102033252477
+ },
+ "A0481": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "536 LEAVENWORTH ST, SAN FRANCISCO, CA, 94109",
+  "lat": 37.786028326648,
+  "lon": -122.414634028725
+ },
+ "A0482": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "101 CLIFTON PL, JERSEY CITY, NJ, 07304",
+  "lat": 40.721027897402,
+  "lon": -74.06487503221
+ },
+ "A0483": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "1580 MARKET ST, SAN FRANCISCO, CA, 94102",
+  "lat": 37.77458855478,
+  "lon": -122.420119239496
+ },
+ "A0484": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "postal_alias_table+census_nomatch",
+  "confidence": 0.7,
+  "matched_address": null,
+  "lat": null,
+  "lon": null
+ },
+ "A0485": {
+  "state": "MA",
+  "county": "Middlesex",
+  "city": "Cambridge",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "302 WESTERN AVE, CAMBRIDGE, MA, 02139",
+  "lat": 42.364518126675,
+  "lon": -71.112809787533
+ },
+ "A0486": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2280 MISSION ST, SAN FRANCISCO, CA, 94110",
+  "lat": 37.760560895514,
+  "lon": -122.419309809634
+ },
+ "A0487": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2118 FILLMORE ST, SAN FRANCISCO, CA, 94115",
+  "lat": 37.789124926129,
+  "lon": -122.433810595937
+ },
+ "A0488": {
+  "state": "MA",
+  "county": "Suffolk",
+  "city": "Boston",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "197 BEACON ST, BOSTON, MA, 02116",
+  "lat": 42.354230756113,
+  "lon": -71.076768182377
+ },
+ "A0489": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "204 GRAND ST, HOBOKEN, NJ, 07030",
+  "lat": 40.739786868515,
+  "lon": -74.036041272823
+ },
+ "A0490": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Hoboken",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "526 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lat": 40.743676400471,
+  "lon": -74.035830171347
+ },
+ "A0491": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "37 IRVING ST, NEWARK, NJ, 07104",
+  "lat": 40.778727063623,
+  "lon": -74.158667478138
+ },
+ "A0492": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "800 S HARVARD BLVD, LOS ANGELES, CA, 90005",
+  "lat": 34.057623861111,
+  "lon": -118.304091662787
+ },
+ "A0493": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "4450 GEARY BLVD, SAN FRANCISCO, CA, 94118",
+  "lat": 37.781029854011,
+  "lon": -122.466976349979
+ },
+ "A0494": {
+  "state": "CA",
+  "county": "San Francisco",
+  "city": "San Francisco",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "2641 FRANKLIN ST, SAN FRANCISCO, CA, 94123",
+  "lat": 37.798725772954,
+  "lon": -122.425776460433
+ },
+ "A0495": {
+  "state": "NJ",
+  "county": "Hudson",
+  "city": "Jersey City",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "230 VAN HORNE ST, JERSEY CITY, NJ, 07304",
+  "lat": 40.713022199008,
+  "lon": -74.063078920845
+ },
+ "A0496": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "512 32ND ST, SAN DIEGO, CA, 92102",
+  "lat": 32.710782090084,
+  "lon": -117.125336741291
+ },
+ "A0497": {
+  "state": "CA",
+  "county": "San Diego",
+  "city": "San Diego",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "3750 29TH ST, SAN DIEGO, CA, 92104",
+  "lat": 32.74637529596,
+  "lon": -117.131053086987
+ },
+ "A0498": {
+  "state": "NJ",
+  "county": "Essex",
+  "city": "Newark",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "686 SUMMER AVE, NEWARK, NJ, 07104",
+  "lat": 40.775387981092,
+  "lon": -74.163386701052
+ },
+ "A0499": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8519 WILLIS AVE, PANORAMA CITY, CA, 91402",
+  "lat": 34.225076986185,
+  "lon": -118.455356959313
+ },
+ "A0500": {
+  "state": "CA",
+  "county": "Los Angeles",
+  "city": "Los Angeles",
+  "method": "census_geocoder",
+  "confidence": 0.95,
+  "matched_address": "8811 BURNET AVE, NORTH HILLS, CA, 91343",
+  "lat": 34.230253637086,
+  "lon": -118.463342888059
  }
 }

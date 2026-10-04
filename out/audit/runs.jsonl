@@ -15,3 +15,6 @@
 {"step": "lookup", "at": "2026-10-04T12:10:59Z", "as_of": "2026-10-04", "addresses": 468, "results": {"applies": 3100, "unknown": 630, "pending": 155, "not_yet_effective": 52}}
 {"step": "changes", "at": "2026-10-04T12:10:59Z", "tests": ["T1", "T2", "T3", "T4", "T5", "T6"]}
 {"step": "add-doc", "at": "2026-10-04T12:10:59Z", "doc_id": "doc_041", "title": "Cambridge Ord. 2026-14 Fair Rental Pricing (test fixture)", "rules": ["MA-CAMBRI-ALGO-041-01"]}
+{"step": "geocode", "at": "2026-10-04T12:31:46Z", "addresses": 968, "methods": {"census_geocoder": 948, "postal_alias_table+census_nomatch": 20}}
+{"step": "lookup", "at": "2026-10-04T12:31:58Z", "as_of": "2026-10-04", "addresses": 968, "results": {"applies": 6414, "unknown": 1553, "pending": 305}}
+{"step": "changes", "at": "2026-10-04T12:31:58Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}
