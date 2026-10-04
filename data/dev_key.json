@@ -1,0 +1,27 @@
+{
+ "_note": "Our own self-test key, written from the challenge brief's worked examples. Replace with the official dev key from the starter pack. Expected results are per category at the address; 'omit' means no rule should be reported.",
+ "rules": [
+  {"jurisdiction": {"state": "CA"}, "category": "rent_increase_limit", "citation": "Cal. Civ. Code § 1947.12", "key_value": "5% + CPI, max 10%", "status": "enacted"},
+  {"jurisdiction": {"state": "CA"}, "category": "just_cause_eviction", "citation": "Cal. Civ. Code § 1946.2", "status": "enacted"},
+  {"jurisdiction": {"state": "CA"}, "category": "security_deposit", "citation": "Cal. Civ. Code § 1950.5", "effective_date": "2024-07-01", "key_value": "one month's rent", "status": "enacted"},
+  {"jurisdiction": {"state": "CA"}, "category": "application_screening_fee", "citation": "Cal. Civ. Code § 1950.6", "status": "enacted"},
+  {"jurisdiction": {"state": "CA"}, "category": "algorithmic_rent_setting", "citation": "AB 325", "effective_date": "2026-01-01", "status": "enacted"},
+  {"jurisdiction": {"state": "NJ"}, "category": "security_deposit", "citation": "N.J.S.A. 46:8-21.2", "key_value": "1.5 months", "status": "enacted"},
+  {"jurisdiction": {"state": "NJ"}, "category": "just_cause_eviction", "citation": "N.J.S.A. 2A:18-61.1", "status": "enacted"},
+  {"jurisdiction": {"state": "NJ"}, "category": "algorithmic_rent_setting", "citation": "P.L.2026, c.43", "effective_date": "2027-07-01", "status": "enacted"},
+  {"jurisdiction": {"state": "MA"}, "category": "rent_increase_limit", "citation": "G.L. c.40P", "status": "enacted"},
+  {"jurisdiction": {"state": "MA"}, "category": "security_deposit", "citation": "G.L. c.186 § 15B", "key_value": "first month's rent", "status": "enacted"},
+  {"jurisdiction": {"state": "MA"}, "category": "algorithmic_rent_setting", "citation": "S.2983", "status": "pending"}
+ ],
+ "addresses": {
+  "addr_0082": {"rent_increase_limit": "applies", "just_cause_eviction": "applies", "security_deposit": "applies", "application_screening_fee": "applies", "algorithmic_rent_setting": "applies"},
+  "addr_0001": {"rent_increase_limit": "applies", "just_cause_eviction": "applies", "security_deposit": "applies", "application_screening_fee": "applies", "algorithmic_rent_setting": "applies"},
+  "addr_0410": {"rent_increase_limit": "applies", "security_deposit": "applies", "algorithmic_rent_setting": "pending"},
+  "addr_0260": {"just_cause_eviction": "applies", "security_deposit": "applies", "algorithmic_rent_setting": "not_yet_effective"}
+ },
+ "changes": {
+  "T1": {"affected_prefix": "CA", "conflict": false},
+  "T3": {"conflict": true},
+  "T5": {"affected": []}
+ }
+}
