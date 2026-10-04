@@ -24,7 +24,7 @@ STACKS = {"a1": JurisdictionStack(state="NJ", county="Hudson", city="Hoboken", m
 
 
 def nj_rules():
-    fair = rule("NJ-FAIR", "NJ", eff="2027-07-01", prec=Precedence(relationship="supersedes", target_scope="local", source_language="shall supersede"))
+    fair = rule("NJ-FAIR", "NJ", eff="2027-07-01", prec=Precedence(relationship="supersedes", target_scope="local", source_language="shall supersede any ordinance"))
     hob = rule("HOB", "NJ", "city", "Hoboken", "Hudson", eff="2025-07-01")
     jc = rule("JC", "NJ", "city", "Jersey City", "Hudson", eff="2025-06-01")
     rules = [fair, hob, jc]

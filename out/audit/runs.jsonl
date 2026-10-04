@@ -4,3 +4,10 @@
 {"step": "lookup", "at": "2026-10-04T11:37:14Z", "as_of": "2026-10-04", "addresses": 468, "results": {"unknown": 416, "applies": 260}}
 {"step": "changes", "at": "2026-10-04T11:37:14Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}
 {"step": "extract", "at": "2026-10-04T11:39:21Z", "docs": 29, "rules": 32, "llm_calls": 53, "cache_hits": 5, "model": "gemini:gemini-3.8-flash", "seconds": 37.8}
+{"step": "extract", "at": "2026-10-04T11:54:12Z", "docs": 34, "rules": 37, "llm_calls": 69, "cache_hits": 0, "model": "gemini:gemini-3.8-flash", "seconds": 51.9}
+{"step": "lookup", "at": "2026-10-04T11:54:58Z", "as_of": "2026-10-04", "addresses": 468, "results": {"applies": 3059, "superseded": 41, "unknown": 630, "pending": 155}}
+{"step": "changes", "at": "2026-10-04T11:54:58Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}
+{"step": "lookup", "at": "2026-10-04T11:55:55Z", "as_of": "2026-10-04", "addresses": 468, "results": {"applies": 3100, "unknown": 630, "pending": 155}}
+{"step": "changes", "at": "2026-10-04T11:55:56Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}
+{"step": "lookup", "at": "2026-10-04T12:09:19Z", "as_of": "2026-10-04", "addresses": 468, "results": {"applies": 3100, "unknown": 630, "pending": 155}}
+{"step": "changes", "at": "2026-10-04T12:09:20Z", "tests": ["T1", "T2", "T3", "T4", "T5"]}

@@ -8,6 +8,7 @@ or already superseded by date) and is never written to lookups.json.
 """
 from __future__ import annotations
 
+import re
 from datetime import date
 from typing import Any, Optional
 
@@ -324,12 +325,30 @@ def _relation(a: Rule, b: Rule) -> Optional[str]:
     return None
 
 
+_LOCAL_WORDS = re.compile(r"\b(ordinance|ordinances|local|city|cities|county|counties|municipal|municipality|municipalities|political subdivision|charter|town|towns)\b", re.I)
+_STATE_WORDS = re.compile(r"\b(state law|state statute|statute|general laws?|civil code|government code|state)\b", re.I)
+
+
+def explicit_precedence(source_language: Optional[str], target_scope: str) -> bool:
+    """A supersession or deference counts only when the quoted words name the rules it reaches:
+    local ordinances for a local target, state law for a state target. 'Notwithstanding any other
+    provision of law' names nothing and does not displace a local rent cap."""
+    text = (source_language or "").strip()
+    if not text:
+        return False
+    if target_scope in ("local", "city", "county"):
+        return bool(_LOCAL_WORDS.search(text))
+    if target_scope == "state":
+        return bool(_STATE_WORDS.search(text))
+    return False
+
+
 def resolve_precedence_targets(rules: list[Rule]) -> None:
     """Fill precedence.target_rule_ids in code from target_scope + category + jurisdiction overlap."""
     for r in rules:
         p = r.precedence
-        # Precedence must rest on explicit statutory words; a relationship with no quoted language is downgraded.
-        if p.relationship in ("supersedes", "yields_to") and not (p.source_language or "").strip():
+        # Precedence must rest on explicit statutory words naming the displaced level; otherwise it stacks.
+        if p.relationship in ("supersedes", "yields_to") and not explicit_precedence(p.source_language, p.target_scope):
             p.relationship, p.target_scope = "stacks_with", "none"
         if p.relationship not in ("supersedes", "yields_to") or p.target_scope == "none":
             p.target_rule_ids = []

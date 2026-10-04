@@ -52,7 +52,7 @@ Conflicts are flagged generically: same category, overlapping jurisdiction for t
 
 ```bash
 make install                 # python venv + deps
-cp .env.example .env         # add GEMINI_API_KEY (or ANTHROPIC_API_KEY with LLM_PROVIDER=anthropic)
+cp .env.example .env         # add GEMINI_API_KEY (default provider) or ANTHROPIC_API_KEY with LLM_PROVIDER=anthropic
 make test                    # engine and corpus tests, offline
 make all                     # extract -> geocode -> lookup -> changes -> validate
 make run                     # http://localhost:8000
@@ -96,7 +96,7 @@ A single page served from `static/`. The answer for an address is laid out as a 
 ## Honesty notes
 
 - The official starter pack (schema, dev key, score.py, 87-document corpus) was not on disk when this was built. The corpus here was fetched from the same official sources; the rule vocabulary is in one file to be aligned with the official schema. `app/score.py` is our approximation of the scorer for self-testing and says so.
-- The model is Gemini 3.8 Flash (`LLM_MODEL` in `.env`). Rules carry the model name and extraction time.
+- The extraction model is Gemini 3.8 Flash (`LLM_PROVIDER=gemini`, `LLM_MODEL=gemini-3.8-flash` in `.env`; an Anthropic provider is also wired). Every rule carries the model name and extraction time, and every call is in `cache/llm/`.
 - Confidence is the model's own estimate blended with the verifier's, scaled by jurisdiction confidence; it is a flag for human review, not a probability of legal correctness.
 - Building facts come from assessor data and may be stale or wrong; the notice shows their source.
 

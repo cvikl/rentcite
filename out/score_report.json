@@ -1,0 +1,190 @@
+{
+ "extraction": {
+  "points": 19.55,
+  "of": 25,
+  "matched": 7,
+  "key_rules": 11,
+  "field_accuracy": "12/12",
+  "details": [
+   {
+    "key": "Cal. Civ. Code \u00a7 1947.12",
+    "matched": "CA-STATE-RENT-001-01"
+   },
+   {
+    "key": "Cal. Civ. Code \u00a7 1946.2",
+    "matched": "CA-STATE-EVICT-002-01"
+   },
+   {
+    "key": "Cal. Civ. Code \u00a7 1950.5",
+    "matched": "CA-STATE-DEPOSIT-003-01"
+   },
+   {
+    "key": "Cal. Civ. Code \u00a7 1950.6",
+    "matched": "CA-STATE-FEE-004-01"
+   },
+   {
+    "key": "AB 325",
+    "matched": null
+   },
+   {
+    "key": "N.J.S.A. 46:8-21.2",
+    "matched": "NJ-STATE-DEPOSIT-023-01"
+   },
+   {
+    "key": "N.J.S.A. 2A:18-61.1",
+    "matched": "NJ-STATE-EVICT-022-01"
+   },
+   {
+    "key": "P.L.2026, c.43",
+    "matched": null
+   },
+   {
+    "key": "G.L. c.40P",
+    "matched": null
+   },
+   {
+    "key": "G.L. c.186 \u00a7 15B",
+    "matched": "MA-STATE-DEPOSIT-034-02"
+   },
+   {
+    "key": "S.2983",
+    "matched": null
+   }
+  ]
+ },
+ "coverage": {
+  "points": 19.33,
+  "of": 20,
+  "raw": "29.0/30.0",
+  "details": [
+   {
+    "address": "addr_0082",
+    "category": "rent_increase_limit",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0082",
+    "category": "just_cause_eviction",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0082",
+    "category": "security_deposit",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0082",
+    "category": "application_screening_fee",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0082",
+    "category": "algorithmic_rent_setting",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0001",
+    "category": "rent_increase_limit",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0001",
+    "category": "just_cause_eviction",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0001",
+    "category": "security_deposit",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0001",
+    "category": "application_screening_fee",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0001",
+    "category": "algorithmic_rent_setting",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0410",
+    "category": "rent_increase_limit",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0410",
+    "category": "security_deposit",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0410",
+    "category": "algorithmic_rent_setting",
+    "expected": "pending",
+    "got": "pending"
+   },
+   {
+    "address": "addr_0260",
+    "category": "just_cause_eviction",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0260",
+    "category": "security_deposit",
+    "expected": "applies",
+    "got": "applies"
+   },
+   {
+    "address": "addr_0260",
+    "category": "algorithmic_rent_setting",
+    "expected": "not_yet_effective",
+    "got": "applies"
+   }
+  ]
+ },
+ "citations": {
+  "points": 15.0,
+  "of": 15,
+  "verbatim": 3100,
+  "applies_entries": 3100
+ },
+ "changes": {
+  "points": 10.0,
+  "of": 15,
+  "details": [
+   {
+    "test": "T1",
+    "jaccard": 0.0,
+    "expected": 0,
+    "got": 208
+   },
+   {
+    "test": "T3",
+    "jaccard": 1.0,
+    "expected": 0,
+    "got": 0
+   },
+   {
+    "test": "T5",
+    "jaccard": 1.0,
+    "expected": 0,
+    "got": 0
+   }
+  ]
+ },
+ "total_auto": 63.88,
+ "of": 75
+}

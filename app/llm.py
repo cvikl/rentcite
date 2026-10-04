@@ -163,12 +163,24 @@ class LLM:
 
         if self._client is None:
             self._client = anthropic.Anthropic(api_key=key)
-        kwargs: dict[str, Any] = dict(model=self.model, max_tokens=max_tokens, temperature=temperature,
-                                      messages=[{"role": "user", "content": prompt}])
+        kwargs: dict[str, Any] = dict(model=self.model, max_tokens=max_tokens, messages=[{"role": "user", "content": prompt}])
         if system:
             kwargs["system"] = system
-        msg = self._client.messages.create(**kwargs)
-        return "".join(getattr(b, "text", "") for b in msg.content)
+        # Newer SDKs dropped `temperature` for Claude 5 models; extraction is deterministic enough without it.
+        last: Optional[Exception] = None
+        for attempt in range(3):
+            try:
+                msg = self._client.messages.create(**kwargs)
+                return "".join(getattr(b, "text", "") for b in msg.content)
+            except anthropic.RateLimitError as exc:
+                last = exc
+                time.sleep(10 * (attempt + 1))
+            except anthropic.APIStatusError as exc:
+                last = exc
+                if exc.status_code < 500:
+                    break
+                time.sleep(5 * (attempt + 1))
+        raise LLMUnavailable(f"Anthropic request failed: {type(last).__name__}: {str(last)[:200]}")
 
     def _claude_cli(self, prompt, system) -> str:
         exe = shutil.which("claude")

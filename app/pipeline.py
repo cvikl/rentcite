@@ -49,7 +49,9 @@ def _log_run(step: str, **info: Any) -> None:
 def load_rules(path: Path = RULES_FILE) -> list[Rule]:
     if not path.exists():
         return []
-    return [Rule.model_validate(r) for r in json.loads(path.read_text())]
+    rules = [Rule.model_validate(r) for r in json.loads(path.read_text())]
+    engine.resolve_precedence_targets(rules)  # idempotent; keeps file and engine in step
+    return rules
 
 
 def write_rules(rules: list[Rule], path: Path = RULES_FILE) -> None:
@@ -77,6 +79,11 @@ def step_extract(doc_ids: Optional[list[str]] = None, verify: bool = True) -> li
     llm = get_llm()
     t0 = time.time()
     new_rules, audits = extract_corpus(docs, llm, verify=verify)
+    errors = sum(1 for a in audits for w in a.get("windows", []) if "error" in w)
+    if not new_rules and errors:
+        print(f"extraction produced no rules and {errors} window(s) errored; keeping the existing {RULES_FILE}", file=sys.stderr)
+        _log_run("extract", docs=len(docs), rules=0, errors=errors, model=f"{llm.provider}:{llm.model}", aborted=True)
+        return load_rules()
     if doc_ids:
         rules = [r for r in load_rules() if r.source_doc_id not in doc_ids] + new_rules
     else:
@@ -103,6 +110,7 @@ def step_geocode() -> dict[str, JurisdictionStack]:
 def step_lookup(as_of: Optional[date] = None) -> None:
     as_of = as_of or date.today()
     rules, addresses, stacks = load_rules(), load_addresses(), load_stacks()
+    write_rules(rules)  # persist resolved precedence targets
     missing = [a.address_id for a in addresses if a.address_id not in stacks]
     if missing:
         print(f"{len(missing)} addresses have no jurisdiction yet; run geocode first", file=sys.stderr)

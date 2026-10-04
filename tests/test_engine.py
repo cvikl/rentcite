@@ -118,3 +118,15 @@ def test_stacking_by_default_no_conflict():
     assert engine.decide(sf, {}, AS_OF, SF, rules)[0] == APPLIES
     assert engine.conflicts_for(sf, {}, AS_OF, SF, rules) == []
     assert engine.decide(state, {}, date(2025, 12, 31), SF, rules)[0] == NOT_YET_EFFECTIVE
+
+
+def test_notwithstanding_any_other_law_does_not_displace_local_cap():
+    ch = mk("CA-CH", prec=Precedence(relationship="supersedes", target_scope="local", source_language="Notwithstanding any other provision of law, an owner may establish the initial rental rate"))
+    la = mk("LA-RENT", level="city", city="Los Angeles", county="Los Angeles")
+    rules = [ch, la]
+    engine.resolve_precedence_targets(rules)
+    assert ch.precedence.relationship == "stacks_with" and ch.precedence.target_rule_ids == []
+    assert engine.decide(la, {}, AS_OF, LA, rules)[0] == APPLIES
+    ma = mk("MA-40P", state="MA", prec=Precedence(relationship="supersedes", target_scope="local", source_language="no city or town may enact, maintain or enforce rent control"))
+    engine.resolve_precedence_targets([ma])
+    assert ma.precedence.relationship == "supersedes"
